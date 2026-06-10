@@ -3,7 +3,7 @@ import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
 import "./HeroTwo.css";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { Link } from "react-router-dom";
-import HeroBackground from "./HeroBackground";
+import BackgroundHome from "./BackgroundHome";
 
 const MotionLink = motion(Link);
 
@@ -255,7 +255,7 @@ const HeroTwo = ({ openPopup }) => {
 
   return (
     <section className="hn-section">
-      <HeroBackground />
+      <BackgroundHome />
       {/* BACKGROUND */}
       <div className="hn-bg" aria-hidden="true">
         <motion.div

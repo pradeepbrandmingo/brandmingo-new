@@ -1,8 +1,7 @@
 import { useEffect, useRef } from "react";
-import "./HeroBackground.css";
+import "./BackgroundHome.css";
 
-
-const HeroBackground = () => {
+const BackgroundHome = () => {
   const cursorRef = useRef(null);
   const bgRef = useRef(null);
 
@@ -65,4 +64,4 @@ const HeroBackground = () => {
   );
 };
 
-export default HeroBackground;
+export default BackgroundHome;
