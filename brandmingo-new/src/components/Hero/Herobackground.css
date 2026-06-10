@@ -1,0 +1,115 @@
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+  background: transparent;
+}
+
+/* Grid — COMPLETELY HIDDEN */
+.grid-lines {
+  display: none !important;
+}
+
+/* LEFT TOP orb */
+.glow-1 {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  left: -350px;
+  top: -200px;
+  border-radius: 50%;
+  background: #ff6b00;
+  filter: blur(160px);
+  opacity: 0.08;
+  animation: hb-pulse1 7s ease-in-out infinite;
+}
+
+/* LEFT BOTTOM orb */
+.glow-2 {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: -200px;
+  bottom: -200px;
+  border-radius: 50%;
+  background: #ff6b00;
+  filter: blur(160px);
+  opacity: 0.06;
+  animation: hb-pulse2 9s ease-in-out infinite 1.5s;
+}
+
+/* RIGHT orb */
+.glow-3 {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  right: -350px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #ff4500;
+  filter: blur(180px);
+  opacity: 0.07;
+  animation: hb-pulse3 8s ease-in-out infinite 3s;
+}
+
+/* ══ CURSOR SPOTLIGHT GLOW ══════════════════
+   Smooth orange radial spotlight that follows
+   the mouse — like a torch lighting the bg
+══════════════════════════════════════════ */
+.glow-cursor {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 107, 0, 0.48) 0%,
+    rgba(255, 80, 0, 0.28) 28%,
+    rgba(255, 55, 0, 0.12) 55%,
+    transparent 72%
+  );
+  filter: blur(45px);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.45s ease;
+  will-change: left, top;
+  mix-blend-mode: screen;
+  z-index: 3;
+}
+
+@keyframes hb-pulse1 {
+  0%,
+  100% {
+    opacity: 0.08;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.13;
+    transform: scale(1.07);
+  }
+}
+@keyframes hb-pulse2 {
+  0%,
+  100% {
+    opacity: 0.06;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.11;
+    transform: scale(1.09);
+  }
+}
+@keyframes hb-pulse3 {
+  0%,
+  100% {
+    opacity: 0.07;
+    transform: translateY(-50%) scale(1);
+  }
+  50% {
+    opacity: 0.12;
+    transform: translateY(-50%) scale(1.06);
+  }
+}
