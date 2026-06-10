@@ -1,14 +1,3 @@
-/**
- * CircleGallery — Theme-matched React Component
- *
- * Theme: Gencyo Digital Agency
- * Colors: --theme-color1: #ff6b1e | --body-bg: #050505 | --bg-color: #050505
- * Fonts: Inter (headings) + Poppins (body)
- * Images: Free Unsplash images (no API key needed)
- *
- * Install: npm install gsap
- */
-
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

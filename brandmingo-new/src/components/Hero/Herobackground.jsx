@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import "./HeroBackground.css";
 
+
 const HeroBackground = () => {
   const cursorRef = useRef(null);
   const bgRef = useRef(null);
