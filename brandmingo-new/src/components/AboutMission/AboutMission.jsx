@@ -20,7 +20,7 @@ const FEATURES = [
       </svg>
     ),
     title: "Trusted By Top Brands",
-    desc: "We've earned the trust of industry leaders by delivering consistent quality and measurable results.",
+    desc: "Brands trust us for delivering quality work, consistent performance, and measurable digital growth.",
   },
   {
     icon: (
@@ -57,7 +57,7 @@ const FEATURES = [
       </svg>
     ),
     title: "Creative & Innovative",
-    desc: "We bring fresh ideas and creative solutions to help your brand stand out in a crowded market.",
+    desc: "From branding to digital experiences, we create ideas that help your business stand out.",
   },
   {
     icon: (
@@ -77,7 +77,7 @@ const FEATURES = [
       </svg>
     ),
     title: "Reliable & Transparent",
-    desc: "Clear communication, on-time delivery, and complete transparency at every step.",
+    desc: "Clear communication, timely delivery, and complete transparency at every stage of the journey.",
   },
 ];
 
@@ -119,9 +119,9 @@ const AboutMission = () => {
             </h2>
 
             <p className="am-desc">
-              We blend innovation with data-driven strategies to create
-              impactful solutions that fuel business growth and long-term
-              success.
+              To empower brands with powerful digital experiences that
+              strengthen their presence, engage audiences and accelerate
+              business success
             </p>
 
             <Link

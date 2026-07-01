@@ -139,9 +139,10 @@ const AboutHero = () => {
 
             {/* Description */}
             <p className="ah-desc">
-              We are your growth partners, committed to building digital
-              experiences that drive real results. Strategy, creativity, and
-              technology — working together to elevate your brand.
+              At Brandmingo, growth is not a goal—it’s a system we build.We
+              combine strategy, creativity and performance marketing to help
+              brands attract attention, build trust and convert it into lasting
+              success.
             </p>
 
             {/* CTA */}

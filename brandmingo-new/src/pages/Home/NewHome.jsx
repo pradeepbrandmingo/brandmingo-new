@@ -20,14 +20,16 @@ import AboutUsHome from "../../components/AboutSection/AboutUsHome";
 import WhyChooseUs from "../../components/WhyChooseUs/WhyChooseUs";
 import ServicesSectionHome from "../../components/ServicesSection/ServicesSectionHome";
 import Client from "../../components/Testimonial/Client";
-// import ProjectSection from "../../components/ProjectSection/ProjectSection";
+import ProjectSection from "../../components/ProjectSection/ProjectSection";
 import BlogHome from "../../components/BlogHome/BlogHome";
 import HeroTwo from "../../components/Hero/HeroTwo";
-import ProjectssectionAnim from "../../components/ProjectSection/ProjectssectionAnim";
-import CircleGallery from "../../components/CircleGallery/CircleGallery";
+
+
+
 // import HeroSection from "../../components/HeroSection/HeroSection";
 
 const NewHome = ({ openPopup }) => {
+
   return (
     <>
       {/* <HeroSection /> */}
@@ -50,10 +52,10 @@ const NewHome = ({ openPopup }) => {
       </div>
       {/* <ServicesSection /> */}
       <div className="project-Section-home">
-        {/* <ProjectSection /> */}
-      <ProjectssectionAnim />
+        <ProjectSection />
       </div>
-      <CircleGallery />
+
+
 
       <WorkProcess />
       <VideoSection />

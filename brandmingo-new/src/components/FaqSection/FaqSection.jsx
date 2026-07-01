@@ -8,37 +8,42 @@ const faqData = [
   {
     question: "What services does your digital agency offer?",
     answer:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-  },
-  {
-    question: "How do you approach a new project?",
-    answer:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-  },
-  {
-    question: "What industries do you specialize in?",
-    answer:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-  },
-  {
-    question: "Do you offer custom website or app development?",
-    answer:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "We provide complete digital solutions including website development, ecommerce setup, SEO, social media management, performance marketing, branding, UI/UX design, and custom business solutions tailored to your goals.",
   },
   {
     question: "What is your pricing model or cost structure?",
     answer:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "Our pricing depends on project scope, features, timeline, and business requirements. We offer flexible packages for startups, growing businesses, and enterprise-level projects with transparent pricing and no hidden costs.",
+  },
+  {
+    question: "How do you approach a new project?",
+    answer:
+      "We start by understanding your business, audience, and objectives. From planning and strategy to design, development, testing, and launch, every step is focused on delivering measurable business results.",
   },
   {
     question: "Can you help with ongoing support?",
     answer:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "Yes, we provide ongoing maintenance, technical support, performance optimization, security updates, and digital growth support to keep your business running smoothly online.",
   },
   {
-    question: "Do you work with startups or only established?",
+    question: "What industries do you specialize in?",
     answer:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "We work with startups, ecommerce brands, educational businesses, healthcare, real estate, fashion, service-based businesses, and many other industries looking to grow digitally.",
+  },
+  {
+    question: "Do you work with startups or only established businesses?",
+    answer:
+      "We work with both startups and established companies. Whether you are launching a new brand or scaling an existing business, we create solutions based on your stage and growth goals.",
+  },
+  {
+    question: "Do you offer custom website or app development?",
+    answer:
+      "Absolutely. We build fully customized websites, web applications, ecommerce platforms, and business systems designed specifically around your requirements, workflows, and scalability needs.",
+  },
+  {
+    question: "What sets Brandmingo apart?",
+    answer:
+      "We create tailored digital solutions that drive growth, engagement, and measurable results. ",
   },
 ];
 

@@ -40,7 +40,8 @@ const ProjectSection = () => {
                   Case Study
                 </span>
                 <h2 className="title">
-                  Our Recently Completed <span>Latest Projects</span>
+                  Success story
+                  <span> That matters.</span>
                 </h2>
               </div>
 

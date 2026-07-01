@@ -15,7 +15,8 @@ const VideoSection = () => {
 
         <div className="content">
           <h3 className="title">
-            See How We Turn Ideas Into Impactful Digital Experiences
+            Turning Ideas Into Digital Experiences That Drive Real Business
+            Growth.
           </h3>
         </div>
       </div>

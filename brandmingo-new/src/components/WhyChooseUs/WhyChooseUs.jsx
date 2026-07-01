@@ -19,22 +19,22 @@ const FEATURES = [
   {
     icon: <FiShield size={30} />,
     title: "Certified Experts",
-    desc: "Our team includes experienced designers, developers, marketers, and strategists who understand how to build digital experiences that drive real business impact.",
+    desc: "Our team includes experienced designers, developers, marketers, and strategists who understand how to build digital experiences that drive real business impact",
   },
   {
     icon: <FiTrendingUp size={30} />,
     title: "Proven Results",
-    desc: "We focus on growth-oriented solutions that improve website performance, generate quality leads, increase engagement, and support long-term scalability.",
+    desc: "We focus on growth-oriented solutions that improve website performance, generate quality leads, increase engagement, and support long-term scalability",
   },
   {
     icon: <FiAward size={30} />,
     title: "Award Winning",
-    desc: "From branding and UI/UX to development and digital campaigns, our creative-first process helps businesses stand out in competitive markets.",
+    desc: "From branding and UI/UX to development and digital campaigns, our creative-first process helps businesses stand out in competitive markets",
   },
   {
     icon: <FiBarChart2 size={30} />,
     title: "Transparent Reporting",
-    desc: "We believe in honesty and clarity with real-time reports and data-driven insights.",
+    desc: "We maintain complete transparency through clear communication, regular project updates, performance tracking, and data-driven reporting.",
   },
 ];
 

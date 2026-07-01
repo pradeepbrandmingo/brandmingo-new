@@ -120,10 +120,12 @@ export default function AboutUsHome() {
             transition={{ duration: 0.7, ease: "easeOut" }}
           >
             <h2 className="au-heading">
-              Empowering Your Success
+              Transforming Ambitious
               <br />
-              with{" "}
-              <span className="au-heading-highlight">Digital Expertise</span>
+              Businesses{" "}
+              <span className="au-heading-highlight">
+                Into Recognisable Brands
+              </span>
             </h2>
             <div className="au-heading-line" />
 

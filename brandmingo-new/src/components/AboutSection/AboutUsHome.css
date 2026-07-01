@@ -291,13 +291,13 @@
 
 .au-intro-tagline {
   font-size: 16px;
-  color: var(--text-offwhite);
+  color: rgba(255, 255, 255, 0.45);
   line-height: 1.7;
   margin: 0;
 }
 
 .au-intro-tagline strong {
-  color: var(--text-offwhite);
+  color: #ffffff;
   font-weight: 600;
   font-size: 17px;
 }
@@ -308,7 +308,8 @@
 
 .au-body-text {
   font-size: 15px;
-  color: var(--text-offwhite);
+  color: rgba(255, 255, 255, 0.45);
+
   line-height: 1.85;
   max-width: 520px;
 }

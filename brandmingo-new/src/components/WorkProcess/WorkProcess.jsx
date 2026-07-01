@@ -6,18 +6,26 @@ const steps = [
   {
     step: "Step 01",
     title: "Tailored Solutions",
+    content:
+      "Every business is different, so we begin by understanding your goals, audience, and challenges to craft customized digital solutions that align with your vision and growth strategy.",
   },
   {
     step: "Step 02",
     title: "Project Planning",
+    content:
+      "We create a structured roadmap covering design, development, timelines, and execution strategy to ensure smooth collaboration and efficient project delivery.",
   },
   {
     step: "Step 03",
     title: "Content Creation",
+    content:
+      "From website copy and branding assets to marketing creatives and SEO content, we develop engaging content designed to attract, inform, and convert your audience.",
   },
   {
     step: "Step 04",
     title: "Seamless Execution",
+    content:
+      "Our team handles development, optimization, testing, and deployment with precision to deliver high-performance digital experiences without delays or complications.",
   },
 ];
 
@@ -69,10 +77,7 @@ const WorkProcess = () => {
                   <div className="content-box">
                     <h4 className="title">{item.title}</h4>
 
-                    <div className="text">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when
-                    </div>
+                    <div className="text">{item.content}</div>
 
                     <div className="line"></div>
                   </div>

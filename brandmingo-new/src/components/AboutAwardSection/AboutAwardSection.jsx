@@ -30,15 +30,20 @@ const AboutAwardSection = () => {
               </span>
 
               <h2 className="title tx-title sec_title tz-itm-title tz-itm-anim">
-                Innovation for Business <span>Growth with Genciio</span>
+                Innovation That Drives <span>Digital Growth</span>
               </h2>
             </div>
 
             <div className="col-xl-4">
-              <div className="text">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum
+              <div
+                className="text"
+                style={{ color: "rgba(255, 255, 255, 0.45)" }}
+              >
+                At Brandmingo, our journey is built on continuous learning,
+                creativity, and helping brands grow in the digital space. Every
+                year, we’ve expanded our expertise, worked with ambitious
+                businesses, and delivered solutions focused on real-world
+                results.
               </div>
             </div>
           </div>
@@ -61,23 +66,31 @@ const AboutAwardSection = () => {
             <div className="award-block-two">
               {/* Item */}
               {[
-                { year: "2026", title: "Best SEO Agency", tag: "Excellence" },
+                {
+                  year: "2026",
+                  title: "Expanding Creative Solutions",
+                  tag: "Growth",
+                },
+                {
+                  year: "2025",
+                  title: "Helping Brands Scale Online",
+                  tag: "Success",
+                },
                 {
                   year: "2024",
-                  title: "Excellence in Technical SEO",
-                  tag: "Innovation",
+                  title: "Strengthening Digital Presence",
+                  tag: "Strategy",
                 },
                 {
                   year: "2023",
-                  title: "Innovation in Search Optimization",
-                  tag: "Technical",
+                  title: "Building The Foundation",
+                  tag: "Vision",
                 },
                 {
                   year: "2022",
-                  title: "Client Satisfaction Award",
-                  tag: "Trusted",
+                  title: "The Beginning Of The Journey",
+                  tag: "Start",
                 },
-                { year: "2021", title: "Best SEO Agency", tag: "Industry" },
               ].map((item, index) => (
                 <div className="list-item" key={index}>
                   <div className="content-box">

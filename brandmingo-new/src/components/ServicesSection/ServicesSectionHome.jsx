@@ -23,7 +23,7 @@ const SERVICES = [
     id: "01",
     icon: <FaCode />,
     title: "Web Development",
-    desc: "Fast, secure and scalable websites that deliver exceptional performance and user experience.",
+    desc: "We create fast, responsive, and SEO-friendly websites designed to deliver seamless user experiences and strong business performance.",
     to: "/web-development-new",
     custom: false,
   },
@@ -31,7 +31,7 @@ const SERVICES = [
     id: "02",
     icon: <FaBullhorn />,
     title: "Ads And Campaigns",
-    desc: "Data-driven ad campaigns that generate leads, boost sales and maximize ROI.",
+    desc: "Performance-driven Google and Meta ad campaigns focused on lead generation, customer acquisition, and maximizing ROI.",
     to: "/ads-and-campaigns",
     custom: false,
   },
@@ -39,7 +39,7 @@ const SERVICES = [
     id: "03",
     icon: <FaShareNodes />,
     title: "Social Media Management",
-    desc: "Engaging content, powerful strategy and consistent management to build your brand presence.",
+    desc: "Creative content planning, audience engagement, and platform management to build a strong and consistent online presence",
     to: "/social-media-management",
     custom: false,
   },
@@ -47,7 +47,7 @@ const SERVICES = [
     id: "04",
     icon: <FaPenRuler />,
     title: "UI/UX And Audits",
-    desc: "User-first designs and in-depth audits that improve experience and drive better results.",
+    desc: "User-focused interfaces and detailed experience audits that improve usability, engagement, and conversion rates",
     to: "/ui-ux-audits",
     custom: false,
   },
@@ -55,7 +55,7 @@ const SERVICES = [
     id: "05",
     icon: <FaMagnifyingGlassChart />,
     title: "SEO Optimizing",
-    desc: "Technical SEO, on-page, off-page and content strategies that rank you higher and drive traffic.",
+    desc: "Technical SEO, content optimization, keyword strategy, and performance improvements to increase organic search visibility.",
     to: "/seo-optimizing",
     custom: false,
   },
@@ -63,7 +63,7 @@ const SERVICES = [
     id: "06",
     icon: <FaBagShopping />,
     title: "Ecommerce Management",
-    desc: "End-to-end store management to optimize operations and scale your online business.",
+    desc: "Complete ecommerce support including store setup, product management, conversion optimization, and operational scaling",
     to: "/ecommerce-management",
     custom: false,
   },
@@ -71,7 +71,7 @@ const SERVICES = [
     id: "07",
     icon: <FaMedal />,
     title: "Graphic Designing",
-    desc: "Creative designs that communicate your brand message and make a lasting impression.",
+    desc: "Creative brand visuals, marketing creatives, social media graphics, and design systems that strengthen brand identity.",
     to: "/graphic-designing",
     custom: false,
   },
@@ -191,8 +191,8 @@ const CustomCard = ({ service, index }) => {
       </h3>
 
       <p className="ssh-card-desc">
-        We create tailored solutions that fit your unique business goals
-        perfectly.
+        We build tailored digital solutions based on your unique business goals,
+        workflows, and growth requirements.
       </p>
 
       <Link to={service.to} className="ssh-custom-cta">
@@ -245,15 +245,17 @@ const ServicesSectionHome = () => {
 
           {/* Heading */}
           <motion.h2 className="ssh-heading" variants={headFade}>
-            Complete Digital Solutions
+            Your Complete Partner.
             <br />
-            To <span className="ssh-heading-accent">Grow Your Business</span>
+            For <span className="ssh-heading-accent">Digital Growth</span>
           </motion.h2>
 
           {/* Paragraph */}
           <motion.p className="ssh-para" variants={headFade}>
-            From powerful websites to performance marketing, we offer end-to-end
-            digital services that help brands build, grow and scale online.
+            From high-performance websites to growth-focused marketing
+            strategies, Brandmingo delivers complete digital solutions designed
+            to help businesses build visibility, generate leads, improve
+            customer engagement, and scale faster online.
           </motion.p>
         </motion.div>
 

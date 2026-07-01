@@ -130,9 +130,9 @@ export default function Client() {
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.36, ease: "easeOut" }}
           >
-            We're proud to partner with ambitious businesses and creators
-            <br />
-            who trust us to deliver impact that matters.
+            We're proud to partner with ambitious businesses and
+             <br />
+            creators who trust us to deliver impact that matters.
           </motion.p>
 
           <motion.div

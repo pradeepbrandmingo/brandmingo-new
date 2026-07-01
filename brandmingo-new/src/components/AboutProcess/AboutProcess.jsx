@@ -22,7 +22,7 @@ const STEPS = [
       </svg>
     ),
     title: "Discover",
-    desc: "We understand your business, goals, and target audience to build a solid foundation.",
+    desc: "We understand your brand, audience, and business goals to build a clear roadmap for long-term digital success.",
   },
   {
     number: "02",
@@ -43,7 +43,7 @@ const STEPS = [
       </svg>
     ),
     title: "Strategy",
-    desc: "We craft a data-driven strategy tailored to your unique needs and market position.",
+    desc: "Our experts craft a customized strategy that aligns with your objectives and delivers measurable business outcomes.",
   },
   {
     number: "03",
@@ -63,7 +63,7 @@ const STEPS = [
       </svg>
     ),
     title: "Design & Develop",
-    desc: "Our team brings ideas to life with stunning design and robust, scalable development.",
+    desc: "We design stunning experiences and develop scalable digital solutions that elevate your brand and customer engagement.",
   },
   {
     number: "04",
@@ -83,7 +83,7 @@ const STEPS = [
       </svg>
     ),
     title: "Launch",
-    desc: "We ensure a smooth, tested launch and everything works perfectly from day one.",
+    desc: "After rigorous testing and refinement, we launch your project with confidence for maximum impact and performance.",
   },
   {
     number: "05",
@@ -103,7 +103,7 @@ const STEPS = [
       </svg>
     ),
     title: "Grow",
-    desc: "We optimize and scale your digital presence for continuous, measurable growth.",
+    desc: "We continuously monitor, refine, and scale your digital presence to drive sustainable growth and lasting business success.",
   },
 ];
 
