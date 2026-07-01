@@ -10,6 +10,7 @@ import shape from "../../assets/images/icons/ellipse1-1.png";
 
 // ── Single source of truth ───────────────────────────────────────────
 import projects from "../../data/projects";
+import "./ProjectSection.css";
 
 /* ═══════════════════════════════════════════════════════
    COMPONENT  —  homepage par sirf 3 projects dikhata hai
@@ -39,9 +40,16 @@ const ProjectSection = () => {
                   <img src={star} alt="" />
                   Case Study
                 </span>
-                <h2 className="title">
+                {/* <h2 className="title">
                   Success story
                   <span> That matters.</span>
+                </h2> */}
+                <h2 className="title project-sec-heading">
+                  Success story
+                  <span className="project-sec-heading-highlight">
+                    {" "}
+                    That matters.
+                  </span>
                 </h2>
               </div>
 

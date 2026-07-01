@@ -65,9 +65,11 @@ const AboutTeam = ({ openPopup }) => {
               </h2>
 
               <p className="at-desc">
-                We're a team of strategists, designers, developers, and
-                marketers passionate about what we do and invested in your
-                success.
+                At Brandmingo, we’re more than just designers, developers, and
+                marketers — we’re passionate problem solvers focused on helping
+                brands grow digitally. Every project we take on is driven by
+                creativity, collaboration, and a commitment to delivering
+                meaningful results.
               </p>
 
               {/* Avatars row */}
@@ -165,7 +167,8 @@ const AboutTeam = ({ openPopup }) => {
                 Ready to start your next big project with us?
               </h3>
               <p className="at-cta-sub">
-                Let's create something amazing together.
+                Let’s turn your ideas into powerful digital experiences that
+                drive real growth and lasting impact.
               </p>
             </div>
 

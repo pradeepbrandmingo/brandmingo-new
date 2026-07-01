@@ -107,7 +107,7 @@
 }
 
 /* Heading */
-.ssh-heading {
+/* .ssh-heading {
   font-family: var(--heading-font-family, "Poppins", sans-serif);
   font-size: clamp(32px, 4.5vw, 62px);
   font-weight: 800;
@@ -119,6 +119,24 @@
 .ssh-heading-accent {
   color: var(--theme-color1, #ff6b1e);
   font-style: normal;
+} */
+
+.ssh-heading {
+  font-family: var(--heading-font-family, "Poppins", sans-serif);
+  font-size: clamp(30px, 3.5vw, 56px);
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.08;
+  letter-spacing: -2px;
+  margin: 0 0 22px;
+}
+
+.ssh-heading-accent {
+  color: var(--theme-color1, #ff6b1e);
+  font-size: inherit;
+  font-weight: 400;
+  font-style: normal;
+  white-space: nowrap;
 }
 
 .ssh-bg-orb--tl,
@@ -472,6 +490,12 @@
   .ssh-heading {
     font-size: 42px;
   }
+  .ssh-heading {
+    font-size: clamp(30px, 7vw, 44px);
+    font-weight: 400;
+    line-height: 1.08;
+    letter-spacing: -2px;
+  }
 }
 
 /* Tablet portrait 768 */
@@ -495,6 +519,12 @@
   }
   .ssh-card {
     padding: 22px 18px 20px;
+  }
+  .ssh-heading {
+    font-size: clamp(28px, 8vw, 40px);
+    font-weight: 400;
+    line-height: 1.08;
+    letter-spacing: -1px;
   }
 }
 
@@ -532,6 +562,17 @@
   .ssh-para {
     font-size: 14px;
   }
+  .ssh-heading {
+    font-size: clamp(28px, 9vw, 36px);
+    font-weight: 400;
+    line-height: 1.08;
+    letter-spacing: -1px;
+    text-align: center;
+  }
+
+  .ssh-heading-accent {
+    white-space: nowrap;
+  }
 }
 
 /* Small 400 */
@@ -546,5 +587,11 @@
   }
   .ssh-card-title {
     font-size: 16px;
+  }
+  .ssh-heading {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.08;
+    letter-spacing: -1px;
   }
 }

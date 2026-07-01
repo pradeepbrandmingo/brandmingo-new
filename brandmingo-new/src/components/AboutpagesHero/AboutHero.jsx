@@ -67,12 +67,12 @@ const HeroDeco = ({ visible }) => (
         <circle cx="12" cy="12" r="10" />
         <polyline points="12,6 12,12 16,14" />
       </svg>
-      10+ Yrs Experience
+      4+ Yrs Experience
     </div>
 
     {/* Stats badge */}
     <div className="ah-stats-badge">
-      <strong className="ah-stats-number">10+</strong>
+      <strong className="ah-stats-number">4+</strong>
       <span className="ah-stats-label">
         Years of
         <br />

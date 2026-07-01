@@ -1,0 +1,57 @@
+/* ── Work Process Heading Override (isolated, sirf ye heading) ── */
+h2.work-process-heading {
+  font-family: var(--au-font-heading, inherit);
+  font-size: clamp(30px, 3.5vw, 56px) !important;
+  font-weight: 400 !important;
+  line-height: 1.08 !important;
+  letter-spacing: -2px !important;
+  margin: 0 !important;
+}
+
+.work-process-heading-highlight {
+  color: var(--au-orange) !important;
+  font-size: clamp(30px, 3.5vw, 56px) !important;
+  font-weight: 400 !important;
+}
+
+/* ── Mobile — 768px ── */
+@media (max-width: 768px) {
+  h2.work-process-heading {
+    font-size: clamp(30px, 7vw, 44px) !important;
+    font-weight: 400 !important;
+    line-height: 1.08 !important;
+    letter-spacing: -2px !important;
+  }
+  .work-process-heading-highlight {
+    font-size: inherit !important;
+    font-weight: 400 !important;
+  }
+}
+
+/* ── Mobile — 560px ── */
+@media (max-width: 560px) {
+  h2.work-process-heading {
+    font-size: clamp(28px, 9vw, 44px) !important;
+    font-weight: 400 !important;
+    line-height: 1.08 !important;
+    letter-spacing: -1px !important;
+  }
+  .work-process-heading-highlight {
+    font-size: inherit !important;
+    font-weight: 400 !important;
+  }
+}
+
+/* ── Mobile — 380px ── */
+@media (max-width: 380px) {
+  h2.work-process-heading {
+    font-size: 26px !important;
+    font-weight: 400 !important;
+    line-height: 1.08 !important;
+    letter-spacing: -1px !important;
+  }
+  .work-process-heading-highlight {
+    font-size: inherit !important;
+    font-weight: 400 !important;
+  }
+}

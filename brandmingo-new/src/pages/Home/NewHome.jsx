@@ -24,12 +24,9 @@ import ProjectSection from "../../components/ProjectSection/ProjectSection";
 import BlogHome from "../../components/BlogHome/BlogHome";
 import HeroTwo from "../../components/Hero/HeroTwo";
 
-
-
 // import HeroSection from "../../components/HeroSection/HeroSection";
 
 const NewHome = ({ openPopup }) => {
-
   return (
     <>
       {/* <HeroSection /> */}
@@ -55,9 +52,10 @@ const NewHome = ({ openPopup }) => {
         <ProjectSection />
       </div>
 
+      <div className="workProcess-Section-home">
+        <WorkProcess />
+      </div>
 
-
-      <WorkProcess />
       <VideoSection />
       {/* <ChooseUs /> */}
 

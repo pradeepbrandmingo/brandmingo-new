@@ -1,6 +1,7 @@
 import { useState } from "react";
 import star from "../../assets/images/icons/star.png";
 import shape from "../../assets/images/icons/work-process-shape1-1.png";
+import "./WorkProcess.css";
 
 const steps = [
   {
@@ -45,9 +46,11 @@ const WorkProcess = () => {
                   Working Process
                 </span>
 
-                <h2 className="title">
+                <h2 className="title work-process-heading">
                   Shaping the Future Through{" "}
-                  <span>Step-by-Step Innovation</span>
+                  <span className="work-process-heading-highlight">
+                    Step-by-Step Innovation
+                  </span>
                 </h2>
               </div>
 

@@ -106,8 +106,8 @@
 
 .au-heading-highlight {
   color: var(--au-orange);
-  font-size: 1.1em;
-  font-weight: 500;
+  font-size: clamp(30px, 3.5vw, 56px);
+  font-weight: 400;
 }
 
 .au-heading-line {

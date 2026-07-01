@@ -88,9 +88,9 @@ export default function WhyChooseUs() {
 
               {/* Heading */}
               <h2 className="wcu-heading">
-                Why Choose
-                <br />
-                <span className="wcu-heading-brand">BRANDMINGO??</span>
+                Why
+               
+                Choose <span className="wcu-heading-brand">Brandmingo?</span>
               </h2>
 
               {/* Para */}
