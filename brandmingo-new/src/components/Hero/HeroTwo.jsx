@@ -12,23 +12,23 @@ const MotionLink = motion(Link);
 ───────────────────────────────────────── */
 const CLIENT_LOGOS = [
   {
-    url: "https://res.cloudinary.com/dpdn7kzll/image/upload/v1778658879/3_wpp0d7.png",
+    url: "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782995439/9_lrlxdl.png",
     alt: "Client 1",
   },
   {
-    url: "https://res.cloudinary.com/dpdn7kzll/image/upload/v1778658878/4_eavqsa.png",
+    url: "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782995478/19_kxrlwu.png",
     alt: "Client 2",
   },
   {
-    url: "https://res.cloudinary.com/dpdn7kzll/image/upload/v1778658878/2_gdmirc.png",
+    url: "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782995424/4_ky3yra.png",
     alt: "Client 3",
   },
   {
-    url: "https://res.cloudinary.com/dpdn7kzll/image/upload/v1778658879/1_bttqla.png",
+    url: "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782995447/13_kwadt5.png",
     alt: "Client 4",
   },
   {
-    url: "https://res.cloudinary.com/dpdn7kzll/image/upload/v1778661854/Untitled_design_itjmma.png",
+    url: "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782995422/2_etbkdt.png",
     alt: "Client 5",
   },
 ];
