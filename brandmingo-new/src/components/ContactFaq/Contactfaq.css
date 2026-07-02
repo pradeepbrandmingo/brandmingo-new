@@ -171,26 +171,45 @@
   flex-shrink: 0;
 }
 
-/* Heading */
 .cfaq-heading {
-  font-size: 34px;
-  font-weight: 700;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  line-height: 1.2;
-  margin-bottom: 32px;
+  font-family: var(--au-font-heading, "Poppins", sans-serif) !important;
+  font-size: clamp(30px, 3.5vw, 56px) !important;
+  font-weight: 400 !important;
+  color: #ffffff !important;
+  line-height: 1.08 !important;
+  letter-spacing: -2px !important;
+  margin-bottom: 32px !important;
   display: flex;
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
 }
 .cfaq-heading-accent {
+  font-size: clamp(30px, 3.5vw, 56px) !important;
+  font-weight: 400 !important;
   background: linear-gradient(90deg, #ff6b1e 0%, #ffb347 40%, #ff6b1e 80%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   animation: cfaqAccentShimmer 4s linear infinite;
+}
+
+@media (max-width: 560px) {
+  .cfaq-heading,
+  .cfaq-heading-accent {
+    font-size: clamp(28px, 9vw, 44px) !important;
+    letter-spacing: -1px !important;
+    font-weight: 400 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .cfaq-heading,
+  .cfaq-heading-accent {
+    font-size: 26px !important;
+    font-weight: 400 !important;
+  }
 }
 .cfaq-heading-dot {
   display: inline-block;

@@ -120,8 +120,8 @@
 
 .wcu-heading-brand {
   color: var(--wcu-orange);
-  font-size: inherit;
-  font-weight: 400;
+  font-size: inherit !important;
+  font-weight: 400 !important;
 }
 
 /* Para */
@@ -504,8 +504,8 @@
   }
 
   .wcu-heading-brand {
-    font-size: inherit;
-    font-weight: 400;
+    font-size: inherit !important;
+    font-weight: 400 !important;
   }
 
   /* Images */
@@ -593,8 +593,8 @@
   }
 
   .wcu-heading-brand {
-    font-size: inherit;
-    font-weight: 400;
+    font-size: inherit !important;
+    font-weight: 400 !important;
   }
 
   .wcu-para {
@@ -707,8 +707,8 @@
   }
 
   .wcu-heading-brand {
-    font-size: inherit;
-    font-weight: 400;
+    font-size: inherit !important;
+    font-weight: 400 !important;
   }
 
   .wcu-img-card--top {

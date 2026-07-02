@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-
+import { useNavigate } from "react-router-dom";
 import "./PopUpPortfolio.css";
 
 /* ─── meta row config — order controls display order ─────────────── */
@@ -19,6 +19,8 @@ const META_ROWS = [
      onClose  — function to close the popup (required)
    ═══════════════════════════════════════════════════════════════════ */
 const PortfolioPopup = ({ project, onClose }) => {
+  const navigate = useNavigate();
+
   const [activeImg, setActiveImg] = useState(0);
   const [imgFading, setImgFading] = useState(false);
   const thumbsRef = useRef(null);
@@ -227,10 +229,17 @@ const PortfolioPopup = ({ project, onClose }) => {
                 </a>
               )}
               {project.caseStudy && (
-                <a href={project.caseStudy} className="ppop-btn-case">
+                <button
+                  type="button"
+                  className="ppop-btn-case"
+                  onClick={() => {
+                    onClose();
+                    navigate(project.caseStudy);
+                  }}
+                >
                   Case Study
                   <i className="fa-regular fa-file-lines" aria-hidden="true" />
-                </a>
+                </button>
               )}
             </div>
 

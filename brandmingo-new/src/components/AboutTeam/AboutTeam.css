@@ -87,18 +87,37 @@
 
 /* Heading */
 .at-heading {
-  font-family: var(--heading-font-family, inherit);
-  font-size: clamp(26px, 3.2vw, 44px);
-  font-weight: 800;
-  color: var(--headings-color, #fff);
-  line-height: 1.2;
-  letter-spacing: -0.4px;
-  margin: 0 0 18px;
+  font-family: var(--au-font-heading, "Poppins", sans-serif);
+  font-size: clamp(30px, 3.5vw, 56px) !important;
+  font-weight: 400 !important;
+  color: var(--headings-color, #fff) !important;
+  line-height: 1.08 !important;
+  letter-spacing: -2px !important;
+  margin: 0 0 18px !important;
 }
 
 .at-accent {
   color: var(--theme-color1, #ff6b1e);
   font-style: normal;
+  font-size: clamp(30px, 3.5vw, 56px) !important;
+  font-weight: 400 !important;
+}
+
+@media (max-width: 560px) {
+  .at-heading,
+  .at-accent {
+    font-size: clamp(28px, 9vw, 44px) !important;
+    letter-spacing: -1px !important;
+    font-weight: 400 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .at-heading,
+  .at-accent {
+    font-size: 26px !important;
+    font-weight: 400 !important;
+  }
 }
 
 /* Desc */

@@ -563,10 +563,10 @@
     font-size: 14px;
   }
   .ssh-heading {
-    font-size: clamp(28px, 9vw, 36px);
-    font-weight: 400;
-    line-height: 1.08;
-    letter-spacing: -1px;
+    font-size: clamp(28px, 9vw, 44px) !important;
+    font-weight: 400 !important;
+    line-height: 1.08 !important;
+    letter-spacing: -1px !important;
     text-align: center;
   }
 
@@ -578,7 +578,7 @@
 /* Small 400 */
 @media (max-width: 400px) {
   .ssh-heading {
-    font-size: 25px;
+    font-size: 26px !important;
   }
   .ssh-icon-wrap {
     width: 46px;
@@ -589,9 +589,9 @@
     font-size: 16px;
   }
   .ssh-heading {
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 1.08;
-    letter-spacing: -1px;
+    font-size: 26px !important;
+    font-weight: 400 !important;
+    line-height: 1.08 !important;
+    letter-spacing: -1px !important;
   }
 }

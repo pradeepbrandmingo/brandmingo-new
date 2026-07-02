@@ -98,15 +98,31 @@
   color: var(--cl-orange);
 }
 
-/* Heading */
 .cl-heading {
   font-family: "Poppins", sans-serif;
-  font-size: clamp(36px, 5.5vw, 74px);
-  font-weight: 800;
-  color: var(--cl-white);
-  line-height: 1.08;
-  letter-spacing: -2.5px;
-  margin: 0 0 20px;
+  font-size: clamp(30px, 3.5vw, 56px) !important;
+  font-weight: 400 !important;
+  color: var(--cl-white) !important;
+  line-height: 1.08 !important;
+  letter-spacing: -2px !important;
+  margin: 0 0 20px !important;
+}
+
+@media (max-width: 560px) {
+  .cl-heading,
+  .cl-heading-orange {
+    font-size: clamp(28px, 9vw, 44px) !important;
+    letter-spacing: -1px !important;
+    font-weight: 400 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .cl-heading,
+  .cl-heading-orange {
+    font-size: 26px !important;
+    font-weight: 400 !important;
+  }
 }
 .cl-heading-orange {
   color: var(--cl-orange);

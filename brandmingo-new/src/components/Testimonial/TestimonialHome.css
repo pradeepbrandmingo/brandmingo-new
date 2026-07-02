@@ -126,17 +126,19 @@
 
 /* Heading */
 .th-heading {
-  font-family: var(--heading-font-family, inherit);
-  font-size: clamp(32px, 4.8vw, 60px);
-  font-weight: 800;
-  color: var(--headings-color, #fff);
-  line-height: 1.15;
-  letter-spacing: -0.8px;
-  margin: 0 0 20px;
+  font-family: var(--au-font-heading, "Poppins", sans-serif);
+  font-size: clamp(30px, 3.5vw, 56px) !important;
+  font-weight: 400 !important;
+  color: var(--headings-color, #fff) !important;
+  line-height: 1.08 !important;
+  letter-spacing: -2px !important;
+  margin: 0 0 20px !important;
 }
 
 .th-heading-accent {
   font-style: normal;
+  font-size: clamp(30px, 3.5vw, 56px) !important;
+  font-weight: 400 !important;
   background: linear-gradient(
     135deg,
     var(--theme-color1, #ff6b1e) 0%,
@@ -148,6 +150,23 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   animation: th-gradient-shift 4s linear infinite;
+}
+
+@media (max-width: 560px) {
+  .th-heading,
+  .th-heading-accent {
+    font-size: clamp(28px, 9vw, 44px) !important;
+    letter-spacing: -1px !important;
+    font-weight: 400 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .th-heading,
+  .th-heading-accent {
+    font-size: 26px !important;
+    font-weight: 400 !important;
+  }
 }
 
 @keyframes th-gradient-shift {

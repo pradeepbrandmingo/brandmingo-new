@@ -104,7 +104,7 @@
   /* --body-font-family: "Mont", sans-serif;
   --heading-font-family: "Poppins", sans-serif; */
   --body-font-family: "Poppins", sans-serif;
-  --heading-font-family: "Inter", sans-serif;
+  --heading-font-family: "Poppins", sans-serif;
   /* --body-font-size: 16px;
   --body-line-height: 1.2; */
   --body-font-size: 16px;
@@ -5343,27 +5343,137 @@ li {
 .sec-title .sub-title img {
   margin-right: 8px;
 }
+.sec-title .title {
+  font-family: var(--body-font-family);
+  font-size: clamp(30px, 3.5vw, 56px) !important;
+  font-weight: 400 !important;
+  line-height: 1.08 !important;
+  letter-spacing: -2px !important;
+  margin: 0 !important;
+}
 .sec-title .title span {
   color: var(--theme-color1);
+  font-size: clamp(30px, 3.5vw, 56px) !important;
+  font-weight: 400 !important;
 }
-@media (max-width: 1199.98px) {
-  .sec-title .title {
-    font-size: 44px;
+@media (max-width: 560px) {
+  .sec-title .title,
+  .sec-title .title span {
+    font-size: clamp(28px, 9vw, 44px) !important;
+    letter-spacing: -1px !important;
+    font-weight: 400 !important;
   }
 }
-@media (max-width: 767.98px) {
-  .sec-title .title {
-    font-size: 40px;
+@media (max-width: 380px) {
+  .sec-title .title,
+  .sec-title .title span {
+    font-size: 26px !important;
+    font-weight: 400 !important;
   }
 }
-@media (max-width: 575.98px) {
-  .sec-title .title {
-    font-size: 36px;
+
+/* ==========================================================================
+   UNIFIED SUB-SERVICES DETAILS PAGE HEADINGS OVERRIDES
+   ========================================================================== */
+
+/* Main targeted heading classes */
+.theme-h3,
+.wcb-header h3,
+.ps-heading,
+.prc-title,
+.pp-title,
+.ret-heading,
+.section-main-h3,
+.eng-title,
+.cta-heading,
+.faq-content h3 {
+  font-family: var(--au-font-heading, "Poppins", sans-serif) !important;
+  font-size: clamp(30px, 3.5vw, 56px) !important;
+  font-weight: 400 !important;
+  line-height: 1.08 !important;
+  letter-spacing: -2px !important;
+}
+
+/* Also ensure span/accent inside them inherits font-size and weight */
+.theme-h3 span,
+.wcb-header h3 span,
+.ps-heading span,
+.prc-title span,
+.pp-title span,
+.ret-heading span,
+.section-main-h3 span,
+.eng-title span,
+.cta-heading span,
+.faq-content h3 span,
+.ps-heading-accent,
+.ps-heading-dot,
+.ret-heading em,
+.ret-heading span {
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  letter-spacing: inherit !important;
+}
+
+/* Mobile overrides (width <= 560px) */
+@media (max-width: 560px) {
+  .theme-h3,
+  .wcb-header h3,
+  .ps-heading,
+  .prc-title,
+  .pp-title,
+  .ret-heading,
+  .section-main-h3,
+  .eng-title,
+  .cta-heading,
+  .faq-content h3,
+  .theme-h3 span,
+  .wcb-header h3 span,
+  .ps-heading span,
+  .prc-title span,
+  .pp-title span,
+  .ret-heading span,
+  .section-main-h3 span,
+  .eng-title span,
+  .cta-heading span,
+  .faq-content h3 span,
+  .ps-heading-accent,
+  .ps-heading-dot,
+  .ret-heading em,
+  .ret-heading span {
+    font-size: clamp(28px, 9vw, 44px) !important;
+    letter-spacing: -1px !important;
+    font-weight: 400 !important;
   }
 }
-@media (max-width: 469.98px) {
-  .sec-title .title {
-    font-size: 28px;
+
+/* Small mobile overrides (width <= 380px) */
+@media (max-width: 380px) {
+  .theme-h3,
+  .wcb-header h3,
+  .ps-heading,
+  .prc-title,
+  .pp-title,
+  .ret-heading,
+  .section-main-h3,
+  .eng-title,
+  .cta-heading,
+  .faq-content h3,
+  .theme-h3 span,
+  .wcb-header h3 span,
+  .ps-heading span,
+  .prc-title span,
+  .pp-title span,
+  .ret-heading span,
+  .section-main-h3 span,
+  .eng-title span,
+  .cta-heading span,
+  .faq-content h3 span,
+  .ps-heading-accent,
+  .ps-heading-dot,
+  .ret-heading em,
+  .ret-heading span {
+    font-size: 26px !important;
+    font-weight: 400 !important;
   }
 }
 

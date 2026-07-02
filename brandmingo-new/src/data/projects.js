@@ -1,170 +1,196 @@
 const projects = [
   {
     // ── Card thumbnail ──────────────────────────────────────────────
-    img: "https://res.cloudinary.com/demo/image/upload/w_800,h_600,c_fill/sample.jpg",
-    title: "E-Commerce Growth Platform",
-    category: "Ethnic E-commerce",
+    img: "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782976916/aureialondon_2_xfxech.png",
+    title: "Luxury Shopify Experience",
+    category: "Luxury Fashion",
 
     // ── Popup data ──────────────────────────────────────────────────
     description:
-      "A performance-focused e-commerce platform built to scale. Delivered a 300% increase in high-quality traffic and improved conversion rates by 75% within 6 months through strategic UX and targeted campaigns.",
-    preview: "#",
-    caseStudy: "#",
+      "Designed and developed a premium Shopify store for Aureia London with a luxury-first shopping experience, responsive layouts, intuitive navigation, and performance-focused optimization to strengthen the brand's online presence and customer journey.",
+
+    preview: "https://aureialondon.com/",
+    caseStudy: "/portfolio",
+
     images: [
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/sample.jpg",
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/cld-sample-2.jpg",
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/cld-sample-3.jpg",
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/cld-sample-4.jpg",
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/cld-sample-5.jpg",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782977243/aureialondon_3_xmb83m.png",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782977573/aureialondon_4_y70tfo.png",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782977646/aureialondon_5_krdok4.png",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782978425/aureialondon_6_aclk4t.png",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782978536/aureialondon_7_sgwlal.png",
     ],
+
     impact: {
-      value: "300%",
-      label: "Increase in high-quality traffic",
+      value: "100%",
+      label: "Custom Shopify Store Development",
     },
+
     meta: {
-      client: "Syrish Lucknowi",
+      client: "Aureia London",
       services: "UI/UX Design, Shopify Development",
-      industry: "Ethnic Fashion",
-      team: "3 Specialists",
-      duration: "Jan 2024 – Apr 2024",
-      tools: ["Shopify", "Figma", "Google Analytics", "Hotjar"],
+      industry: "Luxury Fashion",
+      team: "4 Specialists",
+      duration: "2025",
+      tools: ["Shopify", "Figma", "HTML5", "CSS3", "JavaScript"],
     },
+
     results: [
       {
-        faIcon: "fa-bullseye",
-        value: "300%",
-        label: "Increase in",
-        bold: "High-Quality Traffic",
+        faIcon: "fa-mobile-screen-button",
+        value: "100%",
+        label: "Fully",
+        bold: "Responsive Design",
       },
       {
-        faIcon: "fa-arrow-trend-up",
-        value: "75%",
-        label: "Improvement in",
-        bold: "Conversions",
+        faIcon: "fa-gauge-high",
+        value: "95+",
+        label: "Optimized",
+        bold: "Performance Score",
       },
       {
         faIcon: "fa-cart-shopping",
-        value: "40%",
-        label: "Reduction in",
-        bold: "Cart Abandonment",
+        value: "Shopify",
+        label: "Powered by",
+        bold: "E-Commerce Platform",
       },
       {
-        faIcon: "fa-pen-ruler",
-        value: "2.5x",
-        label: "Increase in",
-        bold: "ROI",
+        faIcon: "fa-palette",
+        value: "Luxury",
+        label: "Premium",
+        bold: "Brand Experience",
       },
     ],
   },
 
   {
-    img: "https://res.cloudinary.com/demo/image/upload/w_800,h_600,c_fill/cld-sample-2.jpg",
-    title: "Brand & Website Redesign",
-    category: "Luxury Real Estate",
+    // ── Card thumbnail ──────────────────────────────────────────────
+    img: "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782979271/marque_pizvvx.png",
+    title: "MERN Education Platform",
+    category: "Education Technology",
 
+    // ── Popup data ──────────────────────────────────────────────────
     description:
-      "A complete brand identity overhaul and website redesign for a luxury real estate firm. Generated 300% more qualified leads and improved user engagement through immersive 3D visuals and GSAP animations.",
-    preview: "#",
-    caseStudy: "#",
+      "Designed and developed a full-stack MERN platform for Marque Career featuring college and course listings, state-wise filtering, blog management, notifications, secure admin dashboard, and a responsive user experience for students exploring higher education opportunities.",
+
+    preview: "https://marque-chi.vercel.app/",
+    caseStudy: "/portfolio",
+
     images: [
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/cld-sample-2.jpg",
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/cld-sample-3.jpg",
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/cld-sample-4.jpg",
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/cld-sample-5.jpg",
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/sample.jpg",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782979271/marque_2_vvfwwy.png",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782979414/marque3_xsr5oe.png",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782980105/ChatGPT_Image_Jul_2_2026_01_43_15_PM_khvdbi.png",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782980652/ChatGPT_Image_Jul_2_2026_01_53_06_PM_kcdtdf.png",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782980803/marque4_qa88gi.png",
     ],
+
     impact: {
-      value: "300%",
-      label: "Increase in high-quality leads",
+      value: "100%",
+      label: "Custom MERN Stack Development",
     },
+
     meta: {
-      client: "The Adwaith",
-      services: "Performance Marketing, Google Ads",
-      industry: "Luxury Real Estate",
+      client: "Marque Career",
+      services: "UI/UX Design, MERN Stack Development",
+      industry: "Education Technology",
       team: "4 Specialists",
-      duration: "May 2023 – Nov 2023",
-      tools: ["Google Ads", "Google Analytics", "Looker Studio", "Hotjar"],
+      duration: "2025",
+      tools: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Cloudinary",
+      ],
     },
+
     results: [
       {
-        faIcon: "fa-bullseye",
-        value: "300%",
-        label: "Increase in",
-        bold: "High-Quality Leads",
+        faIcon: "fa-graduation-cap",
+        value: "100+",
+        label: "Dynamic",
+        bold: "College Listings",
       },
       {
-        faIcon: "fa-arrow-trend-up",
-        value: "75%",
-        label: "Improvement in",
-        bold: "Conversions",
+        faIcon: "fa-filter",
+        value: "State-wise",
+        label: "Advanced",
+        bold: "Filtering System",
       },
       {
-        faIcon: "fa-users",
-        value: "40%",
-        label: "Reduction in Cost",
-        bold: "per Lead",
+        faIcon: "fa-newspaper",
+        value: "CMS",
+        label: "Integrated",
+        bold: "Blog Management",
       },
       {
-        faIcon: "fa-pen-ruler",
-        value: "2.8x",
-        label: "Increase in",
-        bold: "ROI",
+        faIcon: "fa-server",
+        value: "MERN",
+        label: "Full Stack",
+        bold: "Application",
       },
     ],
   },
 
   {
-    img: "https://res.cloudinary.com/demo/image/upload/w_800,h_600,c_fill/cld-sample-3.jpg",
-    title: "Local Business SEO Campaign",
-    category: "Retail Destination",
+    // ── Card thumbnail ──────────────────────────────────────────────
+    img: "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782988067/Untitled_design_1_gtt8le.png",
+    title: "Premium Shopify Store",
+    category: "Fashion E-Commerce",
 
+    // ── Popup data ──────────────────────────────────────────────────
     description:
-      "An end-to-end SEO and digital marketing campaign for a retail destination. Achieved top-3 Google rankings for 50+ keywords and drove a 220% increase in organic footfall within 4 months.",
-    preview: "#",
-    caseStudy: null, // null = "Case Study" button nahi aayega popup mein
+      "Designed and developed a premium Shopify e-commerce store for Tweedle with a custom UI, interactive shopping experience, advanced product color grouping, custom sections, responsive layouts, and performance-focused optimization to deliver a seamless customer journey.",
+
+    preview: "https://tweedle.in/",
+    caseStudy: "/portfolio",
+
     images: [
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/cld-sample-3.jpg",
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/cld-sample-4.jpg",
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/cld-sample-5.jpg",
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/sample.jpg",
-      "https://res.cloudinary.com/demo/image/upload/w_800,h_1000,c_fill/cld-sample-2.jpg",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782981008/tweedle_2_z1mhob.png",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782982622/tweedle3_wpuoru.png",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782982995/tweedle5_pasxrl.png",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782982629/tweedle4_xzadah.png",
+      "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782980906/tweedle_bssec1.png",
     ],
+
     impact: {
-      value: "220%",
-      label: "Increase in organic footfall",
+      value: "100%",
+      label: "Custom Shopify Development",
     },
+
     meta: {
-      client: "Bikers Paradise",
-      services: "SEO, Content Marketing, Local Listings",
-      industry: "Retail",
-      team: "2 Specialists",
-      duration: "Mar 2024 – Jul 2024",
-      tools: ["SEMrush", "Google Search Console", "Ahrefs", "Moz"],
+      client: "Tweedle",
+      services: "UI/UX Design, Shopify Development",
+      industry: "Fashion E-Commerce",
+      team: "4 Specialists",
+      duration: "2025",
+      tools: ["Shopify", "Liquid", "JavaScript", "HTML5", "CSS3", "Figma"],
     },
+
     results: [
       {
-        faIcon: "fa-magnifying-glass",
-        value: "220%",
-        label: "Increase in",
-        bold: "Organic Traffic",
+        faIcon: "fa-palette",
+        value: "Custom",
+        label: "Modern",
+        bold: "UI Design",
       },
       {
-        faIcon: "fa-arrow-trend-up",
-        value: "50+",
-        label: "Keywords in",
-        bold: "Top 3 Rankings",
+        faIcon: "fa-layer-group",
+        value: "Advanced",
+        label: "Product",
+        bold: "Color Grouping",
       },
       {
-        faIcon: "fa-star",
-        value: "4.9",
-        label: "Average",
-        bold: "Google Rating",
+        faIcon: "fa-mobile-screen-button",
+        value: "100%",
+        label: "Fully",
+        bold: "Responsive Layout",
       },
       {
-        faIcon: "fa-pen-ruler",
-        value: "3.1x",
-        label: "Increase in",
-        bold: "ROI",
+        faIcon: "fa-cart-shopping",
+        value: "Shopify",
+        label: "Optimized",
+        bold: "E-Commerce Store",
       },
     ],
   },
