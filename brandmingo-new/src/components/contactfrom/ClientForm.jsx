@@ -3,15 +3,16 @@ import "./ClientForm.css";
 
 /* ── Logo URLs ── */
 const LOGOS = [
-  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775909136/13_fqkqi8.png",
-  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775909136/15_jtngub.png",
-  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775909136/9_srd63d.png",
-  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775909136/10_rdyqbw.png",
+  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782995462/15_aui2yn.png",
+  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782995459/14_ekrye0.png",
+  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782995444/11_epm0ux.png",
+  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782995441/10_lwmtta.png",
+  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782995422/2_etbkdt.png",
   "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775909136/12_jxfycf.png",
   "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775909135/7_wltr7h.png",
   "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775909135/6_xzsqqo.png",
   "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775909135/3_wehha6.png",
-  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775909135/5_ulpkjg.png",
+  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782995439/9_lrlxdl.png",
   "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775909135/2_hp07da.png",
   "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775909135/4_oiqfn4.png",
   "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775909138/1_ebpjkv.png",
@@ -20,7 +21,8 @@ const LOGOS = [
   "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775910009/14_xe4e63.png",
   "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775910009/17_wwutuv.png",
   "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775910009/8_bf6si8.png",
-  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775910009/18_mckzrw.png",
+
+  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782995424/4_ky3yra.png",
   "https://res.cloudinary.com/dpdn7kzll/image/upload/v1775910007/16_qzhyjb.png",
 ];
 
@@ -466,9 +468,9 @@ const ClientForm = () => {
               {/* Stats row */}
               <div className="cf-stats">
                 {[
-                  { val: "150+", label: "Projects Done" },
+                  { val: "200+", label: "Projects Done" },
                   { val: "98%", label: "Satisfaction" },
-                  { val: "5+", label: "Yrs Experience" },
+                  { val: "3+", label: "Yrs Experience" },
                 ].map((s, i) => (
                   <div className="cf-stat" key={i}>
                     <strong>{s.val}</strong>

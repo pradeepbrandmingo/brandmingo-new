@@ -1,18 +1,67 @@
 /* ─────────────────────────────────────────────
+   VIDEO CTA WRAPPER + PREMIUM GLOW LAYER
+───────────────────────────────────────────── */
+
+.video-cta-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: #0a0805;
+}
+
+.video-cta-glow {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      ellipse 65% 55% at 8% 100%,
+      rgba(255, 107, 0, 0.55) 0%,
+      rgba(255, 107, 0, 0) 70%
+    ),
+    radial-gradient(
+      ellipse 55% 50% at 100% 0%,
+      rgba(255, 140, 26, 0.35) 0%,
+      rgba(255, 140, 26, 0) 65%
+    ),
+    linear-gradient(200deg, transparent 40%, rgba(255, 107, 0, 0.28) 100%),
+    #0a0805;
+}
+
+.video-cta-bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 2;
+  mix-blend-mode: screen;
+  opacity: 0.85;
+}
+
+/* ─────────────────────────────────────────────
    VIDEO CTA CONTENT
 ───────────────────────────────────────────── */
 
 .video-cta-content {
+  position: relative;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 22px;
+  gap: 14px !important;
   text-align: center;
   max-width: 780px;
   margin: 0 auto;
   padding: 0 20px;
-  z-index: 2;
+}
+
+/* Force-hide any stray/unexpected children (dots, shapes) that
+   sneak into the flex container and eat up gap space */
+.video-cta-content > *:not(h3):not(p):not(.video-cta-btn-wrap) {
+  display: none !important;
 }
 
 /* ─────────────────────────────────────────────
@@ -28,6 +77,7 @@ h3.video-cta-heading {
   color: #fff !important;
   margin: 0 !important;
   max-width: 900px;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.4);
 }
 
 /* ─────────────────────────────────────────────
@@ -39,7 +89,7 @@ h3.video-cta-heading {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.85);
   max-width: 560px;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 /* ─────────────────────────────────────────────
@@ -50,12 +100,34 @@ h3.video-cta-heading {
   margin-top: 10px;
 }
 
-/* Button icons fix */
+.video-cta-content .btn-style-one {
+  box-shadow: 0 10px 34px rgba(255, 107, 0, 0.4);
+}
 
 .video-cta-content .btn-style-one img {
   width: auto !important;
   height: auto !important;
   max-width: none !important;
+}
+
+/* ─────────────────────────────────────────────
+   REMOVE THEME'S PLAY-BUTTON CIRCLE OVERLAY
+───────────────────────────────────────────── */
+
+.video-image.fix::before,
+.video-image.fix::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* ─────────────────────────────────────────────
+   REMOVE STRAY DECORATIVE DOTS
+───────────────────────────────────────────── */
+
+.video-image .light-shape,
+.video-image .shape-dot,
+.video-image > span {
+  display: none !important;
 }
 
 /* ==========================================================
@@ -65,15 +137,16 @@ h3.video-cta-heading {
 @media (max-width: 768px) {
   .video-image {
     position: relative;
-    min-height: 520px;
+    height: auto;
+    min-height: 0;
     overflow: hidden;
     border-radius: 28px;
   }
 
-  .video-image > img {
-    width: 100%;
-    height: 520px;
-    object-fit: cover;
+  .video-cta-bg-img {
+    position: static;
+    height: 100%;
+    min-height: 380px;
   }
 
   .video-image .content {
@@ -81,15 +154,15 @@ h3.video-cta-heading {
     inset: 0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 55px 24px 40px;
+    padding: 32px 24px;
   }
 
   .video-cta-content {
     max-width: 100%;
-    gap: 18px;
+    gap: 14px !important;
     padding: 0;
   }
 
@@ -102,49 +175,68 @@ h3.video-cta-heading {
   .video-cta-desc {
     font-size: 15px;
     max-width: 340px;
-    line-height: 1.75;
+    line-height: 1.6;
   }
 
   .video-cta-btn-wrap {
-    margin-top: 6px;
+    margin-top: 2px;
   }
 }
-
 /* ==========================================================
    MOBILE
 ========================================================== */
 
 @media (max-width: 560px) {
   .video-image {
-    min-height: 560px;
+    min-height: 470px;
+    border-radius: 28px;
+    overflow: hidden;
   }
 
-  .video-image > img {
-    height: 560px;
+  .video-cta-bg-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .video-image .content {
-    padding: 50px 20px 36px;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 22px;
   }
 
   .video-cta-content {
-    gap: 16px;
+    width: 100%;
+    max-width: 305px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
-  h3.video-cta-heading {
-    font-size: clamp(28px, 9vw, 44px) !important;
+  .video-cta-heading {
+    margin: 0 0 18px !important;
+    font-size: 33px !important;
     line-height: 1.08 !important;
     letter-spacing: -1px !important;
-    max-width: 100%;
   }
 
   .video-cta-desc {
-    font-size: 14.5px;
-    max-width: 300px;
+    margin: 0 0 22px !important;
+    max-width: 285px;
+    font-size: 14px;
+    line-height: 1.7;
   }
 
   .video-cta-btn-wrap {
-    margin-top: 8px;
+    margin: 0;
   }
 }
 
@@ -154,29 +246,68 @@ h3.video-cta-heading {
 
 @media (max-width: 380px) {
   .video-image {
-    min-height: 520px;
-  }
-
-  .video-image > img {
-    height: 520px;
+    min-height: 440px;
   }
 
   .video-image .content {
-    padding: 42px 16px 30px;
+    padding: 24px 18px;
   }
 
-  h3.video-cta-heading {
-    font-size: 26px !important;
+  .video-cta-content {
+    max-width: 280px;
+  }
+
+  .video-cta-heading {
+    font-size: 28px !important;
     line-height: 1.08 !important;
-    letter-spacing: -1px !important;
+    margin-bottom: 16px !important;
   }
 
   .video-cta-desc {
-    font-size: 14px;
-    max-width: 270px;
+    font-size: 13.5px;
+    line-height: 1.65;
+    margin-bottom: 20px !important;
+  }
+}
+
+/* ==========================================
+   FIX THEME VIDEO CONTENT
+========================================== */
+
+.video-image .content {
+  bottom: auto !important;
+  top: 50% !important;
+  left: 50% !important;
+  right: auto !important;
+
+  transform: translate(-50%, -50%) !important;
+
+  width: 100%;
+  max-width: 900px;
+
+  padding: 0 25px !important;
+}
+
+.video-image .content .title {
+  height: auto !important;
+  margin-top: 0 !important;
+  max-width: none !important;
+}
+
+@media (max-width: 560px) {
+  .video-image {
+    height: 460px !important;
   }
 
-  .video-cta-btn-wrap {
-    margin-top: 6px;
+  .video-image .content {
+    top: 50% !important;
+    bottom: auto !important;
+    transform: translate(-50%, -50%) !important;
+    padding: 0 20px !important;
+  }
+
+  .video-image .content .title {
+    margin-top: 0 !important;
+    height: auto !important;
   }
 }

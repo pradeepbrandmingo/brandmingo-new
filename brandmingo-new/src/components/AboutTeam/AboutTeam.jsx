@@ -10,7 +10,7 @@ const TEAM_AVATARS = [
 ];
 
 const TEAM_IMAGE =
-  "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80";
+  "https://res.cloudinary.com/dpdn7kzll/image/upload/v1782997996/Untitled_design_2_dyofc2.png";
 
 const AboutTeam = ({ openPopup }) => {
   const sectionRef = useRef(null);

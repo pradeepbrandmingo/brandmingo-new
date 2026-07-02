@@ -476,9 +476,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Founders.css";
 
-import team1 from "../../assets/images/resource/team-1-1.jpg";
-import team2 from "../../assets/images/resource/team-1-2.jpg";
-import team3 from "../../assets/images/resource/team-1-3.jpg";
+import team1 from "../../assets/images/resource/CHIRAG.png";
+import team2 from "../../assets/images/resource/Tarun.png";
+import team3 from "../../assets/images/resource/Anunay.png";
 
 /* ── Team data ── */
 const teamMembers = [

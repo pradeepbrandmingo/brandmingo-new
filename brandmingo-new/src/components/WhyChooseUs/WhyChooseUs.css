@@ -168,7 +168,7 @@
 .wcu-img-1 {
   background:
     linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 100%),
-    url("https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=900&q=80")
+    url("https://res.cloudinary.com/dpdn7kzll/image/upload/v1782997713/7_vvrxlw.png")
       center / cover;
   background-blend-mode: overlay;
 }
@@ -176,7 +176,7 @@
 .wcu-img-2 {
   background:
     linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 100%),
-    url("https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=900&q=80")
+    url("https://res.cloudinary.com/dpdn7kzll/image/upload/v1782998217/Untitled_design_3_rvl7qo.png")
       center / cover;
   background-blend-mode: overlay;
 }

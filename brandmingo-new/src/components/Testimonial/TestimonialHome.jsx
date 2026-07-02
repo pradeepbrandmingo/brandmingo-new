@@ -5,60 +5,60 @@ import "./TestimonialHome.css";
 /* ── Testimonial Data ── */
 const TESTIMONIALS = [
   {
-    name: "Rahul Sharma",
-    service: "Web Development",
+    name: "Dipika",
+    service: "DIGITAL MARKETING",
     review:
-      "Exceptional quality and attention to detail. Our website traffic doubled within two months.",
+      "Brandmingo delivered highly professional, client-focused services. Their supportive team made the entire process smooth and exceeded our expectations.",
   },
   {
-    name: "Priya Mehta",
-    service: "Social Media Marketing",
+    name: "Rajneesh Choudhary",
+    service: "META ADS",
     review:
-      "The team truly understands branding. Our engagement grew by 300% in just 6 weeks.",
+      "Brandmingo managed our Meta Ads and social media exceptionally well. Our reach, engagement, and overall business growth improved significantly.",
   },
   {
-    name: "Arjun Kapoor",
-    service: "SEO Services",
+    name: "N K",
+    service: "GRAPHIC DESIGN",
     review:
-      "We ranked on page one for 15+ keywords. Absolutely brilliant execution and strategy.",
+      "Excellent coordination despite being in different cities. They patiently refined every detail until the final design matched our expectations perfectly.",
   },
   {
-    name: "Sneha Verma",
-    service: "UI/UX Design",
+    name: "Mahil Hasan",
+    service: "WEB DEVELOPMENT",
     review:
-      "Stunning design that converted visitors into customers. Our bounce rate dropped significantly.",
+      "The team built a fast, modern, and beautifully designed website. Professional execution and a wonderful experience from start to finish.",
   },
   {
-    name: "Vikram Singh",
-    service: "Ads Management",
+    name: "Vikash Kumar",
+    service: "WEB DEVELOPMENT",
     review:
-      "Our ROI tripled after handing over ad management. Transparent, fast, and results-driven.",
+      "Without a doubt, Brandmingo delivers top-quality development solutions. Highly professional team with exceptional technical expertise and execution.",
   },
   {
-    name: "Neha Joshi",
-    service: "Branding",
+    name: "Marque Career",
+    service: "FULL STACK DEVELOPMENT",
     review:
-      "They gave our brand a soul. Every element is cohesive, premium, and memorable.",
+      "Outstanding development partner with excellent technical expertise. We highly recommend Brandmingo for reliable and premium digital solutions.",
   },
   {
-    name: "Karan Malhotra",
-    service: "Web Development",
+    name: "Bandhiya Hardik",
+    service: "BRANDING",
     review:
-      "From concept to launch in 3 weeks. Clean code, fast site, and zero compromises.",
+      "A creative and supportive team that truly understands business growth. Brandmingo is an excellent partner for building your digital presence.",
   },
   {
-    name: "Divya Rao",
-    service: "Digital Marketing",
+    name: "Anjum Faheem",
+    service: "WEB DEVELOPMENT",
     review:
-      "Lead generation went through the roof. Highly recommend for any growth-focused business.",
+      "Great experience working with Brandmingo. The team delivered quality work on time with professionalism, dedication, and excellent communication.",
   },
 ];
 
 const STATS = [
-  { value: "500+", label: "Projects Delivered" },
+  { value: "200+", label: "Projects Delivered" },
   { value: "98%", label: "Client Satisfaction" },
-  { value: "16K+", label: "Happy Clients" },
-  { value: "7+", label: "Years of Excellence" },
+  { value: "50+", label: "BUSINESSES SERVED" },
+  { value: "3+", label: "Years of Excellence" },
 ];
 
 /* ── Avatar ── */
