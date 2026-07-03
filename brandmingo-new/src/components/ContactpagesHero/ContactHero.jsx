@@ -30,7 +30,7 @@ const FEATURES = [
       </svg>
     ),
     title: "Quick Response",
-    desc: "We reply within 24 business hours",
+    desc: "We reply within 24 business hours.",
   },
   {
     icon: (
@@ -59,7 +59,7 @@ const FEATURES = [
       </svg>
     ),
     title: "Trusted Partner",
-    desc: "200+ brands trust us worldwide",
+    desc: "Trusted by 200+ growing brands.",
   },
   {
     icon: (
@@ -81,7 +81,7 @@ const FEATURES = [
       </svg>
     ),
     title: "Result Driven",
-    desc: "Focused on delivering real business impact",
+    desc: "Focused on measurable business growth.",
   },
 ];
 
@@ -150,7 +150,7 @@ const HeroDeco = ({ visible }) => (
       >
         <polyline points="22,12 18,12 15,21 9,3 6,12 2,12" />
       </svg>
-      Result Driven
+      Trusted Digital Partner
     </div>
 
     {/* Vertical label */}
@@ -210,17 +210,17 @@ const ContactHero = () => {
 
             {/* Heading */}
             <h1 className="ch-heading" id="ch-heading">
-              <span className="ch-heading-line1">Let's Create</span>
+              <span className="ch-heading-line1">Let's Build Your</span>
               <span className="ch-heading-line2">
-                <em className="ch-heading-accent">Greatness</em>{" "}
-                <span className="ch-heading-plain">Together!</span>
+                <em className="ch-heading-accent">Next Success </em>{" "}
+                <span className="ch-heading-plain">Story</span>
               </span>
             </h1>
 
             {/* Description */}
             <p className="ch-desc">
-              Whether you have a project in mind or just want to say hello, we'd
-              love to hear from you.
+              Helping brands grow with creative strategy, modern technology, and
+              results-driven digital solutions.
             </p>
 
             {/* Divider */}

@@ -13,20 +13,20 @@ const LOTTIE_SRC =
 ───────────────────────────────────────── */
 const FAQS = [
   {
-    q: "How long does it take to get a response?",
-    a: "We typically respond to all inquiries within 24 business hours. For urgent projects, you can also reach us directly via WhatsApp for a faster reply.",
+    q: "How quickly can I expect a response?",
+    a: "We usually respond to all enquiries within 24 business hours. For urgent requirements, our team is available through WhatsApp and email for faster communication.",
   },
   {
-    q: "What types of projects do you work on?",
-    a: "We work on a wide range of digital projects — including website development, e-commerce stores, brand identity, SEO, social media management, and performance marketing campaigns.",
+    q: "What digital services does Brandmingo offer?",
+    a: "We provide website development, Shopify, SEO, branding, UI/UX design, social media management, graphic design, and performance marketing under one roof.",
   },
   {
     q: "Do you offer a free consultation?",
-    a: "Yes! We offer a complimentary 30-minute strategy call to understand your business goals and see how we can help. No commitment required.",
+    a: "Yes! We offer a free initial consultation to understand your business goals, discuss your requirements, and recommend the best digital strategy.",
   },
   {
-    q: "How do I get started with Brandmingo?",
-    a: "Simply fill out the contact form below or reach out via WhatsApp. Our team will get in touch to discuss your project and create a tailored proposal.",
+    q: "How do I start my project with Brandmingo?",
+    a: "Simply contact our team, share your requirements, and we'll guide you through planning, proposal, execution, and successful project delivery.",
   },
 ];
 

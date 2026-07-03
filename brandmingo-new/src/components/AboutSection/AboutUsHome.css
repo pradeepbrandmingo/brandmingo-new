@@ -137,7 +137,7 @@
   border-radius: var(--au-radius);
   background-size: cover;
   background-position: center;
-  filter: grayscale(100%) brightness(0.75);
+  filter: grayscale(55%) brightness(0.95);
   transition:
     filter 0.45s ease,
     transform 0.45s ease;
@@ -150,15 +150,23 @@
 
 .au-img-1 {
   background:
-    linear-gradient(135deg, #1c1c1c 0%, #2a2a2a 100%),
-    url("https://res.cloudinary.com/dpdn7kzll/image/upload/v1782997702/6_laj0qr.png")
+    linear-gradient(
+      135deg,
+      rgba(28, 28, 28, 0.15) 0%,
+      rgba(42, 42, 42, 0.15) 100%
+    ),
+    url("https://res.cloudinary.com/dpdn7kzll/image/upload/v1783065167/9_snkrc9.png")
       center/cover;
   background-blend-mode: overlay;
 }
 .au-img-2 {
   background:
-    linear-gradient(135deg, #1c1c1c 0%, #2a2a2a 100%),
-    url("https://res.cloudinary.com/dpdn7kzll/image/upload/v1782997996/Untitled_design_2_dyofc2.png")
+    linear-gradient(
+      135deg,
+      rgba(28, 28, 28, 0.15) 0%,
+      rgba(42, 42, 42, 0.15) 100%
+    ),
+    url("https://res.cloudinary.com/dpdn7kzll/image/upload/v1783065167/10_k8ipcd.png")
       center/cover;
   background-blend-mode: overlay;
 }
