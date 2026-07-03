@@ -646,3 +646,20 @@
     justify-content: center;
   }
 }
+.fnd-card-inner.fnd-flipped {
+  transform: rotateY(180deg);
+}
+
+/* 👇 YE NAYA ADD KARO — click blocking fix */
+.fnd-card-front {
+  pointer-events: auto;
+}
+.fnd-card-inner.fnd-flipped .fnd-card-front {
+  pointer-events: none;
+}
+.fnd-card-back {
+  pointer-events: none;
+}
+.fnd-card-inner.fnd-flipped .fnd-card-back {
+  pointer-events: auto;
+}

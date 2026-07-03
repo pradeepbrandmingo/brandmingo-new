@@ -93,6 +93,9 @@ const Founders = () => {
               style={{ animationDelay: member.delay }}
               aria-label={`${member.name} — click to see bio`}
               onClick={() => toggleFlip(index)}
+              onMouseLeave={() =>
+                setFlippedCard((prev) => (prev === index ? null : prev))
+              }
               role="button"
               tabIndex={0}
               onKeyDown={(e) => {
@@ -124,9 +127,16 @@ const Founders = () => {
                         <a
                           href={member.linkedin}
                           aria-label={`${member.name} on LinkedIn`}
-                          target="_blank"
                           rel="noopener noreferrer"
-                          onClick={(e) => e.stopPropagation()}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            window.open(
+                              member.linkedin,
+                              "_blank",
+                              "noopener,noreferrer",
+                            );
+                          }}
                         >
                           <i className="fa-brands fa-linkedin-in" />
                         </a>
@@ -134,10 +144,12 @@ const Founders = () => {
                       <a
                         href={member.linkedin}
                         className="fnd-view-profile"
-                        aria-label={`View ${member.name}'s LinkedIn profile`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
+                        aria-label={`Flip card to see ${member.name}'s bio and LinkedIn`}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          toggleFlip(index);
+                        }}
                       >
                         View Profile <i className="fas fa-arrow-right" />
                       </a>
@@ -170,9 +182,9 @@ const Founders = () => {
                     {/* LinkedIn button → redirects to linkedin */}
                     <a
                       href={member.linkedin}
-                      className="fnd-back-linkedin"
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="fnd-back-linkedin"
                       onClick={(e) => e.stopPropagation()}
                     >
                       <i className="fa-brands fa-linkedin-in" />
@@ -181,9 +193,16 @@ const Founders = () => {
                     <a
                       href={member.linkedin}
                       className="fnd-back-arrow"
-                      target="_blank"
                       rel="noopener noreferrer"
-                      onClick={(e) => e.stopPropagation()}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        window.open(
+                          member.linkedin,
+                          "_blank",
+                          "noopener,noreferrer",
+                        );
+                      }}
                     >
                       Connect <i className="fas fa-arrow-right" />
                     </a>
