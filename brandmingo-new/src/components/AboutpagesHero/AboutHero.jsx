@@ -102,6 +102,15 @@ const AboutHero = () => {
     return () => clearTimeout(timer);
   }, []);
 
+  /* Smooth scroll to the Founders/Team section (id="team") on the same page */
+  const handleMeetTeam = (e) => {
+    e.preventDefault();
+    const teamSection = document.getElementById("team");
+    if (teamSection) {
+      teamSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <section
       className={`ah-section${visible ? " ah-section--visible" : ""}`}
@@ -147,7 +156,11 @@ const AboutHero = () => {
 
             {/* CTA */}
             <div className="ah-cta-row">
-              <a href="/contact-us" className="ah-btn-primary">
+              <a
+                href="#team"
+                className="ah-btn-primary"
+                onClick={handleMeetTeam}
+              >
                 <svg
                   width="18"
                   height="18"
@@ -159,14 +172,12 @@ const AboutHero = () => {
                   strokeLinejoin="round"
                   aria-hidden="true"
                 >
-                  <circle cx="12" cy="12" r="10" />
-                  <polygon
-                    points="10,8 16,12 10,16"
-                    fill="currentColor"
-                    stroke="none"
-                  />
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                 </svg>
-                Our Story
+                Meet Our Team
               </a>
             </div>
           </div>

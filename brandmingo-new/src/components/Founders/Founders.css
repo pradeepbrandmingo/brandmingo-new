@@ -1,6 +1,6 @@
 /* ============================================================
-   Founders.css — Premium Team Section v5
-   Hover: 3D flip → pure white bio panel (no image, full content)
+   Founders.css — Premium Team Section v6
+   Flip: CLICK (tap) → pure white bio panel (no image, full content)
    Namespace: fnd-
    ============================================================ */
 
@@ -159,7 +159,7 @@
 }
 
 /* ══════════════════════════════════════
-   CARD — 3D flip on HOVER
+   CARD — 3D flip on CLICK (reliable on desktop + mobile)
    ══════════════════════════════════════ */
 .fnd-card {
   perspective: 1100px;
@@ -170,8 +170,13 @@
 .fnd-card.fnd-visible {
   animation: fnd-fadeUp 0.55s ease both;
 }
+.fnd-card:focus-visible {
+  outline: 2px solid var(--theme-color1, #ff6b1e);
+  outline-offset: 4px;
+  border-radius: 18px;
+}
 
-/* inner — rotates on hover */
+/* inner — rotates on click (via .fnd-flipped class) */
 .fnd-card-inner {
   position: relative;
   width: 100%;
@@ -180,8 +185,22 @@
   transition: transform 0.65s cubic-bezier(0.55, 0.1, 0.45, 0.9);
   border-radius: 18px;
 }
-.fnd-card:hover .fnd-card-inner {
+.fnd-card-inner.fnd-flipped {
   transform: rotateY(180deg);
+}
+
+/* clear hover affordance — lift + glow (no rotation, so click target stays stable) */
+.fnd-card:hover .fnd-card-inner:not(.fnd-flipped) {
+  transform: translateY(-8px);
+}
+.fnd-card:hover .fnd-card-front {
+  border-color: rgba(255, 107, 30, 0.45);
+  box-shadow:
+    0 14px 34px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(255, 107, 30, 0.12);
+}
+.fnd-card:hover .fnd-card-img img {
+  transform: scale(1.06);
 }
 
 /* shared face */
@@ -200,6 +219,9 @@
   background: #111;
   border: 1px solid rgba(255, 107, 30, 0.1);
   box-shadow: 0 2px 18px rgba(0, 0, 0, 0.24);
+  transition:
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
 }
 
 .fnd-card-img {
@@ -308,6 +330,10 @@
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.35);
   text-decoration: none;
+  transition: color 0.22s ease;
+}
+.fnd-view-profile:hover {
+  color: var(--theme-color1, #ff6b1e);
 }
 .fnd-view-profile i {
   font-size: 9px;
