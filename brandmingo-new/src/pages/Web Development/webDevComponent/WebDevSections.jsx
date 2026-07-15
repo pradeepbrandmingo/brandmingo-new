@@ -7,20 +7,20 @@ const WEBSITE_TYPES = [
   {
     fa: "fa-solid fa-briefcase",
     num: "01",
-    title: "Business Website",
-    desc: "Professional business websites designed to build trust, showcase services, and generate quality leads online.",
+    title: "Business Website Development ",
+    desc: "Professional business websites designed to establish credibility, showcase your services, generate qualified leads, and strengthen your online presence.",
   },
   {
     fa: "fa-solid fa-cart-shopping",
     num: "02",
     title: "eCommerce Website",
-    desc: "Powerful online stores with secure payments, smooth checkout, and seamless shopping experiences.",
+    desc: "Powerful online stores built to deliver seamless shopping experiences, secure payments, inventory management, and higher conversion rates.",
   },
   {
     fa: "fa-solid fa-palette",
     num: "03",
     title: "Portfolio Website",
-    desc: "Creative portfolio websites that showcase your work professionally and help attract new opportunities.",
+    desc: "Creative portfolio websites that showcase your work, achievements, and expertise while helping attract clients, recruiters, and business opportunities.",
   },
   {
     fa: "fa-solid fa-gear",
@@ -115,12 +115,13 @@ const WebDevTypes = () => {
           <div className="wds-types-left">
             <div className="wds-section-label">What We Build</div>
             <h3 className="wds-types-heading">
-              Website Solutions Tailored to Your Business Needs
+              Custom Website Solutions Designed for Every Business
             </h3>
             <p className="wds-types-desc">
-              Every business is different, and your website should reflect that.
-              We create tailored web solutions designed around your goals,
-              audience, and growth strategy.
+              From business websites and eCommerce stores to custom web
+              applications, Brandmingo builds high-performance digital solutions
+              that help businesses attract customers, increase conversions, and
+              scale faster online.
             </p>
 
             {/* Decorative dot grid + arc */}

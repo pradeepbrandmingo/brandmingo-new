@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
+const adsCampaignHero =
+  "https://res.cloudinary.com/dqqgpii8v/image/upload/v1783149224/Untitled_design_wvzr0k.png";
 
 const NAV = [
   {
@@ -28,27 +30,27 @@ const REASONS = [
   {
     fa: "fa-solid fa-bullseye",
     title: "Reach High-Intent Customers",
-    desc: "Connect with people who are actively searching for your products or services, increasing the chances of conversions from day one.",
+    desc: "Connect with people actively searching for your products or services to increase qualified leads and conversions.",
   },
   {
     fa: "fa-solid fa-bullhorn",
-    title: "Strengthen Brand Presence",
-    desc: "Stay visible across top platforms and build strong brand recall with consistent and targeted ad exposure.",
+    title: "Build Strong Brand Awareness",
+    desc: "Expand your brand visibility across leading digital platforms with consistent, targeted advertising campaigns.",
   },
   {
     fa: "fa-solid fa-chart-line",
-    title: "Drive Consistent Leads & Sales",
-    desc: "Generate a steady flow of qualified leads and sales through strategically optimized campaigns designed for performance.",
+    title: "Generate Quality Leads",
+    desc: "Drive high-quality leads and sales through data-driven campaigns optimized for better conversion performance.",
   },
   {
     fa: "fa-solid fa-chart-pie",
-    title: "Trackable & Measurable Growth",
-    desc: "Monitor every click, lead, and conversion with real-time data to make smarter marketing decisions and improve ROI",
+    title: "Measure Every Result",
+    desc: "Track clicks, leads, conversions, and ROI with real-time analytics to continuously improve campaign performance.",
   },
   {
     fa: "fa-solid fa-rocket",
-    title: "Scale Without Limits",
-    desc: "Increase your reach and revenue by scaling campaigns based on performance insights and data-driven strategies.",
+    title: "Scale Business Growth",
+    desc: "Increase revenue with scalable advertising strategies designed to support sustainable business growth.",
   },
 ];
 const STATS = [
@@ -222,12 +224,19 @@ const AdsAndCampaignsAbout = () => {
         <main className="wda-main">
           {/* Hero image */}
           <div className="wda-hero">
+            <img
+              src={adsCampaignHero}
+              alt="Ads & Campaigns Banner - Brandmingo"
+              className="wda-hero-img"
+            />
+
             <div className="wda-hero-ov">
               <div className="wda-hero-txt">
                 <div className="wda-hero-badge">
                   <i className="fa-solid fa-laptop-code" />
                   About Ads & Campaigns
                 </div>
+
                 <h2>
                   Running Performance-Driven Campaigns{" "}
                   <span>That Fuel Business Growth</span>
@@ -242,20 +251,21 @@ const AdsAndCampaignsAbout = () => {
               <i className="fa-solid fa-circle" />
               Introduction
             </div>
-            <h2 className="wda-h1">What is Ads & Campaign Management?</h2>
+            <h2 className="wda-h1">What is Ads and Campaign Management</h2>
             <p className="wda-p">
-              Ads & campaign management is the process of strategically
-              planning, executing, and continuously optimizing paid advertising
-              campaigns across platforms like Google, Meta, and more. It’s not
-              just about running ads — it’s about targeting the right audience,
-              controlling costs, and maximizing return on every rupee spent.
+              Ads & Campaign Management is the process of planning, launching,
+              managing, and optimizing paid advertising campaigns across
+              platforms like Google Ads, Meta Ads, LinkedIn Ads, and more. A
+              strategic approach helps businesses reach the right audience,
+              generate qualified leads, increase conversions, and maximize
+              return on investment.
               <br />
-              Your ads should do more than generate clicks they should drive
-              real business outcomes. When managed correctly, campaigns become a
-              powerful growth engine that brings in qualified leads, increases
-              conversions, and scales your revenue consistently. Without proper
-              strategy and optimization, ad spend quickly turns into wasted
-              budget.
+              At Brandmingo, we combine audience research, creative ad
+              strategies, performance tracking, and continuous optimization to
+              deliver measurable results. From lead generation and eCommerce
+              sales to brand awareness campaigns, we create data-driven
+              advertising solutions that help businesses scale faster and
+              achieve sustainable growth.
             </p>
 
             <div className="wda-lbl" style={{ marginTop: "40px" }}>
@@ -291,8 +301,8 @@ const AdsAndCampaignsAbout = () => {
                 <i className="fa-solid fa-quote-right" />
               </div>
               <span>
-                The longer you delay ads, the more market share your{" "}
-                <em>competitors take from you.</em>
+                Every day you delay your campaigns is another{" "}
+                <em>opportunity your competitors win. </em>
               </span>
             </div>
 
@@ -300,7 +310,7 @@ const AdsAndCampaignsAbout = () => {
             <div className="wda-img-cards">
               <div className="wda-img-card">
                 <img
-                  src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=700"
+                  src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1783150698/Untitled_design_1_tjxamr.png"
                   alt="Modern Web Development"
                 />
                 <div className="wda-img-card-body">
@@ -308,9 +318,9 @@ const AdsAndCampaignsAbout = () => {
                     <i className="fa-solid fa-laptop-code" />
                   </div>
                   <p>
-                    Performance-driven ad campaigns built to maximize reach,
-                    improve engagement, and deliver measurable ROI across every
-                    platform.
+                    Launch data-driven advertising campaigns that increase brand
+                    visibility, generate qualified leads, and maximize return on
+                    ad spend across digital platforms.
                   </p>
                   <a href="#contact" className="wda-img-card-arrow">
                     <i className="fa-solid fa-arrow-right" />
@@ -320,7 +330,7 @@ const AdsAndCampaignsAbout = () => {
 
               <div className="wda-img-card">
                 <img
-                  src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=700"
+                  src="https://i.ibb.co/Zz0MNRM4/website-developement-image-Brandmingo.avif"
                   alt="E-commerce Solutions"
                 />
                 <div className="wda-img-card-body">
@@ -328,9 +338,9 @@ const AdsAndCampaignsAbout = () => {
                     <i className="fa-solid fa-cart-shopping" />
                   </div>
                   <p>
-                    Conversion-focused strategies designed to attract the right
-                    audience, generate qualified leads, and turn traffic into
-                    real revenue.
+                    Build conversion-focused campaigns designed to attract
+                    high-intent customers, improve lead quality, and drive
+                    consistent business growth.
                   </p>
                   <a href="#contact" className="wda-img-card-arrow">
                     <i className="fa-solid fa-arrow-right" />

@@ -5,31 +5,31 @@ import { openEnquiryPopup } from "../../../utils/popup";
 const SEOHero = () => {
   const features = [
     {
-      icon: "fas fa-chart-line",
+      icon: "fas fa-ranking-star",
       title: "Improve Search Rankings",
-      desc: "Increase your visibility on Google and rank higher for targeted keywords.",
+      desc: "Boost Google rankings with strategic SEO for high-value keywords and better online visibility.",
     },
     {
-      icon: "fas fa-globe",
+      icon: "fas fa-chart-line",
       title: "Drive Organic Traffic",
-      desc: "Attract high-intent visitors through strategic SEO optimization techniques.",
+      desc: "Attract high-intent visitors through proven SEO strategies that increase quality website traffic.",
     },
     {
-      icon: "fas fa-search",
-      title: "Generate Quality Leads",
-      desc: "Convert organic traffic into qualified leads and business opportunities.",
+      icon: "fas fa-users",
+      title: "Generate Qualified Leads",
+      desc: "Turn organic visitors into qualified leads with targeted SEO and search-driven conversions.",
     },
     {
-      icon: "fas fa-rocket",
+      icon: "fas fa-arrow-trend-up",
       title: "Long-Term Business Growth",
-      desc: "Build sustainable online visibility with scalable SEO strategies.",
+      desc: "Build sustainable online growth with scalable SEO strategies that deliver lasting business results.",
     },
   ];
 
   const stats = [
-    { value: "150+", label: "Projects Completed" },
+    { value: "210+", label: "Projects Completed" },
     { value: "98%", label: "Client Satisfaction" },
-    { value: "5+", label: "Years Experience" },
+    { value: "4+", label: "Years Experience" },
     { value: "24/7", label: "Support" },
   ];
 
@@ -793,29 +793,23 @@ const SEOHero = () => {
             {/* ── LEFT CONTENT ── */}
             <div className="wd-hero-content">
               <div className="wd-tagline">
-                <i className="fas fa-bolt" /> RANK HIGHER. DRIVE ORGANIC
+                <i className="fas fa-bolt" /> RANK HIGHER. DRIVE ORGANIC GROWTH.
                 TRAFFIC.
               </div>
 
               <h3>
-                SEO Optimization Services
+                SEO Services That Drive
                 <br />
-                That Drives{" "}
-                <span className="wd-title-accent">
-                  {" "}
-                  SEO Optimization Services
-                </span>
+                More Traffic{" "}
+                <span className="wd-title-accent"> Leads & Revenue</span>
               </h3>
 
               <p className="wd-description">
-                From technical SEO and on-page optimization to keyword targeting
-                and content improvements, our SEO services are focused on
-                delivering long-term growth, better visibility, and measurable
-                results.
-                <br />
-                We help businesses improve search engine rankings, increase
-                organic traffic, and generate high-quality leads through
-                data-driven SEO optimization strategies.
+                Increase your online visibility with data-driven SEO strategies
+                designed to improve Google rankings, attract qualified organic
+                traffic, and generate consistent leads. From technical SEO and
+                keyword research to on-page optimization and content strategy,
+                we help your business achieve sustainable long-term growth.
               </p>
 
               <div className="wd-btn-group">

@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
+const uiUxAuditHero = "https://ik.imagekit.io/p1oa71jxg/Untitled%20design.png";
 
 const NAV = [
   {
@@ -26,29 +27,29 @@ const NAV = [
 
 const REASONS = [
   {
-    fa: "fa-solid fa-user-check",
+    fa: "fa-solid fa-users-viewfinder",
     title: "Enhance User Engagement",
-    desc: "Improve how users interact with your website by creating smoother, more intuitive digital experiences.",
+    desc: "Create intuitive experiences that keep visitors engaged and encourage deeper interaction with your website.",
   },
   {
-    fa: "fa-solid fa-arrow-right-from-bracket",
+    fa: "fa-solid fa-route",
     title: "Identify Experience Gaps",
-    desc: "Discover usability issues, navigation problems, and friction points that impact customer journeys.",
+    desc: "Discover usability issues, navigation challenges, and friction points affecting customer journeys.",
   },
   {
-    fa: "fa-solid fa-chart-line",
-    title: "Boost Conversion Rates",
-    desc: "Optimise layouts, CTAs, and user flows to turn more visitors into leads and customers.",
+    fa: "fa-solid fa-arrow-trend-up",
+    title: "Increase Conversion Rates",
+    desc: "Optimize layouts, calls-to-action, and user flows to turn more visitors into leads and customers.",
   },
   {
-    fa: "fa-solid fa-database",
+    fa: "fa-solid fa-chart-pie",
     title: "Make Data-Driven Improvements",
-    desc: "Use analytics, heatmaps, and user behaviour insights to make smarter UX decisions.",
+    desc: "Leverage user behavior insights, analytics, and performance data to make smarter UX decisions.",
   },
   {
-    fa: "fa-solid fa-trophy",
-    title: "Strengthen Brand Experience",
-    desc: "Deliver a consistent and professional user experience that builds trust and customer loyalty.",
+    fa: "fa-solid fa-shield-heart",
+    title: "Strengthen Brand Trust",
+    desc: "Deliver a consistent, professional experience that builds credibility, customer confidence, and long-term loyalty.",
   },
 ];
 
@@ -215,14 +216,21 @@ const UiUxAbout = () => {
         <main className="wda-main">
           {/* Hero image */}
           <div className="wda-hero">
+            <img
+              src={uiUxAuditHero}
+              alt="UI/UX Audits Banner - Brandmingo"
+              className="wda-hero-img"
+            />
+
             <div className="wda-hero-ov">
               <div className="wda-hero-txt">
                 <div className="wda-hero-badge">
                   <i className="fa-solid fa-laptop-code" />
                   ABOUT UI/UX AUDITS
                 </div>
+
                 <h2>
-                  UI/UX Audits That <span>Boost Engagement & Conversions.</span>
+                  UI/UX Audits That <span>Turn Visitors Into Customers</span>
                 </h2>
               </div>
             </div>
@@ -238,22 +246,19 @@ const UiUxAbout = () => {
               Why Does Your Website Need a UI/UX Audit?
             </h2>
             <p className="wda-p">
-              A website may look visually appealing, but if users struggle to
-              navigate, interact, or complete actions, it can directly impact
-              conversions and customer experience. A UI/UX audit helps uncover
-              the hidden issues affecting usability, engagement, and overall
-              website performance.
+              A visually appealing website is only effective when it delivers a
+              smooth and intuitive user experience. If visitors struggle to
+              navigate your site, find information, or complete actions, you're
+              likely losing valuable leads and conversions. A professional UI/UX
+              audit helps identify usability issues, navigation bottlenecks, and
+              conversion barriers that impact your website's performance.
               <br />
-              By analysing user behaviour, navigation patterns, responsiveness,
-              and interaction flow, businesses can identify friction points that
-              lead to drop-offs and missed opportunities. From confusing layouts
-              to slow-loading pages, even small usability problems can reduce
-              trust and lower conversion rates.
-              <br />
-              Our UI/UX audit services focus on improving the overall digital
-              experience by optimising user journeys, enhancing accessibility,
-              and creating smoother interactions that keep users engaged and
-              encourage action.
+              By analyzing user behavior, site structure, responsiveness,
+              accessibility, and interaction flows, we uncover opportunities to
+              improve engagement, reduce bounce rates, and create seamless
+              customer journeys. The result is a faster, more user-friendly
+              website designed to increase satisfaction, build trust, and drive
+              measurable business growth.
             </p>
 
             <div className="wda-lbl" style={{ marginTop: "40px" }}>
@@ -287,8 +292,8 @@ const UiUxAbout = () => {
                 <i className="fa-solid fa-quote-right" />
               </div>
               <span>
-                A poor user experience doesn’t just frustrate visitors, it
-                directly impacts engagement, <em>trust, and conversions.</em>
+                A better user experience leads to higher engagement, stronger
+                customer satisfaction, <em>and measurable business growth.</em>
               </span>
             </div>
 
@@ -296,7 +301,7 @@ const UiUxAbout = () => {
             <div className="wda-img-cards">
               <div className="wda-img-card">
                 <img
-                  src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=700"
+                  src="https://ik.imagekit.io/p1oa71jxg/uiux.png"
                   alt="Modern Web Development"
                 />
                 <div className="wda-img-card-body">
@@ -304,9 +309,9 @@ const UiUxAbout = () => {
                     <i className="fa-solid fa-user-gear" />
                   </div>
                   <p>
-                    Identify usability issues, improve navigation flow, and
-                    create seamless digital experiences that enhance user
-                    satisfaction and retention.
+                    Identify usability issues, improve navigation, and create
+                    seamless user experiences that increase engagement,
+                    satisfaction, and customer retention.
                   </p>
                   <a href="#contact" className="wda-img-card-arrow">
                     <i className="fa-solid fa-arrow-right" />
@@ -316,7 +321,7 @@ const UiUxAbout = () => {
 
               <div className="wda-img-card">
                 <img
-                  src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=700"
+                  src="https://i.ibb.co/Zz0MNRM4/website-developement-image-Brandmingo.avif"
                   alt="E-commerce Solutions"
                 />
                 <div className="wda-img-card-body">
@@ -324,9 +329,9 @@ const UiUxAbout = () => {
                     <i className="fa-solid fa-arrow-trend-up" />
                   </div>
                   <p>
-                    Optimise layouts, interactions, and design elements to
-                    increase engagement, improve conversions, and maximise
-                    overall website performance.
+                    Optimize layouts, user journeys, and interface elements to
+                    boost engagement, improve conversions, and deliver better
+                    digital experiences.
                   </p>
                   <a href="#contact" className="wda-img-card-arrow">
                     <i className="fa-solid fa-arrow-right" />

@@ -33,17 +33,17 @@ const DIFF_FEATURES = [
   },
 ];
 const ECOM_ALLOWS = [
-  "Improve rankings & visibility",
-  "Drive consistent organic traffic  ",
-  "Target high-intent users effectively ",
-  "Build long-term business growth ",
+  "Increase Google rankings & visibility",
+  "Drive qualified organic website traffic",
+  "Generate consistent leads & enquiries",
+  "Build long-term business growth",
 ];
 
 const ECOM_PROVIDES = [
-  "Keyword research & strategy  ",
-  " On-page & technical SEO  ",
-  "Content optimization  ",
-  "Performance tracking & optimization",
+  "SEO audit & keyword strategy",
+  "On-page & technical optimization",
+  "Content marketing & link building",
+  "Performance tracking & SEO reporting",
 ];
 
 const PLATFORMS = [
@@ -51,48 +51,53 @@ const PLATFORMS = [
     fa: "fa-solid fa-magnifying-glass",
     title: "On-Page SEO",
     sub: "BEST FOR",
-    desc: "Improving rankings & content visibility",
+    desc: "Improve content quality, keyword relevance, and search visibility.",
   },
   {
     fa: "fa-solid fa-screwdriver-wrench",
     title: "Technical SEO",
     sub: "BEST FOR",
-    desc: "Site performance & indexing improvements",
+    desc: "Enhance website speed, indexing, and technical performance.",
   },
   {
     fa: "fa-solid fa-link",
     title: "Off-Page SEO",
     sub: "BEST FOR",
-    desc: "Building authority & backlinks",
+    desc: "Build domain authority, quality backlinks, and online trust.",
   },
   {
-    fa: "fa-solid fa-map-location-dot",
+    fa: "fa-solid fa-location-dot",
     title: "Local SEO",
     sub: "BEST FOR",
-    desc: "Local visibility & nearby customers",
+    desc: "Increase local visibility, nearby reach, and customer growth.",
   },
 ];
 
 const FAQS = [
   {
-    fa: "fa-solid fa-magnifying-glass",
+    fa: "fa-solid fa-list-check",
     q: "What SEO services do you offer?",
-    a: "We provide on-page, technical, off-page, and local SEO tailored to your business goals.",
+    a: "We provide Technical SEO, On-Page SEO, Off-Page SEO, Local SEO, Keyword Research, Content Optimization, SEO Audits, Link Building, eCommerce SEO, and Enterprise SEO services.",
   },
   {
-    fa: "fa-solid fa-chart-line",
+    fa: "fa-solid fa-bullseye",
     q: "Which SEO strategy is best for my business?",
-    a: "It depends on your goals — we analyze your business and create a custom SEO strategy.",
+    a: "The right SEO strategy depends on your industry, competition, audience, and business goals. We create a customized SEO roadmap designed to maximize long-term growth.",
   },
   {
     fa: "fa-solid fa-clock",
-    q: "How soon can I see results from SEO?",
-    a: "SEO takes time, but you can start seeing improvements in traffic and rankings within a few weeks.",
+    q: "How long does SEO take to show results?",
+    a: "Most businesses begin seeing measurable improvements within 3–6 months. Competitive industries may require ongoing optimization for stronger long-term rankings.",
   },
   {
-    fa: "fa-solid fa-gear",
-    q: "How do you improve rankings and traffic?",
-    a: "We optimize content, fix technical issues, build backlinks, and continuously track performance.",
+    fa: "fa-solid fa-chart-line",
+    q: "How do you improve rankings and organic traffic?",
+    a: "We combine technical SEO, keyword research, content optimization, link building, UX improvements, and continuous performance tracking for sustainable growth.",
+  },
+  {
+    fa: "fa-solid fa-scale-balanced",
+    q: "Is SEO better than paid advertising?",
+    a: "SEO delivers long-term organic visibility, while paid ads generate immediate traffic. Combining both strategies helps maximize reach, leads, and business growth.",
   },
 ];
 
@@ -127,14 +132,14 @@ const WebDevDiff = () => {
         <div className="wde-grid">
           {/* Left */}
           <div className="wde-left">
-            <div className="wds-section-label">OUR PROMISE</div>
+            <div className="wds-section-label">OUR DIFFERENCE</div>
             <h3 className="wde-heading">
-              What Makes Our SEO <span>Different?</span>
+              Why Businesses Choose Brandmingo <span>SEO Services</span>
             </h3>
             <p className="wde-desc">
-              Most websites get traffic — but don’t convert. We focus on
-              performance. Our SEO strategies are built to drive real traffic,
-              qualified leads, and measurable growth for your business.
+              Most SEO agencies focus only on rankings. At Brandmingo, we focus
+              on qualified traffic, lead generation, measurable ROI, and
+              long-term business growth through proven SEO strategies.
             </p>
             <div className="wde-gradient-bar" />
           </div>
@@ -164,8 +169,9 @@ const WebDevDiff = () => {
                 <i className="fa-solid fa-rocket" />
               </div>
               <p>
-                If your website is not ranking, <em>— you’re losing </em>
-                ,potential customers.
+                Higher Google rankings matter only when they generate{" "}
+                <em>qualified leads </em>
+                real customers, and measurable business growth
               </p>
             </div>
           </div>
@@ -188,15 +194,16 @@ const WebDevEcom = () => {
           <div className="wdec-left">
             <div className="wds-section-label">GROW YOUR BUSINESS</div>
             <h3 className="wdec-heading">
-              Do You Need
-              <span>SEO Optimization?</span>
+              Is SEO Right
+              <span>for Your Business?</span>
             </h3>
             <div className="wdec-divider" />
             <p className="wdec-desc">
-              If your website is not ranking and relying only on paid traffic —
-              you’re limiting your growth. SEO helps you attract the right
-              audience organically and generate consistent traffic and leads
-              over time.
+              If your website isn't generating consistent organic traffic or
+              relies heavily on paid ads, SEO can become your most valuable
+              long-term growth channel. A strategic SEO campaign helps improve
+              rankings, attract qualified visitors, and generate sustainable
+              leads that continue growing your business over time.
             </p>
           </div>
 
@@ -259,14 +266,14 @@ const WebDevPlatform = () => {
         <div className="wdpl-grid">
           {/* Left */}
           <div className="wdpl-left">
-            <div className="wds-section-label">CHOOSE WHAT’S RIGHT</div>
+            <div className="wds-section-label">CHOOSE YOUR SEO PATH</div>
             <h3 className="wdpl-heading">
-              Which SEO Strategy is <span>Best</span> for You?
+              Which SEO <span>Service</span> Do You Need?
             </h3>
             <p className="wdpl-desc">
-              Choosing the right SEO approach is crucial. Every business needs a
-              different strategy — and using the wrong one can slow growth. We
-              help you choose the right SEO path for maximum results.
+              Every business has unique goals, competition, and audiences. We
+              help you choose the right SEO strategy to improve rankings,
+              increase organic traffic, and achieve long-term business growth.
             </p>
           </div>
 

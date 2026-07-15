@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
+const socialMediaHero =
+  "https://res.cloudinary.com/dqqgpii8v/image/upload/v1783153379/Untitled_design_2_wboyug.png";
 
 const NAV = [
   {
@@ -27,28 +29,28 @@ const NAV = [
 const REASONS = [
   {
     fa: "fa-solid fa-users",
-    title: "Reach the Right Audience",
-    desc: "Connect with highly relevant users based on interests, behavior, and demographics — ensuring your brand reaches people who actually matter.",
+    title: "Boost Brand Awareness",
+    desc: "Increase your brand visibility with consistent, creative content that keeps your business top-of-mind across every social platform.",
   },
   {
-    fa: "fa-solid fa-bullhorn",
-    title: "Increase Brand Visibility",
-    desc: "Stay top-of-mind by consistently showing up in your audience’s feed with impactful and memorable content.",
+    fa: "fa-solid fa-comments",
+    title: "Increase Engagement",
+    desc: "Build meaningful connections through interactive content that encourages conversations, shares, and long-term audience loyalty.",
   },
   {
-    fa: "fa-solid fa-heart",
-    title: "Build Engagement & Trust",
-    desc: "Turn followers into a loyal community through meaningful interactions, conversations, and value-driven content.",
+    fa: "fa-solid fa-bullseye",
+    title: "Generate Quality Leads",
+    desc: "Turn your social media presence into a lead generation channel with targeted strategies and high-converting content.",
+  },
+  {
+    fa: "fa-solid fa-handshake",
+    title: "Build Customer Trust",
+    desc: "Strengthen your brand credibility with authentic communication, timely responses, and consistent online engagement.",
   },
   {
     fa: "fa-solid fa-chart-line",
-    title: "Consistent Growth",
-    desc: "Achieve steady growth in followers, reach, and engagement with a structured and strategic content approach.",
-  },
-  {
-    fa: "fa-solid fa-rocket",
-    title: "Scale Your Brand Faster",
-    desc: "Leverage data-driven strategies and targeted campaigns to accelerate your brand’s growth and market presence.",
+    title: "Drive Business Growth",
+    desc: "Achieve measurable business growth through data-driven campaigns, performance tracking, and continuous optimization.",
   },
 ];
 
@@ -223,15 +225,21 @@ const SocialMediaAbout = () => {
         <main className="wda-main">
           {/* Hero image */}
           <div className="wda-hero">
+            <img
+              src={socialMediaHero}
+              alt="Social Media Management Banner - Brandmingo"
+              className="wda-hero-img"
+            />
+
             <div className="wda-hero-ov">
               <div className="wda-hero-txt">
                 <div className="wda-hero-badge">
                   <i className="fa-solid fa-laptop-code" />
                   ABOUT SOCIAL MEDIA MANAGEMENT
                 </div>
+
                 <h2>
-                  Managing High-Engagement Content{" "}
-                  <span>That Builds Brand Growth.</span>
+                  Smart Social Media That <span>Delivers Business Growth.</span>
                 </h2>
               </div>
             </div>
@@ -245,19 +253,17 @@ const SocialMediaAbout = () => {
             </div>
             <h2 className="wda-h1">What is Social Media Management?</h2>
             <p className="wda-p">
-              Social media management is the art of turning your online presence
-              into a powerful growth engine. It involves strategic content
-              planning, creative storytelling, audience engagement, and
-              continuous optimization across platforms like Instagram, Facebook,
-              and LinkedIn.
+              Social Media Management is the process of creating, publishing,
+              and optimizing content across digital platforms to build brand
+              awareness, engage audiences, and generate quality leads. It
+              combines strategic planning, creative storytelling, and
+              data-driven insights to help businesses establish a strong online
+              presence.
               <br />
-              It’s not just about being active it’s about being relevant,
-              consistent, and impactful. With the right strategy, your social
-              media becomes a channel that builds trust, strengthens brand
-              identity, and drives real business results. When done right, every
-              post, reel, and campaign works together to attract the right
-              audience, nurture relationships, and convert attention into
-              long-term growth.
+              With consistent content, active community management, and
+              performance optimization, social media becomes a powerful channel
+              for increasing visibility, building customer trust, and driving
+              sustainable business growth.
             </p>
 
             <div className="wda-lbl" style={{ marginTop: "40px" }}>
@@ -265,7 +271,7 @@ const SocialMediaAbout = () => {
               Strategy
             </div>
             <h3 className="wda-h2">
-              Why Social Media is Essential for Your Business Growth
+              Why Social Media Management Matters for Your Business
             </h3>
 
             <div className="wda-reasons">
@@ -293,8 +299,9 @@ const SocialMediaAbout = () => {
                 <i className="fa-solid fa-quote-right" />
               </div>
               <span>
-                If your brand isn’t active on social media, you’re already
-                losing winning it. <em>attention and your competitors are</em>
+                A strong social media presence isn't optional anymore—it's
+                essential for{" "}
+                <em> sustainable business growth. losing winning it.</em>
               </span>
             </div>
 
@@ -302,7 +309,7 @@ const SocialMediaAbout = () => {
             <div className="wda-img-cards">
               <div className="wda-img-card">
                 <img
-                  src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=700"
+                  src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1783155891/Untitled_design_3_pnt8wg.png"
                   alt="Modern Web Development"
                 />
                 <div className="wda-img-card-body">
@@ -310,9 +317,10 @@ const SocialMediaAbout = () => {
                     <i className="fa-solid fa-laptop-code" />
                   </div>
                   <p>
-                    Strategic, high-impact social media content designed to
-                    increase visibility, boost engagement, and position your
-                    brand ahead of the competition
+                    Professional social media content strategy designed to
+                    increase brand awareness, audience engagement, and online
+                    visibility through creative and consistent content
+                    marketing.
                   </p>
                   <a href="#contact" className="wda-img-card-arrow">
                     <i className="fa-solid fa-arrow-right" />
@@ -322,7 +330,7 @@ const SocialMediaAbout = () => {
 
               <div className="wda-img-card">
                 <img
-                  src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=700"
+                  src="https://i.ibb.co/Zz0MNRM4/website-developement-image-Brandmingo.avif"
                   alt="E-commerce Solutions"
                 />
                 <div className="wda-img-card-body">
@@ -330,9 +338,9 @@ const SocialMediaAbout = () => {
                     <i className="fa-solid fa-cart-shopping" />
                   </div>
                   <p>
-                    Conversion-focused social media strategies that attract the
-                    right audience, build trust, and turn followers into paying
-                    customers.
+                    Expert social media marketing strategies focused on audience
+                    growth, lead generation, customer engagement, and measurable
+                    business results across digital platforms.
                   </p>
                   <a href="#contact" className="wda-img-card-arrow">
                     <i className="fa-solid fa-arrow-right" />

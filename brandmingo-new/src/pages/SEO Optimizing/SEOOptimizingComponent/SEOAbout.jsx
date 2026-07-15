@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
+const seoHero =
+  "https://res.cloudinary.com/dqqgpii8v/image/upload/v1783153379/Untitled_design_2_wboyug.png";
 
 const NAV = [
   {
@@ -22,26 +24,27 @@ const REASONS = [
     desc: "Get your website discovered by users actively searching for your services.",
   },
   {
-    fa: "fa-solid fa-globe",
-    title: "Build Strong Online Presence",
-    desc: "Increase your brand visibility across search engines and digital platforms.",
-  },
-  {
-    fa: "fa-solid fa-users",
-    title: "Drive Organic Traffic",
-    desc: "Attract consistent, high-quality visitors without relying on paid ads.",
+    fa: "fa-solid fa-shield-halved",
+    title: "Build Strong Brand Authority",
+    desc: "Increase trust and credibility by ranking higher across search engines.",
   },
   {
     fa: "fa-solid fa-chart-line",
-    title: "Measurable Growth",
-    desc: "Track rankings, traffic, and performance with data-driven insights.",
+    title: "Drive Organic Traffic",
+    desc: "Attract consistent, high-quality visitors through proven SEO strategies.",
   },
   {
-    fa: "fa-solid fa-rocket",
+    fa: "fa-solid fa-chart-column",
+    title: "Track Measurable Growth",
+    desc: "Monitor rankings, traffic, leads, and conversions with actionable insights.",
+  },
+  {
+    fa: "fa-solid fa-arrow-trend-up",
     title: "Long-Term Business Growth",
     desc: "Build a sustainable traffic source that grows with your business.",
   },
 ];
+
 const STATS = [
   {
     fa: "fa-solid fa-briefcase",
@@ -213,14 +216,22 @@ const SEOAbout = () => {
         <main className="wda-main">
           {/* Hero image */}
           <div className="wda-hero">
+            <img
+              src={seoHero}
+              alt="SEO Optimization Banner - Brandmingo"
+              className="wda-hero-img"
+            />
+
             <div className="wda-hero-ov">
               <div className="wda-hero-txt">
                 <div className="wda-hero-badge">
                   <i className="fa-solid fa-laptop-code" />
-                  ABOUT SEO OPTIMIZATION
+                  ABOUT SEO SERVICES
                 </div>
+
                 <h2>
-                  Driving Organic Growth <span>With High-Performance SEO</span>
+                  Grow Your Business{" "}
+                  <span>with Data-Driven SEO Strategies</span>
                 </h2>
               </div>
             </div>
@@ -232,20 +243,22 @@ const SEOAbout = () => {
               <i className="fa-solid fa-circle" />
               Introduction
             </div>
-            <h2 className="wda-h1">What is SEO Optimization?</h2>
+            <h2 className="wda-h1">What Are SEO Services?</h2>
             <p className="wda-p">
-              SEO optimization is the process of improving your website’s
-              structure, content, speed, and authority to rank higher on search
-              engines like Google. A properly optimized website helps businesses
-              increase visibility, attract organic traffic, improve user
-              experience, and generate more leads and conversions.
+              SEO Services are the process of optimizing your website's
+              structure, content, technical performance, and authority to
+              improve visibility in search engines like Google. Effective SEO
+              helps businesses rank for relevant keywords, attract targeted
+              traffic, enhance user experience, and increase conversions.
             </p>
 
             <div className="wda-lbl" style={{ marginTop: "40px" }}>
               <i className="fa-solid fa-circle" />
               Strategy
             </div>
-            <h3 className="wda-h2">Why Your Business Needs SEO</h3>
+            <h3 className="wda-h2">
+              Why Your Business Needs Professional SEO Services
+            </h3>
 
             <div className="wda-reasons">
               {REASONS.map((r, i) => (
@@ -272,8 +285,8 @@ const SEOAbout = () => {
                 <i className="fa-solid fa-quote-right" />
               </div>
               <span>
-                If your website is not ranking, you’re already{" "}
-                <em> — losing potential customers.</em>
+                If your website isn't ranking on Google, your competitors are
+                winning <em> the customers you should be reaching</em>
               </span>
             </div>
 
@@ -289,8 +302,9 @@ const SEOAbout = () => {
                     <i className="fa-solid fa-magnifying-glass-chart" />
                   </div>
                   <p>
-                    Smart, data-driven SEO strategies optimized for higher
-                    rankings, organic traffic, and long-term growth.
+                    Data-driven SEO strategies designed to improve Google
+                    rankings, increase organic traffic, and deliver sustainable
+                    business growth.
                   </p>
                   <a href="#contact" className="wda-img-card-arrow">
                     <i className="fa-solid fa-arrow-right" />
@@ -300,7 +314,7 @@ const SEOAbout = () => {
 
               <div className="wda-img-card">
                 <img
-                  src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=700"
+                  src="https://i.ibb.co/Zz0MNRM4/website-developement-image-Brandmingo.avif"
                   alt="E-commerce Solutions"
                 />
                 <div className="wda-img-card-body">
@@ -308,8 +322,9 @@ const SEOAbout = () => {
                     <i className="fa-solid fa-chart-line" />
                   </div>
                   <p>
-                    Conversion-focused SEO approaches that attract the right
-                    audience and drive real business results.
+                    Conversion-focused SEO campaigns that attract qualified
+                    visitors, generate leads, and drive measurable business
+                    results.
                   </p>
                   <a href="#contact" className="wda-img-card-arrow">
                     <i className="fa-solid fa-arrow-right" />

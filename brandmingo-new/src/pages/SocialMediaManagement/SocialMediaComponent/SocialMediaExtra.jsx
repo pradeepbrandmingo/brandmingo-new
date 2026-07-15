@@ -8,42 +8,43 @@ import React, { useEffect, useRef, useState } from "react";
 const DIFF_FEATURES = [
   {
     fa: "fa-solid fa-bullseye",
-    title: "Targeted Content Strategy",
-    desc: "Reach the right audience with content tailored to your brand and niche.",
+    title: "Strategic Content Planning",
+    desc: "Content tailored to your audience, industry, and business goals for maximum engagement.",
   },
   {
     fa: "fa-solid fa-chart-line",
-    title: "Growth-Focused Approach",
-    desc: "Strategies designed to increase engagement, followers, and brand visibility.",
+    title: "Growth-Focused Strategy",
+    desc: "Proven strategies designed to increase visibility, engagement, followers, and brand authority.",
   },
   {
     fa: "fa-solid fa-chart-pie",
-    title: "Data-Driven Insights",
-    desc: "Continuous analysis and improvements based on real performance data.",
+    title: "Performance Analytics",
+    desc: "Track insights, measure engagement, and optimize content using real-time performance data.",
   },
   {
     fa: "fa-solid fa-comments",
-    title: "Engagement-First Strategy",
-    desc: "Focused on building relationships, not just posting content.",
+    title: "Community-First Engagement",
+    desc: "Build meaningful relationships through conversations, interaction, and audience engagement.",
   },
   {
     fa: "fa-solid fa-sliders",
-    title: "Easy Account Management",
-    desc: "Transparent reporting with clear insights and performance tracking.",
+    title: "Transparent Account Management",
+    desc: "Clear reporting, regular updates, and performance insights to keep your brand moving forward.",
   },
 ];
+
 const ECOM_ALLOWS = [
-  "Get instant visibility & traffic",
-  "Generate consistent leads & sales",
-  "Target the right audience precisely",
-  "Scale your business faster",
+  "Increase brand awareness & engagement",
+  "Build a loyal online community",
+  "Reach your ideal audience consistently",
+  "Drive business growth through content",
 ];
 
 const ECOM_PROVIDES = [
-  "Content creation & posting",
+  "Content creation & creative design",
   "Social media strategy & planning",
-  "Audience engagement & management",
-  "Performance tracking & optimization",
+  "Community management & engagement",
+  "Analytics, reporting & optimization",
 ];
 
 const PLATFORMS = [
@@ -51,48 +52,48 @@ const PLATFORMS = [
     fa: "fa-brands fa-instagram",
     title: "Instagram",
     sub: "BEST FOR",
-    desc: "Reels, engagement & brand growth",
+    desc: "Visual branding, Reels & audience engagement",
   },
   {
     fa: "fa-brands fa-facebook",
     title: "Facebook",
     sub: "BEST FOR",
-    desc: "Community building & local reach",
+    desc: "Local marketing, communities & lead generation",
   },
   {
     fa: "fa-brands fa-linkedin",
     title: "LinkedIn",
     sub: "BEST FOR",
-    desc: "B2B growth & professional audience",
+    desc: "B2B networking & professional brand growth",
   },
   {
     fa: "fa-brands fa-youtube",
     title: "YouTube",
     sub: "BEST FOR",
-    desc: "Video content & long-term visibility",
+    desc: "Video marketing & long-term brand visibility",
   },
 ];
 
 const FAQS = [
   {
-    fa: "fa-solid fa-hashtag",
+    fa: "fa-brands fa-instagram",
     q: "Which social media platforms do you manage?",
-    a: "We manage Instagram, Facebook, LinkedIn, and YouTube based on your business goals and target audience.",
+    a: "We manage Instagram, Facebook, LinkedIn, YouTube, and other platforms based on your business goals, industry, and target audience to maximize engagement and business growth.",
   },
   {
     fa: "fa-solid fa-chart-line",
-    q: "Which platform is best for my business?",
-    a: "It depends on your goals — Instagram for engagement, LinkedIn for B2B, Facebook for reach, and YouTube for long-term visibility.",
+    q: "Which social platform is right for my business?",
+    a: "The ideal platform depends on your audience and objectives. We recommend the best channels to increase brand awareness, engagement, leads, and long-term business growth.",
   },
   {
-    fa: "fa-solid fa-clock",
-    q: "How soon can I see results on social media?",
-    a: "Social media growth takes consistency. You can start seeing engagement early, while strong growth builds over time.",
+    fa: "fa-solid fa-calendar-check",
+    q: "How long does social media growth take?",
+    a: "Organic social media growth requires consistency. Most businesses begin seeing improved engagement within weeks, while stronger brand growth develops over the following months.",
   },
   {
-    fa: "fa-solid fa-comments",
-    q: "How do you grow engagement and followers?",
-    a: "We create high-quality content, use trending formats like reels, and actively engage with your audience to build real growth.",
+    fa: "fa-solid fa-users",
+    q: "How do you increase engagement and followers?",
+    a: "We create strategic content, publish consistently, optimize every post, and actively engage with your audience to build an authentic community and sustainable growth.",
   },
 ];
 
@@ -127,14 +128,15 @@ const WebDevDiff = () => {
         <div className="wde-grid">
           {/* Left */}
           <div className="wde-left">
-            <div className="wds-section-label">OUR PROMISE</div>
+            <div className="wds-section-label">WHY CHOOSE US</div>
             <h3 className="wde-heading">
-              What Makes Our Social Media <span>Different?</span>
+              What Makes Our Social Media Strategy <span>Different?</span>
             </h3>
             <p className="wde-desc">
-              Most brands post content — but don’t grow. We focus on strategy,
-              creativity, and consistency to build engagement, increase reach,
-              and drive real business growth.
+              Most brands post content without a strategy. We combine
+              creativity, consistency, and data-driven marketing to increase
+              engagement, grow your audience, and deliver measurable business
+              results.
             </p>
             <div className="wde-gradient-bar" />
           </div>
@@ -164,8 +166,9 @@ const WebDevDiff = () => {
                 <i className="fa-solid fa-rocket" />
               </div>
               <p>
-                If your content is not engaging, <em>you’re missing growth</em>
-                ,opportunities. budget.
+                If your audience isn't engaging,{" "}
+                <em>your social media isn't delivering </em>
+                real business growth.
               </p>
             </div>
           </div>
@@ -188,14 +191,14 @@ const WebDevEcom = () => {
           <div className="wdec-left">
             <div className="wds-section-label">GROW YOUR BUSINESS</div>
             <h3 className="wdec-heading">
-              Do You Need <span> Social Media Management?</span>
+              Ready to Grow <span> Through Social Media?</span>
             </h3>
             <div className="wdec-divider" />
             <p className="wdec-desc">
-              If you're posting without a strategy — you're limiting your
-              growth. Social media helps you build your brand, engage your
-              audience, and generate consistent leads while staying visible
-              every day.
+              Without a clear strategy, social media becomes noise. We help you
+              build a strong brand presence, engage the right audience, and
+              generate consistent leads through creative, data-driven social
+              media management.
             </p>
           </div>
 
@@ -261,13 +264,13 @@ const WebDevPlatform = () => {
           <div className="wdpl-left">
             <div className="wds-section-label">CHOOSE WHAT’S RIGHT</div>
             <h3 className="wdpl-heading">
-              Which Social Media Platform is <span>Best</span> for You?
+              Which Social Media Platform <span>Drives</span> Your Growth?
             </h3>
             <p className="wdpl-desc">
-              Choosing the right platform is crucial for growth. Each platform
-              serves a different purpose — and using the right one helps you
-              build engagement, reach the right audience, and grow your brand
-              effectively.
+              Every platform serves a different purpose. We help you choose the
+              right social media channel based on your audience, business goals,
+              and growth strategy to maximize engagement, visibility, and
+              conversions.
             </p>
           </div>
 
@@ -308,8 +311,8 @@ const WebDevPlatform = () => {
                 <i className="fa-solid fa-lightbulb" />
               </div>
               <p>
-                The right platform depends on your goals — and we help you
-                choose the best one to grow faster.
+                The best platform isn't the biggest one — it's where your ideal
+                audience spends their time.
               </p>
             </div>
           </div>

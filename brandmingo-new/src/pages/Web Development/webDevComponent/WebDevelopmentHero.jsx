@@ -5,29 +5,29 @@ const WebDevelopmentHero = ({ openPopup }) => {
     {
       icon: "fas fa-bolt",
       title: "Lightning Fast",
-      desc: "Fast-loading websites designed for smooth performance and better user experience.",
+      desc: "Optimized for speed with fast-loading pages that deliver a smooth browsing experience.",
     },
     {
       icon: "fas fa-mobile-alt",
       title: "100% Responsive",
-      desc: "Seamless website experience across mobile, tablet, and desktop devices.",
+      desc: "Fully responsive websites that perform flawlessly across mobile, tablet, and desktop devices.",
     },
     {
       icon: "fas fa-search",
       title: "SEO Optimized",
-      desc: "SEO-friendly websites built to improve visibility and search rankings.",
+      desc: "Built with SEO best practices to improve search visibility and drive organic traffic.",
     },
     {
       icon: "fas fa-shield-alt",
       title: "Secure & Scalable",
-      desc: "Secure and scalable websites built for long-term business growth.",
+      desc: "Future-ready websites with secure architecture designed to support business growth.",
     },
   ];
 
   const stats = [
-    { value: "150+", label: "Projects Completed" },
+    { value: "200+", label: "Projects Completed" },
     { value: "98%", label: "Client Satisfaction" },
-    { value: "5+", label: "Years Experience" },
+    { value: "4+", label: "Years Experience" },
     { value: "24/7", label: "Support" },
   ];
 
@@ -679,7 +679,7 @@ const WebDevelopmentHero = ({ openPopup }) => {
             {/* ── LEFT CONTENT ── */}
             <div className="wd-hero-content">
               <div className="wd-tagline">
-                <i className="fas fa-bolt" /> BUILD. SCALE. DOMINATE ONLINE.
+                <i className="fas fa-bolt" /> DESIGN. DEVELOP. SCALE ONLINE.
               </div>
 
               <h3>
@@ -690,8 +690,9 @@ const WebDevelopmentHero = ({ openPopup }) => {
               </h3>
 
               <p className="wd-description">
-                We create modern, high-performing websites that help businesses
-                attract customers, build trust, and grow faster online.
+                We build fast, SEO-optimized websites that strengthen your
+                brand, attract qualified customers, improve conversions, and
+                support long-term business growth.
               </p>
 
               <div className="wd-btn-group">

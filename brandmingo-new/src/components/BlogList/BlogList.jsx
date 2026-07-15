@@ -8,6 +8,7 @@ import React, {
 import "./BlogList.css";
 import { getPublicBlogs } from "../../admin/services/blogService";
 import { Link } from "react-router-dom";
+import { openEnquiryPopup } from "../../utils/popup";
 
 /* ── Icons ── */
 const ArrowIcon = () => (
@@ -185,7 +186,12 @@ const CtaCard = () => (
     <p className="bl-cta-desc">
       Let's create something amazing that drives real results.
     </p>
-    <a href="/contact" className="bl-cta-main-btn">
+
+    <button
+      type="button"
+      className="bl-cta-main-btn"
+      onClick={openEnquiryPopup}
+    >
       Let's Talk
       <svg
         width="15"
@@ -199,7 +205,7 @@ const CtaCard = () => (
       >
         <polyline points="9 18 15 12 9 6" />
       </svg>
-    </a>
+    </button>
   </div>
 );
 

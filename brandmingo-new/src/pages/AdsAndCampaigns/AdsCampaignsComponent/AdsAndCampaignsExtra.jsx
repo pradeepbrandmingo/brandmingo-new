@@ -7,44 +7,44 @@ import React, { useEffect, useRef, useState } from "react";
 
 const DIFF_FEATURES = [
   {
-    fa: "fa-solid fa-bullseye",
-    title: "Highly Targeted Ads",
-    desc: "Reach the right audience with precise targeting strategies.",
+    fa: "fa-solid fa-crosshairs",
+    title: "Precision Audience Targeting",
+    desc: "Reach high-intent audiences with advanced targeting strategies for better leads and conversions.",
+  },
+  {
+    fa: "fa-solid fa-sack-dollar",
+    title: "ROI-Driven Campaigns",
+    desc: "Maximize every advertising investment with campaigns built for stronger returns and business growth.",
   },
   {
     fa: "fa-solid fa-chart-line",
-    title: "ROI-Focused Campaigns",
-    desc: "Optimized to maximize return on every rupee spent.",
+    title: "Continuous Optimization",
+    desc: "Monitor, test, and optimize campaigns in real time for improved performance and lower ad costs.",
   },
   {
-    fa: "fa-solid fa-chart-pie",
-    title: "Data-Driven Optimization",
-    desc: "Continuous analysis and improvements for better performance.",
-  },
-  {
-    fa: "fa-solid fa-bullhorn",
+    fa: "fa-solid fa-funnel-dollar",
     title: "Conversion-Focused Strategy",
-    desc: "Designed to turn clicks into leads and paying customers.",
+    desc: "Turn website visitors into qualified leads and paying customers through data-driven campaigns.",
   },
   {
-    fa: "fa-solid fa-sliders",
-    title: "Easy Campaign Management",
-    desc: "Transparent reporting and easy-to-understand insights.",
+    fa: "fa-solid fa-chart-column",
+    title: "Transparent Reporting",
+    desc: "Track every click, lead, and conversion with clear reports and actionable performance insights.",
   },
 ];
 
 const ECOM_ALLOWS = [
-  "Get immediate visibility and targeted traffic",
-  "Generate consistent leads and sales",
-  "Reach the right audience with precision targeting",
-  " Scale your business with data-driven strategies",
+  "Increase brand visibility across top platforms",
+  "Generate qualified leads and consistent sales",
+  "Reach the right audience with smart targeting",
+  "Scale your business with data-driven campaigns",
 ];
 
 const ECOM_PROVIDES = [
-  "Complete Google Ads & Meta Ads setup",
-  "Advanced audience targeting and campaign strategy",
+  "Google Ads & Meta Ads campaign management",
+  "Audience targeting and campaign strategy",
   "High-converting ad creatives and copy",
-  "Continuous tracking, optimization, and scaling",
+  "Performance tracking, optimization, and reporting",
 ];
 
 const PLATFORMS = [
@@ -52,48 +52,48 @@ const PLATFORMS = [
     fa: "fa-brands fa-google",
     title: "Google Ads",
     sub: "BEST FOR",
-    desc: "High-intent leads & search-driven traffic",
+    desc: "High-intent searches & quality lead generation",
   },
   {
     fa: "fa-brands fa-facebook",
     title: "Meta Ads",
     sub: "BEST FOR",
-    desc: "Audience targeting & brand awareness",
+    desc: "Audience targeting, engagement & brand growth",
   },
   {
     fa: "fa-brands fa-youtube",
     title: "YouTube Ads",
     sub: "BEST FOR",
-    desc: "Video marketing & brand storytelling",
+    desc: "Video advertising & customer engagement",
   },
   {
     fa: "fa-brands fa-linkedin",
     title: "LinkedIn Ads",
     sub: "BEST FOR",
-    desc: " B2B leads & professional targeting",
+    desc: " B2B lead generation & professional outreach",
   },
 ];
 
 const FAQS = [
   {
     fa: "fa-solid fa-bullhorn",
-    q: "What platforms do you run ads on?",
-    a: "We run campaigns across all major advertising platforms including Google Ads, Meta Ads (Facebook & Instagram), YouTube Ads, and LinkedIn Ads. The platform we choose depends on your business goals, target audience, and campaign objectives.",
+    q: "What advertising platforms do you manage?",
+    a: "We manage campaigns across Google Ads, Meta Ads (Facebook & Instagram), YouTube Ads, and LinkedIn Ads. Every platform is selected based on your business goals, audience, and campaign objectives.",
   },
   {
     fa: "fa-solid fa-chart-line",
-    q: "Which ad platform is best for my business?",
-    a: "It depends on your goals. Google Ads works best for high-intent searches, Meta Ads are ideal for audience targeting and brand awareness, YouTube is great for video marketing, and LinkedIn is effective for B2B campaigns. We help you choose the right platform for maximum ROI.",
+    q: "Which advertising platform is best for my business?",
+    a: "The right platform depends on your industry, target audience, budget, and marketing goals. We analyze your business and recommend the platform that delivers the highest ROI.",
   },
   {
     fa: "fa-solid fa-clock",
-    q: "How soon can I see results from ads?",
-    a: "Paid ads can start generating traffic and leads within a few days of launch. However, optimal performance and consistent ROI usually improve over time as campaigns are tested, optimized, and scaled.",
+    q: "How long does it take to see results from ads?",
+    a: "Most campaigns begin generating data within a few days, while consistent leads and measurable growth improve through continuous optimization, testing, and performance tracking.",
   },
   {
     fa: "fa-solid fa-gear",
-    q: " How do you optimize campaigns for better ROI?",
-    a: "We continuously monitor performance, test different creatives and audiences, optimize bidding strategies, and refine targeting to reduce costs and improve conversions. Our focus is on maximizing results while minimizing wasted ad spend.",
+    q: "How do you improve campaign performance over time?",
+    a: "We continuously monitor campaign data, test creatives, optimize targeting, adjust budgets, and refine bidding strategies to increase conversions and maximize your return on investment.",
   },
 ];
 
@@ -128,16 +128,16 @@ const WebDevDiff = () => {
         <div className="wde-grid">
           {/* Left */}
           <div className="wde-left">
-            <div className="wds-section-label">OUR PROMISE</div>
+            <div className="wds-section-label">WHY BRANDS CHOOSE US</div>
             <h3 className="wde-heading">
-              What Makes Campaigns
-              <span> Stand Out</span>
+              Campaigns That Generate Leads
+              <span> Not Just Clicks</span>
             </h3>
             <p className="wde-desc">
-              Most campaigns generate clicks but fail to convert. We focus on
-              performance, not vanity metrics. Every campaign we run is built to
-              generate real leads, drive sales, and deliver measurable return on
-              investment for your business.
+              Successful advertising is about more than traffic. We create
+              performance-driven campaigns that attract qualified customers,
+              increase conversions, and maximize ROI through data-backed
+              strategies and continuous optimization.
             </p>
             <div className="wde-gradient-bar" />
           </div>
@@ -167,8 +167,8 @@ const WebDevDiff = () => {
                 <i className="fa-solid fa-rocket" />
               </div>
               <p>
-                If your ads are <em>not converting</em>, — you're wasting
-                budget.
+                If your ads aren't generating results, <em>you're funding</em>,
+                your competitors' growth
               </p>
             </div>
           </div>
@@ -195,10 +195,10 @@ const WebDevEcom = () => {
             </h3>
             <div className="wdec-divider" />
             <p className="wdec-desc">
-              If you’re relying only on organic reach, you’re leaving growth on
-              the table. Paid campaigns put your business in front of the right
-              audience instantly helping you generate consistent leads, increase
-              sales, and scale faster with measurable results.
+              Stop relying only on organic reach. Our performance-driven
+              advertising campaigns help you reach the right audience, generate
+              qualified leads, increase conversions, and grow your business with
+              measurable results.
             </p>
           </div>
 
@@ -261,16 +261,15 @@ const WebDevPlatform = () => {
         <div className="wdpl-grid">
           {/* Left */}
           <div className="wdpl-left">
-            <div className="wds-section-label">CHOOSE WHAT’S RIGHT</div>
+            <div className="wds-section-label">CHOOSE THE RIGHT PLATFORM</div>
             <h3 className="wdpl-heading">
               Which Ad Platform Fits <span>Your</span> Goals?
             </h3>
             <p className="wdpl-desc">
-              Choosing the right advertising platform can make or break your
-              results. Each platform serves a different purpose and investing in
-              the wrong one can waste both time and budget. We help you identify
-              the best channel based on your business model, audience behavior,
-              and growth objectives.
+              Selecting the right advertising platform is the key to better
+              results. We help you choose the best channel based on your
+              business goals, target audience, budget, and growth strategy to
+              generate quality leads and maximize ROI.
             </p>
           </div>
 
@@ -311,8 +310,8 @@ const WebDevPlatform = () => {
                 <i className="fa-solid fa-lightbulb" />
               </div>
               <p>
-                The right platform isn’t about popularity, it's about where your
-                ideal customers are and how they take action.
+                The right platform isn't the most popular one—it's where your
+                ideal customers discover, engage, and convert.
               </p>
             </div>
           </div>

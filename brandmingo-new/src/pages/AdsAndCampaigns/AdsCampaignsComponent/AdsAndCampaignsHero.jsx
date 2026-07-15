@@ -6,29 +6,29 @@ const AdsAndCampaignsHero = () => {
     {
       icon: "fas fa-bolt",
       title: "High-Converting Campaigns",
-      desc: "Strategically crafted ads designed to maximize conversions, reduce cost per lead, and improve ROI.",
+      desc: "Strategic ad campaigns designed to increase conversions, reduce acquisition costs, and maximize ROI.",
     },
     {
       icon: "fas fa-mobile-alt",
       title: "Multi-Platform Reach",
-      desc: "Run targeted campaigns across Google, Meta, and other high-performing platforms to reach the right audience.",
+      desc: "Reach your ideal audience through Google Ads, Meta Ads, LinkedIn Ads, and other leading platforms.",
     },
     {
       icon: "fas fa-search",
       title: "Data-Driven Optimization",
-      desc: "Continuous tracking, testing, and improvements to ensure better performance and higher returns.",
+      desc: "Continuous testing and campaign optimization to improve performance, increase leads, and drive better results.",
     },
     {
       icon: "fas fa-shield-alt",
       title: "Scalable Growth",
-      desc: "Campaigns built to scale efficiently as your business grows, without increasing wasted spend.",
+      desc: "Scalable advertising strategies built to support sustainable business growth without increasing wasted ad spend.",
     },
   ];
 
   const stats = [
     { value: "150+", label: "Projects Completed" },
     { value: "98%", label: "Client Satisfaction" },
-    { value: "5+", label: "Years Experience" },
+    { value: "4+", label: "Years Experience" },
     { value: "24/7", label: "Support" },
   ];
 
@@ -816,20 +816,22 @@ const AdsAndCampaignsHero = () => {
             {/* ── LEFT CONTENT ── */}
             <div className="wd-hero-content">
               <div className="wd-tagline">
-                <i className="fas fa-bolt" /> Optimize. Scale. Win with Ads.
+                <i className="fas fa-bolt" />
+                LAUNCH. OPTIMIZE. SCALE.
               </div>
 
               <h3>
-                Ads Campaign Management
+                Performance-Driven
                 <br />
-                That Drives{" "}
-                <span className="wd-title-accent">Real Business Results</span>
+                Ad Campaigns{" "}
+                <span className="wd-title-accent">That Generate Results</span>
               </h3>
 
               <p className="wd-description">
-                We don’t just run ads, we build data-driven, high-performance
-                campaigns that attract the right audience, generate qualified
-                leads, and turn clicks into measurable revenue growth.
+                We build data-driven advertising campaigns that reach the right
+                audience, generate qualified leads, increase conversions, and
+                maximize ROI across Google, Meta, LinkedIn, and other digital
+                platforms.
               </p>
 
               <div className="wd-btn-group">

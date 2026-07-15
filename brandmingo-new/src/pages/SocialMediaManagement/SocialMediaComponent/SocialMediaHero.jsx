@@ -5,30 +5,30 @@ import { openEnquiryPopup } from "../../../utils/popup";
 const SocialMediaHero = () => {
   const features = [
     {
-      icon: "fas fa-bullhorn",
-      title: "Engaging Content Strategy",
-      desc: "Creative, data-backed content planning designed to boost engagement, reach, and audience interaction.",
+      icon: "fas fa-pen-to-square",
+      title: "Strategic Content Planning",
+      desc: "Creative, data-driven content strategies designed to boost engagement, increase reach, and strengthen your brand presence.",
     },
     {
       icon: "fas fa-share-nodes",
       title: "Multi-Platform Management",
-      desc: "Seamless management across Instagram, Facebook, LinkedIn, and other platforms — all in one place.",
+      desc: "Manage Instagram, Facebook, LinkedIn, and more with consistent content, scheduling, and audience engagement.",
     },
     {
       icon: "fas fa-chart-line",
-      title: "Performance Tracking",
-      desc: "Track insights, analyze engagement, and continuously optimize content for better reach and results.",
+      title: "Performance Analytics",
+      desc: "Monitor insights, track engagement, and optimize content continuously for stronger reach and better results.",
     },
     {
       icon: "fas fa-users",
       title: "Audience Growth",
-      desc: "Build a loyal, targeted audience and grow your brand visibility consistently over time.",
+      desc: "Build a loyal community, increase brand awareness, and attract the right audience through proven social strategies.",
     },
   ];
   const stats = [
-    { value: "150+", label: "Projects Completed" },
+    { value: "170+", label: "Projects Completed" },
     { value: "98%", label: "Client Satisfaction" },
-    { value: "5+", label: "Years Experience" },
+    { value: "4+", label: "Years Experience" },
     { value: "24/7", label: "Support" },
   ];
 
@@ -818,10 +818,11 @@ const SocialMediaHero = () => {
               </h3>
 
               <p className="wd-description">
-                We don’t just post content, we build strategy-driven,
-                high-engagement campaigns that attract the right audience,
-                strengthen your brand presence, and convert followers into real
-                customers.
+                Build a stronger online presence with strategic social media
+                management that increases brand visibility, audience engagement,
+                and business growth. We create compelling content, manage your
+                social platforms, and optimize every campaign to turn followers
+                into loyal customers.
               </p>
 
               <div className="wd-btn-group">

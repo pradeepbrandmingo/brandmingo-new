@@ -5,84 +5,84 @@ import { openEnquiryPopup } from "../../../utils/popup";
 
 const WEBSITE_TYPES = [
   {
-    fa: "fa-solid fa-user-check",
+    fa: "fa-solid fa-computer-mouse",
     num: "01",
-    title: "Interface Usability Audit",
-    desc: "Evaluate your website’s usability, navigation structure, and accessibility to create smoother and more intuitive user experiences.",
+    title: "Website Usability Audit",
+    desc: "Evaluate navigation, accessibility, and interface usability to deliver smoother interactions and a better user experience.",
   },
   {
-    fa: "fa-solid fa-sitemap",
+    fa: "fa-solid fa-route",
     num: "02",
-    title: "User Flow & Journey Audit",
-    desc: "Analyse how users move through your platform and optimize key touchpoints for better engagement and conversion performance.",
+    title: "User Journey Audit",
+    desc: "Analyze user behavior, navigation paths, and touchpoints to improve engagement and optimize conversion opportunities.",
   },
   {
-    fa: "fa-solid fa-filter",
+    fa: "fa-solid fa-arrow-trend-up",
     num: "03",
-    title: "Conversion Optimization Audit",
-    desc: "Review landing pages, CTAs, and conversion funnels to improve lead generation and reduce customer drop-offs.",
+    title: "Conversion Rate Audit",
+    desc: "Review landing pages, CTAs, and conversion funnels to increase leads, reduce drop-offs, and improve business growth.",
   },
   {
     fa: "fa-solid fa-gauge-high",
     num: "04",
-    title: "Website Performance & UX Audit",
-    desc: "Assess responsiveness, speed, and overall digital experience to deliver fast, seamless, and user-friendly interactions.",
+    title: "Performance & UX Audit",
+    desc: "Assess website speed, responsiveness, and overall user experience to create faster, seamless digital interactions.",
   },
 ];
 
 const TECHNOLOGIES = [
   {
     fa: "fa-solid fa-user-group",
-    title: "User Behavior Research",
-    desc: "Understand how users interact with your website through behavioural analysis, feedback, and usability insights.",
+    title: "User Insights Discovery",
+    desc: "Uncover valuable insights from user behavior, feedback, and interaction patterns to better understand audience needs.",
   },
   {
     fa: "fa-solid fa-route",
-    title: "User Flow Analysis",
-    desc: "Map and optimize user journeys to create smoother navigation and seamless interaction across your platform.",
+    title: "Experience Journey Mapping",
+    desc: "Analyze every stage of the user journey to remove friction and create smooth, intuitive digital experiences.",
   },
   {
     fa: "fa-solid fa-flask",
-    title: "UX & Usability Testing",
-    desc: "Test real-world interactions to identify usability issues and improve accessibility and engagement.",
+    title: "UX Evaluation & Testing",
+    desc: "Evaluate usability, accessibility, and interface performance through expert audits and real-world user testing.",
   },
   {
     fa: "fa-solid fa-chart-simple",
-    title: "Analytics & Performance Insights",
-    desc: "Use analytics, heatmaps, and performance tracking tools to make smarter UX optimisation decisions.",
+    title: "Performance Intelligence",
+    desc: "Turn analytics, heatmaps, and user insights into actionable recommendations that improve engagement and conversions.",
   },
 ];
 
 const PROCESS_STEPS = [
   {
     num: "01",
-    fa: "fa-solid fa-user",
-    title: "User Behavior Discovery",
-    desc: "We analyse your target audience, user interactions, and business objectives to uncover key UX challenges and experience gaps.",
+    fa: "fa-solid fa-magnifying-glass",
+    title: "UX Discovery & Website Assessment",
+    desc: "We evaluate your website, user behavior, and business goals to identify usability issues and opportunities for UX improvement.",
   },
   {
     num: "02",
-    fa: "fa-solid fa-magnifying-glass-chart",
-    title: "UX Research & Data Analysis",
-    desc: "Using analytics, heatmaps, and behavioural insights, we evaluate how users navigate your platform and identify friction points.",
+    fa: "fa-solid fa-chart-line",
+    title: "User Behavior & Data Analysis",
+    desc: "Using analytics, heatmaps, and interaction data, we uncover friction points and optimize user journeys for better engagement.",
   },
   {
     num: "03",
-    fa: "fa-solid fa-flask",
-    title: " Interface & Usability Testing",
-    desc: "We test real user interactions to identify usability issues, accessibility problems, and navigation inconsistencies affecting engagement.",
+    fa: "fa-solid fa-laptop-code",
+    title: "Interface & Usability Evaluation",
+    desc: "We review navigation, accessibility, responsiveness, and interface consistency to deliver seamless user experiences.",
   },
   {
     num: "04",
     fa: "fa-solid fa-lightbulb",
     title: "UX Optimization Strategy",
-    desc: "We provide actionable recommendations to improve user flow, interface design, responsiveness, and conversion-focused experiences.",
+    desc: "Our experts recommend practical improvements to enhance user flows, increase engagement, and boost conversion performance.",
   },
   {
     num: "05",
-    fa: "fa-solid fa-chart-line",
-    title: "Reporting & Continuous Improvements",
-    desc: "Receive detailed UX audit reports with insights, improvement priorities, and long-term optimisation strategies for better performance.",
+    fa: "fa-solid fa-file-lines",
+    title: "Reporting & Continuous Enhancement",
+    desc: "Receive a detailed audit report with prioritized recommendations and an actionable roadmap for continuous UX improvements.",
   },
 ];
 
@@ -118,11 +118,11 @@ const WebDevTypes = () => {
               Types of UI/UX Audits We Perform
             </h3>
             <p className="wds-types-desc">
-              Every digital product has unique user behaviours, interaction
-              patterns, and usability challenges. Our UI/UX audit services are
-              designed to identify friction points, improve usability, and
-              optimize the overall user experience for better engagement and
-              conversions.
+              Every digital experience is different, and so are the challenges
+              users face. Our specialized UI/UX audits help identify usability
+              issues, improve user journeys, and optimize website performance to
+              create seamless experiences that drive engagement, conversions,
+              and business growth.
             </p>
 
             {/* Decorative dot grid + arc */}
@@ -196,7 +196,14 @@ const WebDevTypes = () => {
                 </div>
                 <h4 className="wds-card-title">{item.title}</h4>
                 <p className="wds-card-desc">{item.desc}</p>
-                <a href="#contact" className="wds-card-link">
+                <a
+                  href="#contact"
+                  className="wds-card-link"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
                   Learn More <i className="fa-solid fa-arrow-right" />
                 </a>
               </div>
@@ -240,11 +247,12 @@ const WebDevTech = () => {
             </div>
             <h3 className="wdt-heading">Tools & Methods We Use</h3>
             <p className="wdt-desc">
-              We combine advanced UX research methods, behaviour analysis, and
-              performance-focused tools to identify usability gaps and improve
-              digital experiences. Our process is designed to optimise user
-              journeys, enhance engagement, and increase conversions through
-              data-driven UI/UX decisions.
+              We combine proven UX methodologies, behavioral analysis, and
+              data-driven insights to identify usability challenges, enhance
+              customer experiences, and improve website performance. Our
+              approach helps businesses create seamless digital journeys that
+              increase engagement, conversions, and long-term customer
+              satisfaction.
             </p>
           </div>
 
@@ -301,13 +309,13 @@ const WebDevProcess = () => {
           {/* Left */}
           <div className="wdp-left">
             <div className="wds-section-label">OUR WORKFLOW</div>
-            <h3 className="wdp-heading"> Our UI/UX Audit Process</h3>
+            <h3 className="wdp-heading"> Our Proven UI/UX Audit Process</h3>
             <p className="wdp-desc">
-              A successful digital experience starts with understanding how
-              users interact with your platform. Our structured UI/UX audit
-              process helps identify usability issues, optimise user journeys,
-              and improve overall website performance for better engagement and
-              conversions.
+              Our structured UI/UX audit process identifies usability issues,
+              improves user experiences, and optimizes conversion opportunities.
+              Every step is focused on creating seamless digital journeys that
+              increase engagement, customer satisfaction, and measurable
+              business growth.
             </p>
 
             {/* CTA box */}
@@ -318,8 +326,8 @@ const WebDevProcess = () => {
               <div className="wdp-cta-text">
                 <h4>Need to Improve Your User Experience?</h4>
                 <p>
-                  Let’s identify usability gaps, optimise user journeys, and
-                  create smoother digital experiences that increase engagement
+                  Let's identify usability issues, optimize user journeys, and
+                  create seamless digital experiences that improve engagement
                   and conversions.
                 </p>
                 <button

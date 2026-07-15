@@ -7,82 +7,82 @@ const WEBSITE_TYPES = [
   {
     fa: "fa-solid fa-pen-to-square",
     num: "01",
-    title: "Content Creation & Posting",
-    desc: "Create engaging posts, reels, and content designed to attract and engage your audience.",
+    title: "Content Creation & Management",
+    desc: "Create engaging posts, reels, and branded content designed to increase reach, engagement, and customer interest.",
   },
   {
     fa: "fa-solid fa-bullhorn",
     num: "02",
     title: "Social Media Strategy",
-    desc: "Plan and execute content strategies tailored to your brand and target audience.",
+    desc: "Develop customized content strategies that align with your business goals and connect with your ideal audience.",
   },
   {
     fa: "fa-solid fa-comments",
     num: "03",
-    title: "Audience Engagement",
-    desc: "Interact with your audience, respond to queries, and build strong relationships.",
+    title: "Community Management",
+    desc: "Engage with your audience, respond to messages, and build lasting customer relationships across every platform.",
   },
   {
     fa: "fa-solid fa-chart-line",
     num: "04",
-    title: "Growth & Analytics",
-    desc: "Track performance, analyze insights, and optimize for better reach and growth.",
+    title: "Performance & Analytics",
+    desc: "Track key metrics, measure performance, and optimize campaigns to improve engagement and business growth.",
   },
 ];
 
 const TECHNOLOGIES = [
   {
-    fa: "fa-brands fa-google",
-    title: "Google Ads",
-    desc: "Capture high-intent users actively searching for your services with ROI-focused campaigns.",
+    fa: "fa-brands fa-instagram",
+    title: "Instagram Marketing",
+    desc: "Create engaging reels, posts, and stories that boost brand awareness, audience engagement, and organic growth.",
   },
   {
-    fa: "fa-brands fa-facebook",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Reach, engage, and convert your audience with highly targeted social media ads.",
+    fa: "fa-brands fa-facebook-f",
+    title: "Facebook Marketing",
+    desc: "Reach targeted customers with strategic content, community management, and high-performing promotional campaigns.",
   },
   {
     fa: "fa-brands fa-youtube",
-    title: "YouTube Ads",
-    desc: "Boost brand awareness and drive conversions through high-impact video ad campaigns.",
+    title: "YouTube Marketing",
+    desc: "Grow your brand with engaging video content that increases visibility, builds trust, and drives audience engagement.",
   },
   {
-    fa: "fa-solid fa-chart-pie",
+    fa: "fa-solid fa-chart-line",
     title: "Performance Analytics",
-    desc: "Track, analyze, and optimize campaigns using real-time data for better ROI.",
+    desc: "Measure engagement, audience behavior, and campaign performance with real-time insights for smarter marketing decisions.",
   },
 ];
 
 const PROCESS_STEPS = [
   {
     num: "01",
-    fa: "fa-solid fa-magnifying-glass-chart",
-    title: "Understanding Your Brand",
-    desc: "We analyze your business, audience, and competitors to build a strong and data-driven social media foundation.",
+    fa: "fa-solid fa-magnifying-glass",
+    title: "Brand & Audience Research",
+    desc: "We analyze your business, target audience, competitors, and market trends to build a strong social media foundation.",
   },
   {
     num: "02",
     fa: "fa-solid fa-calendar-check",
     title: "Content Strategy & Planning",
-    desc: "We create content calendars, define posting strategy, and plan high-performing content for consistent growth.",
+    desc: "We create content calendars, posting schedules, and platform-specific strategies designed for consistent brand growth.",
   },
   {
     num: "03",
     fa: "fa-solid fa-photo-film",
-    title: "Content Creation & Posting",
-    desc: "We design engaging posts, reels, and creatives that reflect your brand and capture audience attention.",
+    title: "Creative Content Production",
+    desc: "We design engaging posts, reels, graphics, and creatives that capture attention and encourage audience interaction.",
   },
   {
     num: "04",
-    fa: "fa-solid fa-comments",
-    title: "Engagement & Community Growth",
-    desc: "We actively engage with your audience, respond to interactions, and build strong and loyal brand communities.",
+    fa: "fa-solid fa-users",
+    title: "Community Engagement",
+    desc: "We actively manage interactions, respond to messages, and build meaningful relationships with your online community.",
   },
   {
     num: "05",
-    fa: "fa-solid fa-chart-pie",
-    title: "Analytics & Optimization",
-    desc: "We track performance, analyze insights, and continuously optimize content for better reach and growth.",
+    fa: "fa-solid fa-chart-line",
+    title: "Performance Analysis & Optimization",
+    desc: "We monitor insights, optimize content performance, and refine strategies to maximize reach, engagement, and business growth.",
   },
 ];
 
@@ -116,13 +116,13 @@ const WebDevTypes = () => {
             <div className="wds-section-label">WHAT WE MANAGE</div>
             <h3 className="wds-types-heading">
               {" "}
-              Types of Social Media Services We Manage
+              Social Media Solutions Designed to Grow Your Brand
             </h3>
             <p className="wds-types-desc">
-              Not every business needs the same social media strategy — and
-              that’s where most brands go wrong. We analyze your goals first,
-              then create the right content and growth strategy for maximum
-              results.
+              Every business needs a unique social media strategy. We understand
+              your goals, identify the right audience, and create content that
+              builds engagement, strengthens your brand, and delivers measurable
+              business growth.
             </p>
 
             {/* Decorative dot grid + arc */}
@@ -196,7 +196,14 @@ const WebDevTypes = () => {
                 </div>
                 <h4 className="wds-card-title">{item.title}</h4>
                 <p className="wds-card-desc">{item.desc}</p>
-                <a href="#contact" className="wds-card-link">
+                <a
+                  href="#contact"
+                  className="wds-card-link"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
                   Learn More <i className="fa-solid fa-arrow-right" />
                 </a>
               </div>
@@ -236,14 +243,16 @@ const WebDevTech = () => {
           {/* Left */}
           <div className="wdt-left">
             <div className="wds-section-label">
-              BUILT WITH POWERFUL PLATFORMS
+              POWERED BY LEADING PLATFORMS
             </div>
-            <h3 className="wdt-heading">Platforms We Use</h3>
+            <h3 className="wdt-heading">
+              Platforms & Tools That Drive Social Growth
+            </h3>
             <p className="wdt-desc">
-              We don’t rely on guesswork. We use proven advertising platforms
-              and advanced tools that are optimized for performance,
-              scalability, and measurable growth — tailored to your business
-              goals.
+              We use leading social media platforms and advanced analytics tools
+              to help brands reach the right audience, increase engagement, and
+              achieve measurable growth. Every strategy is backed by data,
+              creativity, and continuous performance optimization.
             </p>
           </div>
 
@@ -300,12 +309,12 @@ const WebDevProcess = () => {
           {/* Left */}
           <div className="wdp-left">
             <div className="wds-section-label">OUR WORKFLOW</div>
-            <h3 className="wdp-heading"> Our Social Process</h3>
+            <h3 className="wdp-heading">Our Social Media Growth Process</h3>
             <p className="wdp-desc">
-              Strong social media growth is never random. We follow a
-              structured, content-driven approach to build your brand presence,
-              engage your audience, and drive consistent growth across
-              platforms.
+              Successful social media growth requires a clear strategy. We
+              follow a structured, data-driven process to strengthen your brand,
+              engage your audience, and deliver consistent business growth
+              across every platform.
             </p>
 
             {/* CTA box */}

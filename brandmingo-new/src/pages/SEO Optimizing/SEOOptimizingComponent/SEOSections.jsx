@@ -6,51 +6,51 @@ import { openEnquiryPopup } from "../../../utils/popup";
 
 const WEBSITE_TYPES = [
   {
-    fa: "fa-solid fa-magnifying-glass",
+    fa: "fa-solid fa-file-lines",
     num: "01",
     title: "On-Page SEO",
-    desc: "Optimize pages, content, and keywords to improve rankings and visibility.",
+    desc: "Optimize content, keywords, meta tags, and internal links to improve search rankings and user experience.",
   },
   {
-    fa: "fa-solid fa-screwdriver-wrench",
+    fa: "fa-solid fa-gears",
     num: "02",
     title: "Technical SEO",
-    desc: "Enhance speed, indexing, and site structure for better performance.",
+    desc: "Improve website speed, indexing, Core Web Vitals, and crawlability for stronger search performance.",
   },
   {
     fa: "fa-solid fa-link",
     num: "03",
     title: "Off-Page SEO",
-    desc: "Build authority through backlinks to boost trust and search rankings.",
+    desc: "Build domain authority through quality backlinks, digital PR, and strategic outreach campaigns.",
   },
   {
-    fa: "fa-solid fa-map-location-dot",
+    fa: "fa-solid fa-location-dot",
     num: "04",
     title: "Local SEO",
-    desc: "Improve local visibility to attract nearby customers and searches.",
+    desc: "Increase local visibility with Google Business Profile optimization and location-based SEO strategies.",
   },
 ];
 
 const TECHNOLOGIES = [
   {
     fa: "fa-brands fa-google",
-    title: "Google Search",
-    desc: "Optimize your website to rank higher and capture high-intent organic traffic.",
+    title: "Google Search Console",
+    desc: "Track search visibility, indexing, keyword performance, and website health using trusted Google search data.",
   },
   {
     fa: "fa-solid fa-chart-line",
     title: "SEO Analytics Tools",
-    desc: "Track rankings, traffic, and performance with accurate data insights.",
+    desc: "Monitor rankings, organic traffic, user behavior, and SEO performance with accurate analytics and reports.",
   },
   {
     fa: "fa-solid fa-key",
     title: "Keyword Research Tools",
-    desc: "Identify high-performing keywords to target the right audience effectively.",
+    desc: "Discover valuable keywords, analyze competitors, and uncover search opportunities to increase organic traffic.",
   },
   {
     fa: "fa-solid fa-screwdriver-wrench",
     title: "Technical SEO Tools",
-    desc: "Improve site health, speed, and indexing for better search visibility.",
+    desc: "Identify crawl issues, speed errors, indexing problems, and technical improvements for stronger SEO performance.",
   },
 ];
 
@@ -58,32 +58,32 @@ const PROCESS_STEPS = [
   {
     num: "01",
     fa: "fa-solid fa-magnifying-glass",
-    title: "SEO Audit & Analysis",
-    desc: "We analyze your website, competitors, and keywords to identify opportunities.",
+    title: "SEO Audit & Competitor Analysis",
+    desc: "We audit your website, competitors, keyword opportunities, technical health, and current rankings to uncover growth opportunities.",
   },
   {
     num: "02",
     fa: "fa-solid fa-clipboard-list",
-    title: "Strategy & Keyword Planning",
-    desc: "We define SEO strategy, target keywords, and content direction.",
+    title: "SEO Strategy & Keyword Research",
+    desc: "We build a customized SEO roadmap with keyword research, content planning, and strategies aligned with your business goals.",
   },
   {
     num: "03",
-    fa: "fa-solid fa-pen-nib",
-    title: "On-Page & Technical Setup",
-    desc: "We optimize content, structure, and technical aspects for better rankings.",
+    fa: "fa-solid fa-gears",
+    title: "On-Page & Technical Optimization",
+    desc: "We optimize website structure, content, metadata, Core Web Vitals, and technical SEO to improve search visibility.",
   },
   {
     num: "04",
-    fa: "fa-solid fa-chart-line",
-    title: "Optimization & Link Building",
-    desc: "We improve performance and build authority through backlinks.",
+    fa: "fa-solid fa-link",
+    title: "Content & Authority Building",
+    desc: "We create SEO-optimized content and build quality backlinks to strengthen authority and improve organic rankings.",
   },
   {
     num: "05",
-    fa: "fa-solid fa-chart-pie",
-    title: "Tracking & Growth",
-    desc: "We monitor results and continuously optimize for long-term growth.",
+    fa: "fa-solid fa-chart-line",
+    title: "Monitoring & Growth Optimization",
+    desc: "We continuously track SEO performance, refine strategies, and optimize campaigns for sustainable organic business growth.",
   },
 ];
 
@@ -115,11 +115,14 @@ const WebDevTypes = () => {
           {/* Left */}
           <div className="wds-types-left">
             <div className="wds-section-label">WHAT WE OPTIMIZE</div>
-            <h3 className="wds-types-heading">Types of SEO We Optimize</h3>
+            <h3 className="wds-types-heading">
+              SEO Services Tailored to Your Business Goals
+            </h3>
             <p className="wds-types-desc">
-              Not every business needs the same SEO strategy — and that’s where
-              most brands go wrong. We analyze your goals first, then implement
-              the right SEO approach for maximum visibility and growth.
+              Every business has different goals, audiences, and competition. We
+              create customized SEO strategies that improve search rankings,
+              increase organic traffic, and generate qualified leads through
+              data-driven optimization and long-term growth.
             </p>
 
             {/* Decorative dot grid + arc */}
@@ -235,9 +238,10 @@ const WebDevTech = () => {
             <div className="wds-section-label">BUILT WITH POWERFUL TOOLS</div>
             <h3 className="wdt-heading">SEO Tools & Platforms We Use</h3>
             <p className="wdt-desc">
-              We don’t rely on guesswork. We use proven SEO tools and platforms
-              optimized for performance, keyword insights, and measurable
-              organic growth — tailored to your business goals.
+              We use industry-leading SEO tools and analytics platforms to
+              uncover insights, monitor performance, improve rankings, and
+              identify growth opportunities that help your business achieve
+              long-term organic success.
             </p>
           </div>
 
@@ -296,9 +300,10 @@ const WebDevProcess = () => {
             <div className="wds-section-label">OUR WORKFLOW</div>
             <h3 className="wdp-heading"> Our SEO Process</h3>
             <p className="wdp-desc">
-              Successful SEO is never random. We follow a structured,
-              data-driven approach to improve rankings, drive organic traffic,
-              and ensure long-term business growth.
+              Successful SEO is built on strategy, research, and continuous
+              optimization. Our proven process improves search visibility,
+              drives qualified organic traffic, and delivers measurable business
+              growth through data-driven SEO execution.
             </p>
 
             {/* CTA box */}

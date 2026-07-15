@@ -5,31 +5,31 @@ import { openEnquiryPopup } from "../../../utils/popup";
 const BrandIdentityHero = () => {
   const features = [
     {
-      icon: "fas fa-palette",
-      title: "Distinct Visual Identity",
-      desc: "Craft unique visuals that make your brand instantly recognizable.",
+      icon: "fas fa-signature",
+      title: "Strong Brand Identity",
+      desc: "Create a unique brand identity that builds recognition and lasting trust.",
     },
     {
-      icon: "fas fa-layer-group",
-      title: "Consistent Brand Presence",
-      desc: "Maintain consistency across all platforms and customer touchpoints.",
+      icon: "fas fa-object-group",
+      title: "Consistent Brand Design",
+      desc: "Maintain a consistent visual style across every platform and channel.",
     },
     {
-      icon: "fas fa-brain",
-      title: "Strategic Brand Thinking",
-      desc: "Build a brand backed by research, positioning, and clear messaging.",
+      icon: "fas fa-lightbulb",
+      title: "Creative Brand Strategy",
+      desc: "Design with purpose to communicate your brand message more effectively.",
     },
     {
-      icon: "fas fa-star",
-      title: "Memorable Brand Experience",
-      desc: "Create a lasting impression that builds trust and loyalty.",
+      icon: "fas fa-medal",
+      title: "Lasting Brand Impact",
+      desc: "Deliver memorable designs that increase credibility and customer loyalty.",
     },
   ];
 
   const stats = [
     { value: "150+", label: "Projects Completed" },
     { value: "98%", label: "Client Satisfaction" },
-    { value: "5+", label: "Years Experience" },
+    { value: "4+", label: "Years Experience" },
     { value: "24/7", label: "Support" },
   ];
 
@@ -791,16 +791,17 @@ const BrandIdentityHero = () => {
               </div>
 
               <h3>
-                Brand Identity
+                Graphic Design & Branding
                 <br />
-                That Builds{" "}
-                <span className="wd-title-accent"> Real Impact</span>
+                That Creates{" "}
+                <span className="wd-title-accent">Lasting Impact</span>
               </h3>
 
               <p className="wd-description">
-                We don't just design visuals — we create powerful brand
-                identities that build recognition, establish trust, and connect
-                emotionally with your audience.
+                We create strategic graphic designs that strengthen your brand
+                identity, build trust, and help your business stand out. From
+                logos to marketing creatives, every design is crafted to attract
+                customers and drive business growth.
               </p>
 
               <div className="wd-btn-group">

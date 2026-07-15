@@ -8,43 +8,43 @@ import React, { useEffect, useRef, useState } from "react";
 const DIFF_FEATURES = [
   {
     fa: "fa-solid fa-user-check",
-    title: "User-Focused Experience Analysis",
-    desc: "We analyse real user behaviour and interaction patterns to improve usability and create smoother digital experiences.",
+    title: "User-Centric Experience Analysis",
+    desc: "Understand user behavior to uncover usability issues and create smoother, more intuitive website experiences.",
   },
   {
     fa: "fa-solid fa-chart-line",
-    title: "Conversion-Oriented UX Strategy",
-    desc: "Our audits are designed to optimize user journeys, improve engagement, and increase conversion rates across your platform.",
+    title: "Conversion-Focused UX Strategy",
+    desc: "Optimize user journeys, reduce friction, and improve engagement to increase leads and website conversions.",
   },
   {
-    fa: "fa-solid fa-database",
+    fa: "fa-solid fa-chart-pie",
     title: "Data-Driven UX Insights",
-    desc: "Every recommendation is backed by analytics, behaviour tracking, heatmaps, and usability research for smarter decisions.",
+    desc: "Leverage analytics, heatmaps, and user behavior data to make smarter UX decisions with confidence.",
   },
   {
     fa: "fa-solid fa-route",
-    title: "User Journey & Navigation Optimization",
-    desc: "We refine navigation flow and interaction paths to reduce friction and improve accessibility and usability.",
+    title: "User Journey Optimization",
+    desc: "Improve navigation, interaction flows, and accessibility for seamless user experiences across your website.",
   },
   {
-    fa: "fa-solid fa-file-lines",
-    title: "Clear & Actionable UX Reports",
-    desc: "Receive easy-to-understand reports with practical recommendations and prioritised improvement strategies.",
+    fa: "fa-solid fa-clipboard-list",
+    title: "Actionable UX Audit Reports",
+    desc: "Receive clear audit reports with prioritized recommendations to improve usability and website performance.",
   },
 ];
 
 const ECOM_ALLOWS = [
-  "Identify usability gaps and friction points  ",
-  "Improve navigation and user interaction flow",
-  "Increase engagement, retention, and conversions",
-  "Enhance accessibility and overall user experience",
+  "Identify usability issues and UX gaps  ",
+  "Improve navigation and user journeys",
+  "Increase engagement and conversions",
+  "Increase engagement and conversions",
 ];
 
 const ECOM_PROVIDES = [
-  " Complete usability and UX analysis",
-  "User journey and interaction mapping",
-  " Conversion-focused optimisation insights",
-  "Detailed audit reports with actionable recommendations",
+  "Complete UI/UX and usability audit",
+  "User journey and interaction analysis",
+  "Conversion-focused UX recommendations",
+  "Actionable audit reports with priorities",
 ];
 
 const PLATFORMS = [
@@ -52,25 +52,25 @@ const PLATFORMS = [
     fa: "fa-solid fa-user-check",
     title: "Usability Audit",
     sub: "BEST FOR",
-    desc: "Navigation issues, usability gaps, and poor user interaction experiences.",
+    desc: "Improving navigation, accessibility, and overall website usability for better user experiences.",
   },
   {
     fa: "fa-solid fa-route",
     title: "User Journey Audit",
     sub: "BEST FOR",
-    desc: "Optimising user flow, interaction paths, and customer journey experiences",
+    desc: "Optimizing user flows, interaction paths, and customer journeys for higher engagement.",
   },
   {
     fa: "fa-solid fa-filter",
     title: "Conversion Funnel Audit",
     sub: "BEST FOR",
-    desc: "Improving conversion rates, reducing abandonment, and optimising key user actions.",
+    desc: "Increasing conversions, reducing drop-offs, and optimizing key user actions and funnels.",
   },
   {
     fa: "fa-solid fa-gauge-high",
-    title: "Performance UX Audit",
+    title: "Performance & UX Audit",
     sub: "BEST FOR",
-    desc: "Website speed, responsiveness, and overall digital performance optimization",
+    desc: "Enhancing website speed, responsiveness, and overall digital user experience performance.",
   },
 ];
 
@@ -78,24 +78,25 @@ const FAQS = [
   {
     fa: "fa-solid fa-magnifying-glass",
     q: "What is a UI/UX audit?",
-    a: "A UI/UX audit is a detailed analysis of your website or application to identify usability issues, user experience gaps, navigation problems, and conversion barriers that affect overall performance.",
+    a: "A UI/UX audit is a comprehensive review of your website's usability, navigation, accessibility, and user experience to identify issues affecting engagement, conversions, and overall website performance.",
   },
   {
     fa: "fa-solid fa-user-check",
     q: "How do I know if my website needs a UI/UX audit?",
-    a: "If your website has high bounce rates, low engagement, poor conversions, or confusing navigation, a UI/UX audit can help uncover the issues impacting user experience and performance.",
+    a: "If your website has high bounce rates, low conversions, poor engagement, or confusing navigation, a UI/UX audit helps identify the problems and provides practical recommendations for improvement.",
   },
   {
     fa: "fa-solid fa-clock",
     q: "How long does a UI/UX audit take?",
-    a: "The timeline depends on the complexity and size of your platform. Most UI/UX audits are completed within a few days to provide detailed insights and actionable recommendations.",
+    a: "Most UI/UX audits are completed within 5–10 business days, depending on your website's size and complexity, and include detailed findings with actionable improvement recommendations.",
   },
   {
-    fa: "fa-solid fa-file-lines",
+    fa: "fa-solid fa-clipboard-list",
     q: "What will I receive after the audit?",
-    a: "You will receive a detailed UX audit report including usability findings, user journey analysis, performance insights, and practical recommendations to improve engagement and conversions.",
+    a: "You'll receive a detailed audit report covering usability issues, user behavior insights, conversion opportunities, accessibility recommendations, and a prioritized UX improvement roadmap.",
   },
 ];
+
 /* ── shared intersection hook ── */
 const useVisible = (threshold = 0.1) => {
   const ref = useRef(null);
@@ -129,14 +130,14 @@ const WebDevDiff = () => {
           <div className="wde-left">
             <div className="wds-section-label">OUR APPROACH</div>
             <h3 className="wde-heading">
-              What Makes Our UI/UX Audits <span>Different?</span>
+              Why Choose Our UI/UX Audit <span>Services? </span>
             </h3>
             <p className="wde-desc">
-              Most websites look visually appealing but fail to deliver a
-              seamless user experience. Our UI/UX audit services focus on
-              usability, user behaviour, and performance optimisation to improve
-              engagement, retention, and conversions through data-driven
-              insights.
+              A successful website is built on more than great design. Our UI/UX
+              audits uncover usability issues, improve user journeys, and
+              optimize every interaction using data-driven insights to increase
+              engagement, boost conversions, and support long-term business
+              growth.
             </p>
             <div className="wde-gradient-bar" />
           </div>
@@ -166,9 +167,8 @@ const WebDevDiff = () => {
                 <i className="fa-solid fa-rocket" />
               </div>
               <p>
-                If your user experience isn’t optimized, your business is
-                already
-                <em>losing engagement, trust, and conversions.</em>
+                Receive prioritized recommendations and practical insights
+                <em> to improve usability and website performance.</em>
               </p>
             </div>
           </div>
@@ -192,15 +192,14 @@ const WebDevEcom = () => {
             <div className="wds-section-label">GROW YOUR BUSINESS</div>
             <h3 className="wdec-heading">
               Why Your Business
-              <span> Needs a UI/UX Audit </span>
+              <span>Needs a UI/UX Audit</span>
             </h3>
             <div className="wdec-divider" />
             <p className="wdec-desc">
-              If your website or application is not delivering the expected
-              engagement or conversions, poor user experience could be the
-              reason. A UI/UX audit helps identify usability issues, optimise
-              user journeys, and improve overall digital performance to create
-              seamless customer experiences that drive real business growth.
+              A poor user experience can cost your business valuable leads and
+              customers. Our UI/UX audits identify usability issues, improve
+              user journeys, and optimize website performance to increase
+              engagement, strengthen trust, and boost conversions.
             </p>
           </div>
 
@@ -265,14 +264,14 @@ const WebDevPlatform = () => {
           <div className="wdpl-left">
             <div className="wds-section-label">CHOOSE WHAT’S RIGHT</div>
             <h3 className="wdpl-heading">
-              Which UI/UX Audit is
-              <span>Best</span> for Your Business?
+              Choose the Right
+              <span> UI/UX</span> Audit for Your Business
             </h3>
             <p className="wdpl-desc">
-              Every digital product has different user behaviours, usability
-              challenges, and performance goals. Choosing the right UI/UX audit
-              service helps uncover critical issues, improve user experience,
-              and maximise conversions through targeted optimisation strategies.
+              Every website has unique usability challenges and business goals.
+              Our specialized UI/UX audits identify experience gaps, improve
+              user journeys, and optimize website performance to increase
+              engagement, conversions, and long-term business growth.
             </p>
           </div>
 
@@ -313,8 +312,9 @@ const WebDevPlatform = () => {
                 <i className="fa-solid fa-lightbulb" />
               </div>
               <p>
-                The right UI/UX audit depends on your business goals and we help
-                you choose the most effective strategy for maximum impact.
+                Not sure which UI/UX audit fits your business? Our experts
+                recommend the right strategy based on your goals, users, and
+                growth opportunities.
               </p>
             </div>
           </div>

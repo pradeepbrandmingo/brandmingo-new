@@ -7,92 +7,98 @@ import React, { useEffect, useRef, useState } from "react";
 
 const DIFF_FEATURES = [
   {
-    fa: "fa-solid fa-bullseye",
-    title: "Highly Targeted Strategy",
-    desc: "Reach the right customers with precise product and audience targeting.",
+    fa: "fa-solid fa-store",
+    title: "Marketplace-Focused Growth",
+    desc: "Increase product visibility across leading marketplaces to drive more sales consistently.",
   },
   {
     fa: "fa-solid fa-chart-line",
-    title: "ROI-Focused Growth",
-    desc: "Optimized to maximize sales and return on every investment.",
+    title: "ROI-Driven Strategy",
+    desc: "Every optimization is focused on maximizing revenue, profitability, and long-term growth.",
   },
   {
     fa: "fa-solid fa-chart-pie",
-    title: "Data-Driven Optimization",
-    desc: "Continuous analysis and improvements to boost store performance.",
+    title: "Data-Driven Decisions",
+    desc: "Use analytics and customer insights to improve store performance continuously.",
   },
   {
     fa: "fa-solid fa-cart-shopping",
-    title: "Conversion-Focused Approach",
-    desc: "Designed to turn visitors into paying customers consistently.",
+    title: "Conversion Optimization",
+    desc: "Transform visitors into loyal customers through strategic store optimization efforts.",
   },
   {
-    fa: "fa-solid fa-sliders",
-    title: "Easy Store Management",
-    desc: "Transparent reporting and simple insights for better decisions.",
+    fa: "fa-solid fa-file-lines",
+    title: "Transparent Reporting",
+    desc: "Receive clear performance reports with actionable insights and growth recommendations.",
   },
 ];
 
 const ECOM_ALLOWS = [
-  "Increase conversions & sales",
-  "Manage products efficiently",
-  "Target the right customers",
+  "Increase product visibility",
+  "Improve conversion rates",
+  "Generate more online sales",
   "Scale your business faster",
 ];
 
 const ECOM_PROVIDES = [
-  "Product & catalog management",
-  "Store optimization & UX improvement",
-  "Order & inventory management",
-  "Performance tracking & scaling",
+  "Marketplace account management",
+  "Product listing optimization",
+  "Inventory & order management",
+  "Performance reporting & analytics",
 ];
 
 const PLATFORMS = [
   {
-    fa: "fa-solid fa-box",
-    title: "Product Optimization",
+    fa: "fa-solid fa-store",
+    title: "Marketplace Management",
     sub: "BEST FOR",
-    desc: "Improving listings & product performance",
+    desc: "Managing Amazon, Flipkart, Myntra, Meesho, Etsy, and other marketplaces.",
   },
   {
-    fa: "fa-solid fa-screwdriver-wrench",
-    title: "Store Optimization",
+    fa: "fa-solid fa-magnifying-glass",
+    title: "Ecommerce SEO",
     sub: "BEST FOR",
-    desc: "Speed, UX & conversion improvements",
+    desc: "Improving product visibility, organic traffic, and search engine rankings.",
   },
   {
-    fa: "fa-solid fa-cart-shopping",
-    title: "Sales & Order Management",
+    fa: "fa-solid fa-bullhorn",
+    title: "Performance Marketing",
     sub: "BEST FOR",
-    desc: "Handling orders & increasing efficiency",
+    desc: "Driving targeted traffic, customer acquisition, and online store sales.",
   },
   {
     fa: "fa-solid fa-chart-line",
-    title: "Performance Scaling",
+    title: "Conversion Optimization",
     sub: "BEST FOR",
-    desc: "Boosting sales & revenue growth",
+    desc: "Increasing conversions, revenue, and overall store performance consistently.",
   },
 ];
+
 const FAQS = [
   {
     fa: "fa-solid fa-store",
-    q: "What ecommerce services do you offer?",
-    a: "We handle product management, store optimization, inventory, order management, and performance tracking to grow your sales.",
+    q: "What ecommerce management services do you offer?",
+    a: "We provide marketplace management, product listing optimization, inventory management, ecommerce SEO, advertising, order monitoring, and growth consulting.",
   },
   {
-    fa: "fa-solid fa-chart-line",
-    q: "Which ecommerce strategy is best for my business?",
-    a: "It depends on your goals — we choose the right approach based on your products, audience, and growth stage.",
+    fa: "fa-solid fa-layer-group",
+    q: "Which ecommerce platform is best for my business?",
+    a: "The right platform depends on your products, audience, and business goals. We help you choose and optimize the best ecommerce ecosystem.",
   },
   {
     fa: "fa-solid fa-clock",
-    q: "How soon can I see results from ecommerce management?",
-    a: "You can start seeing improvements in performance and conversions within weeks, with steady growth over time.",
+    q: "How long does it take to see results?",
+    a: "Most ecommerce stores start seeing measurable improvements within 30–90 days, depending on competition, store performance, and optimization opportunities.",
   },
   {
-    fa: "fa-solid fa-gear",
-    q: "How do you increase sales and conversions?",
-    a: "We optimize product listings, improve store UX, analyze data, and continuously refine strategies for better results.",
+    fa: "fa-solid fa-chart-line",
+    q: "How do you increase ecommerce sales?",
+    a: "We optimize listings, improve store visibility, manage advertising campaigns, enhance customer experience, and implement data-driven growth strategies.",
+  },
+  {
+    fa: "fa-brands fa-amazon",
+    q: "Which marketplaces do you manage?",
+    a: "We manage Amazon, Flipkart, Myntra, Meesho, JioMart, Etsy, Shopify, WooCommerce, and other leading ecommerce platforms.",
   },
 ];
 
@@ -129,13 +135,13 @@ const WebDevDiff = () => {
           <div className="wde-left">
             <div className="wds-section-label">OUR PROMISE</div>
             <h3 className="wde-heading">
-              What Makes Our Ecommerce <span>Different?</span>
+              Why Brands Choose Our <span>Ecommerce Management Services</span>
             </h3>
             <p className="wde-desc">
-              Most stores get traffic — but don’t convert. We focus on
-              performance. Our ecommerce strategies are built to drive real
-              sales, higher conversions, and measurable growth for your
-              business.
+              Most agencies focus only on traffic. We focus on increasing sales,
+              improving profitability, and building scalable ecommerce
+              businesses through data-driven management and continuous
+              optimization.
             </p>
             <div className="wde-gradient-bar" />
           </div>
@@ -165,8 +171,9 @@ const WebDevDiff = () => {
                 <i className="fa-solid fa-rocket" />
               </div>
               <p>
-                If your store is not converting, <em>— you’re losing </em>
-                potential sales.
+                More visibility. More sales. More customers. More growth{" "}
+                <em>That's the power of professional </em>
+                ecommerce management
               </p>
             </div>
           </div>
@@ -194,10 +201,11 @@ const WebDevEcom = () => {
             </h3>
             <div className="wdec-divider" />
             <p className="wdec-desc">
-              If your store is not performing and relying only on ads — you're
-              limiting your growth. Ecommerce management helps you optimize your
-              store, increase conversions, and generate consistent sales over
-              time.
+              If your online store is struggling with low sales, poor
+              visibility, or operational challenges, ecommerce management can
+              help. We optimize your store, improve conversions, streamline
+              operations, and build sustainable growth across leading ecommerce
+              platforms
             </p>
           </div>
 
@@ -262,13 +270,13 @@ const WebDevPlatform = () => {
           <div className="wdpl-left">
             <div className="wds-section-label">CHOOSE WHAT’S RIGHT</div>
             <h3 className="wdpl-heading">
-              Which Ecommerce Strategy is<span>Best</span> for You?
+              Which Ecommerce<span> Strategy </span>Fits You?
             </h3>
             <p className="wdpl-desc">
-              Choosing the right ecommerce strategy is crucial. Every store
-              needs a different approach — and using the wrong one can limit
-              your growth. We help you choose the right path for maximum sales
-              and performance.
+              Every ecommerce business has unique products, customers, and
+              growth goals. We help you choose the right ecommerce strategy to
+              increase visibility, improve conversions, and maximize long-term
+              sales performance.
             </p>
           </div>
 
@@ -309,8 +317,9 @@ const WebDevPlatform = () => {
                 <i className="fa-solid fa-lightbulb" />
               </div>
               <p>
-                The right ecommerce strategy depends on your goals — and we help
-                you scale in the right direction from day one.
+                The strongest ecommerce brands combine marketplace management,
+                SEO, paid marketing, and conversion optimization for sustainable
+                growth.
               </p>
             </div>
           </div>

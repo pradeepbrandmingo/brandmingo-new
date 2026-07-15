@@ -134,9 +134,10 @@ const BlogHero = () => {
 
             {/* Description */}
             <p className="bh-desc">
-              Stay ahead of the curve with expert articles on digital marketing,
-              web development, SEO, branding, and everything in between —
-              crafted by the Brandmingo team.
+              Stay ahead with expert insights on digital marketing, SEO, web
+              development, branding, and design. Discover practical strategies,
+              industry trends, and actionable tips curated by the Brandmingo
+              team to help your business grow online
             </p>
 
             {/* Tags row */}
@@ -144,7 +145,7 @@ const BlogHero = () => {
               {[
                 "Digital Marketing",
                 "SEO",
-                "Web Dev",
+                "Web Development",
                 "Branding",
                 "Design",
               ].map((tag, i) => (

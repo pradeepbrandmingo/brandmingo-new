@@ -6,83 +6,84 @@ import { openEnquiryPopup } from "../../../utils/popup";
 
 const WEBSITE_TYPES = [
   {
-    fa: "fa-solid fa-box",
+    fa: "fa-solid fa-store",
     num: "01",
-    title: "Product & Catalog Management",
-    desc: "Optimize product listings, pricing, and categories to boost sales.",
+    title: "Marketplace Management",
+    desc: "Manage Amazon, Flipkart, Meesho, Myntra, Etsy, and more to improve sales performance.",
   },
   {
-    fa: "fa-solid fa-screwdriver-wrench",
+    fa: "fa-solid fa-tags",
     num: "02",
-    title: "Store Optimization",
-    desc: "Enhance store design, speed, and UX for better conversions.",
+    title: "Product Listing Optimization",
+    desc: "Create SEO-friendly listings, keywords, and content to improve visibility and conversions.",
   },
   {
-    fa: "fa-solid fa-cart-shopping",
+    fa: "fa-solid fa-boxes-stacked",
     num: "03",
-    title: "Order & Inventory Management",
-    desc: "Manage orders and inventory efficiently for smooth operations.",
+    title: "Inventory & Order Management",
+    desc: "Manage inventory, monitor stock levels, and streamline order fulfillment efficiently.",
   },
   {
-    fa: "fa-solid fa-chart-line",
+    fa: "fa-solid fa-bullhorn",
     num: "04",
-    title: "Sales & Performance Tracking",
-    desc: "Track performance data to improve conversions and revenue.",
+    title: "Ecommerce Marketing",
+    desc: "Drive qualified traffic through SEO, paid ads, social media, and marketplace promotions.",
   },
 ];
 
 const TECHNOLOGIES = [
   {
-    fa: "fa-solid fa-store",
-    title: "Ecommerce Platforms",
-    desc: "Manage and scale your store on Shopify, WooCommerce, and more.",
+    fa: "fa-brands fa-amazon",
+    title: "Amazon Seller Central",
+    desc: "Manage listings, inventory, advertising, and performance for higher marketplace sales.",
+  },
+  {
+    fa: "fa-brands fa-shopify",
+    title: "Shopify & WooCommerce",
+    desc: "Build, optimize, and scale high-performing ecommerce stores with confidence.",
   },
   {
     fa: "fa-solid fa-chart-line",
-    title: "Sales Analytics Tools",
-    desc: "Track sales, orders, and performance with accurate data insights.",
+    title: "Marketplace Analytics",
+    desc: "Track sales, customer behavior, and product performance with accurate insights.",
   },
   {
-    fa: "fa-solid fa-box",
-    title: "Inventory Management Tools",
-    desc: "Monitor stock, products, and orders for smooth operations.",
-  },
-  {
-    fa: "fa-solid fa-screwdriver-wrench",
-    title: "Store Optimization Tools",
-    desc: "Improve speed, UX, and conversions for better sales performance.",
+    fa: "fa-solid fa-boxes-stacked",
+    title: "Inventory Management",
+    desc: "Monitor stock levels, automate inventory, and streamline order fulfillment efficiently.",
   },
 ];
+
 const PROCESS_STEPS = [
   {
     num: "01",
-    fa: "fa-solid fa-magnifying-glass",
-    title: "Store Audit & Analysis",
-    desc: "We analyze your store, products, and competitors to identify opportunities.",
+    fa: "fa-solid fa-magnifying-glass-chart",
+    title: "Ecommerce Audit & Analysis",
+    desc: "We evaluate store performance, product listings, competitors, and growth opportunities for success.",
   },
   {
     num: "02",
-    fa: "fa-solid fa-clipboard-list",
-    title: "Strategy & Planning",
-    desc: "We define pricing, product strategy, and growth direction.",
+    fa: "fa-solid fa-route",
+    title: "Strategy & Marketplace Planning",
+    desc: "We create customized marketplace strategies based on products, customers, and business objectives.",
   },
   {
     num: "03",
-    fa: "fa-solid fa-box",
-    title: "Product & Store Optimization",
-    desc: "We optimize listings, store design, and user experience.",
+    fa: "fa-solid fa-store",
+    title: "Store & Product Optimization",
+    desc: "We optimize listings, pricing, inventory, categories, and user experience for higher conversions.",
   },
   {
     num: "04",
-    fa: "fa-solid fa-chart-line",
-    title: "Performance Optimization",
-    desc: "We improve conversions and scale high-performing products.",
+    fa: "fa-solid fa-bullhorn",
+    title: "Marketing & Growth Execution",
+    desc: "We execute SEO, marketplace ads, promotions, and campaigns to increase online sales consistently.",
   },
   {
     num: "05",
-    fa: "fa-solid fa-chart-pie",
-    title: "Tracking & Growth",
-    desc: "We monitor performance and continuously optimize for higher sales.",
+    fa: "fa-solid fa-chart-line",
+    title: "Performance Monitoring & Scaling",
+    desc: "We track KPIs, optimize campaigns, and scale profitable growth opportunities for maximum ROI.",
   },
 ];
 
@@ -114,11 +115,14 @@ const WebDevTypes = () => {
           {/* Left */}
           <div className="wds-types-left">
             <div className="wds-section-label">WHAT WE MANAGE</div>
-            <h3 className="wds-types-heading">Types of Ecommerce We Manage</h3>
+            <h3 className="wds-types-heading">
+              TYPES OF ECOMMERCE MANAGEMENT SERVICES
+            </h3>
             <p className="wds-types-desc">
-              Not every store needs the same strategy — and that’s where most
-              sellers go wrong. We analyze your business first, then implement
-              the right ecommerce approach for maximum sales and growth.
+              Every ecommerce business has unique goals, products, and
+              challenges. We create customized management strategies that
+              improve store performance, increase sales, and support sustainable
+              business growth across leading ecommerce platforms.
             </p>
 
             {/* Decorative dot grid + arc */}
@@ -192,7 +196,14 @@ const WebDevTypes = () => {
                 </div>
                 <h4 className="wds-card-title">{item.title}</h4>
                 <p className="wds-card-desc">{item.desc}</p>
-                <a href="#contact" className="wds-card-link">
+                <a
+                  href="#contact"
+                  className="wds-card-link"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
                   Learn More <i className="fa-solid fa-arrow-right" />
                 </a>
               </div>
@@ -234,9 +245,9 @@ const WebDevTech = () => {
             <div className="wds-section-label">BUILT WITH POWERFUL TOOLS</div>
             <h3 className="wdt-heading">Ecommerce Tools & Platforms We Use</h3>
             <p className="wdt-desc">
-              We don’t rely on guesswork. We use proven ecommerce tools and
-              platforms optimized for performance, order management, and
-              measurable sales growth — tailored to your business goals.
+              We use industry-leading ecommerce platforms, marketplace tools,
+              and analytics solutions to optimize store performance, improve
+              operations, and drive sustainable online sales growth.
             </p>
           </div>
 
@@ -293,11 +304,11 @@ const WebDevProcess = () => {
           {/* Left */}
           <div className="wdp-left">
             <div className="wds-section-label">OUR WORKFLOW</div>
-            <h3 className="wdp-heading"> Our Ecommerce Process</h3>
+            <h3 className="wdp-heading">Our Ecommerce Growth Process</h3>
             <p className="wdp-desc">
-              Successful ecommerce growth is never random. We follow a
-              structured, data-driven approach to increase sales, optimize store
-              performance, and ensure long-term business growth.
+              Our proven ecommerce management process helps increase online
+              sales, optimize operations, improve customer experience, and drive
+              sustainable business growth across every sales channel.
             </p>
 
             {/* CTA box */}

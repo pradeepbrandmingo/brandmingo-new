@@ -23,7 +23,7 @@ const NAV = [
 const REASONS = [
   {
     fa: "fa-solid fa-shield-halved",
-    title: "Build Instant Trust",
+    title: "Build Trust & Credibility",
     desc: "Create a professional online presence that helps your business look credible and reliable from the very first visit",
   },
   {
@@ -273,9 +273,7 @@ const WebDevAbout = () => {
               <i className="fa-solid fa-circle" />
               Strategy
             </div>
-            <h3 className="wda-h2">
-              Why Your Business Can’t Afford to Ignore a Website
-            </h3>
+            <h3 className="wda-h2">WHY YOUR BUSINESS NEEDS A WEBSITE</h3>
 
             <div className="wda-reasons">
               {REASONS.map((r, i) => (
@@ -302,8 +300,8 @@ const WebDevAbout = () => {
                 <i className="fa-solid fa-quote-right" />
               </div>
               <span>
-                A website is no longer optional. It’s one of the most{" "}
-                <em>powerful tools for business growth.</em>
+                Your website isn't an expense it's an investment that drives
+                leads, <em>sales, and long-term business growth.</em>
               </span>
             </div>
 

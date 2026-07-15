@@ -5,31 +5,31 @@ import { openEnquiryPopup } from "../../../utils/popup";
 const UiUxHero = () => {
   const features = [
     {
-      icon: "fas fa-user-check",
-      title: "User Experience Analysis",
-      desc: "Identify usability issues and improve website navigation for a smoother and more intuitive user journey.",
+      icon: "fas fa-users-viewfinder",
+      title: "User Behavior Analysis",
+      desc: "Analyze user interactions and identify usability issues to create smoother, intuitive, and engaging digital experiences.",
     },
     {
       icon: "fas fa-sitemap",
-      title: "Structure & Flow Review",
-      desc: "Analyse layout structure, content flow, and user paths to improve clarity and accessibility.",
+      title: "UX Structure Audit",
+      desc: "Review navigation, page layouts, and user journeys to improve clarity, accessibility, and overall website usability.",
     },
     {
-      icon: "fas fa-chart-line",
+      icon: "fas fa-arrow-trend-up",
       title: "Conversion Optimization",
-      desc: "Optimise key pages and user actions to increase leads, sales, and overall conversion rates.",
+      desc: "Optimize landing pages and conversion paths to increase engagement, generate more leads, and improve business results.",
     },
     {
-      icon: "fas fa-magnifying-glass",
-      title: "Data-Driven Insights",
-      desc: "Use analytics, heatmaps, and behaviour tracking to make smarter UX and performance decisions.",
+      icon: "fas fa-chart-pie",
+      title: "Performance Insights",
+      desc: "Leverage analytics, heatmaps, and user behavior data to make informed UX improvements and smarter design decisions.",
     },
   ];
 
   const stats = [
     { value: "150+", label: "Projects Completed" },
     { value: "98%", label: "Client Satisfaction" },
-    { value: "5+", label: "Years Experience" },
+    { value: "4+", label: "Years Experience" },
     { value: "24/7", label: "Support" },
   ];
 
@@ -814,24 +814,23 @@ const UiUxHero = () => {
             {/* ── LEFT CONTENT ── */}
             <div className="wd-hero-content">
               <div className="wd-tagline">
-                <i className="fas fa-bolt" /> OPTIMIZE. IMPROVE USER EXPERIENCE.
+                <i className="fas fa-bolt" /> OPTIMIZE. IMPROVE. CONVERT.
               </div>
 
               <h3>
                 UI/UX Audit Services
                 <br />
                 That Improve{" "}
-                <span className="wd-title-accent">Conversions</span>
+                <span className="wd-title-accent">User Experience</span>
               </h3>
 
               <p className="wd-description">
-                We don’t just review your website design, we analyse user
-                behaviour, identify usability issues, and optimise the overall
-                user experience to improve engagement, conversions, and customer
-                satisfaction. Our UI/UX audit services focus on improving
-                navigation, responsiveness, accessibility, and user flow to
-                create seamless digital experiences that drive measurable
-                business growth.
+                Identify usability issues, improve website performance, and
+                create seamless user journeys with Brandmingo's professional
+                UI/UX audit services. We analyze user behavior, navigation,
+                design consistency, accessibility, and conversion paths to
+                enhance engagement, increase conversions, and deliver a better
+                digital experience.
               </p>
 
               <div className="wd-btn-group">
@@ -848,7 +847,7 @@ const UiUxHero = () => {
                   <span className="wd-play-icon">
                     <i className="fas fa-eye" />
                   </span>
-                  View Sample Report
+                  View Audit Report
                 </Link>
               </div>
             </div>

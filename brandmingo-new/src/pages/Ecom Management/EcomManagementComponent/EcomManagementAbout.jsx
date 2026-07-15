@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
+const ecommerceHero =
+  "https://res.cloudinary.com/dqqgpii8v/image/upload/v1783514025/Untitled_design_we7jsc.png";
 
 const NAV = [
   {
@@ -27,28 +29,28 @@ const NAV = [
 const REASONS = [
   {
     fa: "fa-solid fa-store",
-    title: "Optimize Your Store Performance",
-    desc: "Improve your store experience to increase conversions and sales.",
+    title: "Increase Marketplace Visibility",
+    desc: "Boost product visibility across marketplaces to attract more customers and increase sales.",
   },
   {
-    fa: "fa-solid fa-box",
-    title: "Manage Products Efficiently",
-    desc: "Organize listings, pricing, and inventory for better performance.",
+    fa: "fa-solid fa-cart-shopping",
+    title: "Increase Sales & Conversions",
+    desc: "Optimize listings, pricing, and customer journeys to drive higher conversions and revenue.",
   },
   {
-    fa: "fa-solid fa-users",
-    title: "Drive More Sales",
-    desc: "Convert visitors into customers with optimized store strategies.",
+    fa: "fa-solid fa-boxes-stacked",
+    title: "Manage Inventory Efficiently",
+    desc: "Track inventory, prevent stock issues, and maintain smooth store operations every day.",
   },
   {
-    fa: "fa-solid fa-chart-line",
-    title: "Track & Improve Results",
-    desc: "Monitor performance and optimize for better sales outcomes.",
+    fa: "fa-solid fa-face-smile",
+    title: "Enhance Customer Experience",
+    desc: "Deliver faster order management and seamless shopping experiences that build customer trust.",
   },
   {
     fa: "fa-solid fa-rocket",
-    title: "Scale Your Business Faster",
-    desc: "Grow your ecommerce store with data-driven strategies.",
+    title: "Achieve Sustainable Growth",
+    desc: "Scale your ecommerce business with data-driven strategies built for long-term success.",
   },
 ];
 
@@ -224,15 +226,22 @@ const EcomManagementAbout = () => {
         <main className="wda-main">
           {/* Hero image */}
           <div className="wda-hero">
+            <img
+              src={ecommerceHero}
+              alt="Ecommerce Management Banner - Brandmingo"
+              className="wda-hero-img"
+            />
+
             <div className="wda-hero-ov">
               <div className="wda-hero-txt">
                 <div className="wda-hero-badge">
                   <i className="fa-solid fa-laptop-code" />
                   ABOUT ECOMMERCE MANAGEMENT
                 </div>
+
                 <h2>
-                  Driving Online Sales With{" "}
-                  <span> High-Performance Ecommerce</span>
+                  Driving Ecommerce Growth Through{" "}
+                  <span>Strategic Store Management</span>
                 </h2>
               </div>
             </div>
@@ -246,15 +255,16 @@ const EcomManagementAbout = () => {
             </div>
             <h2 className="wda-h1">What is Ecommerce Management?</h2>
             <p className="wda-p">
-              Ecommerce management is the process of handling and optimizing
-              your online store to increase sales and performance. It includes
-              product management, pricing strategy, inventory control, and
-              conversion optimization to maximize revenue.
-              <br />
-              Think of it this way — your store is not just a website, it’s your
-              sales engine working 24/7. Without proper management, you’re
-              losing potential customers, orders, and valuable growth
-              opportunities.
+              Ecommerce management is the process of optimizing, managing, and
+              growing your online store across ecommerce platforms and
+              marketplaces. It includes product listings, inventory management,
+              pricing strategies, order processing, and store optimization to
+              improve overall performance.
+              <br />A successful ecommerce store is more than just products—it
+              requires the right strategy, seamless operations, and continuous
+              optimization. Effective ecommerce management helps increase
+              visibility, improve customer experience, boost conversions, and
+              drive sustainable business growth across every sales channel.
             </p>
 
             <div className="wda-lbl" style={{ marginTop: "40px" }}>
@@ -290,8 +300,8 @@ const EcomManagementAbout = () => {
                 <i className="fa-solid fa-quote-right" />
               </div>
               <span>
-                If your store is not converting, you’re already{" "}
-                <em> — losing potential sales.</em>
+                Without effective ecommerce management, you're losing valuable
+                <em> sales, and long-term growth opportunities</em>
               </span>
             </div>
 
@@ -299,7 +309,7 @@ const EcomManagementAbout = () => {
             <div className="wda-img-cards">
               <div className="wda-img-card">
                 <img
-                  src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=700"
+                  src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1783516290/Untitled_design_1_tdiced.png"
                   alt="Modern Web Development"
                 />
                 <div className="wda-img-card-body">
@@ -307,8 +317,9 @@ const EcomManagementAbout = () => {
                     <i className="fa-solid fa-cart-shopping" />
                   </div>
                   <p>
-                    Smart, data-driven ecommerce strategies optimized for higher
-                    conversions, increased sales, and long-term revenue growth.
+                    Data-driven ecommerce strategies that improve product
+                    visibility, increase conversions, and accelerate long-term
+                    business growth.
                   </p>
                   <a href="#contact" className="wda-img-card-arrow">
                     <i className="fa-solid fa-arrow-right" />
@@ -318,7 +329,7 @@ const EcomManagementAbout = () => {
 
               <div className="wda-img-card">
                 <img
-                  src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=700"
+                  src="https://i.ibb.co/Zz0MNRM4/website-developement-image-Brandmingo.avif"
                   alt="E-commerce Solutions"
                 />
                 <div className="wda-img-card-body">
@@ -326,8 +337,9 @@ const EcomManagementAbout = () => {
                     <i className="fa-solid fa-chart-line" />
                   </div>
                   <p>
-                    Conversion-focused ecommerce solutions that attract the
-                    right customers and drive real business results.
+                    Conversion-focused ecommerce solutions that optimize
+                    customer journeys, boost online sales, and maximize store
+                    performance.
                   </p>
                   <a href="#contact" className="wda-img-card-arrow">
                     <i className="fa-solid fa-arrow-right" />

@@ -6,31 +6,31 @@ import { openEnquiryPopup } from "../../../utils/popup";
 const EcomManagementHero = () => {
   const features = [
     {
-      icon: "fas fa-chart-line",
-      title: "High-Converting Stores",
-      desc: "Optimized store strategies to boost conversions, sales, and revenue.",
+      icon: "fas fa-cart-shopping",
+      title: "Increase Online Sales",
+      desc: "Boost conversions with optimized listings, better visibility, and seamless shopping experiences.",
     },
     {
       icon: "fas fa-store",
-      title: "Multi-Channel Selling",
-      desc: "Sell across Shopify, marketplaces, and multiple online channels.",
+      title: "Multi-Channel Management",
+      desc: "Manage Shopify, Amazon, Flipkart, Meesho, and other marketplaces from one strategy.",
     },
     {
-      icon: "fas fa-chart-pie",
-      title: "Data-Driven Optimization",
-      desc: "Track performance, analyze data, and improve store results continuously.",
+      icon: "fas fa-chart-line",
+      title: "Store Performance Growth",
+      desc: "Optimize products, pricing, inventory, and customer experience for higher revenue.",
     },
     {
       icon: "fas fa-rocket",
-      title: "Scalable Store Growth",
-      desc: "Built to scale your ecommerce business as your sales increase.",
+      title: "Scalable Business Growth",
+      desc: "Scale your ecommerce business with data-driven strategies and continuous optimization.",
     },
   ];
 
   const stats = [
     { value: "150+", label: "Projects Completed" },
     { value: "98%", label: "Client Satisfaction" },
-    { value: "5+", label: "Years Experience" },
+    { value: "4+", label: "Years Experience" },
     { value: "24/7", label: "Support" },
   ];
 
@@ -798,9 +798,12 @@ const EcomManagementHero = () => {
               </h3>
 
               <p className="wd-description">
-                We don't just manage stores — we build data-driven ecommerce
-                strategies that increase conversions, optimize performance, and
-                turn visitors into paying customers.
+                We help brands manage, optimize, and scale online stores with
+                data-driven ecommerce strategies. From product listings and
+                marketplace management to conversion optimization and
+                performance tracking, our ecommerce solutions are built to
+                increase sales, improve customer experience, and drive
+                sustainable business growth.
               </p>
 
               <div className="wd-btn-group">

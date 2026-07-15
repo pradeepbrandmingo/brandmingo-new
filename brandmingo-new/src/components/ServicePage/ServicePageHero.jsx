@@ -241,41 +241,69 @@ const CSS = `
     max-width: 440px;
     margin-bottom: 36px;
   }
+
+  /* ── Improved Breadcrumb ── */
   .sph-breadcrumb {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0;
     list-style: none;
-    padding: 0; margin: 0;
+    padding: 8px 8px 8px 8px;
+    margin: 0;
     flex-wrap: wrap;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 40px;
+    width: fit-content;
   }
   .sph-breadcrumb li {
     font-family: var(--body-font-family, 'Mont', sans-serif);
     font-size: 13px;
     font-weight: 500;
-    color: rgba(255,255,255,0.4);
+    color: rgba(255,255,255,0.45);
     display: flex;
     align-items: center;
-    gap: 10px;
-  }
-  .sph-breadcrumb li:not(:last-child)::after {
-    content: "";
-    display: inline-block;
-    width: 18px; height: 1px;
-    background: rgba(255,107,30,0.5);
-    margin-left: 10px;
-    vertical-align: middle;
+    gap: 8px;
   }
   .sph-breadcrumb li a {
-    color: rgba(255,255,255,0.5);
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: rgba(255,255,255,0.55);
     text-decoration: none;
-    transition: color 0.25s;
+    padding: 7px 14px;
+    border-radius: 30px;
+    transition: color 0.25s, background 0.25s;
   }
-  .sph-breadcrumb li a:hover { color: #FF6B1E; }
-  .sph-breadcrumb li:last-child {
+  .sph-breadcrumb li a svg {
+    width: 14px; height: 14px;
+    stroke: currentColor;
+    flex-shrink: 0;
+  }
+  .sph-breadcrumb li a:hover {
     color: #FF6B1E;
-    font-weight: 600;
+    background: rgba(255,107,30,0.08);
   }
+  .sph-breadcrumb li.sph-crumb-sep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    color: rgba(255,107,30,0.5);
+  }
+  .sph-breadcrumb li.sph-crumb-sep svg {
+    width: 13px; height: 13px;
+    stroke: currentColor;
+  }
+  .sph-breadcrumb li.sph-crumb-current {
+    color: #fff;
+    font-weight: 600;
+    background: linear-gradient(135deg, #FF6B1E, #e85c0d);
+    padding: 7px 16px;
+    border-radius: 30px;
+    box-shadow: 0 6px 16px rgba(255,107,30,0.28);
+  }
+
   .sph-icons {
     position: relative;
     width: 100%;
@@ -428,10 +456,8 @@ const CSS = `
     .sph-fcard--3 { bottom: 2%; left: 0%; }
     .sph-fcard--4 { bottom: 2%; right: 0%; }
 
-    /* ✅ CHANGE 1: "What We Offer" tag top spacing on mobile */
     .sph-tag { margin-top: 24px; }
 
-    /* ✅ CHANGE 2: Stat badge shifted slightly left on mobile */
     .sph-stat { right: auto; left: 10%; transform: translateY(-50%); }
   }
 
@@ -449,6 +475,9 @@ const CSS = `
     .sph-orbit__core { width: 58px; height: 58px; }
     .sph-stat { padding: 12px 16px; }
     .sph-stat__num { font-size: 22px; }
+    .sph-breadcrumb { padding: 6px 6px; }
+    .sph-breadcrumb li a { padding: 6px 12px; font-size: 12px; }
+    .sph-breadcrumb li.sph-crumb-current { padding: 6px 14px; font-size: 12px; }
   }
 
   @media (max-width: 479px) {
@@ -477,14 +506,38 @@ const ServicePageHero = ({ title = "Services" }) => {
               Our <span>{title}</span>
             </h1>
             <p className="sph-desc">
-              We craft digital experiences that drive real business growth. From
-              strategy to execution — everything under one roof.
+              We deliver creative, technology-driven digital solutions that help
+              businesses build stronger brands, attract more customers, and
+              achieve measurable growth.
             </p>
             <ul className="sph-breadcrumb">
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M3 10.5 12 3l9 7.5" />
+                    <path d="M5 9.5V21h14V9.5" />
+                  </svg>
+                  Home
+                </Link>
               </li>
-              <li>{title}</li>
+              <li className="sph-crumb-sep" aria-hidden="true">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  strokeWidth="2.4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <polyline points="9 6 15 12 9 18" />
+                </svg>
+              </li>
+              <li className="sph-crumb-current">{title}</li>
             </ul>
           </div>
           <FloatingIcons />

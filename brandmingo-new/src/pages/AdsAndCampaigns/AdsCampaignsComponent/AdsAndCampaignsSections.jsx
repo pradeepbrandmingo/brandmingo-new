@@ -7,26 +7,26 @@ const WEBSITE_TYPES = [
   {
     fa: "fa-solid fa-magnifying-glass-chart",
     num: "01",
-    title: "Search Ads (Google Ads)",
-    desc: "Capture high-intent users actively searching for your products or services and convert demand into real business opportunities.",
+    title: "Google Search Ads",
+    desc: "Capture high-intent customers actively searching for your products or services and convert clicks into valuable business opportunities.",
   },
   {
     fa: "fa-solid fa-bullhorn",
     num: "02",
-    title: "Social Media Ads",
-    desc: "EReach, engage, and influence your target audience with highly targeted campaigns designed for awareness, leads, and sales.",
+    title: "Meta Ads (Facebook & Instagram)",
+    desc: "Reach the right audience with targeted campaigns that increase brand awareness, generate leads, and drive more sales.",
   },
   {
     fa: "fa-solid fa-rotate",
     num: "03",
     title: "Display & Remarketing Ads",
-    desc: "Reconnect with potential customers, stay top-of-mind, and increase conversions through smart retargeting strategies.",
+    desc: "Reconnect with interested visitors through smart remarketing campaigns that improve conversions and maximize ROI.",
   },
   {
     fa: "fa-solid fa-chart-line",
     num: "04",
     title: "Performance Campaigns",
-    desc: "Data-driven campaigns optimized for leads, sales, and maximum return on investment through continuous testing and scaling.",
+    desc: "Run data-driven campaigns optimized for lead generation, customer acquisition, and sustainable business growth.",
   },
 ];
 
@@ -34,22 +34,22 @@ const TECHNOLOGIES = [
   {
     fa: "fa-brands fa-google",
     title: "Google Ads",
-    desc: "Capture high-intent users actively searching for your products or services and convert demand into real business opportunities.",
+    desc: "Capture high-intent customers actively searching for your products and services to generate quality leads and increase sales.",
   },
   {
     fa: "fa-brands fa-facebook",
     title: "Meta Ads (Facebook & Instagram)",
-    desc: "Reach, engage, and influence your target audience with highly targeted campaigns designed for awareness, leads, and sales.",
+    desc: "Capture high-intent customers actively searching for your products and services to generate quality leads and increase sales.",
   },
   {
     fa: "fa-brands fa-youtube",
     title: "YouTube Ads",
-    desc: "Leverage video-based advertising to build brand awareness, educate your audience, and drive conversions at scale.",
+    desc: "Engage potential customers with impactful video campaigns that build brand trust and drive high-quality conversions.",
   },
   {
     fa: "fa-solid fa-chart-pie",
     title: "Analytics & Tracking",
-    desc: "Monitor performance with accurate data, track every conversion, and continuously optimize campaigns for better results.",
+    desc: "Monitor every click, lead, and conversion with real-time analytics to continuously improve campaign performance and ROI.",
   },
 ];
 
@@ -58,31 +58,31 @@ const PROCESS_STEPS = [
     num: "01",
     fa: "fa-solid fa-magnifying-glass-chart",
     title: "Business & Audience Analysis",
-    desc: "We deeply understand your business goals, target audience, and competitors to build a strong campaign foundation.",
+    desc: "We analyze your business, target audience, competitors, and goals to build a data-driven campaign strategy.",
   },
   {
     num: "02",
     fa: "fa-solid fa-clipboard-list",
     title: "Strategy & Campaign Planning",
-    desc: "We define the right platforms, targeting, budget allocation, and messaging to create a high-impact campaign strategy.",
+    desc: "We define audience targeting, budget allocation, campaign structure, and messaging for maximum performance.",
   },
   {
     num: "03",
     fa: "fa-solid fa-pen-nib",
     title: "Creative Development & Setup",
-    desc: "We design compelling ad creatives and set up campaigns with proper tracking systems to ensure accurate data collection.",
+    desc: "We create compelling ad creatives, set up campaigns, and implement accurate conversion tracking.",
   },
   {
     num: "04",
     fa: "fa-solid fa-chart-line",
     title: "Optimization & Scaling",
-    desc: "We continuously monitor, test, and optimize campaigns to improve performance and scale what delivers the best results.",
+    desc: "We continuously test, optimize, and scale campaigns to improve conversions, reduce costs, and increase ROI.",
   },
   {
     num: "05",
     fa: "fa-solid fa-chart-pie",
     title: "Reporting & Growth Insights",
-    desc: "We provide clear reports and actionable insights to refine strategies and drive long-term business growth.",
+    desc: "Receive transparent reports and actionable insights to refine strategy and drive long-term business growth.",
   },
 ];
 
@@ -115,13 +115,13 @@ const WebDevTypes = () => {
           <div className="wds-types-left">
             <div className="wds-section-label">WHAT WE RUN</div>
             <h3 className="wds-types-heading">
-              Ad Campaigns Designed for Maximum Impact
+              Ad Campaigns Built for Maximum Growth
             </h3>
             <p className="wds-types-desc">
-              Every business requires a different advertising approach. We don’t
-              run random ads we analyze your goals, audience, and market to
-              craft the right campaign strategy that delivers consistent leads,
-              sales, and measurable growth.
+              Every business has unique goals. We create tailored advertising
+              strategies across leading digital platforms to generate qualified
+              leads, increase conversions, and deliver measurable business
+              growth.
             </p>
 
             {/* Decorative dot grid + arc */}
@@ -195,7 +195,14 @@ const WebDevTypes = () => {
                 </div>
                 <h4 className="wds-card-title">{item.title}</h4>
                 <p className="wds-card-desc">{item.desc}</p>
-                <a href="#contact" className="wds-card-link">
+                <a
+                  href="#contact"
+                  className="wds-card-link"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
                   Learn More <i className="fa-solid fa-arrow-right" />
                 </a>
               </div>
@@ -238,13 +245,13 @@ const WebDevTech = () => {
               Built with Powerful Platforms
             </div>
             <h3 className="wdt-heading">
-              Advertising Platforms That Deliver Real Results
+              Advertising Platforms That Drive Real Business Growth
             </h3>
             <p className="wdt-desc">
-              We don’t rely on guess work; we use proven advertising platforms
-              and advanced tools to create campaigns that are optimized for
-              performance, scalability, and measurable growth. Every platform is
-              selected based on your business goals to ensure maximum ROI.
+              We leverage industry-leading advertising platforms to reach the
+              right audience, generate qualified leads, increase conversions,
+              and maximize ROI through data-driven campaign strategies tailored
+              to your business goals.
             </p>
           </div>
 
@@ -303,10 +310,10 @@ const WebDevProcess = () => {
             <div className="wds-section-label">OUR WORKFLOW</div>
             <h3 className="wdp-heading"> Our Proven Ads Campaign Process</h3>
             <p className="wdp-desc">
-              Successful ad campaigns are never random. We follow a structured,
-              data-driven approach to ensure every campaign is optimized for
-              performance, generates quality leads, and delivers consistent
-              return on investment.
+              Every successful campaign starts with a strategy. Our proven
+              process combines research, creativity, optimization, and
+              performance tracking to generate qualified leads, increase
+              conversions, and maximize ROI.
             </p>
 
             {/* CTA box */}

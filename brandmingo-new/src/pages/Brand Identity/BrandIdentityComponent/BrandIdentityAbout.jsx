@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
+const brandIdentityHero =
+  "https://res.cloudinary.com/dqqgpii8v/image/upload/v1783516949/Untitled_design_2_elf2n9.png";
 
 const NAV = [
   {
@@ -225,15 +227,21 @@ const BrandIdentityAbout = () => {
         <main className="wda-main">
           {/* Hero image */}
           <div className="wda-hero">
+            <img
+              src={brandIdentityHero}
+              alt="Brand Identity Banner - Brandmingo"
+              className="wda-hero-img"
+            />
+
             <div className="wda-hero-ov">
               <div className="wda-hero-txt">
                 <div className="wda-hero-badge">
                   <i className="fa-solid fa-laptop-code" />
                   ABOUT BRAND IDENTITY
                 </div>
+
                 <h2>
-                  Building Strong Brands With{" "}
-                  <span>High-Impact Design & Strategy</span>
+                  Building Powerful Brands <span>With Creative Design</span>
                 </h2>
               </div>
             </div>
@@ -247,15 +255,16 @@ const BrandIdentityAbout = () => {
             </div>
             <h2 className="wda-h1">What is Brand Identity?</h2>
             <p className="wda-p">
-              Brand identity is the process of defining how your business looks,
-              feels, and communicates with your audience. It includes logo
-              design, visual elements, brand voice, and consistency to create a
-              strong and recognizable presence.
-              <br />
-              Think of it this way — your brand is not just a logo, it’s the
-              perception people have about your business. Without a clear
-              identity, you’re missing recognition, trust, and long-term brand
-              value.
+              Graphic design is more than creating attractive visuals—it shapes
+              how customers see, remember, and connect with your brand. From
+              logo design and typography to marketing creatives and brand
+              assets, every element works together to build a strong visual
+              identity.
+              <br />A consistent brand identity helps your business stand out,
+              earn customer trust, and create a memorable experience across
+              every platform. Strategic graphic design strengthens brand
+              recognition, improves credibility, and supports long-term business
+              growth.
             </p>
 
             <div className="wda-lbl" style={{ marginTop: "40px" }}>
