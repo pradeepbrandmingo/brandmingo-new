@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const serviceImages = {
   custom:
-    "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/1fg4zNRn/Chat-GPT-Image-Jul-15-2026-06-09-03-PM.png",
   design:
     "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=520&q=80&auto=format&fit=crop",
   setup:
@@ -27,37 +27,37 @@ const servicesData = [
   {
     id: "design",
     title: "Store Design",
-    desc: "Design visually appealing store layouts that improve usability and deliver a seamless shopping experience.",
+    desc: "We design modern, responsive, and user-friendly WooCommerce stores focused on seamless shopping and better conversions.",
   },
   {
     id: "setup",
     title: "WooCommerce Setup",
-    desc: "Set up your online store with products, payments, and shipping for smooth and efficient selling.",
+    desc: "We set up and configure complete WooCommerce stores with products, payments, shipping, taxes, and essential settings.",
   },
   {
     id: "plugin",
     title: "Plugin Development",
-    desc: "Develop and integrate custom features to extend your store’s functionality and automate processes.",
+    desc: "We develop custom WooCommerce plugins and advanced features to extend functionality and streamline your store operations.",
   },
   {
     id: "optimization",
     title: "Store Optimization",
-    desc: "Improve store speed, performance, and user experience for better engagement and higher conversions.",
+    desc: "We optimize WooCommerce stores for faster loading, improved performance, smooth navigation, and a better shopping experience.",
   },
   {
     id: "seo",
     title: "SEO for Store",
-    desc: "Optimize your store structure to improve rankings, visibility, and organic traffic growth.",
+    desc: "We build SEO-friendly WooCommerce stores optimized for better search visibility, organic traffic, and higher online rankings.",
   },
   {
     id: "migration",
     title: "Store Migration",
-    desc: "Migrate your existing store to WooCommerce without data loss, downtime, or performance issues.",
+    desc: "We securely migrate your existing online store to WooCommerce while protecting products, customer data, and SEO structure.",
   },
   {
     id: "support",
     title: "Maintenance & Support",
-    desc: "Keep your store secure, updated, and running smoothly with continuous support and improvements.",
+    desc: "We provide ongoing WooCommerce maintenance and technical support to keep your store secure, updated, and running smoothly.",
   },
 ];
 
