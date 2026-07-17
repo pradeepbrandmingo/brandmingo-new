@@ -327,7 +327,7 @@ const CtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">500+</span>
+                  <span className="val">100+</span>
                   <span className="lbl">Brands Delivered</span>
                 </div>
               </div>

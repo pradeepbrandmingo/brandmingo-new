@@ -8,31 +8,31 @@ const steps = [
     num: "01",
     icon: "fa-solid fa-magnifying-glass-chart",
     title: "Requirement Analysis",
-    desc: "Understanding your business, audience, and website goals before starting the project.",
+    desc: "Understanding your business goals, project scope, and technical requirements.",
   },
   {
     num: "02",
     icon: "fa-solid fa-pen-ruler",
-    title: "UI/UX Design",
-    desc: "Designing a clean, modern, and user-friendly layout aligned with your brand identity.",
+    title: "Planning & UI/UX",
+    desc: "Creating a user-friendly interface and defining the application architecture.",
   },
   {
     num: "03",
-    icon: "fa-brands fa-wordpress",
-    title: "WordPress Development",
-    desc: "Building a fast, scalable, and fully functional WordPress website using best practices.",
+    icon: "fa-solid fa-code",
+    title: "PHP Development",
+    desc: "Building secure, scalable, and high-performance PHP web applications.",
   },
   {
     num: "04",
     icon: "fa-solid fa-shield-halved",
     title: "Testing",
-    desc: "Ensuring your website works perfectly across all devices and browsers.",
+    desc: "Testing functionality, security, and performance across all devices.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Launch",
-    desc: "Deploying your website smoothly and making it live without any performance issues.",
+    title: "Deployment",
+    desc: "Launching your PHP application with complete optimization and support.",
   },
 ];
 
@@ -160,7 +160,7 @@ export default function PHPProcessSection() {
             and <span className="ora">proven process</span>
           </h2>
           <p className="ps-sub">
-            We follow a streamlined WordPress development process to deliver
+            We follow a streamlined PHP development process to deliver
             fast, secure, and high-performing websites that drive real business
             growth.
           </p>

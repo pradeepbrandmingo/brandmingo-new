@@ -7,14 +7,12 @@ const WhyChooseBMShopify = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose Brandmingo for Top-Tier ReactJS <br />
-            Development Services
+            Why Choose Brandmingo for Shopify Development? <br />
           </h3>
           <p className="wcb-subtitle">
-            As a trusted ReactJS development firm, we turn ideas into
-            high-performance, scalable web, mobile, and enterprise apps,
-            combining innovation, seamless UX, and technology that drives real
-            business results.
+            We build high-performing Shopify stores that combine premium design,
+            fast performance, and conversion-focused development to help
+            businesses grow online.
           </p>
         </div>
 
@@ -23,12 +21,11 @@ const WhyChooseBMShopify = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              8<span>+</span>
+              150<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Proven Expertise</div>
+            <div className="wcb-stat-label">Shopify Stores Delivered</div>
             <p className="wcb-stat-desc">
-              Pioneering brands that dominate markets and create lasting
-              impressions.
+              Successfully delivered stores for growing brands.
             </p>
           </div>
 
@@ -37,10 +34,9 @@ const WhyChooseBMShopify = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-award" />
             </div>
-            <div className="wcb-feat-title">Certified Brand Strategists</div>
+            <div className="wcb-feat-title">Conversion-Focused Strategy</div>
             <p className="wcb-feat-desc">
-              Deep expertise in brand identity and growth-focused marketing
-              frameworks that deliver measurable impact.
+              Every store is designed to improve user experience and increase sales.
             </p>
           </div>
 

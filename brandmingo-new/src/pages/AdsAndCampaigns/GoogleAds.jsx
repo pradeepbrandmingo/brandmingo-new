@@ -502,9 +502,9 @@ const GoogleAds = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — Google Ads helps you reach the right
-                    audience, generate quality leads, and turn ad spend into
-                    real business growth.
+                    Simply put — Google Ads helps you attract high-intent
+                    customers, increase conversions, and maximize your
+                    advertising ROI
                   </p>
 
                   {/* SLIDER */}

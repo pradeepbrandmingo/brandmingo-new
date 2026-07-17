@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import d1 from "../../assets/images/resource/service-d1.jpg";
 import d2 from "../../assets/images/resource/service-d2.jpg";
 import RelatedServices from "../../components/RelatedServices/RelatedServices";
-import PortfolioSlider from "../../components/PortfolioSlider/PortfolioSlider";
+// import PortfolioSlider from "../../components/PortfolioSlider/PortfolioSlider";
 import WoocommDetailsHero from "../../servicespags/woocommComponents/WoocommDetailsHero";
 import WoocommExpertiseDetails from "../../servicespags/woocommComponents/WoocommExpertiseDetails";
 import WoocommProcessSection from "../../servicespags/woocommComponents/WoocommProcessSection";
@@ -100,15 +100,16 @@ const WoocommDetails = () => {
                           <p className="text mb-3">
                             WooCommerce development is the process of building
                             flexible, scalable, and high-performance online
-                            stores using the world’s most powerful e-commerce
-                            platform. If your store feels outdated or hard to
-                            manage, you’re losing potential customers every day.
+                            stores for growing businesses. If your store feels
+                            outdated or difficult to manage, you could be losing
+                            potential customers and sales every day
                           </p>
 
                           <p className="text mb-4">
                             We create fast, conversion-focused, and
-                            easy-to-manage WooCommerce stores that improve user
-                            experience and help you grow your business online.
+                            easy-to-manage WooCommerce stores that improve
+                            shopping experiences, increase customer engagement,
+                            and help your business grow online
                           </p>
 
                           {/* Stats Row */}
@@ -148,7 +149,7 @@ const WoocommDetails = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1777552698/bm_services_image_gbkwer.png"
+                              src="https://i.ibb.co/Xk2qrTnh/Chat-GPT-Image-Jul-15-2026-05-00-11-PM.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -396,13 +397,14 @@ const WoocommDetails = () => {
                   <p className="text mb-3">
                     WooCommerce development is the process of building flexible,
                     scalable, and conversion-focused online stores using the
-                    world’s most powerful e-commerce platform.
+                    world's leading e-commerce platform
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of relying on complex coding
-                    for every update, WooCommerce allows you to manage products,
-                    orders, and payments easily while maintaining performance,
-                    design, and scalability. This makes your store:
+                    It simplifies store management — instead of relying on
+                    complex systems for every update, WooCommerce lets you
+                    manage products, orders, and payments easily while
+                    maintaining performance, design, and scalability. This makes
+                    your store
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
@@ -566,9 +568,8 @@ const WoocommDetails = () => {
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">What You Get with WooCommerce</h3>
                     <p className="text mb-4">
-                      We don’t just build online stores — we create scalable,
-                      easy-to-manage, and conversion-driven WooCommerce
-                      solutions.
+                      We build scalable, easy-to-manage, and conversion-focused
+                      WooCommerce stores designed for modern businesses.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -828,9 +829,9 @@ const WoocommDetails = () => {
           <RelatedServices />
         </div>
 
-        <div className="portfolio-slider-section">
+        {/* <div className="portfolio-slider-section">
           <PortfolioSlider />
-        </div>
+        </div> */}
       </section>
     </div>
   );

@@ -2,62 +2,62 @@ import React, { useState } from "react";
 
 const serviceImages = {
   custom:
-    "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/gLRvZPDz/Untitled-design-11.jpg",
   theme:
-    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/gLRvZPDz/Untitled-design-11.jpg",
   woocommerce:
-    "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/gLRvZPDz/Untitled-design-11.jpg",
   plugin:
-    "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/gLRvZPDz/Untitled-design-11.jpg",
   optimization:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
-  seo: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/gLRvZPDz/Untitled-design-11.jpg",
+  seo: "https://i.ibb.co/gLRvZPDz/Untitled-design-11.jpg",
   migration:
-    "https://images.unsplash.com/photo-1518770660439-4636190af475?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/gLRvZPDz/Untitled-design-11.jpg",
   support:
-    "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/gLRvZPDz/Untitled-design-11.jpg", 
 };
 
 const servicesData = [
   {
     id: "custom",
-    title: "Custom WordPress Development",
-    desc: "We build fast, scalable, and fully customized WordPress websites tailored to your business needs and brand identity.",
+    title: "Custom PHP Development",
+    desc: "We build secure, scalable, and custom PHP applications tailored to your business requirements.",
   },
   {
     id: "theme",
-    title: "Theme Customization",
-    desc: "Customize WordPress themes to match your design, improve usability, and deliver a seamless user experience.",
+    title: "PHP Web Development",
+    desc: "Develop fast, responsive, and dynamic PHP websites with clean code and modern architecture.",
   },
   {
     id: "woocommerce",
-    title: "WooCommerce Development",
-    desc: "Create powerful online stores with secure payments, smooth checkout, and optimized shopping experience.",
+    title: "PHP CMS Development",
+    desc: "Build powerful PHP-based CMS solutions that simplify content management and business growth.",
   },
   {
     id: "plugin",
-    title: "Plugin Development",
-    desc: "Develop and integrate custom plugins to extend your website’s functionality and automate processes.",
+    title: "API Integration",
+    desc: "Integrate secure APIs, payment gateways, and third-party services into your PHP applications.",
   },
   {
     id: "optimization",
-    title: "Website Optimization",
-    desc: "Improve website speed, performance, and Core Web Vitals for better user experience and engagement.",
+    title: "Performance Optimization",
+    desc: "Optimize PHP applications for faster speed, better performance, and improved user experience.",
   },
   {
     id: "seo",
-    title: "SEO Setup",
-    desc: "Optimize your WordPress website structure to improve rankings, visibility, and organic traffic.",
+    title: "SEO-Friendly Development",
+    desc: "Develop SEO-ready PHP websites with optimized structure, clean URLs, and better search visibility.",
   },
   {
     id: "migration",
-    title: "WordPress Migration",
-    desc: "Migrate your website safely to WordPress without data loss, downtime, or performance issues.",
+    title: "PHP Migration",
+    desc: "Migrate legacy applications to modern PHP securely with minimal downtime and zero data loss.",
   },
   {
     id: "support",
     title: "Maintenance & Support",
-    desc: "Keep your website secure, updated, and running smoothly with ongoing support and improvements.",
+    desc: "Keep your PHP applications secure, updated, and running smoothly with expert technical support.",
   },
 ];
 
@@ -80,7 +80,7 @@ const PHPModernDigital = () => {
       <div className="auto-container">
         {/* Heading — h3 tag, style.css vars apply automatically */}
         <h3 className="ret-heading text-center mb-5">
-          WordPress Development Services{" "}
+          PHP Development Services{" "}
         </h3>
 
         {/* ── DESKTOP ── */}

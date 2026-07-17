@@ -166,7 +166,7 @@ const ReactDetailsHero = () => {
               </a>
               <a href="#work" className="rdh-btn-ghost">
                 <i className="fas fa-play" />
-                Our Work
+                View Our Work
               </a>
             </div>
 

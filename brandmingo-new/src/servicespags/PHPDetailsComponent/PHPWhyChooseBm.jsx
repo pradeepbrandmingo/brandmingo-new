@@ -6,9 +6,9 @@ const PHPWhyChooseBm = () => {
       <div className="auto-container">
         {/* Header */}
         <div className="wcb-header">
-          <h3>Why Choose Brandmingo for WordPress Development</h3>
+          <h3>Why Choose Brandmingo for PHP Development</h3>
           <p className="wcb-subtitle">
-            We build high-performance WordPress websites that are fast,
+            We build high-performance PHP applications that are fast,
             scalable, and designed to drive real business growth.
           </p>
         </div>
@@ -18,11 +18,11 @@ const PHPWhyChooseBm = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              8<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of WordPress Expertise</div>
+            <div className="wcb-stat-label">Years of PHP Expertise</div>
             <p className="wcb-stat-desc">
-              Delivering high-performance WordPress websites that drive real
+              Delivering high-performance PHP applications that drive real
               business growth.
             </p>
           </div>
@@ -32,7 +32,7 @@ const PHPWhyChooseBm = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-wordpress" />
             </div>
-            <div className="wcb-feat-title">Expert WordPress Developers</div>
+            <div className="wcb-feat-title">Expert PHP Developers</div>
             <p className="wcb-feat-desc">
               Skilled team focused on performance, usability, and scalable
               website solutions.
@@ -42,7 +42,7 @@ const PHPWhyChooseBm = () => {
           {/* 3 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              500<span>+</span>
+              50<span>+</span>
             </div>
             <div className="wcb-stat-label">Websites Delivered</div>
             <p className="wcb-stat-desc">

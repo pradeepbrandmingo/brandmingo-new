@@ -23,7 +23,7 @@ const WhyChooseBrandmingo = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              8<span>+</span>
+              3<span>+</span>
             </div>
             <div className="wcb-stat-label">Years of Proven Expertise</div>
             <p className="wcb-stat-desc">
@@ -47,7 +47,7 @@ const WhyChooseBrandmingo = () => {
           {/* 3 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              500<span>+</span>
+              100<span>+</span>
             </div>
             <div className="wcb-stat-label">Projects Delivered</div>
             <p className="wcb-stat-desc">
