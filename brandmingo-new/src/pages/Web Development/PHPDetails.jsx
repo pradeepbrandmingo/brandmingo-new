@@ -148,7 +148,7 @@ const PHPDetails = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1777530322/Untitled_design_1_so2ju6.png"
+                              src="https://i.ibb.co/8Lhhhk3X/Untitled-design-12.jpg"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -391,18 +391,22 @@ const PHPDetails = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is WordPress Development?
+                    What is PHP Development?
                   </h3>
                   <p className="text mb-3">
-                    WordPress development is the process of building flexible,
-                    SEO-friendly, and easy-to-manage websites using the world’s
-                    most popular content management system.
+                    PHP web development is the process of building dynamic,
+                    secure, and high-performance websites and web applications
+                    using PHP — one of the most trusted server-side programming
+                    languages for modern web development. It helps businesses
+                    create scalable digital platforms with custom features,
+                    database integration, and powerful backend functionality.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of relying on complex coding
-                    for every update, WordPress allows you to manage content
-                    easily while maintaining performance, design, and
-                    scalability. This makes your website:
+                    Unlike basic static websites, PHP development allows your
+                    business to build fully functional web solutions such as
+                    custom portals, CRM systems, booking platforms, dashboards,
+                    eCommerce websites, and business management systems tailored
+                    to your requirements.
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
@@ -496,9 +500,8 @@ const PHPDetails = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — WordPress makes your website easy to
-                    manage, flexible to scale, and powerful enough to grow your
-                    business online.
+                    With PHP, your website stays fast, secure, and flexible,
+                    making it easy to add new features as your business grows.
                   </p>
 
                   {/* SLIDER */}
@@ -551,8 +554,8 @@ const PHPDetails = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Build Your High-Performance WordPress Website with
-                              a Leading WordPress Development Company.
+                              Build High-Performance PHP Websites with a Leading
+                              PHP Development Company.
                             </h3>
 
                             <a href="/contact" className="discuss-cta">
@@ -569,11 +572,12 @@ const PHPDetails = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Our WordPress Development Services
+                      What You Get with Our PHP Web Development Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just build websites — we create scalable,
-                      easy-to-manage, and SEO-optimized WordPress solutions.
+                      We don’t just develop websites — we build secure,
+                      scalable, and high-performance PHP web solutions tailored
+                      to your business goals.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -605,7 +609,7 @@ const PHPDetails = () => {
                                 <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Custom WordPress Design",
+                            label: "Custom PHP Web Development",
                             desc: "Tailored to your brand identity",
                           },
                           {
@@ -650,7 +654,7 @@ const PHPDetails = () => {
                                 <line x1="10" y1="14" x2="21" y2="3" />
                               </svg>
                             ),
-                            label: "Fully Responsive Website",
+                            label: "Custom Admin Panel",
                             desc: "Optimized for all devices",
                           },
                           {
@@ -781,20 +785,20 @@ const PHPDetails = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "Frequently Asked Question",
-                          a: "WordPress is used to build websites like business sites, blogs, portfolios, and e-commerce stores with easy management.",
+                          q: "What is PHP web development?",
+                          a: "PHP web development is the process of building dynamic, secure, and scalable websites or web applications using PHP for backend functionality and server-side development.",
                         },
                         {
-                          q: "Is WordPress better than custom development?",
-                          a: "WordPress is ideal for fast, cost-effective websites, while custom development is better for advanced features and scalability.",
+                          q: "Is PHP better for custom development?",
+                          a: "Yes, PHP is highly flexible and ideal for custom web development, allowing businesses to build tailored features, portals, dashboards, and scalable web applications.",
                         },
                         {
-                          q: "Is WordPress SEO-friendly?",
-                          a: "Yes, WordPress is highly SEO-friendly with proper structure, plugins, and optimization techniques to rank on Google.",
+                          q: "Is PHP SEO-friendly?",
+                          a: "Yes, PHP websites can be fully optimized for SEO with clean coding structure, fast loading speed, mobile responsiveness, and search-engine-friendly architecture.",
                         },
                         {
-                          q: "How much does a WordPress website cost?",
-                          a: "The cost depends on features, design, and complexity. We provide flexible pricing based on your business needs.",
+                          q: "How much does a PHP website cost?",
+                          a: "The cost depends on project complexity, required features, integrations, number of pages, and development timeline. Basic PHP websites usually start from affordable pricing, while custom platforms may require advanced development budgets.",
                         },
                       ].map((item, index) => (
                         <li

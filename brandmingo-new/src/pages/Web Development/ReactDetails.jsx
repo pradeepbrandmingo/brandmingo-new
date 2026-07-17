@@ -131,7 +131,7 @@ const ReactDetails = () => {
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">500+</span>
+                              <span className="react-stat-num">100+</span>
                               <span className="react-stat-label">
                                 Projects Built
                               </span>

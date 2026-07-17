@@ -4,18 +4,18 @@ const serviceImages = {
   custom:
     "https://i.ibb.co/1fg4zNRn/Chat-GPT-Image-Jul-15-2026-06-09-03-PM.png",
   design:
-    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/1fg4zNRn/Chat-GPT-Image-Jul-15-2026-06-09-03-PM.png",
   setup:
-    "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/1fg4zNRn/Chat-GPT-Image-Jul-15-2026-06-09-03-PM.png",
   plugin:
-    "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/1fg4zNRn/Chat-GPT-Image-Jul-15-2026-06-09-03-PM.png",
   optimization:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
-  seo: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/1fg4zNRn/Chat-GPT-Image-Jul-15-2026-06-09-03-PM.png",
+  seo:"https://i.ibb.co/1fg4zNRn/Chat-GPT-Image-Jul-15-2026-06-09-03-PM.png",
   migration:
-    "https://images.unsplash.com/photo-1518770660439-4636190af475?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/1fg4zNRn/Chat-GPT-Image-Jul-15-2026-06-09-03-PM.png",
   support:
-    "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/1fg4zNRn/Chat-GPT-Image-Jul-15-2026-06-09-03-PM.png",
 };
 
 const servicesData = [

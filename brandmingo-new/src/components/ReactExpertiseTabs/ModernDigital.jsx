@@ -2,18 +2,18 @@ import React, { useState } from "react";
 
 const serviceImages = {
   enterprise:
-    "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/fdMCwTYN/Untitled-design-4.jpg",
   legacy:
-    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=520&q=80&auto=format&fit=crop",
-  pwa: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=520&q=80&auto=format&fit=crop",
-  api: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/fdMCwTYN/Untitled-design-4.jpg",
+  pwa: "https://i.ibb.co/fdMCwTYN/Untitled-design-4.jpg",
+  api: "https://i.ibb.co/fdMCwTYN/Untitled-design-4.jpg",
   ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
-  spa: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/fdMCwTYN/Untitled-design-4.jpg",
+  spa: "https://i.ibb.co/fdMCwTYN/Untitled-design-4.jpg",
   migration:
-    "https://images.unsplash.com/photo-1518770660439-4636190af475?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/fdMCwTYN/Untitled-design-4.jpg",
   payment:
-    "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/fdMCwTYN/Untitled-design-4.jpg",
 };
 
 const servicesData = [

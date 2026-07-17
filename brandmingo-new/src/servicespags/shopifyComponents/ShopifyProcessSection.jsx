@@ -8,31 +8,31 @@ const steps = [
     num: "01",
     icon: "fa-solid fa-search",
     title: "Requirement Analysis",
-    desc: "Understanding your business, target audience, and goals before anything else.",
+    desc: "Understanding your business, products, target audience, and goals before planning your Shopify store.",
   },
   {
     num: "02",
     icon: "fa-solid fa-table-columns",
     title: "UI/UX Design",
-    desc: "Designing a clean, modern, and user-friendly interface that reflects your brand.",
+    desc: "Designing clean, modern, and conversion-focused Shopify interfaces that reflect your brand.",
   },
   {
     num: "03",
     icon: "fa-solid fa-code",
-    title: "Development",
-    desc: "Building scalable, performant code with best-in-class engineering practices.",
+    title: "Shopify Development",
+    desc: "Building fast, scalable, and fully optimized Shopify stores with clean development practices.",
   },
   {
     num: "04",
     icon: "fa-solid fa-shield-halved",
-    title: "Testing",
-    desc: "Ensuring everything works perfectly across all devices and browsers.",
+    title: "Testing & Optimization",
+    desc: "Ensuring your Shopify store performs flawlessly across devices, browsers, and checkout flows.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
     title: "Launch",
-    desc: "Deploying your website smoothly and making it live without any issues.",
+    desc: "Deploying your Shopify store smoothly with ongoing support, monitoring, and performance optimization.",
   },
 ];
 
@@ -152,16 +152,16 @@ export default function ShopifyProcessSection() {
         <div className="ps-left">
           <div className="ps-tag">
             <span className="ps-dot" />
-            Our Process Shopify 
+            Our Process Shopify
           </div>
           <h2 className="ps-heading">
-            We have best team
-            <br />
-            and <span className="ora">best process</span>
+            We Build Shopify Stores <br />
+            with a <span className="ora">Proven Process</span>
           </h2>
           <p className="ps-sub">
-            We follow a streamlined process to deliver high-quality solutions
-            that drive real business results.
+            Our Shopify experts follow a streamlined development process to
+            deliver fast, secure, and conversion-focused stores that help
+            businesses grow online.
           </p>
           <a href="#contact" className="ps-btn">
             Get Started <span>→</span>

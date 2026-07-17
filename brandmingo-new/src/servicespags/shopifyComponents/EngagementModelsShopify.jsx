@@ -24,7 +24,8 @@ const engagementData = [
       "Transparent billing",
       "Agile & adaptive execution",
       "Easy scope adjustments",
-      "Easy scope adjustments",
+      "Best for Evolving Projects"
+      
     ],
     tag: null,
   },
@@ -37,7 +38,8 @@ const engagementData = [
       "Pre-defined scope",
       "No budget surprises",
       "On-time delivery",
-      "On-time delivery",
+      "Zero Surprise Costs"
+      
     ],
     tag: null,
   },
@@ -50,7 +52,8 @@ const engagementData = [
       "Fixed scope with flexibility",
       "Smooth transition between models",
       "Best of both worlds",
-      "Best of both worlds",
+      "Ideal for Scaling Brands"
+     
     ],
     tag: null,
   },

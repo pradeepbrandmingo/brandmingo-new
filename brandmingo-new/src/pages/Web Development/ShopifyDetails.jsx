@@ -101,16 +101,16 @@ const ShopifyDetails = () => {
                           <p className="text mb-3">
                             Shopify development is the process of building fast,
                             scalable, and high-converting eCommerce stores using
-                            a powerful and easy-to-manage platform. Now
-                            understand this clearly — if your store is slow,
-                            confusing, or not optimized for conversions,
-                            customers will leave without buying.
+                            one of the world's leading commerce platforms. A
+                            slow or outdated store can reduce customer trust and
+                            sales opportunities.
                           </p>
 
                           <p className="text mb-4">
-                            Shopify helps you create a smooth, secure, and
-                            seamless shopping experience that increases
-                            conversions and drives consistent sales growth.
+                            We build secure, mobile-friendly, and
+                            conversion-focused Shopify stores that enhance user
+                            experience, improve performance, and help businesses
+                            achieve long-term online growth.
                           </p>
 
                           {/* Stats Row */}
@@ -140,7 +140,7 @@ const ShopifyDetails = () => {
                           {/* Feature Tag */}
                           <div className="react-feature-tag">
                             <i className="fa-solid fa-rocket"></i>
-                            <span>High-Converting Store Guaranteed</span>
+                            <span>Conversion-Driven Shopify Stores</span>
                           </div>
                         </div>
                       </div>
@@ -150,7 +150,7 @@ const ShopifyDetails = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1777018139/Untitled_design_1_gqa4i5.png"
+                              src="https://i.ibb.co/VW5jgKmx/Chat-GPT-Image-Jul-16-2026-01-44-29-PM.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -167,29 +167,6 @@ const ShopifyDetails = () => {
                                 style={{ marginRight: "5px" }}
                               />
                               Scalable
-                            </div>
-
-                            <div className="floating-code-card">
-                              <span className="code-dot red" />
-                              <span className="code-dot yellow" />
-                              <span className="code-dot green" />
-                              <p className="code-line">
-                                <span className="code-blue">const</span> App{" "}
-                                <span className="code-white">= () =&gt;</span>{" "}
-                                <span className="code-orange">&#123;</span>
-                              </p>
-                              <p
-                                className="code-line"
-                                style={{ paddingLeft: "12px" }}
-                              >
-                                <span className="code-blue">return</span>{" "}
-                                <span className="code-orange">
-                                  &lt;React /&gt;
-                                </span>
-                              </p>
-                              <p className="code-line">
-                                <span className="code-orange">&#125;</span>
-                              </p>
                             </div>
                           </div>
 
@@ -419,15 +396,14 @@ const ShopifyDetails = () => {
                     What is Shopify Development?
                   </h3>
                   <p className="text mb-3">
-                    Shopify development is the process of building and
-                    customizing eCommerce stores that help businesses sell
-                    products online efficiently.
+                    Shopify development is the process of building fast,
+                    scalable, and conversion-focused eCommerce stores using one
+                    of the world's leading online commerce platforms.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of managing complex systems,
-                    Shopify provides an easy-to-use platform where you can
-                    create, manage, and scale your online store without
-                    technical hassle. This makes your store:
+                    Instead of managing complex systems, Shopify provides
+                    everything you need to create, manage, and grow your online
+                    store with ease. This gives your business
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
@@ -809,20 +785,20 @@ const ShopifyDetails = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is React used for?",
-                          a: "React is used to build fast and interactive user interfaces for websites and web applications.",
+                          q: "Is Shopify good for growing brands?",
+                          a: "Yes. Shopify is one of the best platforms for growing eCommerce brands because of its scalability, fast performance, app ecosystem, and conversion-focused shopping experience.",
                         },
                         {
-                          q: "Is React better than WordPress?",
-                          a: "It depends on your needs.React is better for performance and custom applications, while WordPress is better for simple websites and content management.",
+                          q: "Is Shopify SEO-friendly?",
+                          a: "Absolutely. Shopify supports SEO-friendly URLs, meta optimization, mobile responsiveness, fast-loading pages, and structured store architecture to improve search engine rankings.",
                         },
                         {
-                          q: "Is React SEO-friendly?",
-                          a: "Yes — when implemented correctly, React websites can be fully SEO optimized with fast loading and proper structure.",
+                          q: "How much does Shopify development cost?",
+                          a: "Shopify development cost depends on store complexity, custom features, product listings, integrations, and design requirements. Basic stores usually start around ₹30K+, while advanced custom stores can go much higher.",
                         },
                         {
-                          q: "How much does React development cost?",
-                          a: "The cost depends on features and complexity. Basic projects may start from ₹25,000, while advanced applications can go higher.",
+                          q: "Can you create custom Shopify designs?",
+                          a: "Yes. We develop fully custom Shopify stores with premium UI/UX, custom Liquid coding, conversion-focused layouts, and brand-specific experiences.",
                         },
                       ].map((item, index) => (
                         <li

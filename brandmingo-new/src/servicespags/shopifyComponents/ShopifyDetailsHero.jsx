@@ -58,7 +58,7 @@ const ShopifyDetailsHero = () => {
         <div className="rdh-grid">
           {/* BLOCK 1 — eyebrow + title + gradient + breadcrumb */}
           <div className="rdh-top-block">
-            <div className="rdh-eyebrow">PREMIUM ECOMMERCE SOLUTION</div>
+            <div className="rdh-eyebrow">PREMIUM SHOPIFY SOLUTION</div>
             <h1 className="title">Shopify</h1>
             <div className="rdh-liquid-wrap">
               <GradientText text="Development" fontFamily={ff} />
@@ -107,10 +107,10 @@ const ShopifyDetailsHero = () => {
           {/* BLOCK 3 — desc + buttons + badges */}
           <div className="rdh-bottom-block">
             <p className="rdh-desc">
-              Transform your eCommerce business with fast, scalable, and
-              conversion-focused Shopify stores that drive real sales growth. We
-              combine performance-driven strategy with premium design to deliver
-              seamless shopping experiences that convert better.
+              Build high-performing Shopify stores that are fast, secure, and
+              optimized for conversions. We create scalable eCommerce solutions
+              designed to increase sales, enhance user experience, and help your
+              business grow faster online.
             </p>
             <div className="rdh-btn-row">
               <a href="#contact" className="rdh-btn-primary">
@@ -119,7 +119,7 @@ const ShopifyDetailsHero = () => {
               </a>
               <a href="#work" className="rdh-btn-ghost">
                 <i className="fas fa-play" />
-                Our Work
+                View Our Work
               </a>
             </div>
 
