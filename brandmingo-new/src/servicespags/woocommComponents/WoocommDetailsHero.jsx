@@ -122,9 +122,10 @@ const WoocommDetailsHero = () => {
           {/* BLOCK 3 — desc + buttons + badges */}
           <div className="rdh-bottom-block">
             <p className="rdh-desc">
-              Build powerful WooCommerce stores that are fast, secure, and
-              optimized for conversions. We create scalable e-commerce solutions
-              that help you sell more and grow your business online.
+              Build high-performing WooCommerce stores that are fast, secure,
+              and optimized for conversions. We create scalable e-commerce
+              solutions designed to boost sales, improve user experience, and
+              help your business grow faster online
             </p>
             <div className="rdh-btn-row">
               <a href="#contact" className="rdh-btn-primary">
