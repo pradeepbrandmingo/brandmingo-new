@@ -298,15 +298,16 @@ const ShopiyCtaBanner = () => {
               <span className="cta-eyebrow">Free Consultation Available</span>
 
               <h3 className="cta-heading">
-                Ready to Build a Brand that
+                Launch Your
                 <br className="d-none d-lg-block" />
-                Drives Real Business Results?
+                High-Converting Shopify Store?
               </h3>
 
               <p className="cta-subtext">
-                From bold identities to high-converting digital experiences,
-                Brandmingo crafts brands built for performance, growth, and
-                lasting impact.
+                From custom Shopify development to high-converting storefronts,
+                Brandmingo builds fast, scalable, and performance-driven
+                eCommerce solutions that help businesses increase sales and grow
+                with confidence.
               </p>
 
               <div className="cta-btn-wrap">

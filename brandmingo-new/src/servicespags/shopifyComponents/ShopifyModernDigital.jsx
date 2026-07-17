@@ -2,60 +2,60 @@ import React, { useState } from "react";
 
 const serviceImages = {
   enterprise:
-    "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/b5fbj3wB/Chat-GPT-Image-Jul-16-2026-03-40-25-PM.png",
   legacy:
-    "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=520&q=80&auto=format&fit=crop",
-  pwa: "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=520&q=80&auto=format&fit=crop",
-  api: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/b5fbj3wB/Chat-GPT-Image-Jul-16-2026-03-40-25-PM.png",
+  pwa: "https://i.ibb.co/b5fbj3wB/Chat-GPT-Image-Jul-16-2026-03-40-25-PM.png",
+  api: "https://i.ibb.co/b5fbj3wB/Chat-GPT-Image-Jul-16-2026-03-40-25-PM.png",
   ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
-  spa: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/b5fbj3wB/Chat-GPT-Image-Jul-16-2026-03-40-25-PM.png",
+  spa: "https://i.ibb.co/b5fbj3wB/Chat-GPT-Image-Jul-16-2026-03-40-25-PM.png",
   migration:
-    "https://images.unsplash.com/photo-1518770660439-4636190af475?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/b5fbj3wB/Chat-GPT-Image-Jul-16-2026-03-40-25-PM.png",
   payment:
-    "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/b5fbj3wB/Chat-GPT-Image-Jul-16-2026-03-40-25-PM.png",
 };
 
 const servicesData = [
   {
     id: "enterprise",
-    title: "Custom ReactJS Development",
-    desc: "As a leading ReactJS web development company, we build stable and easy-to-maintain enterprise apps. Our solutions develop secure, organized front ends and create modular components for a consistent user experience.",
+    title: "Custom Shopify Store Development",
+    desc: "We build premium Shopify stores tailored to your brand, business goals, and customer journey for higher conversions.",
   },
   {
     id: "legacy",
-    title: "Legacy Application Modernization",
-    desc: "Transform outdated applications into modern, high-performance systems using ReactJS. We migrate old codebases to modern React architecture, significantly improving performance and user experience while reducing maintenance costs.",
+    title: "Shopify Theme Customization",
+    desc: "We customize Shopify themes to match your brand identity while improving performance and shopping experiences.",
   },
   {
     id: "pwa",
-    title: "React PWA Development",
-    desc: "Build Progressive Web Apps that offer a native app-like experience directly in the web browser. We ensure offline functionality, fast loading times, and enable push notifications to increase user engagement.",
+    title: "Shopify Store Redesign",
+    desc: "We redesign outdated Shopify stores with modern layouts that improve user experience and increase online sales.",
   },
   {
     id: "api",
-    title: "Third-Party APIs Integration",
-    desc: "Enhance React applications by seamlessly connecting them with powerful third-party services. We integrate payment gateways, social media, CRM, ERP, and marketing automation tools ensuring secure data exchange.",
+    title: "Shopify App Integrations",
+    desc: "We integrate Shopify with payment gateways, shipping providers, CRMs, and third-party business applications.",
   },
   {
     id: "ecommerce",
-    title: "Ecommerce Development Solutions",
-    desc: "Create dynamic and engaging online stores that drive sales. We build fast-loading product catalogs, intuitive shopping carts, and integrate secure payment solutions, optimizing everything for mobile devices.",
+    title: "Shopify Migration Services",
+    desc: "We migrate your existing online store to Shopify securely while preserving products, customers, and SEO structure.",
   },
   {
     id: "spa",
-    title: "React SPA Development",
-    desc: "Delivering focused, efficient ReactJS web development services for single-page applications. We create dynamic screens without full page reloads, improving speed, usability, and supporting real-time interactions.",
+    title: "Shopify Performance Optimization",
+    desc: "We optimize Shopify stores for faster loading, better performance, and smoother shopping across every device.",
   },
   {
     id: "migration",
-    title: "ReactJS Migration",
-    desc: "Smoothly transition your existing web applications to ReactJS with minimal disruption. We analyze existing application structure, develop detailed migration plans, and execute with data integrity.",
+    title: "Shopify SEO Optimization",
+    desc: "We build SEO-ready Shopify stores designed to improve search visibility, rankings, and organic traffic growth.",
   },
   {
     id: "payment",
-    title: "Payment Gateway Integration",
-    desc: "Integrate robust and secure payment processing solutions directly into your React applications. We support multiple payment methods, ensure PCI compliance, and provide a seamless checkout experience.",
+    title: "Shopify Maintenance & Support",
+    desc: "We provide ongoing Shopify maintenance, updates, and technical support to keep your store running smoothly.",
   },
 ];
 
@@ -78,7 +78,7 @@ const ShopifyModernDigital = () => {
       <div className="auto-container">
         {/* Heading — h3 tag, style.css vars apply automatically */}
         <h3 className="ret-heading text-center mb-5">
-          ReactJS Development Services for Modern Digital Apps
+          Shopify Development Services for Modern eCommerce Brands
         </h3>
 
         {/* ── DESKTOP ── */}

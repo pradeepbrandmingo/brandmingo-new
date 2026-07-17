@@ -300,13 +300,13 @@ const PHPCtaBanner = () => {
               <h3 className="cta-heading">
                 Ready to Build a High-Performing
                 <br className="d-none d-lg-block" />
-                WordPress Website?
+                PHP Website?
               </h3>
 
               <p className="cta-subtext">
-                We create fast, scalable, and SEO-optimized WordPress websites
-                that help you attract more visitors, generate leads, and grow
-                your business online.
+                We build fast, secure, and scalable PHP web applications that
+                help businesses streamline operations, improve performance, and
+                achieve long-term digital growth.
               </p>
 
               <div className="cta-btn-wrap">
@@ -327,7 +327,7 @@ const PHPCtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">500+</span>
+                  <span className="val">50+</span>
                   <span className="lbl">WEBSITES DELIVERED</span>
                 </div>
               </div>

@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import d1 from "../../assets/images/resource/service-d1.jpg";
 import d2 from "../../assets/images/resource/service-d2.jpg";
 import RelatedServices from "../../components/RelatedServices/RelatedServices";
-import PortfolioSlider from "../../components/PortfolioSlider/PortfolioSlider";
+// import PortfolioSlider from "../../components/PortfolioSlider/PortfolioSlider";
 import WoocommDetailsHero from "../../servicespags/woocommComponents/WoocommDetailsHero";
 import WoocommExpertiseDetails from "../../servicespags/woocommComponents/WoocommExpertiseDetails";
 import WoocommProcessSection from "../../servicespags/woocommComponents/WoocommProcessSection";
@@ -829,9 +829,9 @@ const WoocommDetails = () => {
           <RelatedServices />
         </div>
 
-        <div className="portfolio-slider-section">
+        {/* <div className="portfolio-slider-section">
           <PortfolioSlider />
-        </div>
+        </div> */}
       </section>
     </div>
   );

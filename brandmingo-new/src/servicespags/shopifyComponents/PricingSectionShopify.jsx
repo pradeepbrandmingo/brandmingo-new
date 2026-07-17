@@ -44,8 +44,9 @@ const PricingSectionShopify = () => {
           {/* h3 tag — sized via var(--h3-font-size) in CSS */}
           <h3 className="prc-title">Pricing & Cost Estimation Shopify</h3>
           <p className="prc-subtitle">
-            Our branding services pricing is flexible, transparent, and tailored
-            to your needs — no fixed packages, no hidden costs.
+            Every Shopify store is unique. Pricing depends on your goals,
+            required features, and business needs—not fixed packages or hidden
+            charges.
           </p>
         </div>
 

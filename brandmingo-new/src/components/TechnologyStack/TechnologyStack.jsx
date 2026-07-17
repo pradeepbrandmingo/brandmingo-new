@@ -4,50 +4,51 @@ import React, { useState } from "react";
 const techStack = {
   "Core Technologies": [
     {
-      name: "React 18.2+",
-      logo: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+      name: "React",
+      logo: "https://i.ibb.co/LzPzvJvP/Untitled-design-9.png",
     },
     {
-      name: "TypeScript 5.0+",
+      name: "TypeScript",
       logo: "https://cdn.worldvectorlogo.com/logos/typescript.svg",
     },
     {
-      name: "JavaScript ES2023",
+      name: "JavaScript ES6",
       logo: "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
     },
-    { name: "HTML5", logo: "https://cdn.worldvectorlogo.com/logos/html-1.svg" },
-    { name: "CSS3", logo: "https://cdn.worldvectorlogo.com/logos/css-3.svg" },
     {
-      name: "WebAssembly",
-      logo: "https://cdn.worldvectorlogo.com/logos/webassembly-1.svg",
+      name: "HTML5",
+      logo: "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+    },
+    {
+      name: "CSS3",
+      logo: "https://cdn.worldvectorlogo.com/logos/css-3.svg",
     },
   ],
+
   "Frameworks & Libraries": [
     {
       name: "Next.js",
       logo: "https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg",
     },
-    { name: "Vite", logo: "https://cdn.worldvectorlogo.com/logos/vitejs.svg" },
-    { name: "Remix", logo: "https://cdn.worldvectorlogo.com/logos/remix.svg" },
+    {
+      name: "Remix",
+      logo: "https://cdn.worldvectorlogo.com/logos/remix.svg",
+    },
     {
       name: "Gatsby",
       logo: "https://cdn.worldvectorlogo.com/logos/gatsby.svg",
-    },
-    {
-      name: "React App",
-      logo: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
     },
     {
       name: "Expo (React Native)",
       logo: "https://cdn.worldvectorlogo.com/logos/expo-1.svg",
     },
   ],
+
   "State Management": [
     {
       name: "Redux Toolkit",
       logo: "https://cdn.worldvectorlogo.com/logos/redux.svg",
     },
-
     {
       name: "MobX",
       logo: "https://cdn.worldvectorlogo.com/logos/mobx.svg",
@@ -57,24 +58,16 @@ const techStack = {
       logo: "https://cdn.worldvectorlogo.com/logos/recoil-js.svg",
     },
     {
-      name: "React (Context API)",
-      logo: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
+      name: "React Context API",
+      logo: "https://i.ibb.co/LzPzvJvP/Untitled-design-9.png",
     },
-    // {
-    //   name: "React Query",
-    //   logo: "https://cdn.worldvectorlogo.com/logos/react-query.svg",
-    // },
-    // {
-    //   name: "SWR",
-    //   logo: "https://swr.vercel.app/logo.svg",
-    // },
   ],
+
   "UI Libraries & Styling": [
     {
       name: "Tailwind CSS",
       logo: "https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg",
     },
-
     {
       name: "Framer Motion",
       logo: "https://cdn.worldvectorlogo.com/logos/framer-motion.svg",
@@ -96,7 +89,8 @@ const techStack = {
       logo: "https://cdn.worldvectorlogo.com/logos/material-ui-1.svg",
     },
   ],
-  "Testing & Quality": [
+
+  "Testing & Code Quality": [
     {
       name: "Jest",
       logo: "https://cdn.worldvectorlogo.com/logos/jest-2.svg",
@@ -122,48 +116,59 @@ const techStack = {
       logo: "https://cdn.worldvectorlogo.com/logos/prettier-2.svg",
     },
   ],
-  "Build & Development Tools": [
-    {
-      name: "Webpack",
-      logo: "https://cdn.worldvectorlogo.com/logos/webpack-icon.svg",
-    },
+
+  "Build Tools": [
     {
       name: "Vite",
       logo: "https://cdn.worldvectorlogo.com/logos/vitejs.svg",
+    },
+    {
+      name: "Webpack",
+      logo: "https://cdn.worldvectorlogo.com/logos/webpack-icon.svg",
     },
     {
       name: "Babel",
       logo: "https://cdn.worldvectorlogo.com/logos/babel-10.svg",
     },
     {
-      name: "Package Managers",
+      name: "Create React App",
+      logo: "https://i.ibb.co/LzPzvJvP/Untitled-design-9.png",
+    },
+    {
+      name: "npm",
       logo: "https://cdn.worldvectorlogo.com/logos/npm.svg",
     },
+  ],
+
+  "Version Control": [
     {
       name: "Git",
       logo: "https://cdn.worldvectorlogo.com/logos/github-icon-2.svg",
     },
+  ],
+
+  "DevOps & Deployment": [
     {
       name: "Docker",
       logo: "https://cdn.worldvectorlogo.com/logos/docker.svg",
     },
   ],
+
   "Backend Integration": [
     {
       name: "REST APIs",
       logo: "https://cdn-icons-png.flaticon.com/512/919/919825.png",
     },
-
     {
       name: "Firebase",
       logo: "https://cdn.worldvectorlogo.com/logos/firebase-1.svg",
     },
-
     {
       name: "AWS Amplify",
       logo: "https://cdn.worldvectorlogo.com/logos/aws-amplify.svg",
     },
   ],
+
   "Performance & Monitoring": [
     {
       name: "Sentry",
