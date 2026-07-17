@@ -1,4 +1,6 @@
 import React from "react";
+import { openEnquiryPopup } from "../../utils/popup";
+import { Link } from "react-router-dom";
 
 const MarketingCtaBanner = () => {
   return (
@@ -295,28 +297,38 @@ const MarketingCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">PERFORMANCE MARKETING EXPERTS</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Scale Your
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Business with Performance Marketing?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                Stop wasting budget on underperforming campaigns. Brandmingo
+                builds data-driven performance marketing strategies that
+                generate qualified leads, increase conversions, and maximize ROI
+                for sustainable business growth
               </p>
 
               <div className="cta-btn-wrap">
-                <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                <a
+                  href="/"
+                  className="cta-main-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
+                  Get a Free Growth Audit
                   <i className="fas fa-arrow-right" />
                 </a>
-                <a href="#portfolio" className="cta-link">
-                  View Our Results <i className="fas fa-arrow-right" />
-                </a>
+
+                <Link to="/portfolio" className="cta-link">
+                  View Success Stories
+                  <i className="fas fa-arrow-right" />
+                </Link>
               </div>
             </div>
 
@@ -327,7 +339,7 @@ const MarketingCtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">300+</span>
+                  <span className="val">200+</span>
                   <span className="lbl">Campaigns Managed</span>
                 </div>
               </div>
@@ -337,7 +349,7 @@ const MarketingCtaBanner = () => {
                   <i className="fas fa-check-circle" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">90%</span>
+                  <span className="val">95%</span>
                   <span className="lbl">Client Retention</span>
                 </div>
               </div>

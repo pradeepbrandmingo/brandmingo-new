@@ -8,49 +8,49 @@ const WEBSITE_TYPES = [
   {
     fa: "fa-solid fa-pen-nib",
     num: "01",
-    title: "Logo & Visual Identity",
-    desc: "Design logos, colors, and visuals that define your brand identity.",
+    title: "Logo & Brand Identity",
+    desc: "Create memorable logos, colors, and visual elements that define your brand.",
   },
   {
-    fa: "fa-solid fa-layer-group",
+    fa: "fa-solid fa-book-open",
     num: "02",
     title: "Brand Guidelines",
-    desc: "Create consistent brand rules for design, tone, and communication.",
+    desc: "Develop clear brand standards for consistent design and communication.",
   },
   {
-    fa: "fa-solid fa-id-card",
+    fa: "fa-solid fa-address-card",
     num: "03",
-    title: "Corporate Identity Design",
-    desc: "Build business cards, letterheads, and professional brand assets.",
+    title: "Corporate Identity",
+    desc: "Design business stationery and branded assets for a professional image.",
   },
   {
-    fa: "fa-solid fa-bullhorn",
+    fa: "fa-solid fa-photo-film",
     num: "04",
-    title: "Marketing & Brand Assets",
-    desc: "Design creatives that maintain consistency across campaigns.",
+    title: "Marketing Creatives",
+    desc: "Create impactful marketing designs that boost visibility and engagement.",
   },
 ];
 
 const TECHNOLOGIES = [
   {
     fa: "fa-solid fa-pen-ruler",
-    title: "Design Tools",
-    desc: "Create logos, visuals, and brand assets with precision and creativity.",
+    title: "Creative Design Tools",
+    desc: "Design professional logos, brand assets, and marketing creatives with precision.",
   },
   {
-    fa: "fa-solid fa-chart-line",
+    fa: "fa-solid fa-lightbulb",
     title: "Brand Strategy Tools",
-    desc: "Analyze positioning, audience, and brand direction for clarity.",
+    desc: "Develop strong brand positioning and visual strategies for lasting business impact.",
   },
   {
-    fa: "fa-solid fa-layer-group",
+    fa: "fa-solid fa-folder-tree",
     title: "Brand Asset Systems",
-    desc: "Organize and manage brand elements for consistency across platforms.",
+    desc: "Manage logos, brand assets, and design files for consistent brand communication.",
   },
   {
-    fa: "fa-solid fa-swatchbook",
+    fa: "fa-solid fa-palette",
     title: "Visual Identity Tools",
-    desc: "Define colors, typography, and styles for a cohesive brand look.",
+    desc: "Create cohesive color palettes, typography, and visual styles for every brand.",
   },
 ];
 
@@ -58,32 +58,32 @@ const PROCESS_STEPS = [
   {
     num: "01",
     fa: "fa-solid fa-magnifying-glass",
-    title: "Brand Audit & Research",
-    desc: "We analyze your business, audience, and competitors to find opportunities.",
+    title: "Brand Discovery",
+    desc: "We research your business, audience, industry, and competitors to shape your brand strategy.",
   },
   {
     num: "02",
     fa: "fa-solid fa-lightbulb",
-    title: "Strategy & Positioning",
-    desc: "We define brand voice, messaging, and positioning for clarity.",
+    title: "Creative Strategy",
+    desc: "We define your brand positioning, messaging, and visual direction for market impact.",
   },
   {
     num: "03",
-    fa: "fa-solid fa-pen-nib",
-    title: "Visual Identity Design",
-    desc: "We create logos, colors, and visuals that represent your brand.",
+    fa: "fa-solid fa-pen-ruler",
+    title: "Design Creation",
+    desc: "We create logos, visual assets, typography, and branding elements that reflect your identity.",
   },
   {
     num: "04",
-    fa: "fa-solid fa-layer-group",
-    title: "Brand Consistency",
-    desc: "We ensure consistent design and messaging across all touchpoints.",
+    fa: "fa-solid fa-book-open",
+    title: "Brand Guidelines",
+    desc: "We establish brand standards to ensure consistency across every design and platform.",
   },
   {
     num: "05",
-    fa: "fa-solid fa-chart-line",
-    title: "Growth & Evolution",
-    desc: "We refine and evolve your brand as your business grows.",
+    fa: "fa-solid fa-arrow-trend-up",
+    title: "Brand Evolution",
+    desc: "We refine your brand identity to support long-term growth and changing business needs.",
   },
 ];
 
@@ -116,12 +116,13 @@ const WebDevTypes = () => {
           <div className="wds-types-left">
             <div className="wds-section-label">WHAT WE CREATE</div>
             <h3 className="wds-types-heading">
-              Types of Brand Identity We Create
+              Types of Graphic Design Services We Offer
             </h3>
             <p className="wds-types-desc">
-              Not every brand needs the same identity — and that’s where most
-              businesses go wrong. We analyze your vision first, then craft the
-              right brand identity for maximum recognition and impact.
+              Every business has unique branding goals and design requirements.
+              We create strategic graphic design solutions that strengthen your
+              brand identity, improve recognition, and leave a lasting
+              impression across every customer touchpoint.
             </p>
 
             {/* Decorative dot grid + arc */}
@@ -195,7 +196,14 @@ const WebDevTypes = () => {
                 </div>
                 <h4 className="wds-card-title">{item.title}</h4>
                 <p className="wds-card-desc">{item.desc}</p>
-                <a href="#contact" className="wds-card-link">
+                <a
+                  href="#contact"
+                  className="wds-card-link"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
                   Learn More <i className="fa-solid fa-arrow-right" />
                 </a>
               </div>
@@ -235,13 +243,11 @@ const WebDevTech = () => {
           {/* Left */}
           <div className="wdt-left">
             <div className="wds-section-label">BUILT WITH POWERFUL TOOLS</div>
-            <h3 className="wdt-heading">
-              Brand Identity Tools & Platforms We Use
-            </h3>
+            <h3 className="wdt-heading">Design Tools & Platforms We Use</h3>
             <p className="wdt-desc">
-              We don’t rely on guesswork. We use proven branding tools and
-              platforms optimized for creativity, consistency, and impactful
-              brand development — tailored to your business goals.
+              We use industry-leading design tools and creative platforms to
+              craft impactful brand identities, marketing creatives, and visual
+              assets that help businesses stand out and grow.
             </p>
           </div>
 
@@ -298,11 +304,11 @@ const WebDevProcess = () => {
           {/* Left */}
           <div className="wdp-left">
             <div className="wds-section-label">OUR WORKFLOW</div>
-            <h3 className="wdp-heading"> Our Branding Process</h3>
+            <h3 className="wdp-heading"> Our Brand Design Process</h3>
             <p className="wdp-desc">
-              Successful branding is never random. We follow a structured,
-              strategic approach to build a strong identity, ensure consistency,
-              and create long-term brand impact.
+              We follow a strategic branding process to create memorable visual
+              identities, maintain consistency, and help businesses build
+              long-term brand recognition
             </p>
 
             {/* CTA box */}
@@ -313,8 +319,8 @@ const WebDevProcess = () => {
               <div className="wdp-cta-text">
                 <h4>Have a branding project in mind?</h4>
                 <p>
-                  Let’s build a powerful brand identity that creates impact and
-                  long-term value.
+                  Let's create a unique brand identity that builds trust,
+                  attracts customers, and drives long-term business growth
                 </p>
                 <button
                   className="wdp-cta-btn"

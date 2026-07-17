@@ -29,28 +29,28 @@ const NAV = [
 const REASONS = [
   {
     fa: "fa-solid fa-eye",
-    title: "Build Brand Recognition",
-    desc: "Make your brand instantly recognizable across all platforms.",
+    title: "Brand Recognition",
+    desc: "Build a memorable visual identity that helps customers recognize your brand instantly.",
   },
   {
     fa: "fa-solid fa-palette",
-    title: "Create Visual Consistency",
-    desc: "Maintain a consistent look and feel across every touchpoint.",
+    title: "Visual Consistency",
+    desc: "Maintain consistent branding across every platform to strengthen your business identity.",
   },
   {
     fa: "fa-solid fa-users",
-    title: "Connect With Your Audience",
-    desc: "Build emotional connections that turn users into loyal customers.",
+    title: "Audience Engagement",
+    desc: "Create meaningful brand experiences that increase customer engagement and long-term loyalty.",
   },
   {
-    fa: "fa-solid fa-shield-heart",
-    title: "Build Trust & Credibility",
-    desc: "Establish a professional image that builds confidence in your brand.",
+    fa: "fa-solid fa-shield-halved",
+    title: "Trust & Credibility",
+    desc: "Establish a professional brand image that builds customer confidence and lasting trust.",
   },
   {
-    fa: "fa-solid fa-rocket",
-    title: "Stand Out From Competitors",
-    desc: "Differentiate your brand and create a strong market presence.",
+    fa: "fa-solid fa-trophy",
+    title: "Competitive Advantage",
+    desc: "Stand out from competitors with distinctive branding that leaves a lasting impression.",
   },
 ];
 
@@ -298,8 +298,8 @@ const BrandIdentityAbout = () => {
                 <i className="fa-solid fa-quote-right" />
               </div>
               <span>
-                If your brand is not memorable, you’re already{" "}
-                <em> — losing potential customers.</em>
+                A strong brand identity turns first impressions{" "}
+                <em> into lasting customer relationships</em>
               </span>
             </div>
 
@@ -307,7 +307,7 @@ const BrandIdentityAbout = () => {
             <div className="wda-img-cards">
               <div className="wda-img-card">
                 <img
-                  src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=700"
+                  src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1783516949/Untitled_design_2_elf2n9.png"
                   alt="Modern Web Development"
                 />
                 <div className="wda-img-card-body">
@@ -315,8 +315,9 @@ const BrandIdentityAbout = () => {
                     <i className="fa-solid fa-palette" />
                   </div>
                   <p>
-                    Strategic, design-driven brand identities crafted to build
-                    recognition, consistency, and long-term brand value.
+                    Creative brand identities designed to strengthen
+                    recognition, build trust, and create a consistent visual
+                    presence across every customer touchpoint
                   </p>
                   <a href="#contact" className="wda-img-card-arrow">
                     <i className="fa-solid fa-arrow-right" />
@@ -326,7 +327,7 @@ const BrandIdentityAbout = () => {
 
               <div className="wda-img-card">
                 <img
-                  src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=700"
+                  src="https://i.ibb.co/Zz0MNRM4/website-developement-image-Brandmingo.avif"
                   alt="E-commerce Solutions"
                 />
                 <div className="wda-img-card-body">
@@ -334,8 +335,9 @@ const BrandIdentityAbout = () => {
                     <i className="fa-solid fa-bullseye" />
                   </div>
                   <p>
-                    Impact-focused branding solutions that connect with your
-                    audience and create a strong, memorable presence.
+                    Strategic graphic design solutions that capture attention,
+                    engage your audience, and transform ideas into memorable
+                    brand experiences
                   </p>
                   <a href="#contact" className="wda-img-card-arrow">
                     <i className="fa-solid fa-arrow-right" />

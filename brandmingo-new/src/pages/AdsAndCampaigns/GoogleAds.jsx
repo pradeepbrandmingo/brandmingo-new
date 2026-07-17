@@ -98,21 +98,20 @@ const GoogleAds = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Google Ads
+                            Turn Ad Spend Into Predictable Revenue
                           </h3>
                           <p className="text mb-3">
-                            Google Ads is the process of running high-intent
-                            campaigns that focus on measurable results like
-                            leads, sales, and ROI. If your ads are getting
-                            clicks but not conversions, you're losing potential
-                            revenue every day.
+                            Stop wasting budget on clicks that don't convert.
+                            Scale your business with Google Ads campaigns built
+                            for measurable growth
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting Google Ads
-                            campaigns that target the right audience, reduce
-                            cost per click, and maximize your return on ad
-                            spend.
+                            We create data-driven Google Ads campaigns that
+                            generate qualified leads, increase sales, and
+                            maximize ROAS. From keyword research and smart
+                            bidding to conversion tracking, every campaign is
+                            optimized for real business results
                           </p>
 
                           {/* Stats Row */}
@@ -132,7 +131,7 @@ const GoogleAds = () => {
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">400+</span>
+                              <span className="react-stat-num">200+</span>
                               <span className="react-stat-label">
                                 Campaigns Managed
                               </span>
@@ -142,7 +141,7 @@ const GoogleAds = () => {
                           {/* Feature Tag */}
                           <div className="react-feature-tag">
                             <i className="fas fa-bullhorn spin-icon"></i>
-                            <span>High ROI Campaigns</span>
+                            <span>High-ROI Google Ads</span>
                           </div>
                         </div>
                       </div>
@@ -152,7 +151,7 @@ const GoogleAds = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1777642309/bm_services_image_onseni.png"
+                              src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1784208392/Untitled_design_1_qht2hs.png"
                               alt="Google Ads"
                               className="main-react-img"
                             />
@@ -398,28 +397,31 @@ const GoogleAds = () => {
                     What is Google Ads Management?
                   </h3>
                   <p className="text mb-3">
-                    Google Ads management is the process of running targeted
-                    advertising campaigns where you pay only for measurable
-                    results like clicks, leads, or sales.
+                    Google Ads Management is the process of creating,
+                    optimizing, and managing paid search campaigns to generate
+                    qualified traffic, leads, and sales with measurable ROI
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of wasting budget on random
-                    ads, Google Ads focuses on targeting high-intent users and
-                    optimizing campaigns continuously for better performance.
-                    This helps your business:
+                    Instead of spending budget on untargeted ads, Google Ads
+                    helps you reach high-intent customers at the right time.
+                    Continuous optimization improves performance and maximizes
+                    your return on investment
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
                       { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-bullseye", label: "Better Targeting" },
+                      {
+                        icon: "fas fa-bullseye",
+                        label: "High-Intent Targeting",
+                      },
                       {
                         icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        label: "Qualified Leads",
                       },
                       {
                         icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        label: "Data-Driven Optimization",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>

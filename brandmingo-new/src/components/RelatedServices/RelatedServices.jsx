@@ -11,14 +11,14 @@ const services = [
     path: "/wordpress",
   },
   {
-    icon: "fas fa-shopping-cart",
+    icon: "fas fa-cart-shopping",
     number: "02",
     title: "WooCommerce Website",
     sub: "Powerful online store solution",
     path: "/woocommerce",
   },
   {
-    icon: "fas fa-store",
+    icon: "fab fa-shopify",
     number: "03",
     title: "Shopify Website",
     sub: "Best for e-commerce stores",
@@ -39,25 +39,25 @@ const services = [
     path: "/php",
   },
   {
-    icon: "fas fa-database",
+    icon: "fas fa-users-gear",
     number: "06",
     title: "Custom CRM",
     sub: "Built for your business workflow",
-    path: "/crm",
+    path: "/crm-development",
   },
   {
-    icon: "fas fa-search-dollar",
+    icon: "fas fa-magnifying-glass-chart",
     number: "07",
     title: "SEO Optimizing",
     sub: "Rank high & get organic traffic",
-    path: "/seo",
+    path: "/seo-optimizing",
   },
   {
-    icon: "fas fa-lightbulb",
+    icon: "fas fa-gears",
     number: "08",
     title: "Custom Solutions",
     sub: "Tailored strategies for your unique goals",
-    path: "/custom-solutions",
+    path: "/contact-us",
   },
 ];
 

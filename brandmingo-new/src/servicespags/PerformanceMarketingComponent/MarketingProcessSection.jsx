@@ -1,44 +1,39 @@
 import { useEffect, useRef, useState } from "react";
+import { openEnquiryPopup } from "../../utils/popup";
 
-/* ─────────────────────────────────────────────────────────
-   PATH: starts bottom-left, rises very gently so the 5
-   step-points are spread evenly across ~1100 px of width.
-   Approximate circle anchor X values:
-     01 → 160   02 → 360   03 → 560   04 → 760   05 → 980
-   ───────────────────────────────────────────────────────── */
 const PATH =
   "M 40 700 C 80 680, 120 650, 160 620 C 200 590, 240 560, 280 530 C 320 500, 340 480, 360 460 C 400 420, 440 400, 480 385 C 510 372, 530 365, 560 355 C 600 340, 640 320, 680 300 C 710 284, 730 272, 760 258 C 800 238, 840 215, 880 195 C 910 178, 940 162, 980 148 C 1020 132, 1060 108, 1100 82 C 1120 68, 1140 52, 1160 38";
 
 const steps = [
   {
     num: "01",
-    icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understanding your business, target audience, and goals before running any campaign.",
+    icon: "fa-solid fa-magnifying-glass-chart",
+    title: "Audience Research",
+    desc: "Understand your audience and goals.",
   },
   {
     num: "02",
-    icon: "fa-solid fa-table-columns",
-    title: "Strategy & Funnel Planning",
-    desc: "Creating a clear marketing strategy and conversion funnel tailored to your business.",
+    icon: "fa-solid fa-sitemap",
+    title: "Strategy Planning",
+    desc: "Build a high-converting ad strategy.",
   },
   {
     num: "03",
-    icon: "fa-solid fa-code",
-    title: "Campaign Setup & Execution",
-    desc: "Launching high-performing ads with proper targeting, creatives, and tracking systems.",
+    icon: "fa-solid fa-bullhorn",
+    title: "Campaign Launch",
+    desc: "Launch optimized ads with precision.",
   },
   {
     num: "04",
-    icon: "fa-solid fa-shield-halved",
-    title: "Optimization & Testing",
-    desc: "Continuously improving campaigns using data, A/B testing, and performance insights.",
+    icon: "fa-solid fa-chart-line",
+    title: "Testing & Optimization",
+    desc: "Improve campaigns through A/B testing.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scaling winning campaigns to maximize ROI and drive consistent business growth.",
+    title: "Scale Campaigns",
+    desc: "Increase ROI with continuous scaling.",
   },
 ];
 
@@ -162,15 +157,23 @@ export default function MarketingProcessSection() {
             Our Process
           </div>
           <h2 className="ps-heading">
-            We follow a proven
+            Our Proven
             <br />
-            performance <span className="ora">marketing process</span>
+            performance <span className="ora">Marketing Process</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to create campaigns
-            that generate leads, sales, and measurable ROI for your business.
+            We follow a structured, data-driven approach to build campaigns that
+            generate qualified leads, increase conversions, and maximize ROI
           </p>
-          <a href="#contact" className="ps-btn">
+          <a
+            href="/#"
+            className="ps-btn
+          "
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Start Your Growth <span>→</span>
           </a>
         </div>
