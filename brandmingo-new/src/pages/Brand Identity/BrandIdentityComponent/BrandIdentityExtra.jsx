@@ -7,44 +7,44 @@ import React, { useEffect, useRef, useState } from "react";
 
 const DIFF_FEATURES = [
   {
-    fa: "fa-solid fa-bullseye",
-    title: "Highly Targeted Branding",
-    desc: "Reach the right audience with clear positioning and messaging.",
-  },
-  {
-    fa: "fa-solid fa-chart-line",
-    title: "ROI-Focused Branding",
-    desc: "Designed to deliver long-term value and brand growth.",
+    fa: "fa-solid fa-lightbulb",
+    title: "Strategic Design Thinking",
+    desc: "Every design is guided by research, audience insights, and business goals.",
   },
   {
     fa: "fa-solid fa-chart-pie",
-    title: "Data-Driven Strategy",
-    desc: "Continuous insights and improvements for better brand impact.",
+    title: "Data-Driven Creativity",
+    desc: "We combine market insights with creative design for stronger brand impact.",
   },
   {
     fa: "fa-solid fa-bullhorn",
-    title: "Conversion-Focused Identity",
-    desc: "Built to turn attention into trust and loyal customers.",
+    title: "Conversion-Focused Design",
+    desc: "Create designs that engage audiences and encourage meaningful customer actions.",
   },
   {
-    fa: "fa-solid fa-sliders",
-    title: "Easy Brand Management",
-    desc: "Clear guidelines and simple systems for consistent branding.",
+    fa: "fa-solid fa-diagram-project",
+    title: "Scalable Brand Systems",
+    desc: "Build flexible brand identities that grow with your business over time.",
+  },
+  {
+    fa: "fa-solid fa-medal",
+    title: "Lasting Brand Value",
+    desc: "Develop memorable brand experiences that build trust and long-term recognition.",
   },
 ];
 
 const ECOM_ALLOWS = [
   "Build strong brand recognition",
-  "Create a consistent visual presence",
-  "Connect with the right audience",
-  "Stand out from competitors",
+  "Create a consistent visual identity",
+  "Connect with your ideal audience",
+  "Strengthen customer trust",
 ];
 
 const ECOM_PROVIDES = [
   "Logo & visual identity design",
-  "Brand guidelines & consistency ",
-  "Corporate & marketing assets",
-  "Brand strategy & positioning",
+  "Brand guidelines & style systems",
+  "Corporate branding & stationery",
+  "Marketing creatives & brand assets",
 ];
 
 const PLATFORMS = [
@@ -52,48 +52,53 @@ const PLATFORMS = [
     fa: "fa-solid fa-pen-nib",
     title: "Logo & Visual Identity",
     sub: "BEST FOR",
-    desc: "Building a strong and recognizable brand foundation",
+    desc: "Creating a memorable brand identity that stands out in the market.",
   },
   {
     fa: "fa-solid fa-layer-group",
     title: "Brand Guidelines",
     sub: "BEST FOR",
-    desc: "Maintaining consistency across all brand touchpoints",
+    desc: "Keeping your branding consistent across every business platform.",
   },
   {
     fa: "fa-solid fa-id-card",
     title: "Corporate Identity",
     sub: "BEST FOR",
-    desc: "Professional branding for business communication",
+    desc: "Building a professional image for business communication.",
   },
   {
     fa: "fa-solid fa-bullhorn",
     title: "Marketing & Brand Assets",
     sub: "BEST FOR",
-    desc: "Creating consistent visuals for campaigns & promotions",
+    desc: "Designing impactful creatives for marketing and promotions.",
   },
 ];
 
 const FAQS = [
   {
-    fa: "fa-solid fa-pen-nib",
-    q: "What branding services do you offer?",
-    a: "We provide logo design, brand identity creation, brand guidelines, and marketing assets to build a strong and consistent brand presence.",
+    fa: "fa-solid fa-pen-ruler",
+    q: "What graphic design services do you offer?",
+    a: "We provide logo design, brand identity, packaging design, social media creatives, brochures, marketing materials, and complete branding solutions.",
   },
   {
-    fa: "fa-solid fa-chart-line",
-    q: "Which branding strategy is best for my business?",
-    a: "It depends on your goals — we craft a custom brand identity based on your audience, industry, and positioning.",
+    fa: "fa-solid fa-lightbulb",
+    q: "Why is brand identity important?",
+    a: "A strong brand identity builds recognition, earns customer trust, improves credibility, and creates a consistent experience across every platform.",
   },
   {
     fa: "fa-solid fa-clock",
-    q: "How long does it take to build a brand identity?",
-    a: "Most branding projects take a few weeks, depending on scope, with a structured process to ensure quality and consistency.",
+    q: "How long does a graphic design project take?",
+    a: "Project timelines depend on the scope. Logo design takes 5–10 days, while complete branding projects usually require 2–4 weeks.",
   },
   {
-    fa: "fa-solid fa-gear",
-    q: "How do you ensure brand consistency?",
-    a: "We create detailed brand guidelines and systems to maintain consistency across all platforms and marketing materials.",
+    fa: "fa-solid fa-book-open",
+    q: "Do you provide brand guidelines?",
+    a: "Yes. We create detailed brand guidelines covering logo usage, typography, color palettes, imagery, and visual identity standards.",
+  },
+  {
+    fa: "fa-solid fa-arrows-rotate",
+    q: "Can you redesign my existing brand?",
+    a: "Absolutely. We modernize your brand identity while preserving recognition and creating a fresh, professional visual presence.",
   },
 ];
 
@@ -130,12 +135,14 @@ const WebDevDiff = () => {
           <div className="wde-left">
             <div className="wds-section-label">OUR PROMISE</div>
             <h3 className="wde-heading">
-              What Makes Our Branding <span>Different?</span>
+              What Makes Our Graphic <span>Design Different?</span>
             </h3>
             <p className="wde-desc">
-              Most brands get noticed — but don’t stay remembered. We focus on
-              impact. Our branding strategies are built to create recognition,
-              trust, and long-term brand value.
+              Great design goes beyond aesthetics—it builds recognition,
+              communicates your brand story, and creates lasting customer
+              impressions. Our creative solutions combine strategy, consistency,
+              and innovation to help your business stand out in a competitive
+              market
             </p>
             <div className="wde-gradient-bar" />
           </div>
@@ -165,8 +172,9 @@ const WebDevDiff = () => {
                 <i className="fa-solid fa-rocket" />
               </div>
               <p>
-                If your brand is not memorable, <em>you’re losing </em>
-                potential customers.
+                Great design doesn't just attract attention{" "}
+                <em>—it builds trust, </em>
+                recognition, and lasting brand value
               </p>
             </div>
           </div>
@@ -190,13 +198,14 @@ const WebDevEcom = () => {
             <div className="wds-section-label">GROW YOUR BUSINESS</div>
             <h3 className="wdec-heading">
               Do You Need
-              <span>Brand Identity?</span>
+              <span>Brand Identity Design?</span>
             </h3>
             <div className="wdec-divider" />
             <p className="wdec-desc">
-              If your brand lacks clarity and consistency — you're limiting your
-              growth. A strong brand identity helps you stand out, build trust,
-              and create lasting impressions across every platform.
+              If your brand lacks consistency, recognition, or a clear visual
+              identity, you're missing valuable business opportunities. A strong
+              brand identity helps you build trust, stand out from competitors,
+              and create lasting connections with your audience
             </p>
           </div>
 
@@ -261,13 +270,12 @@ const WebDevPlatform = () => {
           <div className="wdpl-left">
             <div className="wds-section-label">CHOOSE WHAT’S RIGHT</div>
             <h3 className="wdpl-heading">
-              Which Brand Identity Strategy is<span>Best</span> for You?
+              Which Brand Identity<span> Service</span> Fits Your Business?
             </h3>
             <p className="wdpl-desc">
-              Choosing the right branding strategy is crucial. Every business
-              needs a different approach — and using the wrong one can weaken
-              your brand. We help you build the right identity for maximum
-              impact.
+              Every brand has unique goals, audiences, and challenges. We help
+              you choose the right branding solution to build recognition,
+              trust, and long-term business growth
             </p>
           </div>
 
@@ -308,8 +316,8 @@ const WebDevPlatform = () => {
                 <i className="fa-solid fa-lightbulb" />
               </div>
               <p>
-                The right branding strategy depends on your goals — and we help
-                you build it right from day one.
+                The right brand identity strategy strengthens recognition,
+                builds trust, and helps your business grow with confidence
               </p>
             </div>
           </div>

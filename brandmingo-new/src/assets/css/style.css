@@ -12859,7 +12859,6 @@ li {
   }
 }
 
-
 .project-section {
   margin: 0 60px;
   position: relative;
@@ -29158,19 +29157,16 @@ body {
   margin-top: -60px;
 }
 
-
 @media (max-width: 768px) {
   .project-Section-home {
     margin-top: -30px;
   }
 }
 
-
 /* workProcess-Section-home */
 .workProcess-Section-home {
   margin-top: -60px;
 }
-
 
 @media (max-width: 768px) {
   .workProcess-Section-home {

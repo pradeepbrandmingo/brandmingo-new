@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import { openEnquiryPopup } from "../../utils/popup";
+import { Link } from "react-router-dom";
 
 const PerformanceMarketingSVG = () => (
   <svg
@@ -288,7 +290,7 @@ const PerformanceMarketingHero = () => {
               paddingRight: isMobile ? "40px" : "",
             }}
           >
-            <div className="rdh-eyebrow">Premium Solution</div>
+            <div className="rdh-eyebrow">PREMIUM PERFORMANCE MARKETING</div>
             <h1 className="title">Performance</h1>
             <div className="rdh-liquid-wrap">
               <GradientText text="Marketing" fontFamily={ff} />
@@ -340,18 +342,26 @@ const PerformanceMarketingHero = () => {
           {/* BLOCK 3 — desc + buttons + badges */}
           <div className="rdh-bottom-block">
             <p className="rdh-desc">
-              Drive real business growth with performance marketing strategies
-              focused on leads, sales, and ROI. We don't just run ads — we build
-              scalable systems that convert and grow your business consistently.
+              Generate qualified leads, increase sales, and maximize ROI with
+              data-driven performance marketing campaigns. From Google Ads and
+              Meta Ads to conversion tracking and campaign optimization, we help
+              businesses scale faster with measurable growth
             </p>
             <div className="rdh-btn-row">
-              <a href="#contact" className="rdh-btn-primary">
-                Discuss Your Marketing Strategy
+              <a
+                href="#contact"
+                className="rdh-btn-primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  openEnquiryPopup();
+                }}
+              >
+                Get Free Performance Audit
                 <i className="fas fa-arrow-right" />
               </a>
-              <a href="#work" className="rdh-btn-ghost">
-                <i className="fas fa-play" /> Our Work
-              </a>
+              <Link to="/portfolio" className="rdh-btn-ghost">
+                <i className="fas fa-play" /> View Our Results
+              </Link>
             </div>
 
             <div className="rdh-badges">

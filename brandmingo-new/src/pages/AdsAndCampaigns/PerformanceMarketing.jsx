@@ -18,6 +18,9 @@ import WhyChooseBrandmingoMarketing from "../../servicespags/PerformanceMarketin
 import MarketingEngagementModels from "../../servicespags/PerformanceMarketingComponent/MarketingEngagementModels";
 import MarketingPricingSection from "../../servicespags/PerformanceMarketingComponent/MarketingPricingSection";
 
+// popup
+import { openEnquiryPopup } from "../../utils/popup";
+
 const THEME = "#ff6b1e";
 
 const PerformanceMarketing = () => {
@@ -98,40 +101,39 @@ const PerformanceMarketing = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Scale with Performance
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            Performance marketing helps you generate qualified
+                            leads, increase sales, and maximize ROI through
+                            data-driven Google Ads, Meta Ads, and
+                            conversion-focused campaigns
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            We build high-performing ad strategies that lower
+                            acquisition costs, improve conversions, and deliver
+                            measurable business growth
                           </p>
 
                           {/* Stats Row */}
                           <div className="react-stats-row">
                             <div className="react-stat-item">
-                              <span className="react-stat-num">5x</span>
+                              <span className="react-stat-num">6x</span>
                               <span className="react-stat-label">
                                 ROI Growth
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">90%</span>
+                              <span className="react-stat-num">95%</span>
                               <span className="react-stat-label">
                                 Campaign Optimization
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">300+</span>
+                              <span className="react-stat-num">250+</span>
                               <span className="react-stat-label">
                                 Campaigns Managed
                               </span>
@@ -151,7 +153,7 @@ const PerformanceMarketing = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1784118296/ChatGPT_Image_Jul_15_2026_05_56_39_PM_fplohj.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -160,17 +162,17 @@ const PerformanceMarketing = () => {
                                 className="fas fa-bolt"
                                 style={{ marginRight: "5px" }}
                               />
-                              Fast
+                              Fast Results
                             </div>
                             <div className="floating-badge bottom-left">
                               <i
                                 className="fas fa-expand-arrows-alt"
                                 style={{ marginRight: "5px" }}
                               />
-                              Scalable
+                              Scalable Growth
                             </div>
 
-                            <div className="floating-code-card">
+                            {/* <div className="floating-code-card">
                               <span className="code-dot red" />
                               <span className="code-dot yellow" />
                               <span className="code-dot green" />
@@ -191,7 +193,7 @@ const PerformanceMarketing = () => {
                               <p className="code-line">
                                 <span className="code-orange">&#125;</span>
                               </p>
-                            </div>
+                            </div> */}
                           </div>
 
                           <div className="corner-accent top-left-accent" />
@@ -420,28 +422,31 @@ const PerformanceMarketing = () => {
                     What is Performance Marketing?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Performance marketing is a results-driven digital marketing
+                    approach where you pay for measurable outcomes such as
+                    leads, sales, clicks, or conversions—not just ad impressions
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    Think of it this way—every campaign is tracked, optimized,
+                    and refined using real-time data to maximize ROI and
+                    business growth. With performance marketing, you invest in
+                    results, not guesswork
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
                       { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
+                      {
+                        icon: "fas fa-crosshairs",
+                        label: "Precision Targeting",
+                      },
                       {
                         icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        label: "Qualified Leads",
                       },
                       {
                         icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        label: "Data-Driven Growth",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -523,7 +528,8 @@ const PerformanceMarketing = () => {
 
                   <p className="benefit-footer-text mb-4">
                     So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    your marketing budget into measurable growth, not just
+                    website traffic
                   </p>
 
                   {/* SLIDER */}
@@ -576,11 +582,18 @@ const PerformanceMarketing = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Scale Your Business with High Performance
+                              Marketing
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let's Discuss Your Project{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
@@ -594,11 +607,12 @@ const PerformanceMarketing = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with Performance Marketing
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      We build data-driven campaigns that generate qualified
+                      leads, increase conversions, and maximize measurable
+                      business growth
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -608,7 +622,7 @@ const PerformanceMarketing = () => {
                       <div className="deliverables-subtitle-row">
                         <span className="deliverables-subtitle-bar"></span>
                         <p className="deliverables-subtitle">
-                          Our Deliverables
+                          OUR DELIVERABLES
                         </p>
                       </div>
 
@@ -633,7 +647,7 @@ const PerformanceMarketing = () => {
                               </svg>
                             ),
                             label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            desc: "Custom marketing roadmap built for measurable business growth",
                           },
 
                           {
@@ -653,7 +667,7 @@ const PerformanceMarketing = () => {
                               </svg>
                             ),
                             label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            desc: "Reach high-intent customers with precise audience targeting.",
                           },
 
                           {
@@ -672,7 +686,7 @@ const PerformanceMarketing = () => {
                               </svg>
                             ),
                             label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            desc: "High-converting creatives and copy that drive more clicks.",
                           },
 
                           {
@@ -692,7 +706,7 @@ const PerformanceMarketing = () => {
                               </svg>
                             ),
                             label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            desc: "Track leads, sales, and campaign performance accurately",
                           },
 
                           {
@@ -807,23 +821,23 @@ const PerformanceMarketing = () => {
                       {[
                         {
                           q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          a: "Performance marketing is a results-driven digital marketing strategy where you pay for measurable outcomes like leads, sales, and conversions. It focuses on maximizing ROI through data-driven campaigns.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "How does performance marketing grow my business?",
+                          a: "Performance marketing helps generate qualified leads, increase sales, lower acquisition costs, and improve ROI through continuous campaign optimization and audience targeting.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "Which advertising platforms do you manage?",
+                          a: "We manage Google Ads, Meta Ads (Facebook & Instagram), LinkedIn Ads, YouTube Ads, and other performance marketing platforms based on your business goals.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How much do performance marketing services cost?",
+                          a: "Pricing depends on your campaign goals, advertising budget, target platforms, and business requirements. We provide transparent, customized pricing with no hidden costs.",
                         },
                         {
                           q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          a: "Most businesses start seeing measurable improvements within 30–90 days, depending on competition, campaign strategy, and ongoing optimization.",
                         },
                       ].map((item, index) => (
                         <li

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import { openEnquiryPopup } from "../../utils/popup";
+import { Link } from "react-router-dom";
 
 const PerformanceMarketingSVG = () => (
   <svg
@@ -324,13 +326,13 @@ const GoogleAdsHero = () => {
               />
             </div>
             <div className="rdh-chip rdh-chip-1">
-              <i className="fas fa-chart-line" /> ROI Driven
+              <i className="fas fa-chart-line" /> PPC Optimized
             </div>
             <div className="rdh-chip rdh-chip-2">
               <i className="fas fa-bullseye" /> High-Intent Traffic
             </div>
             <div className="rdh-chip rdh-chip-3">
-              <i className="fas fa-rocket" /> 3X More Leads
+              <i className="fas fa-rocket" /> 4X More Leads
             </div>
             {/* <span className="rdh-vert-label">
               SEO · PPC · Meta · Google Ads
@@ -340,19 +342,26 @@ const GoogleAdsHero = () => {
           {/* BLOCK 3 — desc + buttons + badges */}
           <div className="rdh-bottom-block">
             <p className="rdh-desc">
-              Drive high-quality leads with result-driven Google Ads campaigns
-              focused on conversions, traffic, and ROI. We don’t just run ads —
-              we create data-driven strategies that scale your business
-              profitably.
+              Generate high-quality leads with ROI-focused Google Ads campaigns.
+              We create data-driven PPC strategies that increase traffic,
+              improve conversions, and maximize your advertising budget for
+              sustainable business growth
             </p>
             <div className="rdh-btn-row">
-              <a href="#contact" className="rdh-btn-primary">
+              <a
+                href="/"
+                className="rdh-btn-primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  openEnquiryPopup();
+                }}
+              >
                 Start Your Google Ads Campaign
                 <i className="fas fa-arrow-right" />
               </a>
-              <a href="#work" className="rdh-btn-ghost">
+              <Link to="/portfolio" className="rdh-btn-ghost">
                 <i className="fas fa-play" /> View Our Results
-              </a>
+              </Link>
             </div>
 
             <div className="rdh-badges">

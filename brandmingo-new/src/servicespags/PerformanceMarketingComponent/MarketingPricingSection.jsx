@@ -1,34 +1,50 @@
 import React, { useState } from "react";
 // import "./pricing-section.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const pricingFactors = [
-  { icon: "fas fa-layer-group", label: "Campaign Goals & Complexity" },
-  { icon: "fas fa-handshake", label: "Engagement Model Selected" },
-  { icon: "fas fa-users", label: "Ad Budget & Platforms" },
-  { icon: "fas fa-clock", label: "Timeline & Scaling Speed" },
-  { icon: "fas fa-plug", label: "Tracking & Tools Setup" },
+  {
+    icon: "fas fa-bullseye",
+    label: "Campaign Goals & Scope",
+  },
+  {
+    icon: "fas fa-handshake",
+    label: "Service Model Selected",
+  },
+  {
+    icon: "fas fa-rectangle-ad",
+    label: "Ad Budget & Channels",
+  },
+  {
+    icon: "fas fa-calendar-days",
+    label: "Campaign Scale & Timeline",
+  },
+  {
+    icon: "fas fa-chart-simple",
+    label: "Tracking & Analytics Setup",
+  },
 ];
 
 const estimateSteps = [
   {
     num: "01",
-    title: "Requirement Discussion",
-    desc: "We understand your business goals, target audience, and marketing objectives.",
+    title: "Business Discovery",
+    desc: "Understand your goals, audience, and marketing needs.",
   },
   {
     num: "02",
-    title: "Campaign Analysis",
-    desc: "We evaluate your current performance, competitors, and growth opportunities.",
+    title: "Campaign Audit",
+    desc: "Review your market, competitors, and growth potential.",
   },
   {
     num: "03",
-    title: "Strategy & Budget Planning",
-    desc: "We define campaign structure, budget allocation, and expected outcomes.",
+    title: "Strategy & Budget Plan",
+    desc: "Create the right campaign strategy and budget allocation.",
   },
   {
     num: "04",
-    title: "Transparent Cost Estimate",
-    desc: "You receive a clear, result-focused pricing plan with no hidden charges.",
+    title: "Transparent Pricing",
+    desc: "Receive a custom quote with clear, no-hidden-cost pricing.",
   },
 ];
 
@@ -42,16 +58,16 @@ const MarketingPricingSection = () => {
         <div className="prc-header">
           <div className="prc-eyebrow">Transparent Pricing</div>
           {/* h3 tag — sized via var(--h3-font-size) in CSS */}
-          <h3 className="prc-title">Pricing & Cost Estimation</h3>
+          <h3 className="prc-title">Performance Marketing Pricing</h3>
           <p className="prc-subtitle">
-            Our performance marketing pricing is flexible, transparent, and
-            based on your business goals — no fixed packages, no hidden costs.
+            Transparent pricing based on your goals, budget, and campaign
+            requirements.
           </p>
         </div>
 
         {/* ════ BLOCK 1 — Pricing Depends On ════ */}
         <div className="prc-block">
-          <div className="prc-block-label">Pricing Depends On</div>
+          <div className="prc-block-label">PRICING DEPENDS ON</div>
           <div className="prc-factors">
             {pricingFactors.map((f, i) => (
               <div className="prc-factor-card" key={i}>
@@ -85,10 +101,18 @@ const MarketingPricingSection = () => {
         {/* ── CTA ── */}
         <div className="prc-cta-wrap">
           <p className="prc-cta-note">
-            Get a custom quote tailored to your project — no obligations.
+            Get a custom performance marketing quote tailored to your business
+            goals
           </p>
-          <a href="#contact" className="prc-cta-btn">
-            Get a Free Estimate
+          <a
+            href="/"
+            className="prc-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
+            Get a Free Proposal
             <i className="fas fa-arrow-right" />
           </a>
         </div>
