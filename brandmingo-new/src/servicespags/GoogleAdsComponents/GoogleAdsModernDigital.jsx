@@ -1,20 +1,20 @@
 import React, { useState } from "react";
 
 const serviceImages = {
-  lead: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=520&q=80&auto=format&fit=crop",
+  lead: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784289575/Untitled_design_oacelb.png",
   ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784289575/Untitled_design_oacelb.png",
   google:
-    "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=520&q=80&auto=format&fit=crop",
-  meta: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784289575/Untitled_design_oacelb.png",
+  meta: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784289575/Untitled_design_oacelb.png",
   retargeting:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784289575/Untitled_design_oacelb.png",
   funnel:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784289575/Untitled_design_oacelb.png",
   analytics:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784289575/Untitled_design_oacelb.png",
   scaling:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784289575/Untitled_design_oacelb.png",
 };
 
 const servicesData = [
@@ -79,7 +79,7 @@ const GoogleAdsModernDigital = () => {
       <div className="auto-container">
         {/* Heading — h3 tag, style.css vars apply automatically */}
         <h3 className="ret-heading text-center mb-5">
-          Google Ads Services for Modern Digital Businesses
+          Google Ads Solutions for Business Growth
           {/* <br /> Modern Digital Businesses */}
         </h3>
 

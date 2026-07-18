@@ -128,7 +128,7 @@ const CorporateBranding = lazy(() => import("./pages/Uiux/CorporateBranding"));
 const MobileAppDesign = lazy(() => import("./pages/Uiux/MobileAppDesign"));
 const ProductDesign = lazy(() => import("./pages/Uiux/ProductDesign"));
 const OrganicTraffic = lazy(
-  () => import("./pages/SEO Optimizing/SEOOptimizing"),
+  () => import("./pages/SEO Optimizing/OrganicTraffic"),
 );
 const LocalSDominance = lazy(
   () => import("./pages/SEO Optimizing/LocalSDominance"),

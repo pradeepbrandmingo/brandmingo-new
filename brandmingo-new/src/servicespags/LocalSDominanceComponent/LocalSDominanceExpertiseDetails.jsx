@@ -2,91 +2,91 @@ import React, { useState } from "react";
 
 const servicesData = [
   {
-    id: "Lead Generation Campaigns",
-    title: "Lead Generation Campaigns",
-    desc: "We create high-converting campaigns focused on generating qualified leads that drive real business growth.",
+    id: "lead",
+    title: "Google Business Profile",
+    desc: "Optimize your Google Business Profile to improve local visibility, increase customer trust, and generate more local enquiries.",
     points: [
-      "Target high-intent audiences for better lead quality",
-      "Optimize landing pages for maximum conversions",
-      "Reduce cost per lead with smart bidding strategies",
-      "Generate consistent and scalable lead flow",
-    ],
-  },
-  {
-    id: "legacy",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with performance-driven ad campaigns designed to increase sales and ROI.",
-    points: [
-      "Run product-focused campaigns for higher conversions",
-      "Implement dynamic remarketing strategies",
-      "Optimize product feeds and ad creatives",
-      "Drive consistent revenue growth through paid ads",
-    ],
-  },
-  {
-    id: "pwa",
-    title: "Google Ads Management",
-    desc: "Reach customers actively searching for your services with highly optimized Google Ads campaigns.",
-    points: [
-      "Advanced keyword research and targeting strategy",
-      "High-converting ad copy and extensions",
-      "Smart bidding and budget optimization",
-      "Focus on ROI-driven campaign performance",
-    ],
-  },
-  {
-    id: "api",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience and generate leads through powerful Meta advertising strategies.",
-    points: [
-      "Detailed audience segmentation and targeting",
-      "Creative ad design and compelling messaging",
-      "Full-funnel campaign strategy implementation",
-      "Retargeting to improve conversion rates",
+      "Complete profile optimization",
+      "Business category optimization",
+      "Photo & content management",
+      "Higher Google Maps visibility",
     ],
   },
   {
     id: "ecommerce",
-    title: "Retargeting & Remarketing",
-    desc: "Re-engage users who showed interest but didn’t convert and turn them into paying customers.",
+    title: "Local Keyword Research",
+    desc: "Identify high-intent location-based keywords that help your business rank higher in local search results.",
     points: [
-      "Pixel-based tracking for accurate audience data",
-      "Multi-platform retargeting campaigns",
-      "Behavior-based ad strategies",
-      "Increase conversions and reduce drop-offs",
+      "Location-based keyword research",
+      "Competitor keyword analysis",
+      "Search intent optimization",
+      "Better local rankings",
     ],
   },
   {
-    id: "spa",
-    title: "Sales Funnel Optimization",
-    desc: "Optimize every stage of your funnel to improve conversion rates and maximize ROI.",
+    id: "google",
+    title: "Google Maps Optimization",
+    desc: "Improve your Google Maps presence to attract nearby customers searching for your products or services.",
     points: [
-      "Landing page optimization for better performance",
-      "A/B testing for continuous improvement",
-      "User journey and behavior analysis",
-      "Reduce bounce rates and increase conversions",
+      "Google Maps optimization",
+      "Increase local visibility",
+      "Drive nearby traffic",
+      "Improve map rankings",
     ],
   },
   {
-    id: "migration",
-    title: "Analytics & Tracking Setup",
-    desc: "Set up advanced tracking systems to measure performance and make data-driven decisions.",
+    id: "meta",
+    title: "Local Citation Building",
+    desc: "Create consistent business listings across trusted directories to strengthen your local search authority.",
     points: [
-      "Google Analytics and Tag Manager setup",
-      "Conversion and event tracking implementation",
-      "Accurate performance reporting",
-      "Actionable insights for campaign improvement",
+      "Business directory listings",
+      "NAP consistency",
+      "Citation management",
+      "Authority building",
     ],
   },
   {
-    id: "payment",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns efficiently with data-backed strategies and continuous optimization.",
+    id: "retargeting",
+    title: "Review Management",
+    desc: "Build customer trust by managing online reviews and improving your business reputation across platforms.",
     points: [
-      "Budget scaling based on performance data",
-      "Creative testing and iteration",
-      "Identify winning campaigns and scale them",
-      "Maximize ROI with continuous optimization",
+      "Review generation strategy",
+      "Reputation monitoring",
+      "Customer engagement",
+      "Trust & credibility",
+    ],
+  },
+  {
+    id: "funnel",
+    title: "Local Landing Pages",
+    desc: "Create location-focused landing pages that target nearby customers and improve local conversions.",
+    points: [
+      "Location-specific pages",
+      "Local content optimization",
+      "Conversion-focused design",
+      "Higher local leads",
+    ],
+  },
+  {
+    id: "analytics",
+    title: "Local SEO Tracking",
+    desc: "Monitor keyword rankings, Google Business performance, and local search visibility with detailed reports.",
+    points: [
+      "Keyword rank tracking",
+      "Google Business insights",
+      "Performance reports",
+      "Growth monitoring",
+    ],
+  },
+  {
+    id: "scaling",
+    title: "Local Growth Strategy",
+    desc: "Continuously optimize your Local SEO strategy to increase visibility, customer enquiries, and business growth.",
+    points: [
+      "Monthly SEO optimization",
+      "Competitor monitoring",
+      "Scalable local growth",
+      "Long-term success",
     ],
   },
 ];
@@ -104,7 +104,7 @@ const LocalSDominanceExpertiseDetails = () => {
       <div className="react-expertise-section">
         <div className="auto-container">
           <h3 className="mb-5 text-center section-main-h3">
-            Our Performance Marketing Expertise
+            Our Local SEO Expertise
           </h3>
 
           {/* ── DESKTOP: same as before ── */}

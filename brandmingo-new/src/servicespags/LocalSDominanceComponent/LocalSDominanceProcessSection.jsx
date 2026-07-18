@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { openEnquiryPopup } from "../../utils/popup";
 
 /* ─────────────────────────────────────────────────────────
    PATH: starts bottom-left, rises very gently so the 5
@@ -12,33 +13,33 @@ const PATH =
 const steps = [
   {
     num: "01",
-    icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understanding your business, target audience, and goals before running any campaign.",
+    icon: "fa-solid fa-location-dot",
+    title: "Local Business Analysis",
+    desc: "Review your business, location, and local competition.",
   },
   {
     num: "02",
-    icon: "fa-solid fa-table-columns",
-    title: "Strategy & Funnel Planning",
-    desc: "Creating a clear marketing strategy and conversion funnel tailored to your business.",
+    icon: "fa-solid fa-key",
+    title: "Local SEO Strategy",
+    desc: "Plan keywords, citations, and Google Business optimization.",
   },
   {
     num: "03",
-    icon: "fa-solid fa-code",
-    title: "Campaign Setup & Execution",
-    desc: "Launching high-performing ads with proper targeting, creatives, and tracking systems.",
+    icon: "fa-solid fa-map",
+    title: "Google Business Setup",
+    desc: "Optimize your profile and local business listings.",
   },
   {
     num: "04",
-    icon: "fa-solid fa-shield-halved",
-    title: "Optimization & Testing",
-    desc: "Continuously improving campaigns using data, A/B testing, and performance insights.",
+    icon: "fa-solid fa-chart-line",
+    title: "Optimization & Tracking",
+    desc: "Track rankings, reviews, and local search performance.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scaling winning campaigns to maximize ROI and drive consistent business growth.",
+    title: "Local Growth",
+    desc: "Improve visibility, leads, and long-term local success.",
   },
 ];
 
@@ -162,16 +163,23 @@ export default function LocalSDominanceProcessSection() {
             Our Process
           </div>
           <h2 className="ps-heading">
-            We follow a proven
+            We Follow a Proven
             <br />
-            performance <span className="ora">marketing process</span>
+            Local SEO <span className="ora">Local SEO</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to create campaigns
-            that generate leads, sales, and measurable ROI for your business.
+            We use a proven Local SEO strategy to improve Google Maps
+            visibility, local rankings, and customer enquiries.
           </p>
-          <a href="#contact" className="ps-btn">
-            Start Your Growth <span>→</span>
+          <a
+            href="/"
+            className="ps-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
+            Boost Local Rankings <span>→</span>
           </a>
         </div>
 

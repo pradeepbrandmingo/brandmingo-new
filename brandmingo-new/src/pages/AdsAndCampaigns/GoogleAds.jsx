@@ -17,6 +17,7 @@ import GoogleAdsPricingPlans from "../../servicespags/GoogleAdsComponents/Google
 import WhyChooseGoogleAds from "../../servicespags/GoogleAdsComponents/WhyChooseGoogleAds";
 import GoogleAdsEngagementModels from "../../servicespags/GoogleAdsComponents/GoogleAdsEngagementModels";
 import GoogleAdsPricingSection from "../../servicespags/GoogleAdsComponents/GoogleAdsPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -557,11 +558,18 @@ const GoogleAds = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance Google
-                              Ads Campaign
+                              Turn Clicks Into Customers with High-Performance
+                              Google Ads
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let’s Launch Your Campaign{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
@@ -575,12 +583,12 @@ const GoogleAds = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Google Ads Services
+                      What You Get with Google Ads Management
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build high-converting Google
-                      Ads systems that generate leads, sales, and measurable
-                      ROI.
+                      We don't just run Google Ads—we build high-performing
+                      campaigns that generate qualified leads, increase
+                      conversions, and maximize your advertising ROI
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -615,7 +623,7 @@ const GoogleAds = () => {
                               </svg>
                             ),
                             label: "Campaign Strategy & Planning",
-                            desc: "Tailored Google Ads strategy for your business goals",
+                            desc: "Custom Google Ads strategy aligned with your business goals",
                           },
 
                           {
@@ -634,8 +642,8 @@ const GoogleAds = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach high-intent users at the right moment",
+                            label: "Keyword Research & Targeting",
+                            desc: "Reach high-intent customers with data-driven keyword targeting",
                           },
 
                           {
@@ -653,8 +661,8 @@ const GoogleAds = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ads designed to drive clicks",
+                            label: "Ad Copy & Creative Assets",
+                            desc: "High-converting ad copy and creatives built for better CTR",
                           },
 
                           {
@@ -674,7 +682,7 @@ const GoogleAds = () => {
                               </svg>
                             ),
                             label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and conversion accurately",
+                            desc: "Track calls, leads, sales, and every valuable conversion.",
                           },
 
                           {
@@ -695,7 +703,7 @@ const GoogleAds = () => {
                               </svg>
                             ),
                             label: "Remarketing Campaigns",
-                            desc: "Reconnect with users and increase conversions",
+                            desc: "Reconnect with visitors and turn missed opportunities into sales.",
                           },
 
                           {
@@ -713,8 +721,8 @@ const GoogleAds = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous optimization to maximize ROI",
+                            label: "Campaign Optimization",
+                            desc: "Continuous optimization to improve ROAS, CTR, and conversions",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -788,24 +796,24 @@ const GoogleAds = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is Google Ads Management?",
+                          a: "Google Ads Management is the process of creating, optimizing, and managing PPC campaigns to generate qualified leads, increase sales, and maximize return on ad spend (ROAS).",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "How can Google Ads help my business?",
+                          a: "Google Ads helps you reach high-intent customers searching for your products or services, driving more leads, conversions, and measurable business growth.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "What types of Google Ads campaigns do you manage?",
+                          a: "We manage Search, Display, Shopping, Performance Max, YouTube, and Remarketing campaigns tailored to your business goals and target audience.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How much does Google Ads Management cost?",
+                          a: "Pricing depends on your campaign goals, ad budget, industry competition, and management requirements. We offer flexible plans for businesses of all sizes.",
                         },
                         {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          q: "How long does it take to see Google Ads results?",
+                          a: "Most campaigns begin generating data within days, while consistent improvements in leads, conversions, and ROAS typically happen after continuous optimization.",
                         },
                       ].map((item, index) => (
                         <li

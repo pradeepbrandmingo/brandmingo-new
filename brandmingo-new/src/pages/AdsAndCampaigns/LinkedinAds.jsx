@@ -13,10 +13,11 @@ import LinkedinExpertiseDetails from "../../servicespags/LinkedinAdsComponent/Li
 import LinkedinProcessSection from "../../servicespags/LinkedinAdsComponent/LinkedinProcessSection";
 import LinkedinModernDigital from "../../servicespags/LinkedinAdsComponent/LinkedinModernDigital";
 import LinkedinCtaBanner from "../../servicespags/LinkedinAdsComponent/LinkedinCtaBanner";
-import LinkedinPricingPlans from "../../servicespags/LinkedinAdsComponent/LinkedinPricingPlans";
+// import LinkedinPricingPlans from "../../servicespags/LinkedinAdsComponent/LinkedinPricingPlans";
 import WhyChooseBMLinkedin from "../../servicespags/LinkedinAdsComponent/WhyChooseBMLinkedin";
 import LinkedinEngagementModels from "../../servicespags/LinkedinAdsComponent/LinkedinEngagementModels";
 import LinkedinPricingSection from "../../servicespags/LinkedinAdsComponent/LinkedinPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -98,20 +99,19 @@ const LinkedinAds = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Grow Your Business with LinkedIn Ads
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            LinkedIn Ads help you reach business professionals
+                            and decision-makers with precision targeting,
+                            generating high-quality B2B leads and measurable
+                            business growth.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            We create data-driven LinkedIn campaigns that
+                            increase brand visibility, improve lead quality, and
+                            maximize your advertising ROI.
                           </p>
 
                           {/* Stats Row */}
@@ -119,12 +119,12 @@ const LinkedinAds = () => {
                             <div className="react-stat-item">
                               <span className="react-stat-num">5x</span>
                               <span className="react-stat-label">
-                                ROI Growth
+                                Lead Growth
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">90%</span>
+                              <span className="react-stat-num">92%</span>
                               <span className="react-stat-label">
                                 Campaign Optimization
                               </span>
@@ -141,7 +141,7 @@ const LinkedinAds = () => {
                           {/* Feature Tag */}
                           <div className="react-feature-tag">
                             <i className="fas fa-bullhorn spin-icon"></i>
-                            <span>High Performance Guaranteed</span>
+                            <span>B2B Growth</span>
                           </div>
                         </div>
                       </div>
@@ -151,7 +151,7 @@ const LinkedinAds = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1784356436/Untitled_design_2_t5hhtx.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -394,31 +394,37 @@ const LinkedinAds = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    What are LinkedIn Ads?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    LinkedIn Ads are professional B2B advertising campaigns that
+                    help you reach decision-makers, business owners, and
+                    industry professionals with highly targeted marketing
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
+                    Instead of advertising to everyone, LinkedIn Ads focus on
+                    the right professionals based on job title, industry,
+                    company size, skills, and interests. This helps your
                     business:
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-user-tie",
+                        label: "Decision-Maker Reach",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-bullseye",
+                        label: "Precise B2B Targeting",
+                      },
+                      {
+                        icon: "fas fa-briefcase",
+                        label: "Quality Business Leads",
+                      },
+                      {
+                        icon: "fas fa-chart-line",
+                        label: "Measurable ROI",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -499,8 +505,9 @@ const LinkedinAds = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    In simple terms — LinkedIn Ads help you connect with the
+                    right professionals, generate quality B2B leads, and grow
+                    your business with measurable results.
                   </p>
 
                   {/* SLIDER */}
@@ -553,12 +560,19 @@ const LinkedinAds = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Scale Your Business with High-Performance LinkedIn
+                              Ads Campaigns
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
-                              Let's Discuss Your Project{" "}
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
+                              Start Your LinkedIn Campaign{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
@@ -571,11 +585,12 @@ const LinkedinAds = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with LinkedIn Ads Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      We build data-driven LinkedIn Ads campaigns that generate
+                      qualified B2B leads, increase brand visibility, and
+                      deliver measurable business growth.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -609,8 +624,8 @@ const LinkedinAds = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            label: "LinkedIn Campaign Strategy",
+                            desc: "Custom B2B campaign planning for business growth",
                           },
 
                           {
@@ -629,8 +644,8 @@ const LinkedinAds = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            label: "Audience Research & Targeting",
+                            desc: "Reach decision-makers and ideal business prospects",
                           },
 
                           {
@@ -649,7 +664,7 @@ const LinkedinAds = () => {
                               </svg>
                             ),
                             label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            desc: "Professional ad creatives that drive engagement",
                           },
 
                           {
@@ -668,8 +683,8 @@ const LinkedinAds = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "Insight Tag & Tracking",
+                            desc: "Track leads, conversions, and campaign performance",
                           },
 
                           {
@@ -689,8 +704,8 @@ const LinkedinAds = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Lead Generation Campaigns",
+                            desc: "Generate qualified B2B leads at scale",
                           },
 
                           {
@@ -708,8 +723,8 @@ const LinkedinAds = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            label: "Campaign Optimization",
+                            desc: "Continuous optimization to maximize ROI",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -760,9 +775,9 @@ const LinkedinAds = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <LinkedinPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMLinkedin />
@@ -783,24 +798,24 @@ const LinkedinAds = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What are LinkedIn Ads?",
+                          a: "LinkedIn Ads are paid advertising campaigns that help businesses reach professionals, decision-makers, and B2B audiences based on job title, industry, company, skills, and other targeting options.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "How can LinkedIn Ads help my business?",
+                          a: "LinkedIn Ads generate high-quality B2B leads, increase brand awareness, promote services, and connect your business with professionals who are more likely to convert into customers.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "Who should use LinkedIn Ads?",
+                          a: "LinkedIn Ads are ideal for B2B companies, SaaS businesses, consultants, recruiters, educational institutions, and brands targeting business professionals and decision-makers.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How much do LinkedIn Ads cost?",
+                          a: "The cost depends on your campaign objectives, audience size, bidding strategy, and advertising budget. We create cost-effective campaigns focused on maximizing ROI.",
                         },
                         {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          q: "How long does it take to see results from LinkedIn Ads?",
+                          a: "Most campaigns start generating initial data within a few days. Consistent lead generation and optimized ROI typically improve after continuous testing and campaign optimization.",
                         },
                       ].map((item, index) => (
                         <li

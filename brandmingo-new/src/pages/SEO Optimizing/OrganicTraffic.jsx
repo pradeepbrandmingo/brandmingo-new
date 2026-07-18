@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import d1 from "../../assets/images/resource/service-d1.jpg";
 import d2 from "../../assets/images/resource/service-d2.jpg";
 import RelatedServices from "../../components/RelatedServices/RelatedServices";
-import PortfolioSlider from "../../components/PortfolioSlider/PortfolioSlider";
+// import PortfolioSlider from "../../components/PortfolioSlider/PortfolioSlider";
 import ReactExpertiseDetails from "../../components/ReactExpertiseDetails/ReactExpertiseDetails";
 import ReactDetailsHero from "../../servicespags/ReactComponents/ReactDetailsHero";
 
@@ -14,10 +14,11 @@ import OrganicTrafficExpertiseDetails from "../../servicespags/OrganicTrafficCom
 import OrganicTrafficProcessSection from "../../servicespags/OrganicTrafficComponent/OrganicTrafficProcessSection";
 import OrganicTrafficModernDigital from "../../servicespags/OrganicTrafficComponent/OrganicTrafficModernDigital";
 import OrganicTrafficCtaBanner from "../../servicespags/OrganicTrafficComponent/OrganicTrafficCtaBanner";
-import OrganicTrafficPricingPlans from "../../servicespags/OrganicTrafficComponent/OrganicTrafficPricingPlans";
+// import OrganicTrafficPricingPlans from "../../servicespags/OrganicTrafficComponent/OrganicTrafficPricingPlans";
 import WhyChooseBMOrganicTraffic from "../../servicespags/OrganicTrafficComponent/WhyChooseBMOrganicTraffic";
 import OrganicTrafficEngagementModels from "../../servicespags/OrganicTrafficComponent/OrganicTrafficEngagementModels";
 import OrganicTrafficPricingSection from "../../servicespags/OrganicTrafficComponent/OrganicTrafficPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -99,20 +100,20 @@ const OrganicTraffic = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Increase Organic Website Traffic
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            Organic SEO helps your website rank higher on
+                            Google, attract qualified visitors, and generate
+                            consistent traffic without relying on paid
+                            advertising.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            We use proven SEO strategies, technical
+                            optimization, and quality content to increase
+                            visibility, improve rankings, and drive long-term
+                            business growth.
                           </p>
 
                           {/* Stats Row */}
@@ -120,21 +121,21 @@ const OrganicTraffic = () => {
                             <div className="react-stat-item">
                               <span className="react-stat-num">5x</span>
                               <span className="react-stat-label">
-                                ROI Growth
+                                Organic Growth
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
                               <span className="react-stat-num">90%</span>
                               <span className="react-stat-label">
-                                Campaign Optimization
+                                Keyword Rankings
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">300+</span>
+                              <span className="react-stat-num">150+</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                SEO Projects
                               </span>
                             </div>
                           </div>
@@ -152,7 +153,7 @@ const OrganicTraffic = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1784370011/Untitled_design_4_lujbjp.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -395,31 +396,35 @@ const OrganicTraffic = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    What is Organic Traffic?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Organic traffic is the website traffic you earn naturally
+                    through search engines like Google without paying for ads.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    By improving your website's SEO, content, and technical
+                    performance, you attract qualified visitors who are actively
+                    searching for your products or services.
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-ranking-star",
+                        label: "Higher Google Rankings",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-users",
+                        label: "Qualified Organic Visitors",
+                      },
+                      {
+                        icon: "fas fa-seedling",
+                        label: "Long-Term SEO Growth",
+                      },
+                      {
+                        icon: "fas fa-chart-line",
+                        label: "Data-Driven SEO",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -500,8 +505,8 @@ const OrganicTraffic = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    In simple terms, SEO helps your website rank higher, attract
+                    quality traffic, and generate sustainable business growth.
                   </p>
 
                   {/* SLIDER */}
@@ -554,12 +559,19 @@ const OrganicTraffic = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Scale Your Business with Sustainable Organic
+                              Traffic Growth
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
-                              Let's Discuss Your Project{" "}
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
+                              Grow Your Organic Traffic{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
@@ -572,11 +584,12 @@ const OrganicTraffic = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with Organic Traffic Growth Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      We grow your organic visibility with SEO strategies that
+                      increase rankings, attract qualified traffic, and deliver
+                      sustainable business growth
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -610,8 +623,8 @@ const OrganicTraffic = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            label: "SEO Strategy & Planning",
+                            desc: "Custom SEO roadmap aligned with your business goals and growth",
                           },
 
                           {
@@ -630,8 +643,8 @@ const OrganicTraffic = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            label: "Keyword Research & Targeting",
+                            desc: "Target high-value search terms your ideal customers actively use.",
                           },
 
                           {
@@ -649,8 +662,8 @@ const OrganicTraffic = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            label: "On-Page SEO Optimization",
+                            desc: "Optimize pages, content, and metadata for higher search rankings.",
                           },
 
                           {
@@ -669,8 +682,8 @@ const OrganicTraffic = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "Technical SEO Audit",
+                            desc: "Fix technical issues affecting website performance and indexing.",
                           },
 
                           {
@@ -690,8 +703,8 @@ const OrganicTraffic = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Content Optimization",
+                            desc: "Improve existing content to increase relevance, traffic, and engagement.",
                           },
 
                           {
@@ -709,8 +722,8 @@ const OrganicTraffic = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            label: "Performance Tracking & Reporting",
+                            desc: "Monitor keyword rankings, traffic growth, and SEO performance monthly",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -761,9 +774,9 @@ const OrganicTraffic = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <OrganicTrafficPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMOrganicTraffic />
@@ -784,24 +797,24 @@ const OrganicTraffic = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is organic traffic?",
+                          a: "Organic traffic refers to visitors who find your website through unpaid search engine results. It is generated by strong SEO strategies that improve rankings, visibility, and long-term website growth.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "How can SEO increase organic traffic?",
+                          a: "SEO improves your website's visibility by optimizing content, keywords, technical performance, and backlinks, helping you attract more qualified visitors from search engines.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "How long does SEO take to show results?",
+                          a: "SEO is a long-term strategy. While some improvements may appear within a few weeks, significant ranking and organic traffic growth typically take 3–6 months.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "Why is organic traffic better than paid traffic?",
+                          a: "Organic traffic provides sustainable, cost-effective growth by attracting users actively searching for your products or services without ongoing advertising costs.",
                         },
                         {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          q: "Why choose BrandMingo for SEO services?",
+                          a: "BrandMingo delivers data-driven SEO strategies, technical optimization, keyword research, content marketing, and transparent reporting to help businesses achieve higher rankings and sustainable organic growth.",
                         },
                       ].map((item, index) => (
                         <li
@@ -840,9 +853,9 @@ const OrganicTraffic = () => {
           <RelatedServices />
         </div>
 
-        <div className="portfolio-slider-section">
+        {/* <div className="portfolio-slider-section">
           <PortfolioSlider />
-        </div>
+        </div> */}
       </section>
     </div>
   );

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import { openEnquiryPopup } from "../../utils/popup";
+import { Link } from "react-router-dom";
 
 const PerformanceMarketingSVG = () => (
   <svg
@@ -324,13 +326,14 @@ const FbInstAdsHero = () => {
               />
             </div>
             <div className="rdh-chip rdh-chip-1">
-              <i className="fas fa-chart-line" /> High ROI Campaigns
+              <i className="fas fa-chart-line" /> High-ROI Meta Ads
             </div>
             <div className="rdh-chip rdh-chip-2">
-              <i className="fas fa-bullseye" /> Precision Audience Targeting
+              <i className="fas fa-bullseye" /> Advanced Audience Targeting
             </div>
             <div className="rdh-chip rdh-chip-3">
-              <i className="fas fa-rocket" /> 3X Higher Conversions
+              <i className="fas fa-rocket" />
+              3X Higher Conversions
             </div>
             {/* <span className="rdh-vert-label">
               SEO · PPC · Meta · Google Ads
@@ -340,19 +343,25 @@ const FbInstAdsHero = () => {
           {/* BLOCK 3 — desc + buttons + badges */}
           <div className="rdh-bottom-block">
             <p className="rdh-desc">
-              Drive real business growth with high-converting Facebook and
-              Instagram ad campaigns. We don’t just run ads — we create
-              data-driven strategies that generate leads, increase sales, and
-              maximize your return on investment.
+              Grow your business with high-performing Facebook & Instagram Ads
+              designed to generate quality leads, increase conversions, and
+              maximize ROI
             </p>
             <div className="rdh-btn-row">
-              <a href="#contact" className="rdh-btn-primary">
-                Launch Your Ad Campaign
+              <a
+                href="/"
+                className="rdh-btn-primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  openEnquiryPopup();
+                }}
+              >
+                Launch Your Meta Ads Campaign
                 <i className="fas fa-arrow-right" />
               </a>
-              <a href="#work" className="rdh-btn-ghost">
+              <Link to="/portfolio" className="rdh-btn-ghost">
                 <i className="fas fa-play" /> View Our Work
-              </a>
+              </Link>
             </div>
 
             <div className="rdh-badges">

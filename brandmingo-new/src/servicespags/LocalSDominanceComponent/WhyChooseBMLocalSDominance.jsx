@@ -8,13 +8,13 @@ const WhyChooseBMLocalSDominance = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose Brandmingo for High-Performance <br />
-            Marketing Services
+            Why Choose Brandmingo Local SEO Growth <br />
+            Services
           </h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build performance-driven systems that
-            generate leads, increase ROI, and scale your business with
-            measurable results.
+            We help businesses improve local visibility, rank higher on Google
+            Maps, and generate qualified local leads with proven Local SEO
+            strategies.
           </p>
         </div>
 
@@ -23,12 +23,12 @@ const WhyChooseBMLocalSDominance = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">Years of SEO Expertise</div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Delivering proven Local SEO strategies across multiple business
+              industries.
             </p>
           </div>
 
@@ -37,10 +37,10 @@ const WhyChooseBMLocalSDominance = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-award" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">Certified SEO Experts</div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Experienced professionals in Local SEO, Google Business Profile,
+              and Google Maps optimization.
             </p>
           </div>
 
@@ -49,10 +49,10 @@ const WhyChooseBMLocalSDominance = () => {
             <div className="wcb-stat-value">
               300<span>+</span>
             </div>
-            <div className="wcb-stat-label">Campaigns Managed</div>
+            <div className="wcb-stat-label">Local SEO Projects</div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully optimized businesses for stronger local rankings and
+              customer growth.
             </p>
           </div>
 
@@ -63,7 +63,8 @@ const WhyChooseBMLocalSDominance = () => {
             </div>
             <div className="wcb-stat-label">Client Retention Rate</div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              Businesses continue with us because we deliver measurable local
+              SEO results.
             </p>
           </div>
 
@@ -72,10 +73,10 @@ const WhyChooseBMLocalSDominance = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-bolt" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">Location-Based Strategy</div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Custom Local SEO campaigns focused on your target city and
+              audience.
             </p>
           </div>
 
@@ -84,10 +85,10 @@ const WhyChooseBMLocalSDominance = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-headset" />
             </div>
-            <div className="wcb-feat-title">24×7 Expert Support</div>
+            <div className="wcb-feat-title">24×7 SEO Support</div>
             <p className="wcb-feat-desc">
-              Continuous monitoring and quick optimization to keep campaigns
-              performing.
+              Continuous monitoring, updates, and optimization for long-term
+              ranking success.
             </p>
           </div>
 
@@ -96,9 +97,9 @@ const WhyChooseBMLocalSDominance = () => {
             <div className="wcb-stat-value">
               100<span>%</span>
             </div>
-            <div className="wcb-stat-label">In-House Marketing Team</div>
+            <div className="wcb-stat-label">In-House SEO Team</div>
             <p className="wcb-stat-desc">
-              No outsourcing — all campaigns are managed by our expert team.
+              Every Local SEO campaign is managed by our dedicated experts.
             </p>
           </div>
 
@@ -107,10 +108,10 @@ const WhyChooseBMLocalSDominance = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-shield-alt" />
             </div>
-            <div className="wcb-feat-title">Performance Optimization</div>
+            <div className="wcb-feat-title">Google Maps Optimization</div>
             <p className="wcb-feat-desc">
-              Rigorous brand consistency audits and performance benchmarks built
-              into every deliverable.
+              Improve your Google Business Profile and increase local search
+              visibility.
             </p>
           </div>
 
@@ -121,7 +122,8 @@ const WhyChooseBMLocalSDominance = () => {
             </div>
             <div className="wcb-stat-label">On-Time Reporting</div>
             <p className="wcb-stat-desc">
-              Transparent and timely reports with actionable insights.
+              Transparent reports with keyword rankings, traffic, and local
+              performance.
             </p>
           </div>
 
@@ -130,9 +132,10 @@ const WhyChooseBMLocalSDominance = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">Optimized for Local Rankings</div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              Strategies built to increase visibility, calls, and nearby
+              customer inquiries.
             </p>
           </div>
 
@@ -141,9 +144,10 @@ const WhyChooseBMLocalSDominance = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">Flexible SEO Plans</div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              Customized Local SEO packages based on your business goals and
+              location.
             </p>
           </div>
 
@@ -154,8 +158,8 @@ const WhyChooseBMLocalSDominance = () => {
             </div>
             <div className="wcb-feat-title">Quality Assurance</div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              Every optimization follows Google's best practices for sustainable
+              local growth.
             </p>
           </div>
         </div>

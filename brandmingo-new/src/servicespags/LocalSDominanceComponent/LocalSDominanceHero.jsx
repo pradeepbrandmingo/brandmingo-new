@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import { Link } from "react-router-dom";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const PerformanceMarketingSVG = () => (
   <svg
@@ -340,20 +342,26 @@ const LocalSDominanceHero = () => {
           {/* BLOCK 3 — desc + buttons + badges */}
           <div className="rdh-bottom-block">
             <p className="rdh-desc">
-              Dominate local search results and attract nearby customers ready
-              to convert. We don’t just improve visibility — we optimize your
-              presence across Google, maps, and local listings to drive
-              high-intent traffic and consistent local leads.
+              Boost your local visibility with proven Local SEO strategies. Rank
+              higher on Google Maps, attract nearby customers, and generate more
+              qualified local leads.
             </p>
             <div className="rdh-btn-row">
-              <a href="#contact" className="rdh-btn-primary">
-                Start Your Local Growth
+              <a
+                href="/"
+                className="rdh-btn-primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  openEnquiryPopup();
+                }}
+              >
+                Boost Local Rankings
                 <i className="fas fa-arrow-right" />
               </a>
-              <a href="#work" className="rdh-btn-ghost">
+              <Link to="/portfolio" className="rdh-btn-ghost">
                 <i className="fas fa-play" />
                 View Our Results
-              </a>
+              </Link>
             </div>
 
             <div className="rdh-badges">

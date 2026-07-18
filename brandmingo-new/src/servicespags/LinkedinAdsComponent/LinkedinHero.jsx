@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import { Link } from "react-router-dom";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const PerformanceMarketingSVG = () => (
   <svg
@@ -324,7 +326,7 @@ const LinkedinHero = () => {
               />
             </div>
             <div className="rdh-chip rdh-chip-1">
-              <i className="fas fa-chart-line" /> High ROI Campaigns
+              <i className="fas fa-chart-line" /> B2B Growth Campaigns
             </div>
             <div className="rdh-chip rdh-chip-2">
               <i className="fas fa-bullseye" /> Decision-Maker Targeting
@@ -340,19 +342,25 @@ const LinkedinHero = () => {
           {/* BLOCK 3 — desc + buttons + badges */}
           <div className="rdh-bottom-block">
             <p className="rdh-desc">
-              Drive high-quality B2B leads with LinkedIn Ads campaigns built for
-              professionals and decision-makers. We create data-driven
-              strategies that target the right audience, generate qualified
-              leads, and maximize your ROI.
+              Generate high-quality B2B leads with LinkedIn Ads campaigns that
+              connect your business with decision-makers and drive measurable
+              growth.
             </p>
             <div className="rdh-btn-row">
-              <a href="#contact" className="rdh-btn-primary">
+              <a
+                href="/"
+                className="rdh-btn-primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  openEnquiryPopup();
+                }}
+              >
                 Launch Your LinkedIn Campaign
                 <i className="fas fa-arrow-right" />
               </a>
-              <a href="#work" className="rdh-btn-ghost">
+              <Link to="/portfolio" className="rdh-btn-ghost">
                 <i className="fas fa-play" /> View Our Work
-              </a>
+              </Link>
             </div>
 
             <div className="rdh-badges">

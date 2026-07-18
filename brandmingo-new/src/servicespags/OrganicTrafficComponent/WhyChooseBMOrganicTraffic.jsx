@@ -8,13 +8,14 @@ const WhyChooseBMOrganicTraffic = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose Brandmingo for High-Performance <br />
-            Marketing Services
+            Why Choose BrandMingo for
+            <br />
+            Organic Traffic Growth
           </h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build performance-driven systems that
-            generate leads, increase ROI, and scale your business with
-            measurable results.
+            We build data-driven SEO strategies that improve search rankings,
+            increase organic traffic, and deliver sustainable long-term business
+            growth.
           </p>
         </div>
 
@@ -23,12 +24,12 @@ const WhyChooseBMOrganicTraffic = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">Years of SEO Expertise</div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Delivering proven SEO strategies across multiple industries for
+              consistent organic growth.
             </p>
           </div>
 
@@ -37,10 +38,10 @@ const WhyChooseBMOrganicTraffic = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-award" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">Certified SEO Experts</div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Experienced SEO professionals specializing in technical SEO,
+              content optimization, and organic growth
             </p>
           </div>
 
@@ -49,10 +50,10 @@ const WhyChooseBMOrganicTraffic = () => {
             <div className="wcb-stat-value">
               300<span>+</span>
             </div>
-            <div className="wcb-stat-label">Campaigns Managed</div>
+            <div className="wcb-stat-label">SEO Projects Delivered</div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully optimized websites that achieved higher rankings and
+              increased organic traffic.
             </p>
           </div>
 
@@ -63,7 +64,8 @@ const WhyChooseBMOrganicTraffic = () => {
             </div>
             <div className="wcb-stat-label">Client Retention Rate</div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              Businesses continue partnering with us because of measurable SEO
+              results and long-term growth.
             </p>
           </div>
 
@@ -72,10 +74,10 @@ const WhyChooseBMOrganicTraffic = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-bolt" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">Data-Driven SEO Strategy</div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Every SEO campaign is guided by keyword research, analytics, and
+              search intent insights.
             </p>
           </div>
 
@@ -84,10 +86,10 @@ const WhyChooseBMOrganicTraffic = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-headset" />
             </div>
-            <div className="wcb-feat-title">24×7 Expert Support</div>
+            <div className="wcb-feat-title">24×7 SEO Monitoring</div>
             <p className="wcb-feat-desc">
-              Continuous monitoring and quick optimization to keep campaigns
-              performing.
+              Continuous tracking of rankings, traffic, indexing, and website
+              performance.
             </p>
           </div>
 
@@ -96,9 +98,10 @@ const WhyChooseBMOrganicTraffic = () => {
             <div className="wcb-stat-value">
               100<span>%</span>
             </div>
-            <div className="wcb-stat-label">In-House Marketing Team</div>
+            <div className="wcb-stat-label">In-House SEO Team</div>
             <p className="wcb-stat-desc">
-              No outsourcing — all campaigns are managed by our expert team.
+              No outsourcing. Every SEO strategy is planned and managed by
+              BrandMingo experts.
             </p>
           </div>
 
@@ -107,10 +110,10 @@ const WhyChooseBMOrganicTraffic = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-shield-alt" />
             </div>
-            <div className="wcb-feat-title">Performance Optimization</div>
+            <div className="wcb-feat-title">Technical SEO Excellence</div>
             <p className="wcb-feat-desc">
-              Rigorous brand consistency audits and performance benchmarks built
-              into every deliverable.
+              We optimize website structure, speed, indexing, and Core Web
+              Vitals for better rankings.
             </p>
           </div>
 
@@ -119,9 +122,10 @@ const WhyChooseBMOrganicTraffic = () => {
             <div className="wcb-stat-value">
               98<span>%</span>
             </div>
-            <div className="wcb-stat-label">On-Time Reporting</div>
+            <div className="wcb-stat-label">Transparent Reporting</div>
             <p className="wcb-stat-desc">
-              Transparent and timely reports with actionable insights.
+              Monthly SEO reports with keyword rankings, traffic insights, and
+              actionable recommendations.
             </p>
           </div>
 
@@ -130,9 +134,10 @@ const WhyChooseBMOrganicTraffic = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">Optimized for Long-Term Growth</div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              Sustainable SEO strategies focused on higher rankings, qualified
+              traffic, and consistent business growth.
             </p>
           </div>
 
@@ -141,9 +146,10 @@ const WhyChooseBMOrganicTraffic = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">Flexible SEO Solutions</div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              Customized SEO plans designed around your business goals,
+              industry, and competition.
             </p>
           </div>
 
@@ -152,10 +158,10 @@ const WhyChooseBMOrganicTraffic = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-layer-group" />
             </div>
-            <div className="wcb-feat-title">Quality Assurance</div>
+            <div className="wcb-feat-title">Quality-First SEO</div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              White-hat SEO techniques that improve rankings while ensuring
+              long-term search engine compliance.
             </p>
           </div>
         </div>

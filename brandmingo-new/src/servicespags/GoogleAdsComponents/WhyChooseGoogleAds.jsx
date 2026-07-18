@@ -8,13 +8,14 @@ const WhyChooseGoogleAds = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose BrandMingo for High-Performance <br />
+            Why Choose BrandMingo for High-Performance
+            <br />
             Google Ads
           </h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build data-driven Google Ads systems that
-            generate leads, improve ROI, and scale your business with measurable
-            results.
+            We create ROI-focused Google Ads campaigns that generate qualified
+            leads, reduce ad spend waste, and help your business achieve
+            consistent growth
           </p>
         </div>
 
@@ -23,12 +24,12 @@ const WhyChooseGoogleAds = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">Years of Google Ads Expertise</div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Managing high-performing campaigns across multiple industries with
+              proven ROI
             </p>
           </div>
 
@@ -37,33 +38,34 @@ const WhyChooseGoogleAds = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-award" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">Google Ads Specialists</div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Certified experts in Google Ads, PPC strategy, bidding, and
+              conversion optimization
             </p>
           </div>
 
           {/* 3 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              300<span>+</span>
+              200<span>+</span>
             </div>
             <div className="wcb-stat-label">Campaigns Managed</div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully managing Google Ads campaigns that deliver qualified
+              leads and sales
             </p>
           </div>
 
           {/* 4 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              90<span>%</span>
+              95<span>%</span>
             </div>
             <div className="wcb-stat-label">Client Retention Rate</div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              Businesses continue with us because we consistently deliver
+              measurable results
             </p>
           </div>
 
@@ -72,10 +74,10 @@ const WhyChooseGoogleAds = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-bolt" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">ROI-Focused Strategy</div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Every Google Ads campaign is optimized to maximize ROAS and
+              conversions
             </p>
           </div>
 
@@ -84,10 +86,10 @@ const WhyChooseGoogleAds = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-headset" />
             </div>
-            <div className="wcb-feat-title">24×7 Expert Support</div>
+            <div className="wcb-feat-title">24×7 Campaign Monitoring</div>
             <p className="wcb-feat-desc">
-              Continuous monitoring and quick optimization to keep campaigns
-              performing.
+              Continuous monitoring and optimization to improve campaign
+              performance
             </p>
           </div>
 
@@ -96,9 +98,10 @@ const WhyChooseGoogleAds = () => {
             <div className="wcb-stat-value">
               100<span>%</span>
             </div>
-            <div className="wcb-stat-label">In-House Marketing Team</div>
+            <div className="wcb-stat-label">In-House Google Ads Team</div>
             <p className="wcb-stat-desc">
-              No outsourcing — all campaigns are managed by our expert team.
+              No outsourcing. Every campaign is managed by our certified Google
+              Ads experts.
             </p>
           </div>
 
@@ -109,8 +112,7 @@ const WhyChooseGoogleAds = () => {
             </div>
             <div className="wcb-feat-title">Performance Optimization</div>
             <p className="wcb-feat-desc">
-              Rigorous brand consistency audits and performance benchmarks built
-              into every deliverable.
+              Continuous bid, keyword, and audience optimization for maximum ROI
             </p>
           </div>
 
@@ -119,9 +121,9 @@ const WhyChooseGoogleAds = () => {
             <div className="wcb-stat-value">
               98<span>%</span>
             </div>
-            <div className="wcb-stat-label">On-Time Reporting</div>
+            <div className="wcb-stat-label">Transparent Reporting</div>
             <p className="wcb-stat-desc">
-              Transparent and timely reports with actionable insights.
+              Detailed reports with actionable insights and performance metrics.
             </p>
           </div>
 
@@ -130,9 +132,10 @@ const WhyChooseGoogleAds = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">Growth-Driven Campaigns</div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              Google Ads strategies designed to increase leads, sales, and
+              business growth
             </p>
           </div>
 
@@ -141,9 +144,10 @@ const WhyChooseGoogleAds = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">Flexible Engagement Models</div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              Custom Google Ads solutions tailored to your goals and advertising
+              budget
             </p>
           </div>
 
@@ -154,8 +158,8 @@ const WhyChooseGoogleAds = () => {
             </div>
             <div className="wcb-feat-title">Quality Assurance</div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              Regular campaign audits ensure consistent performance and ongoing
+              improvements
             </p>
           </div>
         </div>

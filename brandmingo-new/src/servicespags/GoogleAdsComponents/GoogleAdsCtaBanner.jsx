@@ -1,4 +1,6 @@
 import React from "react";
+import { openEnquiryPopup } from "../../utils/popup";
+import { Link } from "react-router-dom";
 
 const GoogleAdsCtaBanner = () => {
   return (
@@ -295,28 +297,35 @@ const GoogleAdsCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">GOOGLE ADS EXPERTS</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Grow Your
                 <br className="d-none d-lg-block" />
-                with Google Ads Campaigns?
+                Business with Google Ads?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you increase ROI, reduce ad spend waste, and scale your
-                business with data-driven strategies.
+                Generate more qualified leads, increase conversions, and
+                maximize your advertising ROI with data-driven Google Ads
+                campaigns tailored to your business goals.
               </p>
 
               <div className="cta-btn-wrap">
-                <a href="#contact" className="cta-main-btn">
-                  Start Your Ads Strategy
+                <a
+                  href="/"
+                  className="cta-main-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
+                  Start Your Google Ads Strategy
                   <i className="fas fa-arrow-right" />
                 </a>
-                <a href="#portfolio" className="cta-link">
-                  View Case Studies <i className="fas fa-arrow-right" />
-                </a>
+                <Link to="/portfolio" className="cta-link">
+                  View Success Stories <i className="fas fa-arrow-right" />
+                </Link>
               </div>
             </div>
 
@@ -327,7 +336,7 @@ const GoogleAdsCtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">300+</span>
+                  <span className="val">200+</span>
                   <span className="lbl">Campaigns Managed</span>
                 </div>
               </div>
@@ -337,8 +346,8 @@ const GoogleAdsCtaBanner = () => {
                   <i className="fas fa-check-circle" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">90%</span>
-                  <span className="lbl">Client Retention</span>
+                  <span className="val">95%</span>
+                  <span className="lbl">OPTIMIZATION SCORE</span>
                 </div>
               </div>
 
@@ -348,7 +357,7 @@ const GoogleAdsCtaBanner = () => {
                 </div>
                 <div className="badge-info">
                   <span className="val">24×7</span>
-                  <span className="lbl">Ads Monitoring</span>
+                  <span className="lbl">CAMPAIGN MONITORING</span>
                 </div>
               </div>
             </div>

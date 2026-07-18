@@ -8,13 +8,13 @@ const WhyChooseBMFbInstAds = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose Brandmingo for High-Performance <br />
-            Marketing Services
+            Why Choose BrandMingo for <br />
+            High-Performance Meta Ads
           </h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build performance-driven systems that
-            generate leads, increase ROI, and scale your business with
-            measurable results.
+            We don't just create Meta Ads—we build data-driven Facebook &
+            Instagram campaigns that generate qualified leads, increase
+            conversions, and maximize your advertising ROI.
           </p>
         </div>
 
@@ -23,12 +23,11 @@ const WhyChooseBMFbInstAds = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">Years of Meta Ads Experience</div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Delivering successful Meta Ads campaigns across diverse industries
             </p>
           </div>
 
@@ -37,22 +36,21 @@ const WhyChooseBMFbInstAds = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-award" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">Certified Meta Ads Experts</div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Skilled professionals managing Facebook & Instagram advertising
+              campaigns
             </p>
           </div>
 
           {/* 3 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              300<span>+</span>
+              250<span>+</span>
             </div>
-            <div className="wcb-stat-label">Campaigns Managed</div>
+            <div className="wcb-stat-label">Meta Campaigns Managed</div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully delivered high-performing Meta Ads campaigns.
             </p>
           </div>
 
@@ -63,7 +61,7 @@ const WhyChooseBMFbInstAds = () => {
             </div>
             <div className="wcb-stat-label">Client Retention Rate</div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              Long-term partnerships built on measurable campaign performance.
             </p>
           </div>
 
@@ -72,10 +70,10 @@ const WhyChooseBMFbInstAds = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-bolt" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">ROI-Focused Strategy</div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Every campaign is optimized for conversions, sales, and maximum
+              ROAS
             </p>
           </div>
 
@@ -84,10 +82,10 @@ const WhyChooseBMFbInstAds = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-headset" />
             </div>
-            <div className="wcb-feat-title">24×7 Expert Support</div>
+            <div className="wcb-feat-title">24×7 Campaign Support</div>
             <p className="wcb-feat-desc">
-              Continuous monitoring and quick optimization to keep campaigns
-              performing.
+              Continuous monitoring and optimization for consistent ad
+              performance.
             </p>
           </div>
 
@@ -96,9 +94,10 @@ const WhyChooseBMFbInstAds = () => {
             <div className="wcb-stat-value">
               100<span>%</span>
             </div>
-            <div className="wcb-stat-label">In-House Marketing Team</div>
+            <div className="wcb-stat-label">In-House Meta Team</div>
             <p className="wcb-stat-desc">
-              No outsourcing — all campaigns are managed by our expert team.
+              Every Facebook & Instagram campaign is managed by our internal
+              experts
             </p>
           </div>
 
@@ -109,8 +108,7 @@ const WhyChooseBMFbInstAds = () => {
             </div>
             <div className="wcb-feat-title">Performance Optimization</div>
             <p className="wcb-feat-desc">
-              Rigorous brand consistency audits and performance benchmarks built
-              into every deliverable.
+              Continuous testing to improve conversions and advertising ROI.
             </p>
           </div>
 
@@ -119,9 +117,9 @@ const WhyChooseBMFbInstAds = () => {
             <div className="wcb-stat-value">
               98<span>%</span>
             </div>
-            <div className="wcb-stat-label">On-Time Reporting</div>
+            <div className="wcb-stat-label">Transparent Reporting</div>
             <p className="wcb-stat-desc">
-              Transparent and timely reports with actionable insights.
+              Real-time reports with actionable insights and campaign metrics.
             </p>
           </div>
 
@@ -130,9 +128,10 @@ const WhyChooseBMFbInstAds = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">Optimized for Growth</div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              Scalable Meta Ads strategies designed for long-term business
+              growth.
             </p>
           </div>
 
@@ -141,9 +140,10 @@ const WhyChooseBMFbInstAds = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">Flexible Ad Strategies</div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              Campaigns customized for your business goals and advertising
+              budget.
             </p>
           </div>
 
@@ -154,8 +154,8 @@ const WhyChooseBMFbInstAds = () => {
             </div>
             <div className="wcb-feat-title">Quality Assurance</div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              Strict quality checks to maintain high-performing Meta Ads
+              campaigns.
             </p>
           </div>
         </div>

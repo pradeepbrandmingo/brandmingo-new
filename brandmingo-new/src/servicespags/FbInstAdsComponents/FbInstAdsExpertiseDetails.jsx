@@ -2,91 +2,91 @@ import React, { useState } from "react";
 
 const servicesData = [
   {
-    id: "Lead Generation Campaigns",
+    id: "lead",
     title: "Lead Generation Campaigns",
-    desc: "We create high-converting campaigns focused on generating qualified leads that drive real business growth.",
+    desc: "Generate qualified leads through high-converting Facebook & Instagram Ads tailored to your target audience.",
     points: [
-      "Target high-intent audiences for better lead quality",
-      "Optimize landing pages for maximum conversions",
-      "Reduce cost per lead with smart bidding strategies",
-      "Generate consistent and scalable lead flow",
-    ],
-  },
-  {
-    id: "legacy",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with performance-driven ad campaigns designed to increase sales and ROI.",
-    points: [
-      "Run product-focused campaigns for higher conversions",
-      "Implement dynamic remarketing strategies",
-      "Optimize product feeds and ad creatives",
-      "Drive consistent revenue growth through paid ads",
-    ],
-  },
-  {
-    id: "pwa",
-    title: "Google Ads Management",
-    desc: "Reach customers actively searching for your services with highly optimized Google Ads campaigns.",
-    points: [
-      "Advanced keyword research and targeting strategy",
-      "High-converting ad copy and extensions",
-      "Smart bidding and budget optimization",
-      "Focus on ROI-driven campaign performance",
-    ],
-  },
-  {
-    id: "api",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience and generate leads through powerful Meta advertising strategies.",
-    points: [
-      "Detailed audience segmentation and targeting",
-      "Creative ad design and compelling messaging",
-      "Full-funnel campaign strategy implementation",
-      "Retargeting to improve conversion rates",
+      "Reach high-intent audiences",
+      "Generate quality business leads",
+      "Reduce cost per acquisition",
+      "Scale lead generation campaigns",
     ],
   },
   {
     id: "ecommerce",
-    title: "Retargeting & Remarketing",
-    desc: "Re-engage users who showed interest but didn’t convert and turn them into paying customers.",
+    title: "E-commerce Advertising",
+    desc: "Increase online sales with Meta Ads campaigns optimized for products, conversions, and higher ROAS.",
     points: [
-      "Pixel-based tracking for accurate audience data",
-      "Multi-platform retargeting campaigns",
-      "Behavior-based ad strategies",
-      "Increase conversions and reduce drop-offs",
+      "Promote best-selling products",
+      "Dynamic product advertising",
+      "Boost store conversions",
+      "Maximize return on ad spend",
     ],
   },
   {
-    id: "spa",
+    id: "google",
+    title: "Facebook Ads Management",
+    desc: "Run data-driven Facebook Ads campaigns that increase reach, engagement, leads, and business growth.",
+    points: [
+      "Advanced audience targeting",
+      "Conversion-focused campaigns",
+      "Creative ad optimization",
+      "Continuous ROI improvement",
+    ],
+  },
+  {
+    id: "meta",
+    title: "Instagram Ads Marketing",
+    desc: "Capture attention with visually engaging Instagram Ads that increase engagement, followers, and conversions.",
+    points: [
+      "Story & Reel advertising",
+      "Creative visual campaigns",
+      "Boost engagement rates",
+      "Drive quality conversions",
+    ],
+  },
+  {
+    id: "remarketing",
+    title: "Retargeting Campaigns",
+    desc: "Reconnect with previous visitors using Meta remarketing campaigns that recover lost sales and leads.",
+    points: [
+      "Recover abandoned visitors",
+      "Behavior-based targeting",
+      "Increase repeat conversions",
+      "Improve campaign ROI",
+    ],
+  },
+  {
+    id: "funnel",
     title: "Sales Funnel Optimization",
-    desc: "Optimize every stage of your funnel to improve conversion rates and maximize ROI.",
+    desc: "Optimize every stage of your Meta Ads funnel to improve conversions and customer acquisition.",
     points: [
-      "Landing page optimization for better performance",
-      "A/B testing for continuous improvement",
-      "User journey and behavior analysis",
-      "Reduce bounce rates and increase conversions",
+      "Improve landing page flow",
+      "Optimize customer journey",
+      "Increase conversion rates",
+      "Reduce funnel drop-offs",
     ],
   },
   {
-    id: "migration",
-    title: "Analytics & Tracking Setup",
-    desc: "Set up advanced tracking systems to measure performance and make data-driven decisions.",
+    id: "analytics",
+    title: "Meta Pixel & Analytics",
+    desc: "Track every conversion with Meta Pixel and analytics for accurate reporting and smarter decisions.",
     points: [
-      "Google Analytics and Tag Manager setup",
-      "Conversion and event tracking implementation",
-      "Accurate performance reporting",
-      "Actionable insights for campaign improvement",
+      "Meta Pixel implementation",
+      "Conversion event tracking",
+      "Performance analytics",
+      "Actionable campaign insights",
     ],
   },
   {
-    id: "payment",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns efficiently with data-backed strategies and continuous optimization.",
+    id: "scaling",
+    title: "Campaign Scaling & Growth",
+    desc: "Scale winning Meta Ads campaigns using performance data to maximize revenue and long-term growth.",
     points: [
-      "Budget scaling based on performance data",
-      "Creative testing and iteration",
-      "Identify winning campaigns and scale them",
-      "Maximize ROI with continuous optimization",
+      "Increase profitable budgets",
+      "Scale winning audiences",
+      "Optimize creative performance",
+      "Maximize long-term ROI",
     ],
   },
 ];
@@ -104,7 +104,7 @@ const FbInstAdsExpertiseDetails = () => {
       <div className="react-expertise-section">
         <div className="auto-container">
           <h3 className="mb-5 text-center section-main-h3">
-            Our Performance Marketing Expertise
+            Our Facebook & Instagram Ads Expertise
           </h3>
 
           {/* ── DESKTOP: same as before ── */}
