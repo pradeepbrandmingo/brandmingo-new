@@ -295,27 +295,25 @@ const GrowthCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
-
+              ENGAGEMENT GROWTH
+              <span className="cta-eyebrow"></span>
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Build Stronger Customer
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Relationships with Engagement Growth?
               </h3>
-
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                From meaningful customer interactions to long-term loyalty,
+                BrandMingo helps you increase engagement, strengthen your
+                community, and drive sustainable business growth.
               </p>
-
               <div className="cta-btn-wrap">
                 <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                  Start Growing Today
                   <i className="fas fa-arrow-right" />
                 </a>
                 <a href="#portfolio" className="cta-link">
-                  View Our Results <i className="fas fa-arrow-right" />
+                  View Our Strategy <i className="fas fa-arrow-right" />
                 </a>
               </div>
             </div>
@@ -328,7 +326,7 @@ const GrowthCtaBanner = () => {
                 </div>
                 <div className="badge-info">
                   <span className="val">300+</span>
-                  <span className="lbl">Campaigns Managed</span>
+                  <span className="lbl">ENGAGEMENT CAMPAIGNS</span>
                 </div>
               </div>
 
@@ -338,7 +336,7 @@ const GrowthCtaBanner = () => {
                 </div>
                 <div className="badge-info">
                   <span className="val">90%</span>
-                  <span className="lbl">Client Retention</span>
+                  <span className="lbl">CUSTOMER RETENTION</span>
                 </div>
               </div>
 

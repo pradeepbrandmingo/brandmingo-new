@@ -6,38 +6,38 @@ const engagementData = [
     id: "dedicated",
     icon: "fas fa-bullseye",
     title: "Dedicated Marketing Team",
-    desc: "A fully committed performance marketing team working exclusively on your campaigns to drive consistent growth and ROI.",
+    desc: "A dedicated performance marketing team focused on managing, optimizing, and scaling your campaigns for long-term growth.",
     points: [
-      "Continuous campaign performance optimization",
-      "Dedicated account manager for support",
-      "Scalable campaign growth and management",
-      "Focused strategy for long-term results",
+      "Dedicated account manager",
+      "Continuous campaign optimization",
+      "Scalable growth strategies",
+      "Monthly performance reports",
     ],
     tag: "Most Popular",
   },
   {
-    id: "time",
+    id: "performance",
     icon: "fas fa-chart-line",
-    title: "Time & Performance Based",
-    desc: "Pay based on actual campaign performance with complete flexibility to scale and optimize as your business grows.",
+    title: "Performance-Based Model",
+    desc: "A flexible engagement model where campaigns are optimized based on measurable performance and business goals.",
     points: [
-      "Pay based on measurable campaign results",
-      "Flexible scaling as performance improves",
-      "Agile execution with quick adjustments",
-      "Decisions driven by real-time data insights",
+      "Performance-driven execution",
+      "Flexible campaign scaling",
+      "Real-time optimization",
+      "ROI-focused strategies",
     ],
     tag: null,
   },
   {
-    id: "fixed",
+    id: "retainer",
     icon: "fas fa-coins",
-    title: "Fixed Monthly Retainer",
-    desc: "A predictable monthly model for managing and optimizing your performance marketing campaigns with consistent results.",
+    title: "Monthly Retainer",
+    desc: "A fixed monthly engagement for continuous campaign management, optimization, and predictable business growth.",
     points: [
-      "Fixed monthly pricing with no surprises",
-      "Consistent campaign tracking and monitoring",
-      "Detailed reports with actionable insights",
-      "Ongoing optimization for better performance",
+      "Fixed monthly pricing",
+      "Campaign monitoring",
+      "Performance reporting",
+      "Ongoing optimization",
     ],
     tag: null,
   },
@@ -45,12 +45,12 @@ const engagementData = [
     id: "hybrid",
     icon: "fas fa-layer-group",
     title: "Hybrid Growth Model",
-    desc: "A balanced approach combining fixed management with performance-based incentives for maximum ROI and scalability.",
+    desc: "A combination of fixed management and performance-driven strategies designed to maximize ROI and scalability.",
     points: [
-      "Combination of fixed and performance pricing",
-      "Flexible strategy based on campaign needs",
-      "Scalable model for consistent business growth",
-      "Focused approach for maximum ROI outcomes",
+      "Flexible pricing model",
+      "Growth-focused strategy",
+      "Scalable campaign management",
+      "Maximum ROI optimization",
     ],
     tag: null,
   },
@@ -72,8 +72,8 @@ const BrandEngagementModels = () => {
             Engagement Models
           </h3>
           <p className="eng-subtitle">
-            We offer flexible marketing engagement models designed to align with
-            your business goals, budget, and growth strategy.
+            We offer flexible performance marketing engagement models tailored
+            to your business goals, budget, and growth objectives.
           </p>
         </div>
 

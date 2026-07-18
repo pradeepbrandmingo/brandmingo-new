@@ -295,18 +295,19 @@ const BrandCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">READY TO GROW YOUR BUSINESS</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Grow Faster with
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Performance Marketing
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                From lead generation to high-converting ad campaigns, Brandmingo
+                delivers data-driven performance marketing strategies that
+                increase ROI, generate quality leads, and accelerate sustainable
+                business growth.
               </p>
 
               <div className="cta-btn-wrap">

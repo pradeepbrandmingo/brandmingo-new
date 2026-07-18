@@ -98,40 +98,41 @@ const StrategyPlanning = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Scale with Strategy Planning
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            Strategy planning is the foundation of every
+                            successful marketing campaign. We create data-driven
+                            strategies that align with your business goals,
+                            target audience, and market opportunities to deliver
+                            sustainable growth.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            Our team develops actionable marketing roadmaps,
+                            audience insights, and growth strategies that help
+                            you make smarter decisions, optimize resources, and
+                            achieve measurable business results.
                           </p>
 
                           {/* Stats Row */}
                           <div className="react-stats-row">
                             <div className="react-stat-item">
-                              <span className="react-stat-num">5x</span>
+                              <span className="react-stat-num">10x</span>
                               <span className="react-stat-label">
                                 ROI Growth
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">90%</span>
+                              <span className="react-stat-num">95%</span>
                               <span className="react-stat-label">
                                 Campaign Optimization
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">300+</span>
+                              <span className="react-stat-num">500+</span>
                               <span className="react-stat-label">
                                 Campaigns Managed
                               </span>
@@ -151,7 +152,7 @@ const StrategyPlanning = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://i.ibb.co/xqT6LswW/Chat-GPT-Image-Jul-18-2026-11-49-46-AM.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -394,31 +395,37 @@ const StrategyPlanning = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    What is Strategy Planning?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Strategy planning is the process of creating a clear roadmap
+                    that aligns your business goals, target audience, and
+                    marketing activities for sustainable growth.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    Instead of making decisions without direction, a
+                    well-defined strategy helps you identify opportunities,
+                    optimize resources, and execute campaigns with confidence.
+                    This helps your business
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-bullseye",
+                        label: "Clear Business Goals",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-users",
+                        label: "Audience Insights",
+                      },
+                      {
+                        icon: "fas fa-route",
+                        label: "Growth Roadmap",
+                      },
+                      {
+                        icon: "fas fa-chart-line",
+                        label: "Data-Driven Strategy",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -499,8 +506,9 @@ const StrategyPlanning = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    So in simple terms — strategy planning helps you make
+                    smarter decisions, maximize opportunities, and achieve
+                    long-term business growth.
                   </p>
 
                   {/* SLIDER */}
@@ -553,12 +561,11 @@ const StrategyPlanning = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Build a Winning Strategy for Business Growth
                             </h3>
 
                             <a href="/contact" className="discuss-cta">
-                              Let's Discuss Your Project{" "}
+                              Start Your Strategy{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
@@ -571,11 +578,12 @@ const StrategyPlanning = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with Strategy Planning
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      We create strategic business roadmaps that align your
+                      goals, audience, and market opportunities to drive
+                      sustainable growth and smarter decision-making.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -593,7 +601,7 @@ const StrategyPlanning = () => {
                         {[
                           {
                             icon: (
-                              // Strategy = idea / planning
+                              // Business Strategy
                               <svg
                                 width="16"
                                 height="16"
@@ -609,13 +617,13 @@ const StrategyPlanning = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            label: "Business Strategy",
+                            desc: "Growth plans aligned with your business goals",
                           },
 
                           {
                             icon: (
-                              // Targeting = bullseye 🎯
+                              // Market Research
                               <svg
                                 width="16"
                                 height="16"
@@ -629,13 +637,13 @@ const StrategyPlanning = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            label: "Market Research",
+                            desc: "Analyze trends and market opportunities",
                           },
 
                           {
                             icon: (
-                              // Creative = pen/design
+                              // Audience Research
                               <svg
                                 width="16"
                                 height="16"
@@ -648,13 +656,13 @@ const StrategyPlanning = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            label: "Audience Research",
+                            desc: "Understand customer needs and behavior",
                           },
 
                           {
                             icon: (
-                              // Tracking = graph
+                              // Growth Roadmap
                               <svg
                                 width="16"
                                 height="16"
@@ -668,13 +676,13 @@ const StrategyPlanning = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "Growth Roadmap",
+                            desc: "Actionable plans for sustainable growth",
                           },
 
                           {
                             icon: (
-                              // Retargeting = refresh/loop
+                              // Performance Analysis
                               <svg
                                 width="16"
                                 height="16"
@@ -689,13 +697,13 @@ const StrategyPlanning = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Performance Analysis",
+                            desc: "Measure progress with actionable insights",
                           },
 
                           {
                             icon: (
-                              // Optimization = settings/gear
+                              // Strategic Consulting
                               <svg
                                 width="16"
                                 height="16"
@@ -705,11 +713,11 @@ const StrategyPlanning = () => {
                                 strokeWidth="2.2"
                               >
                                 <circle cx="12" cy="12" r="3" />
-                                <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
+                                <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8 1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            label: "Strategic Consulting",
+                            desc: "Expert guidance for smarter business decisions",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -760,9 +768,9 @@ const StrategyPlanning = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <StrategyPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMStrategy />
@@ -783,24 +791,24 @@ const StrategyPlanning = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is strategy planning?",
+                          a: "Strategy planning is the process of defining business goals, analyzing opportunities, and creating a clear roadmap to achieve sustainable growth and long-term success.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "Why is strategy planning important for my business?",
+                          a: "A well-defined strategy helps businesses make informed decisions, optimize resources, reduce risks, and identify growth opportunities while staying ahead of competitors.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "What is included in your strategy planning service?",
+                          a: "Our strategy planning service includes business analysis, market research, audience research, competitive analysis, growth planning, and actionable business roadmaps.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How long does it take to develop a business strategy?",
+                          a: "The timeline depends on your business size, objectives, and project scope. Most strategy planning projects are completed within a few weeks after detailed research and analysis.",
                         },
                         {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          q: "Why choose Brandmingo for strategy planning?",
+                          a: "Brandmingo creates data-driven business strategies tailored to your goals, helping you improve decision-making, unlock growth opportunities, and achieve measurable long-term success.",
                         },
                       ].map((item, index) => (
                         <li

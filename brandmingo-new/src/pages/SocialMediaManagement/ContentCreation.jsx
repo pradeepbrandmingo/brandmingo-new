@@ -101,39 +101,40 @@ const ContentCreation = () => {
                             Scale with Performance Marketing
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            Content creation is the process of producing
+                            engaging, high-quality, and SEO-friendly content
+                            that builds brand authority, attracts the right
+                            audience, and drives meaningful engagement across
+                            digital platforms.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            We create compelling content strategies, visuals,
+                            videos, blogs, and social media assets that help
+                            your brand connect with customers, improve
+                            visibility, and achieve long-term business growth.
                           </p>
 
                           {/* Stats Row */}
                           <div className="react-stats-row">
                             <div className="react-stat-item">
-                              <span className="react-stat-num">5x</span>
+                              <span className="react-stat-num">10x</span>
                               <span className="react-stat-label">
-                                ROI Growth
+                                Content Reach
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
                               <span className="react-stat-num">90%</span>
                               <span className="react-stat-label">
-                                Campaign Optimization
+                                Client Satisfaction
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
                               <span className="react-stat-num">300+</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                Projects Delivered
                               </span>
                             </div>
                           </div>
@@ -151,7 +152,7 @@ const ContentCreation = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://i.ibb.co/9kLhKmf3/Chat-GPT-Image-Jul-18-2026-12-29-03-PM.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -394,31 +395,38 @@ const ContentCreation = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    What is Content Creation?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Content creation is the process of developing valuable,
+                    engaging, and SEO-friendly content that helps businesses
+                    attract the right audience, build trust, and strengthen
+                    their online presence.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    Instead of publishing random content, a strategic content
+                    creation approach focuses on delivering the right message
+                    across websites, blogs, social media, videos, and marketing
+                    campaigns. This helps your business
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-pen-nib",
+                        label: "Engaging Content",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-magnifying-glass",
+                        label: "SEO Optimized",
+                      },
+                      {
+                        icon: "fas fa-users",
+                        label: "Audience Growth",
+                      },
+                      {
+                        icon: "fas fa-chart-line",
+                        label: "Brand Authority",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -499,8 +507,9 @@ const ContentCreation = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    So in simple terms — content creation helps your business
+                    attract, engage, and convert the right audience while
+                    building long-term brand value.
                   </p>
 
                   {/* SLIDER */}
@@ -553,12 +562,11 @@ const ContentCreation = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Create Content That Builds Trust & Drives Growth
                             </h3>
 
                             <a href="/contact" className="discuss-cta">
-                              Let's Discuss Your Project{" "}
+                              Let's Create Your Content{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
@@ -571,11 +579,12 @@ const ContentCreation = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with Content Creation Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      We create engaging, SEO-friendly, and conversion-focused
+                      content that helps your brand attract the right audience,
+                      build trust, and drive long-term business growth.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -593,7 +602,7 @@ const ContentCreation = () => {
                         {[
                           {
                             icon: (
-                              // Strategy = idea / planning
+                              // Content Strategy
                               <svg
                                 width="16"
                                 height="16"
@@ -609,13 +618,13 @@ const ContentCreation = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            label: "Content Strategy",
+                            desc: "Content plans aligned with your business goals",
                           },
 
                           {
                             icon: (
-                              // Targeting = bullseye 🎯
+                              // SEO Content
                               <svg
                                 width="16"
                                 height="16"
@@ -629,13 +638,13 @@ const ContentCreation = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            label: "SEO Content Writing",
+                            desc: "Search-optimized content for better visibility",
                           },
 
                           {
                             icon: (
-                              // Creative = pen/design
+                              // Copywriting
                               <svg
                                 width="16"
                                 height="16"
@@ -648,13 +657,13 @@ const ContentCreation = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            label: "Website Copywriting",
+                            desc: "Clear, engaging, and persuasive website copy",
                           },
 
                           {
                             icon: (
-                              // Tracking = graph
+                              // Blogs
                               <svg
                                 width="16"
                                 height="16"
@@ -668,13 +677,13 @@ const ContentCreation = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "Blog & Article Writing",
+                            desc: "Informative content that builds authority",
                           },
 
                           {
                             icon: (
-                              // Retargeting = refresh/loop
+                              // Social Media
                               <svg
                                 width="16"
                                 height="16"
@@ -689,13 +698,13 @@ const ContentCreation = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Social Media Content",
+                            desc: "Creative content that boosts engagement",
                           },
 
                           {
                             icon: (
-                              // Optimization = settings/gear
+                              // Optimization
                               <svg
                                 width="16"
                                 height="16"
@@ -705,11 +714,11 @@ const ContentCreation = () => {
                                 strokeWidth="2.2"
                               >
                                 <circle cx="12" cy="12" r="3" />
-                                <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
+                                <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8 1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            label: "Content Optimization",
+                            desc: "Improve SEO, readability, and engagement",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -760,9 +769,9 @@ const ContentCreation = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <ContentCreationPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMContent />
@@ -783,24 +792,24 @@ const ContentCreation = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is content creation?",
+                          a: "Content creation is the process of producing valuable and engaging content such as website copy, blogs, social media posts, videos, graphics, and marketing materials to attract, educate, and convert your target audience.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "What types of content do you create?",
+                          a: "We create website content, SEO blogs, social media posts, ad copy, email campaigns, product descriptions, video scripts, case studies, brochures, and other custom marketing content tailored to your business.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "Is your content SEO-friendly?",
+                          a: "Yes. Our content is optimized with relevant keywords, proper structure, and best SEO practices to improve search engine rankings while maintaining readability and user engagement.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How much does content creation cost?",
+                          a: "Pricing depends on the type of content, project scope, content volume, research requirements, and turnaround time. We provide customized pricing based on your specific business needs.",
                         },
                         {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          q: "How long does it take to deliver content?",
+                          a: "Delivery timelines vary depending on the project size and complexity. Small content projects can be delivered within a few days, while larger content strategies or bulk content may require additional time to ensure quality.",
                         },
                       ].map((item, index) => (
                         <li

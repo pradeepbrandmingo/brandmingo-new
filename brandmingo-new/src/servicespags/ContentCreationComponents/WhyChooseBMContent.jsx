@@ -7,14 +7,12 @@ const WhyChooseBMContent = () => {
       <div className="auto-container">
         {/* Header */}
         <div className="wcb-header">
-          <h3>
-            Why Choose Brandmingo for High-Performance <br />
-            Marketing Services
-          </h3>
+          <h3>Why Choose Brandmingo for Professional Content Creation?</h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build performance-driven systems that
-            generate leads, increase ROI, and scale your business with
-            measurable results.
+            We don't just create content—we craft compelling stories, engaging
+            visuals, and high-performing digital assets that strengthen your
+            brand, connect with your audience, and drive measurable business
+            growth.
           </p>
         </div>
 
@@ -23,12 +21,14 @@ const WhyChooseBMContent = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">
+              Years of Content Creation Expertise
+            </div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Creating engaging and effective content across multiple platforms
+              with proven results.
             </p>
           </div>
 
@@ -37,10 +37,10 @@ const WhyChooseBMContent = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-award" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">Creative Content Specialists</div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Our experienced writers, designers, and content strategists create
+              engaging content tailored to your brand and audience.
             </p>
           </div>
 
@@ -49,10 +49,10 @@ const WhyChooseBMContent = () => {
             <div className="wcb-stat-value">
               300<span>+</span>
             </div>
-            <div className="wcb-stat-label">Campaigns Managed</div>
+            <div className="wcb-stat-label">Content Assets Delivered</div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully created blogs, website content, social media
+              creatives, videos, and marketing materials.
             </p>
           </div>
 
@@ -61,9 +61,10 @@ const WhyChooseBMContent = () => {
             <div className="wcb-stat-value">
               90<span>%</span>
             </div>
-            <div className="wcb-stat-label">Client Retention Rate</div>
+            <div className="wcb-stat-label">SEO-Optimized Content</div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              Every piece of content is optimized for search engines to improve
+              visibility, rankings, and organic traffic.
             </p>
           </div>
 
@@ -72,10 +73,12 @@ const WhyChooseBMContent = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-bolt" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">
+              Original & Human-Written Content
+            </div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Every project is crafted from scratch—no plagiarism, no AI-only
+              content, just authentic and brand-focused storytelling.
             </p>
           </div>
 
@@ -130,9 +133,10 @@ const WhyChooseBMContent = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">Brand-Focused Content Strategy</div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              Content designed to strengthen your brand identity, increase
+              engagement, and convert visitors into customers.
             </p>
           </div>
 
@@ -141,9 +145,10 @@ const WhyChooseBMContent = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">Flexible Content Solutions</div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              Tailored content packages designed to match your brand goals,
+              audience, and marketing strategy.
             </p>
           </div>
 
@@ -152,10 +157,10 @@ const WhyChooseBMContent = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-layer-group" />
             </div>
-            <div className="wcb-feat-title">Quality Assurance</div>
+            <div className="wcb-feat-title">Content Quality Assurance</div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              Every piece of content is reviewed for originality, accuracy, SEO
+              optimization, and brand consistency before delivery.
             </p>
           </div>
         </div>

@@ -7,14 +7,11 @@ const WhyChooseBMStrategy = () => {
       <div className="auto-container">
         {/* Header */}
         <div className="wcb-header">
-          <h3>
-            Why Choose Brandmingo for High-Performance <br />
-            Marketing Services
-          </h3>
+          <h3>Why Choose Brandmingo for Strategy Planning?</h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build performance-driven systems that
-            generate leads, increase ROI, and scale your business with
-            measurable results.
+            We create data-driven business strategies that help organizations
+            identify opportunities, make informed decisions, and achieve
+            sustainable long-term growth.
           </p>
         </div>
 
@@ -23,12 +20,11 @@ const WhyChooseBMStrategy = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
             <div className="wcb-stat-label">Years of Marketing Expertise</div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Helping businesses build scalable growth strategies.
             </p>
           </div>
 

@@ -1,62 +1,57 @@
 import React, { useState } from "react";
 
+// 1. यहाँ Keys को servicesData की IDs से मैच कर दिया गया है
 const serviceImages = {
-  lead: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=520&q=80&auto=format&fit=crop",
-  ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
-  google:
-    "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=520&q=80&auto=format&fit=crop",
-  meta: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=520&q=80&auto=format&fit=crop",
-  retargeting:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=520&q=80&auto=format&fit=crop",
-  funnel:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
-  analytics:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
-  scaling:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=520&q=80&auto=format&fit=crop",
+  business: "https://i.ibb.co/F43TwtrL/Untitled-design-15.jpg",
+  market: "https://i.ibb.co/F43TwtrL/Untitled-design-15.jpg",
+  audience: "https://i.ibb.co/F43TwtrL/Untitled-design-15.jpg",
+  competitive: "https://i.ibb.co/F43TwtrL/Untitled-design-15.jpg",
+  roadmap: "https://i.ibb.co/F43TwtrL/Untitled-design-15.jpg",
+  planning: "https://i.ibb.co/F43TwtrL/Untitled-design-15.jpg",
+  analysis: "https://i.ibb.co/F43TwtrL/Untitled-design-15.jpg",
+  consulting: "https://i.ibb.co/F43TwtrL/Untitled-design-15.jpg",
 };
 
 const servicesData = [
   {
-    id: "lead",
-    title: "Lead Generation Campaigns",
-    desc: "We build high-converting performance marketing campaigns designed to generate qualified leads and consistent business growth. Our strategies focus on targeting the right audience, optimizing landing pages, and reducing cost per lead while maximizing ROI.",
+    id: "business",
+    title: "Business Strategy",
+    desc: "We create data-driven business strategies that align with your goals, improve decision-making, and build a strong foundation for sustainable business growth.",
   },
   {
-    id: "ecommerce",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with performance-driven campaigns focused on increasing sales and maximizing return on ad spend. We optimize product ads, implement dynamic remarketing, and continuously improve campaign performance.",
+    id: "market",
+    title: "Market Research",
+    desc: "Understand industry trends, customer demand, and competitor insights to identify opportunities and build effective business strategies.",
   },
   {
-    id: "google",
-    title: "Google Ads Management",
-    desc: "Reach high-intent users actively searching for your services with optimized Google Ads campaigns. We focus on keyword strategy, ad copy, bidding optimization, and ROI-driven results.",
+    id: "audience",
+    title: "Audience Research",
+    desc: "Analyze customer behavior, preferences, and demographics to create targeted strategies that improve engagement and business results.",
   },
   {
-    id: "meta",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience with creative and data-driven ad campaigns across Facebook and Instagram. We build funnel-based campaigns that drive awareness, engagement, and conversions.",
+    id: "competitive",
+    title: "Competitive Analysis",
+    desc: "Evaluate competitors, identify market gaps, and discover competitive advantages that strengthen your business positioning.",
   },
   {
-    id: "retargeting",
-    title: "Retargeting Campaigns",
-    desc: "Convert lost visitors into customers using advanced retargeting strategies. We re-engage users based on behavior and improve conversion rates significantly.",
+    id: "roadmap",
+    title: "Growth Roadmap",
+    desc: "Develop a structured roadmap with clear milestones, priorities, and action plans to achieve long-term business growth.",
   },
   {
-    id: "funnel",
-    title: "Sales Funnel Optimization",
-    desc: "Improve your conversion rates by optimizing every stage of your marketing funnel. From landing pages to final conversion, we ensure a smooth and effective user journey.",
+    id: "planning",
+    title: "Strategic Planning",
+    desc: "Build practical business strategies that optimize resources, reduce risks, and support scalable growth with measurable outcomes.",
   },
   {
-    id: "analytics",
-    title: "Analytics & Tracking Setup",
-    desc: "Track every click, lead, and conversion with advanced analytics and tracking systems. We set up tools that provide actionable insights for better decision-making.",
+    id: "analysis",
+    title: "Performance Analysis",
+    desc: "Track business performance using meaningful insights and key metrics to refine strategies and improve overall business efficiency.",
   },
   {
-    id: "scaling",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns with data-backed strategies to maximize ROI and business growth. We identify winning campaigns and continuously optimize for better performance.",
+    id: "consulting",
+    title: "Strategic Consulting",
+    desc: "Get expert guidance to refine your business strategy, overcome challenges, and unlock new growth opportunities with confidence.",
   },
 ];
 
@@ -77,15 +72,13 @@ const StrategyModernDigital = () => {
   return (
     <div className="ret-section">
       <div className="auto-container">
-        {/* Heading — h3 tag, style.css vars apply automatically */}
         <h3 className="ret-heading text-center mb-5">
-          Performance Marketing Services for
-          <br /> Modern Digital Businesses
+          Strategy Planning Services for
+          <br /> Business Growth
         </h3>
 
         {/* ── DESKTOP ── */}
         <div className="ret-grid ret-desktop-only">
-          {/* Left: tab buttons */}
           <div className="ret-tabs">
             {servicesData.map((service) => (
               <button
@@ -101,7 +94,6 @@ const StrategyModernDigital = () => {
             ))}
           </div>
 
-          {/* Right: content panel */}
           <div className="ret-content" key={animKey}>
             <h4 className="ret-content-title">{activeTab.title}</h4>
             <div className="ret-content-body">
@@ -122,7 +114,7 @@ const StrategyModernDigital = () => {
           </div>
         </div>
 
-        {/* ── MOBILE accordion ── */}
+        {/* ── MOBILE ── */}
         <div className="ret-mobile-only">
           {servicesData.map((service) => {
             const isOpen = openAccordion === service.id;

@@ -98,14 +98,15 @@ const BrandAwareness = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Build Strong Brand Awareness
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            Brand awareness marketing helps your business become
+                            more recognizable and memorable across digital
+                            channels. By reaching the right audience with
+                            consistent messaging, engaging content, and targeted
+                            campaigns, we increase your brand visibility and
+                            build long-term customer trust.
                           </p>
 
                           <p className="text mb-4">
@@ -151,7 +152,7 @@ const BrandAwareness = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://i.ibb.co/nN2bRFz2/Chat-GPT-Image-Jul-17-2026-06-32-56-PM.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -397,9 +398,8 @@ const BrandAwareness = () => {
                     What is Performance Marketing?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Performance marketing helps you pay only for measurable
+                    results like leads, sales, and conversions.
                   </p>
                   <p className="text mb-2">
                     Let’s simplify this — instead of spending money blindly on
@@ -760,9 +760,9 @@ const BrandAwareness = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <BrandPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMBrand />
@@ -783,24 +783,28 @@ const BrandAwareness = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is brand awareness marketing?",
+                          a: "Brand awareness marketing helps increase your brand's visibility, recognition, and trust among your target audience through strategic digital campaigns and creative content.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "Why is brand awareness important for my business?",
+                          a: "Strong brand awareness builds customer trust, improves brand recall, attracts new audiences, and creates long-term business growth by keeping your brand top of mind.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "Which platforms do you use for brand awareness campaigns?",
+                          a: "We run brand awareness campaigns across Google Display Network, YouTube, Facebook, Instagram, LinkedIn, and other digital platforms based on your target audience.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How do you measure brand awareness success?",
+                          a: "We track key metrics such as reach, impressions, engagement, video views, audience growth, brand searches, and overall campaign performance.",
                         },
                         {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          q: "How long does a brand awareness campaign take to show results?",
+                          a: "Brand awareness campaigns typically begin generating visibility within the first few weeks, while stronger brand recognition and audience trust develop over time with consistent optimization.",
+                        },
+                        {
+                          q: "Why choose Brandmingo for brand awareness marketing?",
+                          a: "Brandmingo creates data-driven brand awareness strategies that increase visibility, strengthen brand recognition, and help businesses build long-term customer trust and market presence.",
                         },
                       ].map((item, index) => (
                         <li
