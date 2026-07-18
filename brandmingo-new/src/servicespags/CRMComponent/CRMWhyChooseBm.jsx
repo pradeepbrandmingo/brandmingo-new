@@ -6,10 +6,11 @@ const CRMWhyChooseBm = () => {
       <div className="auto-container">
         {/* Header */}
         <div className="wcb-header">
-          <h3>Why Choose Brandmingo for WordPress Development</h3>
+          <h3>Why Choose Brandmingo for CRM Development</h3>
           <p className="wcb-subtitle">
-            We build high-performance WordPress websites that are fast,
-            scalable, and designed to drive real business growth.
+            We build secure, scalable, and high-performance CRM solutions that
+            streamline business operations, improve customer relationships, and
+            drive long-term growth.
           </p>
         </div>
 
@@ -18,12 +19,12 @@ const CRMWhyChooseBm = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              8<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of WordPress Expertise</div>
+            <div className="wcb-stat-label">Years of CRM Expertise</div>
             <p className="wcb-stat-desc">
-              Delivering high-performance WordPress websites that drive real
-              business growth.
+              Every CRM is designed around your unique business processes and
+              workflows.
             </p>
           </div>
 
@@ -32,21 +33,21 @@ const CRMWhyChooseBm = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-wordpress" />
             </div>
-            <div className="wcb-feat-title">Expert WordPress Developers</div>
+            <div className="wcb-feat-title">Expert CRM Developers</div>
             <p className="wcb-feat-desc">
               Skilled team focused on performance, usability, and scalable
-              website solutions.
+              CRM solutions.
             </p>
           </div>
 
           {/* 3 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              500<span>+</span>
+              100<span>%</span>
             </div>
-            <div className="wcb-stat-label">Websites Delivered</div>
+            <div className="wcb-stat-label">Custom Solutions</div>
             <p className="wcb-stat-desc">
-              Successfully built websites for startups, businesses, and growing
+              Successfully built custom CRM solutions for startups, businesses, and growing
               brands.
             </p>
           </div>

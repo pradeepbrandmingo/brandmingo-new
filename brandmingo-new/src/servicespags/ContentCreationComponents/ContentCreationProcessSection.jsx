@@ -13,32 +13,32 @@ const steps = [
   {
     num: "01",
     icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understanding your business, target audience, and goals before running any campaign.",
+    title: "Research & Content Planning",
+    desc: "Understanding your brand, audience, competitors, and content goals before creating content.",
   },
   {
     num: "02",
-    icon: "fa-solid fa-table-columns",
-    title: "Strategy & Funnel Planning",
-    desc: "Creating a clear marketing strategy and conversion funnel tailored to your business.",
+    icon: "fa-solid fa-pen-ruler",
+    title: "Content Strategy",
+    desc: "Planning content topics, formats, keywords, and messaging aligned with your business objectives.",
   },
   {
     num: "03",
-    icon: "fa-solid fa-code",
-    title: "Campaign Setup & Execution",
-    desc: "Launching high-performing ads with proper targeting, creatives, and tracking systems.",
+    icon: "fa-solid fa-file-pen",
+    title: "Content Creation",
+    desc: "Creating SEO-friendly, engaging, and high-quality content tailored for your target audience.",
   },
   {
     num: "04",
-    icon: "fa-solid fa-shield-halved",
-    title: "Optimization & Testing",
-    desc: "Continuously improving campaigns using data, A/B testing, and performance insights.",
+    icon: "fa-solid fa-spell-check",
+    title: "Review & Optimization",
+    desc: "Editing, proofreading, and optimizing content for readability, SEO, and better engagement.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scaling winning campaigns to maximize ROI and drive consistent business growth.",
+    title: "Publish & Scale",
+    desc: "Publishing content across the right platforms and continuously optimizing for long-term growth.",
   },
 ];
 
@@ -162,16 +162,17 @@ export default function ContentCreationProcessSection() {
             Our Process
           </div>
           <h2 className="ps-heading">
-            We follow a proven
+            We Follow a Proven
             <br />
-            performance <span className="ora">marketing process</span>
+            Content <span className="ora">Creation Process</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to create campaigns
-            that generate leads, sales, and measurable ROI for your business.
+            We follow a strategic content creation process that combines
+            research, creativity, SEO, and optimization to deliver content that
+            engages your audience and supports long-term business growth.
           </p>
           <a href="#contact" className="ps-btn">
-            Start Your Growth <span>→</span>
+            Start Creating <span>→</span>
           </a>
         </div>
 

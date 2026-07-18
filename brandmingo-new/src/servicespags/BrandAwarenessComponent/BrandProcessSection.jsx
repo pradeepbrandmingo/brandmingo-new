@@ -13,32 +13,32 @@ const steps = [
   {
     num: "01",
     icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understanding your business, target audience, and goals before running any campaign.",
+    title: "Brand & Audience Research",
+    desc: "Understanding your brand, audience, competitors, and market positioning.",
   },
   {
     num: "02",
     icon: "fa-solid fa-table-columns",
-    title: "Strategy & Funnel Planning",
-    desc: "Creating a clear marketing strategy and conversion funnel tailored to your business.",
+    title: "Creative Planning",
+    desc: "Planning awareness campaigns with engaging creatives and messaging.",
   },
   {
     num: "03",
-    icon: "fa-solid fa-code",
-    title: "Campaign Setup & Execution",
-    desc: "Launching high-performing ads with proper targeting, creatives, and tracking systems.",
+    icon: "fa-solid fa-bullhorn",
+    title: "Campaign Launch",
+    desc: "Running brand awareness campaigns across Google, Meta, and social platforms.",
   },
   {
     num: "04",
-    icon: "fa-solid fa-shield-halved",
-    title: "Optimization & Testing",
-    desc: "Continuously improving campaigns using data, A/B testing, and performance insights.",
+    icon: "fa-solid fa-chart-line",
+    title: "Performance Monitoring",
+    desc: "Tracking reach, engagement, impressions, and audience interactions.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scaling winning campaigns to maximize ROI and drive consistent business growth.",
+    title: "Brand Growth",
+    desc: "Optimizing campaigns to increase visibility, trust, and long-term brand recognition.",
   },
 ];
 
@@ -162,13 +162,14 @@ export default function BrandProcessSection() {
             Our Process
           </div>
           <h2 className="ps-heading">
-            We follow a proven
+            We build
             <br />
-            performance <span className="ora">marketing process</span>
+            strong <span className="ora">brand awareness</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to create campaigns
-            that generate leads, sales, and measurable ROI for your business.
+            We follow a strategic and data-driven approach to increase brand
+            visibility, strengthen recognition, and connect your business with
+            the right audience.
           </p>
           <a href="#contact" className="ps-btn">
             Start Your Growth <span>→</span>

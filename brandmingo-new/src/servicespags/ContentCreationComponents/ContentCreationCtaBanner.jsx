@@ -295,23 +295,24 @@ const ContentCreationCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">CONTENT CREATION</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Create Content That Engages
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Inspires & Converts
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                From social media creatives and website copy to blogs, videos,
+                and branded visuals, Brandmingo creates high-quality content
+                that captures attention, builds trust, and drives meaningful
+                customer engagement across every digital platform.
               </p>
 
               <div className="cta-btn-wrap">
                 <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                  Start Your Content Project
                   <i className="fas fa-arrow-right" />
                 </a>
                 <a href="#portfolio" className="cta-link">
@@ -328,7 +329,7 @@ const ContentCreationCtaBanner = () => {
                 </div>
                 <div className="badge-info">
                   <span className="val">300+</span>
-                  <span className="lbl">Campaigns Managed</span>
+                  <span className="lbl">Projects Delivered</span>
                 </div>
               </div>
 

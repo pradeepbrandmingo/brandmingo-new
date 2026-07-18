@@ -295,23 +295,24 @@ const StrategyCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">FREE STRATEGY CONSULTATION</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Build a Winning
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Business Strategy?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                From business strategy to growth planning, Brandmingo helps you
+                create data-driven roadmaps that improve decision-making,
+                identify opportunities, and accelerate long-term business
+                growth.
               </p>
 
               <div className="cta-btn-wrap">
                 <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                  Start Your Strategy
                   <i className="fas fa-arrow-right" />
                 </a>
                 <a href="#portfolio" className="cta-link">
@@ -327,7 +328,7 @@ const StrategyCtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">300+</span>
+                  <span className="val">500+</span>
                   <span className="lbl">Campaigns Managed</span>
                 </div>
               </div>
@@ -337,7 +338,7 @@ const StrategyCtaBanner = () => {
                   <i className="fas fa-check-circle" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">90%</span>
+                  <span className="val">95%</span>
                   <span className="lbl">Client Retention</span>
                 </div>
               </div>

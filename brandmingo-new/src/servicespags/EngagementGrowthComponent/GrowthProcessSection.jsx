@@ -13,32 +13,32 @@ const steps = [
   {
     num: "01",
     icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understanding your business, target audience, and goals before running any campaign.",
+    title: "Audience Analysis",
+    desc: "Understand your audience and engagement goals.",
   },
   {
     num: "02",
     icon: "fa-solid fa-table-columns",
-    title: "Strategy & Funnel Planning",
-    desc: "Creating a clear marketing strategy and conversion funnel tailored to your business.",
+    title: "Engagement Strategy",
+    desc: "Create a roadmap to boost customer engagement.",
   },
   {
     num: "03",
-    icon: "fa-solid fa-code",
-    title: "Campaign Setup & Execution",
-    desc: "Launching high-performing ads with proper targeting, creatives, and tracking systems.",
+    icon: "fa-solid fa-comments",
+    title: "Content & Community",
+    desc: "Engage users with valuable content and interactions.",
   },
   {
     num: "04",
-    icon: "fa-solid fa-shield-halved",
-    title: "Optimization & Testing",
-    desc: "Continuously improving campaigns using data, A/B testing, and performance insights.",
+    icon: "fa-solid fa-chart-line",
+    title: "Performance Tracking",
+    desc: "Monitor engagement and measure key results.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scaling winning campaigns to maximize ROI and drive consistent business growth.",
+    title: "Growth Optimization",
+    desc: "Improve strategies for long-term customer growth.",
   },
 ];
 
@@ -164,14 +164,15 @@ export default function GrowthProcessSection() {
           <h2 className="ps-heading">
             We follow a proven
             <br />
-            performance <span className="ora">marketing process</span>
+            engagement<span className="ora">growth process</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to create campaigns
-            that generate leads, sales, and measurable ROI for your business.
+            We use a customer-focused and data-driven approach to build
+            meaningful engagement, strengthen relationships, and drive long-term
+            business growth.
           </p>
           <a href="#contact" className="ps-btn">
-            Start Your Growth <span>→</span>
+            Start Growing<span>→</span>
           </a>
         </div>
 

@@ -3,61 +3,61 @@ import React, { useState } from "react";
 
 const engagementData = [
   {
-    id: "dedicated",
-    icon: "fas fa-bullseye",
-    title: "Dedicated Marketing Team",
-    desc: "A fully committed performance marketing team working exclusively on your campaigns to drive consistent growth and ROI.",
+    id: "website",
+    icon: "fas fa-pen-nib",
+    title: "Website Content Creation",
+    desc: "Professional website copy crafted to communicate your brand message, improve user experience, and increase conversions.",
     points: [
-      "Continuous campaign performance optimization",
-      "Dedicated account manager for support",
-      "Scalable campaign growth and management",
-      "Focused strategy for long-term results",
+      "SEO-friendly website copy",
+      "Landing pages & service pages",
+      "Homepage & About Us content",
+      "Conversion-focused messaging",
     ],
     tag: "Most Popular",
   },
   {
-    id: "time",
-    icon: "fas fa-chart-line",
-    title: "Time & Performance Based",
-    desc: "Pay based on actual campaign performance with complete flexibility to scale and optimize as your business grows.",
+    id: "social",
+    icon: "fas fa-share-alt",
+    title: "Social Media Content",
+    desc: "Engaging social media content designed to grow your audience, increase engagement, and strengthen your brand presence.",
     points: [
-      "Pay based on measurable campaign results",
-      "Flexible scaling as performance improves",
-      "Agile execution with quick adjustments",
-      "Decisions driven by real-time data insights",
+      "Creative post designs & captions",
+      "Instagram, Facebook & LinkedIn content",
+      "Content calendar planning",
+      "Brand-focused storytelling",
     ],
     tag: null,
   },
   {
-    id: "fixed",
-    icon: "fas fa-coins",
-    title: "Fixed Monthly Retainer",
-    desc: "A predictable monthly model for managing and optimizing your performance marketing campaigns with consistent results.",
+    id: "seo",
+    icon: "fas fa-search",
+    title: "SEO & Blog Content",
+    desc: "High-quality SEO content that improves search rankings, drives organic traffic, and establishes industry authority.",
     points: [
-      "Fixed monthly pricing with no surprises",
-      "Consistent campaign tracking and monitoring",
-      "Detailed reports with actionable insights",
-      "Ongoing optimization for better performance",
+      "Keyword-optimized blog articles",
+      "SEO-friendly content structure",
+      "Industry research & writing",
+      "Organic traffic growth",
     ],
     tag: null,
   },
   {
-    id: "hybrid",
-    icon: "fas fa-layer-group",
-    title: "Hybrid Growth Model",
-    desc: "A balanced approach combining fixed management with performance-based incentives for maximum ROI and scalability.",
+    id: "branding",
+    icon: "fas fa-lightbulb",
+    title: "Complete Content Strategy",
+    desc: "A complete content marketing solution covering planning, creation, optimization, and distribution across all digital platforms.",
     points: [
-      "Combination of fixed and performance pricing",
-      "Flexible strategy based on campaign needs",
-      "Scalable model for consistent business growth",
-      "Focused approach for maximum ROI outcomes",
+      "Content planning & strategy",
+      "Multi-platform content creation",
+      "Brand consistency across channels",
+      "Performance analysis & optimization",
     ],
     tag: null,
   },
 ];
 
 const ContentEngagementModels = () => {
-  const [activeCard, setActiveCard] = useState("dedicated");
+  const [activeCard, setActiveCard] = useState("website");
 
   return (
     <section className="eng-section">
@@ -65,15 +65,17 @@ const ContentEngagementModels = () => {
         {/* ── Header ── */}
         <div className="eng-header">
           <div className="eng-eyebrow">How We Work</div>
-          {/* h3 tag — uses style.css h3 vars via .eng-title override */}
+
           <h3 className="eng-title">
-            Our Performance Marketing
+            Our Content Creation
             <br />
-            Engagement Models
+            Service Models
           </h3>
+
           <p className="eng-subtitle">
-            We offer flexible marketing engagement models designed to align with
-            your business goals, budget, and growth strategy.
+            We provide flexible content creation solutions tailored to your
+            business goals, helping you build a strong brand, engage your
+            audience, and drive measurable growth.
           </p>
         </div>
 
@@ -91,15 +93,15 @@ const ContentEngagementModels = () => {
                 <i className={card.icon} />
               </div>
 
-              {/* h3 tag for card title — semantic heading, sized via CSS */}
               <h3 className="eng-card-title">{card.title}</h3>
+
               <p className="eng-card-desc">{card.desc}</p>
 
               <div className="eng-divider" />
 
               <ul className="eng-points">
-                {card.points.map((pt, i) => (
-                  <li key={i}>{pt}</li>
+                {card.points.map((point, index) => (
+                  <li key={index}>{point}</li>
                 ))}
               </ul>
             </div>
@@ -109,10 +111,12 @@ const ContentEngagementModels = () => {
         {/* ── CTA ── */}
         <div className="eng-cta-wrap">
           <p className="eng-cta-note">
-            Not sure which model suits you? Let's talk and find the perfect fit.
+            Not sure which content solution is right for your business? Let's
+            discuss your goals and create the perfect content strategy together.
           </p>
+
           <a href="#contact" className="eng-cta-btn">
-            Request a Free Quote
+            Start Your Content Project
             <i className="fas fa-arrow-right" />
           </a>
         </div>

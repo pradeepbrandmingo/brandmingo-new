@@ -8,13 +8,13 @@ const WhyChooseBMGrowth = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose Brandmingo for High-Performance <br />
-            Marketing Services
+            Why Choose Brandmingo for Engagement <br />
+            Growth Services
           </h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build performance-driven systems that
-            generate leads, increase ROI, and scale your business with
-            measurable results.
+            We help businesses build stronger customer relationships, increase
+            audience engagement, and create long-term brand loyalty through
+            data-driven engagement strategies.
           </p>
         </div>
 
@@ -23,24 +23,28 @@ const WhyChooseBMGrowth = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">
+              Years of Engagement Expertise
+            </div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Helping brands create meaningful customer experiences across
+              multiple industries.
             </p>
           </div>
 
-          {/* 2 — span 2 */}
+          {/* 2 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-award" />
+              <i className="fas fa-users" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">
+              Customer Engagement Specialists
+            </div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Experts in customer engagement, audience retention, and community
+              building strategies.
             </p>
           </div>
 
@@ -49,10 +53,12 @@ const WhyChooseBMGrowth = () => {
             <div className="wcb-stat-value">
               300<span>+</span>
             </div>
-            <div className="wcb-stat-label">Campaigns Managed</div>
+            <div className="wcb-stat-label">
+              Engagement Campaigns Delivered
+            </div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully executed engagement campaigns that strengthen
+              customer relationships.
             </p>
           </div>
 
@@ -61,21 +67,26 @@ const WhyChooseBMGrowth = () => {
             <div className="wcb-stat-value">
               90<span>%</span>
             </div>
-            <div className="wcb-stat-label">Client Retention Rate</div>
+            <div className="wcb-stat-label">
+              Customer Retention Rate
+            </div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              We help businesses retain customers through personalized
+              engagement strategies.
             </p>
           </div>
 
           {/* 5 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-bolt" />
+              <i className="fas fa-comments" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">
+              Meaningful Customer Interactions
+            </div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Every strategy is designed to increase conversations, trust, and
+              long-term engagement.
             </p>
           </div>
 
@@ -84,33 +95,40 @@ const WhyChooseBMGrowth = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-headset" />
             </div>
-            <div className="wcb-feat-title">24×7 Expert Support</div>
+            <div className="wcb-feat-title">
+              24×7 Engagement Support
+            </div>
             <p className="wcb-feat-desc">
-              Continuous monitoring and quick optimization to keep campaigns
-              performing.
+              Continuous monitoring and optimization to improve customer
+              engagement performance.
             </p>
           </div>
 
-          {/* 7 — highlight */}
+          {/* 7 */}
           <div className="wcb-card wcb-card-highlight">
             <div className="wcb-stat-value">
               100<span>%</span>
             </div>
-            <div className="wcb-stat-label">In-House Marketing Team</div>
+            <div className="wcb-stat-label">
+              In-House Engagement Team
+            </div>
             <p className="wcb-stat-desc">
-              No outsourcing — all campaigns are managed by our expert team.
+              Every engagement strategy is managed by our dedicated in-house
+              experts.
             </p>
           </div>
 
           {/* 8 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-shield-alt" />
+              <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Performance Optimization</div>
+            <div className="wcb-feat-title">
+              Data-Driven Engagement
+            </div>
             <p className="wcb-feat-desc">
-              Rigorous brand consistency audits and performance benchmarks built
-              into every deliverable.
+              We analyze audience behavior to continuously improve engagement
+              and customer satisfaction.
             </p>
           </div>
 
@@ -119,43 +137,54 @@ const WhyChooseBMGrowth = () => {
             <div className="wcb-stat-value">
               98<span>%</span>
             </div>
-            <div className="wcb-stat-label">On-Time Reporting</div>
+            <div className="wcb-stat-label">
+              Client Satisfaction
+            </div>
             <p className="wcb-stat-desc">
-              Transparent and timely reports with actionable insights.
+              Transparent communication and measurable engagement results for
+              every client.
             </p>
           </div>
 
-          {/* 10 — span 2 */}
+          {/* 10 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-chart-line" />
+              <i className="fas fa-heart" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">
+              Stronger Brand Loyalty
+            </div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              We create engagement strategies that encourage repeat customers
+              and long-term brand advocacy.
             </p>
           </div>
 
           {/* 11 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-chart-line" />
+              <i className="fas fa-sliders-h" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">
+              Flexible Engagement Solutions
+            </div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              Customized engagement plans designed around your business goals,
+              audience, and growth strategy.
             </p>
           </div>
 
-          {/* 12 — span 3 */}
+          {/* 12 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
               <i className="fas fa-layer-group" />
             </div>
-            <div className="wcb-feat-title">Quality Assurance</div>
+            <div className="wcb-feat-title">
+              Continuous Improvement
+            </div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              We continuously refine engagement strategies using analytics,
+              customer feedback, and performance insights.
             </p>
           </div>
         </div>

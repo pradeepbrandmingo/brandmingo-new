@@ -94,21 +94,19 @@ const CRM = () => {
                       {/* Left Side: Content */}
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
-                          <h3 className="mt-0 mb-3 theme-h3">
-                            Build with WordPress
-                          </h3>
+                          <h3 className="mt-0 mb-3 theme-h3">Build with CRM</h3>
                           <p className="text mb-3">
-                            WordPress development is the process of building
-                            flexible, scalable, and high-performance websites
-                            using the world’s most popular CMS. If your website
-                            feels outdated or hard to manage, you’re losing
-                            potential customers every day.
+                            CRM development is the process of building secure,
+                            scalable, and high-performance customer relationship
+                            management systems that streamline sales, automate
+                            workflows, and improve business productivity.
                           </p>
 
                           <p className="text mb-4">
-                            We create fast, SEO-friendly, and easy-to-manage
-                            WordPress websites that improve user experience and
-                            help you grow your business online.
+                            We create fast, user-friendly, and custom CRM
+                            solutions that simplify customer management, enhance
+                            team collaboration, and help your business grow
+                            efficiently.
                           </p>
 
                           {/* Stats Row */}
@@ -128,9 +126,9 @@ const CRM = () => {
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">500+</span>
+                              <span className="react-stat-num">100%</span>
                               <span className="react-stat-label">
-                                Websites Built
+                                Custom Solutions
                               </span>
                             </div>
                           </div>
@@ -148,7 +146,7 @@ const CRM = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1777530322/Untitled_design_1_so2ju6.png"
+                              src="https://i.ibb.co/BV8L2j82/Chat-GPT-Image-Jul-17-2026-05-20-41-PM.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -391,18 +389,19 @@ const CRM = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is WordPress Development?
+                    What is CRM Development?
                   </h3>
                   <p className="text mb-3">
-                    WordPress development is the process of building flexible,
-                    SEO-friendly, and easy-to-manage websites using the world’s
-                    most popular content management system.
+                    CRM development is the process of building customer
+                    relationship management systems that help businesses manage
+                    leads, customers, sales, support, and workflows from a
+                    single platform.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of relying on complex coding
-                    for every update, WordPress allows you to manage content
-                    easily while maintaining performance, design, and
-                    scalability. This makes your website:
+                    Instead of relying on multiple tools and spreadsheets, a
+                    custom CRM centralizes your business operations, improves
+                    team productivity, automates repetitive tasks, and provides
+                    real-time insights to help you grow faster.
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
@@ -496,9 +495,8 @@ const CRM = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — WordPress makes your website easy to
-                    manage, flexible to scale, and powerful enough to grow your
-                    business online.
+                    A custom CRM simplifies customer management, automates
+                    workflows, and drives business growth.
                   </p>
 
                   {/* SLIDER */}
@@ -551,8 +549,8 @@ const CRM = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Build Your High-Performance WordPress Website with
-                              a Leading WordPress Development Company.
+                              Build Your High-Performance CRM with a Leading CRM
+                              Development Company.
                             </h3>
 
                             <a href="/contact" className="discuss-cta">
@@ -569,11 +567,12 @@ const CRM = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Our WordPress Development Services
+                      What You Get with Our CRM Development Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just build websites — we create scalable,
-                      easy-to-manage, and SEO-optimized WordPress solutions.
+                      We build secure, scalable, and automation-driven CRM
+                      solutions that streamline customer management, sales, and
+                      business operations.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -605,8 +604,8 @@ const CRM = () => {
                                 <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Custom WordPress Design",
-                            desc: "Tailored to your brand identity",
+                            label: "Customer Management",
+                            desc: "Centralized customer profiles and interactions.",
                           },
                           {
                             icon: (
@@ -630,8 +629,8 @@ const CRM = () => {
                                 <line x1="12" y1="18" x2="12.01" y2="18" />
                               </svg>
                             ),
-                            label: "Fully Responsive Website",
-                            desc: "Optimized for all devices",
+                            label: "Workflow Automation",
+                            desc: "Automate repetitive business processes.",
                           },
                           {
                             icon: (
@@ -650,8 +649,8 @@ const CRM = () => {
                                 <line x1="10" y1="14" x2="21" y2="3" />
                               </svg>
                             ),
-                            label: "Fully Responsive Website",
-                            desc: "Optimized for all devices",
+                            label: "Third-Party Integrations",
+                            desc: "Connect payment, email, ERP, and other tools.",
                           },
                           {
                             icon: (
@@ -668,8 +667,8 @@ const CRM = () => {
                                 <polygon points="13,2 3,14 12,14 11,22 21,10 12,10" />
                               </svg>
                             ),
-                            label: "Plugins & Integrations",
-                            desc: "Extended functionality support",
+                            label: "Analytics & Reports",
+                            desc: "Real-time dashboards and business insights.",
                           },
                           {
                             icon: (
@@ -687,8 +686,8 @@ const CRM = () => {
                                 <line x1="21" y1="21" x2="16.65" y2="16.65" />
                               </svg>
                             ),
-                            label: "Speed Optimization",
-                            desc: "Fast loading performance",
+                            label: "Secure & Scalable CRM",
+                            desc: "Enterprise-grade security with future-ready scalability.",
                           },
                           {
                             icon: (
@@ -780,22 +779,24 @@ const CRM = () => {
                     <h3 className="mb-3">Frequently Asked Question</h3>
                     <ul className="accordion-box mt-40">
                       {[
-                        {
-                          q: "Frequently Asked Question",
-                          a: "WordPress is used to build websites like business sites, blogs, portfolios, and e-commerce stores with easy management.",
-                        },
-                        {
-                          q: "Is WordPress better than custom development?",
-                          a: "WordPress is ideal for fast, cost-effective websites, while custom development is better for advanced features and scalability.",
-                        },
-                        {
-                          q: "Is WordPress SEO-friendly?",
-                          a: "Yes, WordPress is highly SEO-friendly with proper structure, plugins, and optimization techniques to rank on Google.",
-                        },
-                        {
-                          q: "How much does a WordPress website cost?",
-                          a: "The cost depends on features, design, and complexity. We provide flexible pricing based on your business needs.",
-                        },
+                        
+                          {
+                            q: "What is CRM development?",
+                            a: "CRM development is the process of building custom software that helps businesses manage customers, leads, sales, support, and daily operations from a single platform.",
+                          },
+                          {
+                            q: "Why should I choose a custom CRM?",
+                            a: "A custom CRM is designed specifically for your business needs, offering greater flexibility, automation, scalability, and seamless integration with your existing tools.",
+                          },
+                          {
+                            q: "Can you integrate CRM with third-party applications?",
+                            a: "Yes. We integrate CRM systems with payment gateways, ERP software, email platforms, WhatsApp, SMS services, marketing tools, and custom APIs.",
+                          },
+                          {
+                            q: "How much does custom CRM development cost?",
+                            a: "The cost depends on your required features, integrations, user roles, and project complexity. We provide customized pricing based on your business requirements.",
+                          },
+                        
                       ].map((item, index) => (
                         <li
                           key={index}

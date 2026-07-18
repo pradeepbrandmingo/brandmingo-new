@@ -4,53 +4,53 @@ import React, { useState } from "react";
 const engagementData = [
   {
     id: "dedicated",
-    icon: "fas fa-bullseye",
-    title: "Dedicated Marketing Team",
-    desc: "A fully committed performance marketing team working exclusively on your campaigns to drive consistent growth and ROI.",
+    icon: "fas fa-users",
+    title: "Dedicated Engagement Team",
+    desc: "A dedicated team focused on building stronger customer relationships, increasing engagement, and driving long-term brand loyalty.",
     points: [
-      "Continuous campaign performance optimization",
-      "Dedicated account manager for support",
-      "Scalable campaign growth and management",
-      "Focused strategy for long-term results",
+      "Dedicated engagement specialists",
+      "Continuous customer interaction",
+      "Long-term engagement strategy",
+      "Personalized audience communication",
     ],
     tag: "Most Popular",
   },
   {
     id: "time",
-    icon: "fas fa-chart-line",
-    title: "Time & Performance Based",
-    desc: "Pay based on actual campaign performance with complete flexibility to scale and optimize as your business grows.",
+    icon: "fas fa-comments",
+    title: "Community Engagement Model",
+    desc: "Build active communities through meaningful conversations, customer participation, and personalized engagement strategies.",
     points: [
-      "Pay based on measurable campaign results",
-      "Flexible scaling as performance improves",
-      "Agile execution with quick adjustments",
-      "Decisions driven by real-time data insights",
+      "Community growth planning",
+      "Audience interaction management",
+      "Customer relationship building",
+      "Continuous engagement improvement",
     ],
     tag: null,
   },
   {
     id: "fixed",
-    icon: "fas fa-coins",
-    title: "Fixed Monthly Retainer",
-    desc: "A predictable monthly model for managing and optimizing your performance marketing campaigns with consistent results.",
+    icon: "fas fa-heart",
+    title: "Customer Retention Program",
+    desc: "Strengthen customer loyalty with consistent communication, personalized experiences, and retention-focused engagement strategies.",
     points: [
-      "Fixed monthly pricing with no surprises",
-      "Consistent campaign tracking and monitoring",
-      "Detailed reports with actionable insights",
-      "Ongoing optimization for better performance",
+      "Customer loyalty initiatives",
+      "Retention-focused campaigns",
+      "Personalized customer experiences",
+      "Long-term relationship building",
     ],
     tag: null,
   },
   {
     id: "hybrid",
-    icon: "fas fa-layer-group",
-    title: "Hybrid Growth Model",
-    desc: "A balanced approach combining fixed management with performance-based incentives for maximum ROI and scalability.",
+    icon: "fas fa-chart-line",
+    title: "Growth & Engagement Strategy",
+    desc: "A comprehensive engagement model that combines customer interaction, analytics, and optimization for sustainable business growth.",
     points: [
-      "Combination of fixed and performance pricing",
-      "Flexible strategy based on campaign needs",
-      "Scalable model for consistent business growth",
-      "Focused approach for maximum ROI outcomes",
+      "Data-driven engagement strategy",
+      "Performance monitoring",
+      "Continuous optimization",
+      "Scalable customer engagement",
     ],
     tag: null,
   },
@@ -65,15 +65,17 @@ const GrowthEngagementModels = () => {
         {/* ── Header ── */}
         <div className="eng-header">
           <div className="eng-eyebrow">How We Work</div>
-          {/* h3 tag — uses style.css h3 vars via .eng-title override */}
+
           <h3 className="eng-title">
-            Our Performance Marketing
+            Our Engagement Growth
             <br />
-            Engagement Models
+            Models
           </h3>
+
           <p className="eng-subtitle">
-            We offer flexible marketing engagement models designed to align with
-            your business goals, budget, and growth strategy.
+            We offer flexible engagement solutions designed to help businesses
+            strengthen customer relationships, improve audience interaction, and
+            achieve sustainable long-term growth.
           </p>
         </div>
 
@@ -91,8 +93,8 @@ const GrowthEngagementModels = () => {
                 <i className={card.icon} />
               </div>
 
-              {/* h3 tag for card title — semantic heading, sized via CSS */}
               <h3 className="eng-card-title">{card.title}</h3>
+
               <p className="eng-card-desc">{card.desc}</p>
 
               <div className="eng-divider" />
@@ -109,10 +111,12 @@ const GrowthEngagementModels = () => {
         {/* ── CTA ── */}
         <div className="eng-cta-wrap">
           <p className="eng-cta-note">
-            Not sure which model suits you? Let's talk and find the perfect fit.
+            Not sure which engagement model is right for your business? Let's
+            discuss the best strategy for your audience and growth goals.
           </p>
+
           <a href="#contact" className="eng-cta-btn">
-            Request a Free Quote
+            Let's Grow Together
             <i className="fas fa-arrow-right" />
           </a>
         </div>

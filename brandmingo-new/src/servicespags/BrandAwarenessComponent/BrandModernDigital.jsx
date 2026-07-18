@@ -1,62 +1,57 @@
 import React, { useState } from "react";
 
+// Updated: Keys match perfectly with servicesData IDs now
 const serviceImages = {
-  lead: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=520&q=80&auto=format&fit=crop",
-  ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
-  google:
-    "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=520&q=80&auto=format&fit=crop",
-  meta: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=520&q=80&auto=format&fit=crop",
-  retargeting:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=520&q=80&auto=format&fit=crop",
-  funnel:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
-  analytics:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
-  scaling:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=520&q=80&auto=format&fit=crop",
+  strategy: "https://i.ibb.co/gLXv1bJP/Untitled-design-14.jpg",
+  social: "https://i.ibb.co/gLXv1bJP/Untitled-design-14.jpg",
+  content: "https://i.ibb.co/gLXv1bJP/Untitled-design-14.jpg",
+  display: "https://i.ibb.co/gLXv1bJP/Untitled-design-14.jpg",
+  video: "https://i.ibb.co/gLXv1bJP/Untitled-design-14.jpg",
+  influencer: "https://i.ibb.co/gLXv1bJP/Untitled-design-14.jpg",
+  reputation: "https://i.ibb.co/gLXv1bJP/Untitled-design-14.jpg",
+  growth: "https://i.ibb.co/gLXv1bJP/Untitled-design-14.jpg",
 };
 
 const servicesData = [
   {
-    id: "lead",
-    title: "Lead Generation Campaigns",
-    desc: "We build high-converting performance marketing campaigns designed to generate qualified leads and consistent business growth. Our strategies focus on targeting the right audience, optimizing landing pages, and reducing cost per lead while maximizing ROI.",
+    id: "strategy",
+    title: "Brand Strategy",
+    desc: "We create data-driven brand strategies that strengthen your identity, increase visibility, and build lasting customer trust.",
   },
   {
-    id: "ecommerce",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with performance-driven campaigns focused on increasing sales and maximizing return on ad spend. We optimize product ads, implement dynamic remarketing, and continuously improve campaign performance.",
+    id: "social",
+    title: "Social Media Branding",
+    desc: "Grow your brand presence with engaging social media campaigns that increase reach, awareness, and audience engagement.",
   },
   {
-    id: "google",
-    title: "Google Ads Management",
-    desc: "Reach high-intent users actively searching for your services with optimized Google Ads campaigns. We focus on keyword strategy, ad copy, bidding optimization, and ROI-driven results.",
+    id: "content",
+    title: "Content Marketing",
+    desc: "Create valuable content that connects with your audience, builds authority, and improves long-term brand recognition.",
   },
   {
-    id: "meta",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience with creative and data-driven ad campaigns across Facebook and Instagram. We build funnel-based campaigns that drive awareness, engagement, and conversions.",
+    id: "display",
+    title: "Display Advertising",
+    desc: "Reach new audiences with creative display campaigns designed to maximize brand exposure across digital platforms.",
   },
   {
-    id: "retargeting",
-    title: "Retargeting Campaigns",
-    desc: "Convert lost visitors into customers using advanced retargeting strategies. We re-engage users based on behavior and improve conversion rates significantly.",
+    id: "video",
+    title: "Video Marketing",
+    desc: "Promote your brand with engaging video campaigns that capture attention and improve audience recall.",
   },
   {
-    id: "funnel",
-    title: "Sales Funnel Optimization",
-    desc: "Improve your conversion rates by optimizing every stage of your marketing funnel. From landing pages to final conversion, we ensure a smooth and effective user journey.",
+    id: "influencer",
+    title: "Influencer Marketing",
+    desc: "Partner with trusted creators to expand your brand reach and build credibility with your target audience.",
   },
   {
-    id: "analytics",
-    title: "Analytics & Tracking Setup",
-    desc: "Track every click, lead, and conversion with advanced analytics and tracking systems. We set up tools that provide actionable insights for better decision-making.",
+    id: "reputation",
+    title: "Online Reputation",
+    desc: "Strengthen your online presence by managing reviews, improving brand trust, and maintaining a positive reputation.",
   },
   {
-    id: "scaling",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns with data-backed strategies to maximize ROI and business growth. We identify winning campaigns and continuously optimize for better performance.",
+    id: "growth",
+    title: "Brand Growth Optimization",
+    desc: "Continuously optimize campaigns using audience insights and performance data to maximize brand awareness and growth.",
   },
 ];
 
@@ -80,7 +75,7 @@ const BrandModernDigital = () => {
         {/* Heading — h3 tag, style.css vars apply automatically */}
         <h3 className="ret-heading text-center mb-5">
           Performance Marketing Services for
-          <br /> Modern Digital Businesses
+          <br /> Growing Businesses
         </h3>
 
         {/* ── DESKTOP ── */}

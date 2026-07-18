@@ -13,32 +13,32 @@ const steps = [
   {
     num: "01",
     icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understanding your business, target audience, and goals before running any campaign.",
+    title: "Business Analysis",
+    desc: "Understand your business goals, audience, and market position.",
   },
   {
     num: "02",
-    icon: "fa-solid fa-table-columns",
-    title: "Strategy & Funnel Planning",
-    desc: "Creating a clear marketing strategy and conversion funnel tailored to your business.",
+    icon: "fa-solid fa-users",
+    title: "Audience Research",
+    desc: "Identify customer needs, behavior, and market opportunities.",
   },
   {
     num: "03",
-    icon: "fa-solid fa-code",
-    title: "Campaign Setup & Execution",
-    desc: "Launching high-performing ads with proper targeting, creatives, and tracking systems.",
+    icon: "fa-solid fa-lightbulb",
+    title: "Strategy Development",
+    desc: "Build a data-driven strategy tailored to your business goals.",
   },
   {
     num: "04",
-    icon: "fa-solid fa-shield-halved",
-    title: "Optimization & Testing",
-    desc: "Continuously improving campaigns using data, A/B testing, and performance insights.",
+    icon: "fa-solid fa-chart-column",
+    title: "Action Plan",
+    desc: "Create a structured roadmap with clear priorities and milestones.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scaling winning campaigns to maximize ROI and drive consistent business growth.",
+    title: "Review & Growth",
+    desc: "Measure results and optimize strategies for continuous growth.",
   },
 ];
 
@@ -164,11 +164,12 @@ export default function StrategyProcessSection() {
           <h2 className="ps-heading">
             We follow a proven
             <br />
-            performance <span className="ora">marketing process</span>
+            strategy<span className="ora">planning process</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to create campaigns
-            that generate leads, sales, and measurable ROI for your business.
+            We use a structured and data-driven approach to create business
+            strategies that align with your goals, identify growth
+            opportunities, and deliver long-term success.
           </p>
           <a href="#contact" className="ps-btn">
             Start Your Growth <span>→</span>

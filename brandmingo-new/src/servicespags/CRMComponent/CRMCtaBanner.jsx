@@ -298,15 +298,15 @@ const CRMCtaBanner = () => {
               <span className="cta-eyebrow">Free Consultation Available</span>
 
               <h3 className="cta-heading">
-                Ready to Build a High-Performing
+                Ready to Build a High-Performance
                 <br className="d-none d-lg-block" />
-                WordPress Website?
+                CRM Solution?
               </h3>
 
               <p className="cta-subtext">
-                We create fast, scalable, and SEO-optimized WordPress websites
-                that help you attract more visitors, generate leads, and grow
-                your business online.
+                We build secure, scalable, and custom CRM solutions that
+                streamline customer management, automate workflows, and
+                accelerate business growth.
               </p>
 
               <div className="cta-btn-wrap">
@@ -327,8 +327,8 @@ const CRMCtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">500+</span>
-                  <span className="lbl">WEBSITES DELIVERED</span>
+                  <span className="val">100%</span>
+                  <span className="lbl">Custom Solutions</span>
                 </div>
               </div>
 
