@@ -5,40 +5,40 @@ import { openEnquiryPopup } from "../../utils/popup";
 const engagementData = [
   {
     id: "dedicated",
-    icon: "fas fa-user-group",
+    icon: "fas fa-users",
     title: "Dedicated Marketing Team",
-    desc: "A dedicated performance marketing team focused on generating leads, increasing ROI, and scaling your business.",
+    desc: "A dedicated team managing campaigns to deliver consistent growth, leads, and measurable ROI.",
     points: [
-      "Dedicated performance specialists",
-      "Continuous campaign optimization",
-      "Weekly strategy & performance reviews",
-      "Long-term growth-focused execution",
+      "Dedicated specialists",
+      "Campaign optimization",
+      "Weekly reviews",
+      "Growth planning",
     ],
     tag: "Most Popular",
   },
   {
-    id: "time",
-    icon: "fas fa-gauge-high",
+    id: "performance",
+    icon: "fas fa-chart-line",
     title: "Performance-Based Model",
-    desc: "A flexible engagement model where campaigns are optimized around measurable performance and business growth.",
+    desc: "Pay only for measurable campaign performance with flexible execution and continuous optimization.",
     points: [
-      "Results-driven pricing model",
-      "Flexible campaign scaling",
-      "Fast optimization & execution",
-      "Data-backed marketing decisions",
+      "Results pricing",
+      "Flexible scaling",
+      "Fast optimization",
+      "Data insights",
     ],
     tag: null,
   },
   {
-    id: "fixed",
+    id: "retainer",
     icon: "fas fa-calendar-check",
     title: "Monthly Growth Retainer",
-    desc: "A fixed monthly solution for consistent campaign management, optimization, and measurable business growth.",
+    desc: "Fixed monthly campaign management with continuous optimization, reporting, and business growth support.",
     points: [
-      "Fixed monthly investment",
-      "Complete campaign management",
-      "Transparent performance reports",
-      "Continuous growth optimization",
+      "Fixed pricing",
+      "Full management",
+      "Clear reporting",
+      "Ongoing optimization",
     ],
     tag: null,
   },
@@ -46,12 +46,12 @@ const engagementData = [
     id: "hybrid",
     icon: "fas fa-arrows-rotate",
     title: "Hybrid Growth Model",
-    desc: "A balanced approach combining fixed management with performance optimization for maximum business growth.",
+    desc: "Combine fixed management with performance strategies for scalable campaigns and higher ROI.",
     points: [
-      "Fixed + performance pricing",
-      "Flexible growth strategies",
-      "Scalable campaign management",
-      "Maximum ROI optimization",
+      "Flexible pricing",
+      "Growth strategy",
+      "Scalable campaigns",
+      "Maximum ROI",
     ],
     tag: null,
   },
@@ -68,13 +68,13 @@ const MarketingEngagementModels = () => {
           <div className="eng-eyebrow">How We Work</div>
           {/* h3 tag — uses style.css h3 vars via .eng-title override */}
           <h3 className="eng-title">
-            Our Performance
+            Flexible Campaign
             <br />
-            Marketing Engagement Models
+            Engagement Models
           </h3>
           <p className="eng-subtitle">
-            Choose a flexible performance marketing model designed to match your
-            business goals, advertising budget, and long-term growth strategy.
+            Choose a marketing engagement model that aligns with your business
+            goals, campaign budget, and long-term growth strategy.
           </p>
         </div>
 
@@ -110,8 +110,8 @@ const MarketingEngagementModels = () => {
         {/* ── CTA ── */}
         <div className="eng-cta-wrap">
           <p className="eng-cta-note">
-            Not sure which model fits your business? Let's find the right
-            performance marketing strategy together.
+            Not sure which engagement model is right for you? Let's build the
+            perfect growth strategy together
           </p>
           <a
             href="/"

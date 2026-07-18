@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import d1 from "../../assets/images/resource/service-d1.jpg";
 import d2 from "../../assets/images/resource/service-d2.jpg";
 import RelatedServices from "../../components/RelatedServices/RelatedServices";
-import PortfolioSlider from "../../components/PortfolioSlider/PortfolioSlider";
+// import PortfolioSlider from "../../components/PortfolioSlider/PortfolioSlider";
 import ReactExpertiseDetails from "../../components/ReactExpertiseDetails/ReactExpertiseDetails";
 import ReactDetailsHero from "../../servicespags/ReactComponents/ReactDetailsHero";
 
@@ -14,10 +14,11 @@ import LocalSDominanceExpertiseDetails from "../../servicespags/LocalSDominanceC
 import LocalSDominanceProcessSection from "../../servicespags/LocalSDominanceComponent/LocalSDominanceProcessSection";
 import LocalSDominanceModernDigital from "../../servicespags/LocalSDominanceComponent/LocalSDominanceModernDigital";
 import LocalSDominanceCtaBanner from "../../servicespags/LocalSDominanceComponent/LocalSDominanceCtaBanner";
-import LocalSDominancePricingPlans from "../../servicespags/LocalSDominanceComponent/LocalSDominancePricingPlans";
+// import LocalSDominancePricingPlans from "../../servicespags/LocalSDominanceComponent/LocalSDominancePricingPlans";
 import WhyChooseBMLocalSDominance from "../../servicespags/LocalSDominanceComponent/WhyChooseBMLocalSDominance";
 import LocalSDominanceEngagementModels from "../../servicespags/LocalSDominanceComponent/LocalSDominanceEngagementModels";
 import LocalSDominancePricingSection from "../../servicespags/LocalSDominanceComponent/LocalSDominancePricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -99,42 +100,41 @@ const LocalSDominance = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Grow with Local Search Dominance
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            Increase your visibility in local search results and
+                            Google Maps. We help your business attract nearby
+                            customers, improve local rankings, and generate
+                            high-quality leads.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            Optimize your Google Business Profile, local
+                            citations, and location-based SEO to drive
+                            consistent local traffic and business growth.
                           </p>
 
                           {/* Stats Row */}
                           <div className="react-stats-row">
                             <div className="react-stat-item">
-                              <span className="react-stat-num">5x</span>
+                              <span className="react-stat-num">4x</span>
                               <span className="react-stat-label">
-                                ROI Growth
+                                Local Visibility
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">90%</span>
+                              <span className="react-stat-num">96%</span>
                               <span className="react-stat-label">
-                                Campaign Optimization
+                                Profile Optimization
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
                               <span className="react-stat-num">300+</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                Local Listings Managed
                               </span>
                             </div>
                           </div>
@@ -142,7 +142,7 @@ const LocalSDominance = () => {
                           {/* Feature Tag */}
                           <div className="react-feature-tag">
                             <i className="fas fa-bullhorn spin-icon"></i>
-                            <span>High Performance Guaranteed</span>
+                            <span>Higher Local Rankings</span>
                           </div>
                         </div>
                       </div>
@@ -152,7 +152,7 @@ const LocalSDominance = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1784376725/Untitled_design_6_ldnskv.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -395,31 +395,37 @@ const LocalSDominance = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    What is Local Search Dominance?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Local Search Dominance helps your business appear in Google
+                    Search and Google Maps when nearby customers search for your
+                    products or services.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    With Local SEO, Google Business Profile optimization, and
+                    location-based strategies, you can improve visibility,
+                    attract qualified local customers, and grow your business
+                    consistently.
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-map-marker-alt",
+                        label: "Higher Local Rankings",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-map",
+                        label: "Google Maps Visibility",
+                      },
+                      {
+                        icon: "fas fa-store",
+                        label: "More Nearby Customers",
+                      },
+                      {
+                        icon: "fas fa-location-dot",
+                        label: "Location-Based Growth",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -500,8 +506,9 @@ const LocalSDominance = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    In simple terms — Local Search Dominance helps your business
+                    get discovered by nearby customers who are ready to take
+                    action.
                   </p>
 
                   {/* SLIDER */}
@@ -554,12 +561,19 @@ const LocalSDominance = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Scale Your Business with Higher Local Search
+                              Rankings & Visibility
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
-                              Let's Discuss Your Project{" "}
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
+                              Get a Free Local SEO Audit{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
@@ -572,11 +586,12 @@ const LocalSDominance = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with Local Search Dominance Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      Improve your local visibility with proven Local SEO
+                      strategies that help your business rank higher on Google
+                      Search, Google Maps, and attract more nearby customers.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -610,8 +625,8 @@ const LocalSDominance = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            label: "Google Business Profile Optimization",
+                            desc: "Optimize your business profile for better local visibility",
                           },
 
                           {
@@ -630,8 +645,8 @@ const LocalSDominance = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            label: "Local Citation Management",
+                            desc: "Build consistent business listings across trusted directories.",
                           },
 
                           {
@@ -649,8 +664,8 @@ const LocalSDominance = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            label: "Local Keyword Optimization",
+                            desc: "Target location-based keywords to improve local rankings",
                           },
 
                           {
@@ -669,8 +684,8 @@ const LocalSDominance = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "Local Rank Tracking",
+                            desc: "Monitor rankings across Google Search and Google Maps.",
                           },
 
                           {
@@ -690,8 +705,8 @@ const LocalSDominance = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Review & Reputation Management",
+                            desc: "Strengthen customer trust with positive online reviews.",
                           },
 
                           {
@@ -709,8 +724,8 @@ const LocalSDominance = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            label: "Google Maps Optimization",
+                            desc: "Increase visibility and drive more nearby customer visits.",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -761,9 +776,9 @@ const LocalSDominance = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <LocalSDominancePricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMLocalSDominance />
@@ -784,24 +799,24 @@ const LocalSDominance = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is Local SEO?",
+                          a: "Local SEO is the process of optimizing your online presence to rank higher in Google Search and Google Maps, helping nearby customers discover your business.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "How does Local SEO help my business?",
+                          a: "Local SEO increases your visibility in local searches, drives qualified traffic, generates more calls and inquiries, and helps attract nearby customers.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "Do you optimize Google Business Profile?",
+                          a: "Yes. We optimize your Google Business Profile with accurate business details, keywords, categories, images, and regular updates to improve local rankings.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How long does Local SEO take to show results?",
+                          a: "Most businesses notice improvements within a few weeks, while consistent ranking growth and stronger local visibility typically develop over a few months.",
                         },
                         {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          q: "Can Local SEO help my business rank on Google Maps?",
+                          a: "Absolutely. Our Local SEO strategies improve your Google Maps presence, increase local visibility, and help you attract more nearby customers.",
                         },
                       ].map((item, index) => (
                         <li
@@ -840,9 +855,9 @@ const LocalSDominance = () => {
           <RelatedServices />
         </div>
 
-        <div className="portfolio-slider-section">
+        {/* <div className="portfolio-slider-section">
           <PortfolioSlider />
-        </div>
+        </div> */}
       </section>
     </div>
   );

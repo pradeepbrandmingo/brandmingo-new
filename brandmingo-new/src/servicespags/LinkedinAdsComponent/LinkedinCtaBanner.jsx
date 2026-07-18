@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const LinkedinCtaBanner = () => {
   return (
@@ -295,28 +297,35 @@ const LinkedinCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">B2B GROWTH SOLUTION</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Scale Your
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Business with LinkedIn Ads?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                Reach decision-makers, generate qualified B2B leads, and grow
+                your business with data-driven LinkedIn Ads strategies built for
+                measurable ROI.
               </p>
 
               <div className="cta-btn-wrap">
-                <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                <a
+                  href="/"
+                  className="cta-main-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
+                  Start Your LinkedIn Campaign
                   <i className="fas fa-arrow-right" />
                 </a>
-                <a href="#portfolio" className="cta-link">
-                  View Our Results <i className="fas fa-arrow-right" />
-                </a>
+                <Link to="/portfolio" className="cta-link">
+                  Book a Strategy Call <i className="fas fa-arrow-right" />
+                </Link>
               </div>
             </div>
 
@@ -328,7 +337,7 @@ const LinkedinCtaBanner = () => {
                 </div>
                 <div className="badge-info">
                   <span className="val">300+</span>
-                  <span className="lbl">Campaigns Managed</span>
+                  <span className="lbl">B2B Campaigns Managed</span>
                 </div>
               </div>
 
@@ -348,7 +357,7 @@ const LinkedinCtaBanner = () => {
                 </div>
                 <div className="badge-info">
                   <span className="val">24×7</span>
-                  <span className="lbl">Performance Monitoring</span>
+                  <span className="lbl">Campaign Monitoring</span>
                 </div>
               </div>
             </div>

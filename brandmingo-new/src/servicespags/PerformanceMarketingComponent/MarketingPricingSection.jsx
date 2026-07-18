@@ -8,7 +8,7 @@ const pricingFactors = [
     label: "Campaign Goals & Scope",
   },
   {
-    icon: "fas fa-handshake",
+    icon: "fas fa-briefcase",
     label: "Service Model Selected",
   },
   {
@@ -20,7 +20,7 @@ const pricingFactors = [
     label: "Campaign Scale & Timeline",
   },
   {
-    icon: "fas fa-chart-simple",
+    icon: "fas fa-chart-column",
     label: "Tracking & Analytics Setup",
   },
 ];
@@ -29,22 +29,22 @@ const estimateSteps = [
   {
     num: "01",
     title: "Business Discovery",
-    desc: "Understand your goals, audience, and marketing needs.",
+    desc: "Understand your goals, audience, and campaign requirements.",
   },
   {
     num: "02",
-    title: "Campaign Audit",
-    desc: "Review your market, competitors, and growth potential.",
+    title: "Campaign Assessment",
+    desc: "Review your market, competition, and growth opportunities.",
   },
   {
     num: "03",
     title: "Strategy & Budget Plan",
-    desc: "Create the right campaign strategy and budget allocation.",
+    desc: "Create the ideal campaign structure and budget allocation.",
   },
   {
     num: "04",
-    title: "Transparent Pricing",
-    desc: "Receive a custom quote with clear, no-hidden-cost pricing.",
+    title: "Transparent Proposal",
+    desc: "Receive a custom quote with clear pricing and deliverables.",
   },
 ];
 
@@ -58,10 +58,10 @@ const MarketingPricingSection = () => {
         <div className="prc-header">
           <div className="prc-eyebrow">Transparent Pricing</div>
           {/* h3 tag — sized via var(--h3-font-size) in CSS */}
-          <h3 className="prc-title">Performance Marketing Pricing</h3>
+          <h3 className="prc-title">Campaign Pricing & Cost Estimation</h3>
           <p className="prc-subtitle">
-            Transparent pricing based on your goals, budget, and campaign
-            requirements.
+            Transparent pricing tailored to your business goals, campaign scope,
+            and advertising requirements
           </p>
         </div>
 

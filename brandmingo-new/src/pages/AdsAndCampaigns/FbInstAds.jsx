@@ -13,10 +13,11 @@ import FbInstAdsExpertiseDetails from "../../servicespags/FbInstAdsComponents/Fb
 import FbInstAdsProcessSection from "../../servicespags/FbInstAdsComponents/FbInstAdsProcessSection";
 import FbInstAdsModernDigital from "../../servicespags/FbInstAdsComponents/FbInstAdsModernDigital";
 import FbInstAdsCtaBanner from "../../servicespags/FbInstAdsComponents/FbInstAdsCtaBanner";
-import FbInstAdsPricingPlans from "../../servicespags/FbInstAdsComponents/FbInstAdsPricingPlans";
+// import FbInstAdsPricingPlans from "../../servicespags/FbInstAdsComponents/FbInstAdsPricingPlans";
 import WhyChooseBMFbInstAds from "../../servicespags/FbInstAdsComponents/WhyChooseBMFbInstAds";
 import FbInstAdsEngagementModels from "../../servicespags/FbInstAdsComponents/FbInstAdsEngagementModels";
 import FbInstAdsPricingSection from "../../servicespags/FbInstAdsComponents/FbInstAdsPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -98,20 +99,18 @@ const FbInstAds = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Scale with Meta Ads
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            Reach the right audience with high-converting
+                            Facebook & Instagram Ads that generate quality
+                            leads, boost engagement, and increase sales
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            Our data-driven Meta Ads strategies optimize
+                            targeting, creatives, and campaigns to maximize ROI
+                            and deliver measurable business growth
                           </p>
 
                           {/* Stats Row */}
@@ -119,12 +118,12 @@ const FbInstAds = () => {
                             <div className="react-stat-item">
                               <span className="react-stat-num">5x</span>
                               <span className="react-stat-label">
-                                ROI Growth
+                                ROAS Growth
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">90%</span>
+                              <span className="react-stat-num">95%</span>
                               <span className="react-stat-label">
                                 Campaign Optimization
                               </span>
@@ -133,7 +132,7 @@ const FbInstAds = () => {
                             <div className="react-stat-item">
                               <span className="react-stat-num">300+</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                Meta Campaigns Managed
                               </span>
                             </div>
                           </div>
@@ -141,7 +140,7 @@ const FbInstAds = () => {
                           {/* Feature Tag */}
                           <div className="react-feature-tag">
                             <i className="fas fa-bullhorn spin-icon"></i>
-                            <span>High Performance Guaranteed</span>
+                            <span>Launch Meta Ads Strategy</span>
                           </div>
                         </div>
                       </div>
@@ -151,7 +150,7 @@ const FbInstAds = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1784293707/Untitled_design_1_p5mjns.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -394,31 +393,36 @@ const FbInstAds = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    What is Meta Ads Marketing?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Meta Ads Marketing helps businesses reach the right audience
+                    on Facebook and Instagram through targeted advertising that
+                    drives leads, sales, and brand awareness
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    Instead of showing ads to everyone, Meta Ads uses audience
+                    targeting, interests, behaviors, and data to deliver
+                    campaigns that generate measurable business growth
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-sack-dollar", // Better than trend-up for ROAS
+                        label: "Higher ROAS",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-bullseye", // Perfect for audience targeting
+                        label: "Precision Targeting",
+                      },
+                      {
+                        icon: "fas fa-user-check", // Better represents qualified leads
+                        label: "Quality Lead Generation",
+                      },
+                      {
+                        icon: "fas fa-chart-line", // Best for optimization & performance
+                        label: "Data-Driven Optimization",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -499,8 +503,9 @@ const FbInstAds = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    Simply put — Meta Ads helps you attract the right audience,
+                    increase conversions, and grow your business with measurable
+                    results.
                   </p>
 
                   {/* SLIDER */}
@@ -553,12 +558,19 @@ const FbInstAds = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Scale Your Business with High-Performance Meta Ads
+                              Campaigns
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
-                              Let's Discuss Your Project{" "}
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
+                              Get Free Meta Ads Audit{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
@@ -571,11 +583,12 @@ const FbInstAds = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with Meta Ads Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      We don’t just run Meta Ads — we build high-converting
+                      Facebook & Instagram campaigns that generate leads,
+                      increase sales, and maximize ROI
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -610,7 +623,7 @@ const FbInstAds = () => {
                               </svg>
                             ),
                             label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            desc: "Custom Meta Ads strategy aligned with your business goals",
                           },
 
                           {
@@ -630,7 +643,7 @@ const FbInstAds = () => {
                               </svg>
                             ),
                             label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            desc: "Reach the right audience with precise targeting and insights.",
                           },
 
                           {
@@ -649,7 +662,7 @@ const FbInstAds = () => {
                               </svg>
                             ),
                             label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            desc: "High-converting ad creatives and compelling copy.  ",
                           },
 
                           {
@@ -668,8 +681,8 @@ const FbInstAds = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "Meta Pixel & Tracking",
+                            desc: "Track conversions with Meta Pixel and event setup",
                           },
 
                           {
@@ -689,8 +702,8 @@ const FbInstAds = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Remarketing Campaigns",
+                            desc: "Reconnect with visitors and recover lost conversions.",
                           },
 
                           {
@@ -708,8 +721,8 @@ const FbInstAds = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            label: "Campaign Optimization",
+                            desc: "Continuous optimization to improve ROAS and performance",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -760,9 +773,9 @@ const FbInstAds = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <FbInstAdsPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMFbInstAds />
@@ -783,24 +796,24 @@ const FbInstAds = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What are Meta Ads?",
+                          a: "Meta Ads are paid advertising campaigns that run across Facebook, Instagram, Messenger, and the Meta Audience Network. They help businesses increase brand awareness, generate qualified leads, drive website traffic, and boost sales.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "How can Meta Ads help my business?",
+                          a: "Meta Ads allow you to reach highly targeted audiences based on demographics, interests, behaviors, and location. This helps improve engagement, generate quality leads, increase conversions, and maximize your advertising ROI.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "Why should I advertise on Facebook and Instagram?",
+                          a: "Facebook and Instagram offer billions of active users, advanced audience targeting, and multiple ad formats. Together, they help businesses build brand visibility, attract new customers, and increase online sales.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How much do Facebook & Instagram Ads cost?",
+                          a: "The cost depends on your business goals, audience size, competition, and advertising budget. We create customized Meta Ads strategies that maximize performance while keeping your ad spend efficient.",
                         },
                         {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          q: "How long does it take to see results from Meta Ads?",
+                          a: "Most campaigns begin generating data within a few days, while consistent lead generation and improved ROI typically come after continuous optimization over the following weeks.",
                         },
                       ].map((item, index) => (
                         <li

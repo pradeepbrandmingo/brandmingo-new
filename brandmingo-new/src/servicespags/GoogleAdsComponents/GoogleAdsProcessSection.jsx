@@ -12,19 +12,19 @@ const PATH =
 const steps = [
   {
     num: "01",
-    icon: "fa-solid fa-magnifying-glass",
+    icon: "fa-solid fa-magnifying-glass-chart",
     title: "Business & Audience Research",
     desc: "Understand your business, audience, and goals.",
   },
   {
     num: "02",
-    icon: "fa-solid fa-layer-group",
+    icon: "fa-solid fa-bullseye",
     title: "Strategy & Campaign Planning",
     desc: "Plan high-converting Google Ads strategy.",
   },
   {
     num: "03",
-    icon: "fa-solid fa-bullhorn",
+    icon: "fa-solid fa-gears",
     title: "Campaign Setup & Execution",
     desc: "Launch campaigns with targeting and creatives.",
   },
@@ -36,7 +36,7 @@ const steps = [
   },
   {
     num: "05",
-    icon: "fa-solid fa-rocket",
+    icon: "fa-solid fa-arrow-trend-up",
     title: "Scaling & Growth",
     desc: "Scale winning campaigns for better ROI.",
   },
@@ -162,17 +162,17 @@ export default function GoogleAdsProcessSection() {
             Our Process
           </div>
           <h2 className="ps-heading">
-            We follow a provenn
+            We Follow a Proven
             <br />
             Google Ads <span className="ora">growth process</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to build Google Ads
-            campaigns that generate high-quality leads, sales, and measurable
-            ROI for your business.
+            We use a structured, data-driven approach to build Google Ads
+            campaigns that generate qualified leads, maximize ROI, and scale
+            business growth.
           </p>
           <a href="#contact" className="ps-btn">
-            Start Your Campaign <span>→</span>
+            Launch Your Campaign <span>→</span>
           </a>
         </div>
 

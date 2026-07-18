@@ -1,56 +1,57 @@
 import React, { useState } from "react";
 // import "./engagement-models.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const engagementData = [
   {
     id: "dedicated",
-    icon: "fas fa-bullseye",
-    title: "Dedicated Marketing Team",
-    desc: "A fully committed performance marketing team working exclusively on your campaigns to drive consistent growth and ROI.",
+    icon: "fas fa-users",
+    title: "Dedicated Expert Team",
+    desc: "A dedicated team focused on delivering consistent results, strategic execution, and sustainable business growth.",
     points: [
-      "Continuous campaign performance optimization",
-      "Dedicated account manager for support",
-      "Scalable campaign growth and management",
-      "Focused strategy for long-term results",
+      "Dedicated specialists",
+      "Priority support",
+      "Weekly reviews",
+      "Growth strategy",
     ],
     tag: "Most Popular",
   },
   {
-    id: "time",
+    id: "performance",
     icon: "fas fa-chart-line",
-    title: "Time & Performance Based",
-    desc: "Pay based on actual campaign performance with complete flexibility to scale and optimize as your business grows.",
+    title: "Performance-Based Model",
+    desc: "A flexible engagement model focused on measurable outcomes, continuous optimization, and business performance.",
     points: [
-      "Pay based on measurable campaign results",
-      "Flexible scaling as performance improves",
-      "Agile execution with quick adjustments",
-      "Decisions driven by real-time data insights",
+      "Performance-focused",
+      "Flexible scaling",
+      "Continuous optimization",
+      "Actionable insights",
     ],
     tag: null,
   },
   {
-    id: "fixed",
-    icon: "fas fa-coins",
-    title: "Fixed Monthly Retainer",
-    desc: "A predictable monthly model for managing and optimizing your performance marketing campaigns with consistent results.",
+    id: "retainer",
+    icon: "fas fa-calendar-check",
+    title: "Monthly Growth Retainer",
+    desc: "Ongoing monthly support with strategic planning, optimization, transparent reporting, and continuous improvements.",
     points: [
-      "Fixed monthly pricing with no surprises",
-      "Consistent campaign tracking and monitoring",
-      "Detailed reports with actionable insights",
-      "Ongoing optimization for better performance",
+      "Fixed monthly plan",
+      "Dedicated management",
+      "Transparent reporting",
+      "Continuous support",
     ],
     tag: null,
   },
   {
     id: "hybrid",
-    icon: "fas fa-layer-group",
-    title: "Hybrid Growth Model",
-    desc: "A balanced approach combining fixed management with performance-based incentives for maximum ROI and scalability.",
+    icon: "fas fa-arrows-rotate",
+    title: "Custom Growth Model",
+    desc: "A tailored engagement model built around your business goals, project scope, and long-term growth plans.",
     points: [
-      "Combination of fixed and performance pricing",
-      "Flexible strategy based on campaign needs",
-      "Scalable model for consistent business growth",
-      "Focused approach for maximum ROI outcomes",
+      "Flexible engagement",
+      "Custom strategy",
+      "Scalable execution",
+      "Maximum value",
     ],
     tag: null,
   },
@@ -67,13 +68,13 @@ const LocalSDominanceEngagementModels = () => {
           <div className="eng-eyebrow">How We Work</div>
           {/* h3 tag — uses style.css h3 vars via .eng-title override */}
           <h3 className="eng-title">
-            Our Performance Marketing
+            Flexible Business
             <br />
             Engagement Models
           </h3>
           <p className="eng-subtitle">
-            We offer flexible marketing engagement models designed to align with
-            your business goals, budget, and growth strategy.
+            Choose the engagement model that best fits your business goals,
+            budget, and long-term growth strategy.
           </p>
         </div>
 
@@ -109,9 +110,17 @@ const LocalSDominanceEngagementModels = () => {
         {/* ── CTA ── */}
         <div className="eng-cta-wrap">
           <p className="eng-cta-note">
-            Not sure which model suits you? Let's talk and find the perfect fit.
+            Not sure which engagement model is right for your business? Our
+            experts will help you choose the best option.
           </p>
-          <a href="#contact" className="eng-cta-btn">
+          <a
+            href="/"
+            className="eng-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Request a Free Quote
             <i className="fas fa-arrow-right" />
           </a>

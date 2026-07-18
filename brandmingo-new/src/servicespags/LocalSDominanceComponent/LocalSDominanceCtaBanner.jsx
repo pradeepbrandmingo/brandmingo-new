@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const LocalSDominanceCtaBanner = () => {
   return (
@@ -295,28 +297,35 @@ const LocalSDominanceCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">LOCAL SEO SOLUTION</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Dominate Your
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Local Market with Local SEO?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                Increase your visibility on Google Search and Maps with proven
+                Local SEO strategies that drive nearby customers, qualified
+                leads, and long-term business growth.
               </p>
 
               <div className="cta-btn-wrap">
-                <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                <a
+                  href="/"
+                  className="cta-main-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
+                  Start Your Local SEO
                   <i className="fas fa-arrow-right" />
                 </a>
-                <a href="#portfolio" className="cta-link">
+                <Link to="/portfolio" className="cta-link">
                   View Our Results <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -328,7 +337,7 @@ const LocalSDominanceCtaBanner = () => {
                 </div>
                 <div className="badge-info">
                   <span className="val">300+</span>
-                  <span className="lbl">Campaigns Managed</span>
+                  <span className="lbl">Local SEO Campaigns</span>
                 </div>
               </div>
 

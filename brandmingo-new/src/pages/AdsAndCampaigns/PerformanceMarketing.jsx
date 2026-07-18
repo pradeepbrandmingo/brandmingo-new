@@ -8,7 +8,7 @@ import RelatedServices from "../../components/RelatedServices/RelatedServices";
 import PortfolioSlider from "../../components/PortfolioSlider/PortfolioSlider";
 import ReactExpertiseDetails from "../../components/ReactExpertiseDetails/ReactExpertiseDetails";
 import ReactDetailsHero from "../../servicespags/ReactComponents/ReactDetailsHero";
-import PricingPlans from "../../servicespags/ReactComponents/PricingPlans";
+// import PricingPlans from "../../servicespags/ReactComponents/PricingPlans";
 import PerformanceMarketingHero from "../../servicespags/PerformanceMarketingComponent/PerformanceMarketingHero";
 import MarketingExpertiseDetails from "../../servicespags/PerformanceMarketingComponent/MarketingExpertiseDetails";
 import MarketingProcessSection from "../../servicespags/PerformanceMarketingComponent/MarketingProcessSection";
@@ -797,9 +797,9 @@ const PerformanceMarketing = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <PricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBrandmingoMarketing />

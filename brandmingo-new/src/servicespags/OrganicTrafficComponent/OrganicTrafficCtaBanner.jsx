@@ -1,4 +1,6 @@
 import React from "react";
+import { openEnquiryPopup } from "../../utils/popup";
+import { Link } from "react-router-dom";
 
 const OrganicTrafficCtaBanner = () => {
   return (
@@ -295,28 +297,35 @@ const OrganicTrafficCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">ORGANIC SEO SOLUTIONS</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Grow Your
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Website with Sustainable Organic Traffic?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                Increase search rankings, attract qualified visitors, and build
+                long-term business growth with BrandMingo's data-driven SEO
+                strategies.
               </p>
 
               <div className="cta-btn-wrap">
-                <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                <a
+                  href="/"
+                  className="cta-main-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
+                  Start Your SEO Growth
                   <i className="fas fa-arrow-right" />
                 </a>
-                <a href="#portfolio" className="cta-link">
-                  View Our Results <i className="fas fa-arrow-right" />
-                </a>
+                <Link to="/portfolio" className="cta-link">
+                  Start Your SEO Growth <i className="fas fa-arrow-right" />
+                </Link>
               </div>
             </div>
 
@@ -327,8 +336,8 @@ const OrganicTrafficCtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">300+</span>
-                  <span className="lbl">Campaigns Managed</span>
+                  <span className="val">150+</span>
+                  <span className="lbl">SEO Projects Optimized</span>
                 </div>
               </div>
 
@@ -348,7 +357,7 @@ const OrganicTrafficCtaBanner = () => {
                 </div>
                 <div className="badge-info">
                   <span className="val">24×7</span>
-                  <span className="lbl">Performance Monitoring</span>
+                  <span className="lbl">SEO Performance Monitoring</span>
                 </div>
               </div>
             </div>

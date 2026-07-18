@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const FbInstAdsCtaBanner = () => {
   return (
@@ -295,28 +297,36 @@ const FbInstAdsCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">META ADS EXPERTS</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Scale Your
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Business with Meta Ads Campaigns?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                Drive more leads, increase sales, and maximize ROI with
+                high-performing Facebook & Instagram Ads. BrandMingo builds
+                data-driven Meta Ads campaigns that help your business grow
+                faster
               </p>
 
               <div className="cta-btn-wrap">
-                <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                <a
+                  href="/"
+                  className="cta-main-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
+                  Launch Your Meta Ads
                   <i className="fas fa-arrow-right" />
                 </a>
-                <a href="#portfolio" className="cta-link">
-                  View Our Results <i className="fas fa-arrow-right" />
-                </a>
+                <Link to="/portfolio" className="cta-link">
+                  View Success Stories <i className="fas fa-arrow-right" />
+                </Link>
               </div>
             </div>
 
@@ -327,8 +337,8 @@ const FbInstAdsCtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">300+</span>
-                  <span className="lbl">Campaigns Managed</span>
+                  <span className="val">250+</span>
+                  <span className="lbl">Meta Campaigns Managed</span>
                 </div>
               </div>
 
@@ -338,7 +348,7 @@ const FbInstAdsCtaBanner = () => {
                 </div>
                 <div className="badge-info">
                   <span className="val">90%</span>
-                  <span className="lbl">Client Retention</span>
+                  <span className="lbl">Client Retention Rate</span>
                 </div>
               </div>
 
@@ -348,7 +358,7 @@ const FbInstAdsCtaBanner = () => {
                 </div>
                 <div className="badge-info">
                   <span className="val">24×7</span>
-                  <span className="lbl">Performance Monitoring</span>
+                  <span className="lbl">Campaign Monitoring</span>
                 </div>
               </div>
             </div>

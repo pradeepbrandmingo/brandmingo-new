@@ -1,62 +1,62 @@
 import React, { useState } from "react";
 
 const serviceImages = {
-  lead: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=520&q=80&auto=format&fit=crop",
+  lead: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784293707/Untitled_design_1_p5mjns.png",
   ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784293707/Untitled_design_1_p5mjns.png",
   google:
-    "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=520&q=80&auto=format&fit=crop",
-  meta: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784293707/Untitled_design_1_p5mjns.png",
+  meta: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784293707/Untitled_design_1_p5mjns.png",
   retargeting:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784293707/Untitled_design_1_p5mjns.png",
   funnel:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784293707/Untitled_design_1_p5mjns.png",
   analytics:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784293707/Untitled_design_1_p5mjns.png",
   scaling:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784293707/Untitled_design_1_p5mjns.png",
 };
 
 const servicesData = [
   {
     id: "lead",
     title: "Lead Generation Campaigns",
-    desc: "We build high-converting performance marketing campaigns designed to generate qualified leads and consistent business growth. Our strategies focus on targeting the right audience, optimizing landing pages, and reducing cost per lead while maximizing ROI.",
+    desc: "Generate qualified leads with Facebook & Instagram Ads designed to reach high-intent audiences and increase conversions through data-driven targeting.",
   },
   {
     id: "ecommerce",
     title: "E-commerce Advertising",
-    desc: "Scale your online store with performance-driven campaigns focused on increasing sales and maximizing return on ad spend. We optimize product ads, implement dynamic remarketing, and continuously improve campaign performance.",
+    desc: "Boost online sales with Meta Ads that showcase your products, recover abandoned carts, and maximize return on ad spend.",
   },
   {
-    id: "google",
-    title: "Google Ads Management",
-    desc: "Reach high-intent users actively searching for your services with optimized Google Ads campaigns. We focus on keyword strategy, ad copy, bidding optimization, and ROI-driven results.",
+    id: "facebook",
+    title: "Facebook Ads Management",
+    desc: "Run high-performing Facebook Ads campaigns that increase brand awareness, generate leads, and drive measurable business growth.",
   },
   {
-    id: "meta",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience with creative and data-driven ad campaigns across Facebook and Instagram. We build funnel-based campaigns that drive awareness, engagement, and conversions.",
+    id: "instagram",
+    title: "Instagram Ads Marketing",
+    desc: "Engage your audience with visually compelling Instagram Ads that increase reach, engagement, and sales across every stage of the funnel.",
   },
   {
-    id: "retargeting",
+    id: "remarketing",
     title: "Retargeting Campaigns",
-    desc: "Convert lost visitors into customers using advanced retargeting strategies. We re-engage users based on behavior and improve conversion rates significantly.",
+    desc: "Reconnect with previous visitors using Meta remarketing campaigns that improve conversions and recover lost business opportunities.",
   },
   {
     id: "funnel",
     title: "Sales Funnel Optimization",
-    desc: "Improve your conversion rates by optimizing every stage of your marketing funnel. From landing pages to final conversion, we ensure a smooth and effective user journey.",
+    desc: "Optimize every stage of your customer journey to improve conversions, lower acquisition costs, and maximize campaign performance.",
   },
   {
     id: "analytics",
-    title: "Analytics & Tracking Setup",
-    desc: "Track every click, lead, and conversion with advanced analytics and tracking systems. We set up tools that provide actionable insights for better decision-making.",
+    title: "Meta Pixel & Tracking",
+    desc: "Track every click, lead, and purchase with Meta Pixel setup and advanced conversion tracking for accurate campaign insights.",
   },
   {
     id: "scaling",
     title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns with data-backed strategies to maximize ROI and business growth. We identify winning campaigns and continuously optimize for better performance.",
+    desc: "Scale winning Meta Ads campaigns with continuous optimization, audience refinement, and performance-driven growth strategies.",
   },
 ];
 
@@ -79,7 +79,7 @@ const FbInstAdsModernDigital = () => {
       <div className="auto-container">
         {/* Heading — h3 tag, style.css vars apply automatically */}
         <h3 className="ret-heading text-center mb-5">
-          Performance Marketing Services for
+          Meta Ads Services for
           <br /> Modern Digital Businesses
         </h3>
 

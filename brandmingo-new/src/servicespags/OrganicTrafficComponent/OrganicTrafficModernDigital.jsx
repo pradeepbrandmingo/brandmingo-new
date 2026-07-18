@@ -1,62 +1,62 @@
 import React, { useState } from "react";
 
 const serviceImages = {
-  lead: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=520&q=80&auto=format&fit=crop",
+  lead: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784378351/Untitled_design_5_qe07zc.png",
   ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784378351/Untitled_design_5_qe07zc.png",
   google:
-    "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=520&q=80&auto=format&fit=crop",
-  meta: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784378351/Untitled_design_5_qe07zc.png",
+  meta: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784378351/Untitled_design_5_qe07zc.png",
   retargeting:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784378351/Untitled_design_5_qe07zc.png",
   funnel:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784378351/Untitled_design_5_qe07zc.png",
   analytics:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784378351/Untitled_design_5_qe07zc.png",
   scaling:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784378351/Untitled_design_5_qe07zc.png ",
 };
 
 const servicesData = [
   {
     id: "lead",
-    title: "Lead Generation Campaigns",
-    desc: "We build high-converting performance marketing campaigns designed to generate qualified leads and consistent business growth. Our strategies focus on targeting the right audience, optimizing landing pages, and reducing cost per lead while maximizing ROI.",
+    title: "Keyword Research & Strategy",
+    desc: "Identify high-value keywords your customers search for and build a data-driven SEO strategy that improves rankings, attracts qualified traffic, and supports long-term organic growth.",
   },
   {
     id: "ecommerce",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with performance-driven campaigns focused on increasing sales and maximizing return on ad spend. We optimize product ads, implement dynamic remarketing, and continuously improve campaign performance.",
+    title: "On-Page SEO Optimization",
+    desc: "Optimize your website with SEO-friendly content, metadata, internal linking, and page improvements that increase search visibility and organic website traffic.",
   },
   {
     id: "google",
-    title: "Google Ads Management",
-    desc: "Reach high-intent users actively searching for your services with optimized Google Ads campaigns. We focus on keyword strategy, ad copy, bidding optimization, and ROI-driven results.",
+    title: "Technical SEO Audit",
+    desc: "Resolve technical SEO issues affecting crawling, indexing, website speed, and overall performance to build a strong foundation for higher search rankings.",
   },
   {
     id: "meta",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience with creative and data-driven ad campaigns across Facebook and Instagram. We build funnel-based campaigns that drive awareness, engagement, and conversions.",
+    title: "SEO Content Strategy",
+    desc: "Create optimized website content that matches search intent, improves keyword rankings, increases engagement, and drives consistent organic traffic growth.",
   },
   {
     id: "retargeting",
-    title: "Retargeting Campaigns",
-    desc: "Convert lost visitors into customers using advanced retargeting strategies. We re-engage users based on behavior and improve conversion rates significantly.",
+    title: "Local SEO Optimization",
+    desc: "Increase your local search visibility with Google Business Profile optimization, location-based SEO, and strategies that attract nearby customers consistently.",
   },
   {
     id: "funnel",
-    title: "Sales Funnel Optimization",
-    desc: "Improve your conversion rates by optimizing every stage of your marketing funnel. From landing pages to final conversion, we ensure a smooth and effective user journey.",
+    title: "SEO Analytics & Tracking",
+    desc: "Monitor keyword rankings, organic traffic, and user behavior with advanced SEO reporting to measure performance and discover new growth opportunities.",
   },
   {
     id: "analytics",
-    title: "Analytics & Tracking Setup",
-    desc: "Track every click, lead, and conversion with advanced analytics and tracking systems. We set up tools that provide actionable insights for better decision-making.",
+    title: "Link Building Strategy",
+    desc: "Build high-quality backlinks through ethical SEO practices that improve domain authority, search rankings, and long-term organic website visibility.",
   },
   {
     id: "scaling",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns with data-backed strategies to maximize ROI and business growth. We identify winning campaigns and continuously optimize for better performance.",
+    title: "Organic Growth Optimization",
+    desc: "Continuously optimize your SEO strategy using real performance data to improve rankings, increase qualified traffic, and achieve sustainable business growth.",
   },
 ];
 
@@ -79,8 +79,9 @@ const OrganicTrafficModernDigital = () => {
       <div className="auto-container">
         {/* Heading — h3 tag, style.css vars apply automatically */}
         <h3 className="ret-heading text-center mb-5">
-          Performance Marketing Services for
-          <br /> Modern Digital Businesses
+          Comprehensive Organic
+          <br />
+          Traffic Growth Solutions
         </h3>
 
         {/* ── DESKTOP ── */}

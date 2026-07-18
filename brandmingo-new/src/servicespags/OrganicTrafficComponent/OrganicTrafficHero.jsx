@@ -327,7 +327,7 @@ const OrganicTrafficHero = () => {
               <i className="fas fa-chart-line" /> Higher Rankings
             </div>
             <div className="rdh-chip rdh-chip-2">
-              <i className="fas fa-bullseye" /> Organic Growth
+              <i className="fas fa-bullseye" /> Higher Rankings
             </div>
             <div className="rdh-chip rdh-chip-3">
               <i className="fas fa-rocket" /> Quality Traffic
@@ -340,10 +340,9 @@ const OrganicTrafficHero = () => {
           {/* BLOCK 3 — desc + buttons + badges */}
           <div className="rdh-bottom-block">
             <p className="rdh-desc">
-              Drive consistent, high-quality traffic to your website with
-              result-driven SEO strategies. We don’t just improve rankings — we
-              build sustainable organic growth systems that increase visibility,
-              attract the right audience, and boost long-term conversions.
+              Drive consistent organic traffic with data-driven SEO strategies
+              that improve Google rankings, increase visibility, and generate
+              qualified website visitors.
             </p>
             <div className="rdh-btn-row">
               <a href="#contact" className="rdh-btn-primary">
@@ -351,7 +350,7 @@ const OrganicTrafficHero = () => {
                 <i className="fas fa-arrow-right" />
               </a>
               <a href="#work" className="rdh-btn-ghost">
-                <i className="fas fa-play" /> View Our Results
+                <i className="fas fa-play" /> View SEO Results
               </a>
             </div>
 
