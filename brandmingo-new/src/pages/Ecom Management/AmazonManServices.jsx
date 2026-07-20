@@ -14,10 +14,11 @@ import AmazonManServicesExpertiseDetails from "../../servicespags/AmazonManServi
 import AmazonProcessSection from "../../servicespags/AmazonManServicesComponent/AmazonProcessSection";
 import AmazonModernDigital from "../../servicespags/AmazonManServicesComponent/AmazonModernDigital";
 import AmazonCtaBanner from "../../servicespags/AmazonManServicesComponent/AmazonCtaBanner";
-import AmazonPricingPlans from "../../servicespags/AmazonManServicesComponent/AmazonPricingPlans";
+// import AmazonPricingPlans from "../../servicespags/AmazonManServicesComponent/AmazonPricingPlans";
 import WhyChooseBMAmazon from "../../servicespags/AmazonManServicesComponent/WhyChooseBMAmazon";
 import AmazonEngagementModels from "../../servicespags/AmazonManServicesComponent/AmazonEngagementModels";
 import AmazonPricingSection from "../../servicespags/AmazonManServicesComponent/AmazonPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -99,20 +100,18 @@ const AmazonManServices = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Scale Your Amazon Store for Higher Sales
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            We help you optimize product listings, manage PPC
+                            campaigns, improve rankings, and increase sales with
+                            data-driven Amazon management.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            Our experts continuously monitor your store,
+                            optimize performance, and implement strategies that
+                            drive long-term revenue growth.
                           </p>
 
                           {/* Stats Row */}
@@ -120,21 +119,21 @@ const AmazonManServices = () => {
                             <div className="react-stat-item">
                               <span className="react-stat-num">5x</span>
                               <span className="react-stat-label">
-                                ROI Growth
+                                Sales Growth
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
                               <span className="react-stat-num">90%</span>
                               <span className="react-stat-label">
-                                Campaign Optimization
+                                Listing Optimization
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
                               <span className="react-stat-num">300+</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                Products Managed
                               </span>
                             </div>
                           </div>
@@ -142,7 +141,7 @@ const AmazonManServices = () => {
                           {/* Feature Tag */}
                           <div className="react-feature-tag">
                             <i className="fas fa-bullhorn spin-icon"></i>
-                            <span>High Performance Guaranteed</span>
+                            <span>Higher Sales Guaranteed</span>
                           </div>
                         </div>
                       </div>
@@ -152,7 +151,7 @@ const AmazonManServices = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1784536448/Untitled_design_9_ttucvm.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -395,31 +394,36 @@ const AmazonManServices = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    What is Amazon Management?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Amazon Management is the process of optimizing your seller
+                    account, product listings, advertising, and operations to
+                    increase visibility, sales, and overall store performance.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    Amazon Management is the process of optimizing your seller
+                    account, product listings, advertising, and operations to
+                    increase visibility, sales, and overall store performance.
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-arrow-trend-up",
+                        label: "Increase Sales",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-ranking-star",
+                        label: "Higher Rankings",
+                      },
+                      {
+                        icon: "fas fa-box-open",
+                        label: "Optimized Listings",
+                      },
+                      {
+                        icon: "fas fa-chart-line",
+                        label: "Revenue Growth",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -500,8 +504,9 @@ const AmazonManServices = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    Simply put — Amazon Management helps your store rank higher,
+                    sell more products, and grow consistently on the Amazon
+                    marketplace
                   </p>
 
                   {/* SLIDER */}
@@ -554,11 +559,17 @@ const AmazonManServices = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Grow Your Amazon Business with Proven Marketplace
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let's Discuss Your Project{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
@@ -572,11 +583,12 @@ const AmazonManServices = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with Amazon Management Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      We help you optimize, manage, and grow your Amazon store
+                      with proven strategies that increase product visibility,
+                      sales, and long-term business growth.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -610,8 +622,8 @@ const AmazonManServices = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            label: "Store Setup & Optimization",
+                            desc: "Professional Amazon store setup and optimization.",
                           },
 
                           {
@@ -630,8 +642,8 @@ const AmazonManServices = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            label: "Product Listing Optimization",
+                            desc: "SEO-friendly listings that improve product visibility",
                           },
 
                           {
@@ -649,8 +661,8 @@ const AmazonManServices = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            label: "A+ Content & Brand Assets",
+                            desc: "Premium content designed to boost conversions.",
                           },
 
                           {
@@ -669,8 +681,8 @@ const AmazonManServices = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "Keyword & Ranking Strategy",
+                            desc: "Target high-value keywords for better organic rankings.",
                           },
 
                           {
@@ -690,8 +702,8 @@ const AmazonManServices = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Inventory & Account Management",
+                            desc: "Manage stock, orders, and account performance efficiently",
                           },
 
                           {
@@ -709,8 +721,8 @@ const AmazonManServices = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            label: "Performance Monitoring",
+                            desc: "Continuous optimization for sustainable sales growth.",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -761,9 +773,9 @@ const AmazonManServices = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <AmazonPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMAmazon />
@@ -784,24 +796,24 @@ const AmazonManServices = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What are Amazon Management Services?",
+                          a: "Amazon Management Services help sellers grow their business by managing product listings, SEO, PPC campaigns, inventory, account health, and overall marketplace performance.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "How can Amazon management help increase sales?",
+                          a: "We optimize product listings, improve keyword rankings, manage advertising campaigns, and enhance conversions to drive more traffic and increase Amazon sales.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "Do you manage Amazon PPC advertising?",
+                          a: "Yes. We create, monitor, and optimize Sponsored Products, Sponsored Brands, and Sponsored Display campaigns to maximize ROI while reducing advertising costs.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "Can you optimize my existing Amazon listings?",
+                          a: "Absolutely. We improve titles, bullet points, descriptions, backend keywords, images, and A+ Content to increase visibility and conversion rates.",
                         },
                         {
                           q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          a: "Most stores begin seeing improvements within a few weeks, while consistent growth in rankings, traffic, and sales is achieved through ongoing optimization.",
                         },
                       ].map((item, index) => (
                         <li

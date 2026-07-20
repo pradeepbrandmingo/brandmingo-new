@@ -8,13 +8,14 @@ const WhyChooseBMAmazon = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose Brandmingo for High-Performance <br />
-            Marketing Services
+            Why Choose Brandmingo for <br />
+            Amazon Management Services
           </h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build performance-driven systems that
-            generate leads, increase ROI, and scale your business with
-            measurable results.
+            We help brands grow on Amazon with expert account management,
+            optimized listings, data-driven strategies, and continuous
+            performance improvements that increase sales and long-term
+            marketplace success.
           </p>
         </div>
 
@@ -23,12 +24,11 @@ const WhyChooseBMAmazon = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">Years of Marketplace Expertise</div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Helping brands grow with proven Amazon selling strategies.
             </p>
           </div>
 
@@ -37,10 +37,9 @@ const WhyChooseBMAmazon = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-award" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">Certified Amazon Experts</div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Specialists in Amazon SEO, listings, PPC, and account management.
             </p>
           </div>
 
@@ -49,21 +48,20 @@ const WhyChooseBMAmazon = () => {
             <div className="wcb-stat-value">
               300<span>+</span>
             </div>
-            <div className="wcb-stat-label">Campaigns Managed</div>
+            <div className="wcb-stat-label">Products Managed</div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully optimized products across multiple categories.
             </p>
           </div>
 
           {/* 4 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              90<span>%</span>
+              95<span>%</span>
             </div>
             <div className="wcb-stat-label">Client Retention Rate</div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              Long-term partnerships built on measurable business growth.
             </p>
           </div>
 
@@ -72,10 +70,9 @@ const WhyChooseBMAmazon = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-bolt" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">Sales-Driven Strategy</div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Every optimization focuses on improving rankings and conversions.
             </p>
           </div>
 
@@ -86,8 +83,7 @@ const WhyChooseBMAmazon = () => {
             </div>
             <div className="wcb-feat-title">24×7 Expert Support</div>
             <p className="wcb-feat-desc">
-              Continuous monitoring and quick optimization to keep campaigns
-              performing.
+              Continuous account monitoring and quick issue resolution.
             </p>
           </div>
 
@@ -96,9 +92,9 @@ const WhyChooseBMAmazon = () => {
             <div className="wcb-stat-value">
               100<span>%</span>
             </div>
-            <div className="wcb-stat-label">In-House Marketing Team</div>
+            <div className="wcb-stat-label">In-House Amazon Team</div>
             <p className="wcb-stat-desc">
-              No outsourcing — all campaigns are managed by our expert team.
+              No outsourcing—every project is handled by our specialists.
             </p>
           </div>
 
@@ -107,21 +103,20 @@ const WhyChooseBMAmazon = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-shield-alt" />
             </div>
-            <div className="wcb-feat-title">Performance Optimization</div>
+            <div className="wcb-feat-title">Listing Optimization</div>
             <p className="wcb-feat-desc">
-              Rigorous brand consistency audits and performance benchmarks built
-              into every deliverable.
+              SEO-focused product listings designed for higher visibility.
             </p>
           </div>
 
           {/* 9 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              98<span>%</span>
+              99<span>%</span>
             </div>
             <div className="wcb-stat-label">On-Time Reporting</div>
             <p className="wcb-stat-desc">
-              Transparent and timely reports with actionable insights.
+              Transparent reports with sales, rankings, and growth insights.
             </p>
           </div>
 
@@ -130,9 +125,9 @@ const WhyChooseBMAmazon = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">Optimized for Sales Growth</div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              Strategies built to improve rankings, conversions, and revenue.
             </p>
           </div>
 
@@ -141,9 +136,9 @@ const WhyChooseBMAmazon = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">Flexible Management Plans</div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              Custom Amazon solutions based on your business goals.
             </p>
           </div>
 
@@ -154,8 +149,7 @@ const WhyChooseBMAmazon = () => {
             </div>
             <div className="wcb-feat-title">Quality Assurance</div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              Regular audits ensure your Amazon store performs at its best.
             </p>
           </div>
         </div>

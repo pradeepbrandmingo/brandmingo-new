@@ -1,62 +1,62 @@
 import React, { useState } from "react";
 
 const serviceImages = {
-  lead: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=520&q=80&auto=format&fit=crop",
+  lead: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784549548/Untitled_design_13_ffb8zq.png",
   ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784549548/Untitled_design_13_ffb8zq.png",
   google:
-    "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=520&q=80&auto=format&fit=crop",
-  meta: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784549548/Untitled_design_13_ffb8zq.png",
+  meta: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784549548/Untitled_design_13_ffb8zq.png",
   retargeting:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784549548/Untitled_design_13_ffb8zq.png",
   funnel:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784549548/Untitled_design_13_ffb8zq.png",
   analytics:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784549548/Untitled_design_13_ffb8zq.png",
   scaling:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784549548/Untitled_design_13_ffb8zq.png",
 };
 
 const servicesData = [
   {
     id: "lead",
-    title: "Lead Generation Campaigns",
-    desc: "We build high-converting performance marketing campaigns designed to generate qualified leads and consistent business growth. Our strategies focus on targeting the right audience, optimizing landing pages, and reducing cost per lead while maximizing ROI.",
+    title: "Product Listing Optimization",
+    desc: "Optimize your Shopsy product listings with SEO-friendly titles, descriptions, keywords, and images to improve visibility, attract more customers, and increase product sales.",
   },
   {
     id: "ecommerce",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with performance-driven campaigns focused on increasing sales and maximizing return on ad spend. We optimize product ads, implement dynamic remarketing, and continuously improve campaign performance.",
+    title: "Catalog Management",
+    desc: "Keep your Shopsy catalog organized with accurate categories, product attributes, variations, and inventory updates for a better shopping experience.",
   },
   {
     id: "google",
-    title: "Google Ads Management",
-    desc: "Reach high-intent users actively searching for your services with optimized Google Ads campaigns. We focus on keyword strategy, ad copy, bidding optimization, and ROI-driven results.",
+    title: "Pricing & Promotion Strategy",
+    desc: "Increase sales with competitive pricing, promotional offers, and marketplace strategies designed to improve product visibility and conversions.",
   },
   {
     id: "meta",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience with creative and data-driven ad campaigns across Facebook and Instagram. We build funnel-based campaigns that drive awareness, engagement, and conversions.",
+    title: "Shopsy Store Management",
+    desc: "Manage your complete Shopsy store with account optimization, policy compliance, and continuous performance improvements for long-term growth.",
   },
   {
     id: "retargeting",
-    title: "Retargeting Campaigns",
-    desc: "Convert lost visitors into customers using advanced retargeting strategies. We re-engage users based on behavior and improve conversion rates significantly.",
+    title: "Order & Inventory Management",
+    desc: "Manage orders and inventory efficiently with real-time stock updates, smooth fulfillment, and accurate inventory control across your store.",
   },
   {
     id: "funnel",
-    title: "Sales Funnel Optimization",
-    desc: "Improve your conversion rates by optimizing every stage of your marketing funnel. From landing pages to final conversion, we ensure a smooth and effective user journey.",
+    title: "Seller Account Optimization",
+    desc: "Improve your seller account health, store performance, and customer experience with expert account optimization strategies.",
   },
   {
     id: "analytics",
-    title: "Analytics & Tracking Setup",
-    desc: "Track every click, lead, and conversion with advanced analytics and tracking systems. We set up tools that provide actionable insights for better decision-making.",
+    title: "Analytics & Performance Reports",
+    desc: "Track sales, product performance, and customer insights with detailed reports that support smarter business decisions and continuous growth.",
   },
   {
     id: "scaling",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns with data-backed strategies to maximize ROI and business growth. We identify winning campaigns and continuously optimize for better performance.",
+    title: "Store Growth & Scaling",
+    desc: "Scale your Shopsy business with data-driven optimization, marketplace best practices, and growth strategies that increase long-term revenue.",
   },
 ];
 
@@ -79,8 +79,8 @@ const ShopsyModernDigital = () => {
       <div className="auto-container">
         {/* Heading — h3 tag, style.css vars apply automatically */}
         <h3 className="ret-heading text-center mb-5">
-          Performance Marketing Services for
-          <br /> Modern Digital Businesses
+          Shopsy Management Services for
+          <br /> Modern Online Businesses
         </h3>
 
         {/* ── DESKTOP ── */}

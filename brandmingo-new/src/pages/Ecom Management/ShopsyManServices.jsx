@@ -14,10 +14,13 @@ import ShopsyExpertiseDetails from "../../servicespags/ShopsyManServicesComponen
 import ShopsyProcessSection from "../../servicespags/ShopsyManServicesComponent/ShopsyProcessSection";
 import ShopsyModernDigital from "../../servicespags/ShopsyManServicesComponent/ShopsyModernDigital";
 import ShopsyCtaBanner from "../../servicespags/ShopsyManServicesComponent/ShopsyCtaBanner";
-import ShopsyPricingPlans from "../../servicespags/ShopsyManServicesComponent/ShopsyPricingPlans";
+// import ShopsyPricingPlans from "../../servicespags/ShopsyManServicesComponent/ShopsyPricingPlans";
 import WhyChooseBMShopsy from "../../servicespags/ShopsyManServicesComponent/WhyChooseBMShopsy";
-import ShopsyEngagementModels from "../../servicespags/ShopsyManServicesComponent/ShopsyEngagementModels";
-import ShopsyPricingSection from "../../servicespags/ShopsyManServicesComponent/ShopsyPricingSection";
+// import ShopsyEngagementModels from "../../servicespags/ShopsyManServicesComponent/ShopsyEngagementModels";
+// import ShopsyPricingSection from "../../servicespags/ShopsyManServicesComponent/ShopsyPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
+import AmazonPricingSection from "../../servicespags/AmazonManServicesComponent/AmazonPricingSection";
+import AmazonEngagementModels from "../../servicespags/AmazonManServicesComponent/AmazonEngagementModels";
 
 const THEME = "#ff6b1e";
 
@@ -99,42 +102,40 @@ const ShopsyManServices = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Grow Your Shopsy Business
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            Manage your Shopsy store with data-driven strategies
+                            that improve product visibility, increase
+                            conversions, and drive consistent marketplace sales.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            Optimize listings, pricing, promotions, and account
+                            performance to maximize growth while delivering a
+                            seamless shopping experience.
                           </p>
 
                           {/* Stats Row */}
                           <div className="react-stats-row">
                             <div className="react-stat-item">
-                              <span className="react-stat-num">5x</span>
+                              <span className="react-stat-num">3x</span>
                               <span className="react-stat-label">
                                 ROI Growth
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">90%</span>
+                              <span className="react-stat-num">95%</span>
                               <span className="react-stat-label">
-                                Campaign Optimization
+                                Sales Growth
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">300+</span>
+                              <span className="react-stat-num">1000+</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                Products Managed
                               </span>
                             </div>
                           </div>
@@ -142,7 +143,7 @@ const ShopsyManServices = () => {
                           {/* Feature Tag */}
                           <div className="react-feature-tag">
                             <i className="fas fa-bullhorn spin-icon"></i>
-                            <span>High Performance Guaranteed</span>
+                            <span>Marketplace Growth</span>
                           </div>
                         </div>
                       </div>
@@ -152,7 +153,7 @@ const ShopsyManServices = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1784550861/Untitled_design_15_wiikvt.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -161,14 +162,14 @@ const ShopsyManServices = () => {
                                 className="fas fa-bolt"
                                 style={{ marginRight: "5px" }}
                               />
-                              Fast
+                              FAST SCALING
                             </div>
                             <div className="floating-badge bottom-left">
                               <i
                                 className="fas fa-expand-arrows-alt"
                                 style={{ marginRight: "5px" }}
                               />
-                              Scalable
+                              Marketplace Growth
                             </div>
                           </div>
 
@@ -395,31 +396,36 @@ const ShopsyManServices = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    Why Choose Shopsy Management?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Shopsy Management helps sellers improve product visibility,
+                    optimize listings, and increase sales through
+                    marketplace-focused strategies.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    Shopsy Management helps sellers improve product visibility,
+                    optimize listings, and increase sales through
+                    marketplace-focused strategies.
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-arrow-trend-up",
+                        label: "Higher Sales",
+                      },
+                      {
+                        icon: "fas fa-store",
+                        label: "Better Visibility",
+                      },
+                      {
+                        icon: "fas fa-cart-shopping",
+                        label: "More Orders",
                       },
                       {
                         icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        label: "Data-Driven Growth",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -500,8 +506,9 @@ const ShopsyManServices = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    In simple terms — Shopsy Management helps you improve
+                    visibility, increase orders, and grow your marketplace
+                    business consistently.
                   </p>
 
                   {/* SLIDER */}
@@ -554,12 +561,19 @@ const ShopsyManServices = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Scale Your Shopsy Store with Expert Marketplace
+                              Management
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
-                              Let's Discuss Your Project{" "}
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
+                              Start Your Shopsy Growth{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
@@ -575,8 +589,10 @@ const ShopsyManServices = () => {
                       What You Get with Performance Marketing Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      From product listings to store optimization, we manage
+                      every aspect of your Shopsy business to improve
+                      visibility, increase sales, and support long-term
+                      marketplace growth.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -610,8 +626,8 @@ const ShopsyManServices = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            label: "Product Listing Optimization",
+                            desc: "SEO-friendly listings for better visibility",
                           },
 
                           {
@@ -630,8 +646,8 @@ const ShopsyManServices = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            label: "Catalog Management",
+                            desc: "Well-structured and accurate catalog setup",
                           },
 
                           {
@@ -649,8 +665,8 @@ const ShopsyManServices = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            label: "Pricing & Promotion Strategy",
+                            desc: "Competitive pricing to boost conversions",
                           },
 
                           {
@@ -669,8 +685,8 @@ const ShopsyManServices = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "Order & Inventory Management",
+                            desc: "Smooth order processing and stock updates",
                           },
 
                           {
@@ -690,8 +706,8 @@ const ShopsyManServices = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Store Performance Optimization",
+                            desc: "Improve rankings, traffic, and sales",
                           },
 
                           {
@@ -709,8 +725,8 @@ const ShopsyManServices = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            label: "Analytics & Growth Reporting",
+                            desc: "Track performance with actionable insights",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -761,9 +777,9 @@ const ShopsyManServices = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <ShopsyPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMShopsy />
@@ -771,11 +787,15 @@ const ShopsyManServices = () => {
 
                   <div className="engagement-section">
                     {/* <EngagementModels /> */}
-                    <ShopsyEngagementModels />
+                    {/* <ShopsyEngagementModels /> */}
+
+                    <AmazonEngagementModels />
                   </div>
 
                   <div className="pricing-final-section">
-                    <ShopsyPricingSection />
+                    {/* <ShopsyPricingSection /> */}
+
+                    <AmazonPricingSection />
                   </div>
 
                   {/* FAQ */}
@@ -784,24 +804,24 @@ const ShopsyManServices = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is Shopsy Management?",
+                          a: "Shopsy Management is a professional service that helps optimize your Shopsy store by managing product listings, catalog, pricing, inventory, and overall store performance to increase visibility and sales.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "How can Shopsy Management help my business?",
+                          a: "It helps improve product rankings, attract more customers, increase conversions, manage your store efficiently, and drive consistent sales growth on the Shopsy marketplace.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "What services are included in Shopsy Management?",
+                          a: "Our services include product listing optimization, catalog management, pricing strategy, order and inventory management, seller account optimization, analytics, and complete store growth support.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How much does Shopsy Management cost?",
+                          a: "Pricing depends on your store size, number of products, and management requirements. We offer flexible plans tailored to your business goals and budget.",
                         },
                         {
                           q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          a: "Most stores start seeing improvements within a few weeks, while consistent optimization delivers stronger rankings, higher visibility, and long-term sales growth over time.",
                         },
                       ].map((item, index) => (
                         <li

@@ -8,13 +8,13 @@ const WhyChooseBMShopsy = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose Brandmingo for High-Performance <br />
-            Marketing Services
+            Why Choose Brandmingo for <br />
+            Professional Shopsy Management Services
           </h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build performance-driven systems that
-            generate leads, increase ROI, and scale your business with
-            measurable results.
+            We help brands grow faster on Shopsy with expert store management,
+            optimized listings, data-driven strategies, and continuous
+            marketplace support.
           </p>
         </div>
 
@@ -23,12 +23,14 @@ const WhyChooseBMShopsy = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">
+              Years of Marketplace Experience
+            </div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Helping brands grow successfully across India's leading ecommerce
+              platforms.
             </p>
           </div>
 
@@ -37,10 +39,10 @@ const WhyChooseBMShopsy = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-award" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">Certified Marketplace Experts</div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Experienced professionals in Shopsy store management, product
+              optimization, catalog management, and seller growth.
             </p>
           </div>
 
@@ -49,21 +51,22 @@ const WhyChooseBMShopsy = () => {
             <div className="wcb-stat-value">
               300<span>+</span>
             </div>
-            <div className="wcb-stat-label">Campaigns Managed</div>
+            <div className="wcb-stat-label">Products Optimized</div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully optimized product listings for better visibility,
+              rankings, and conversions.
             </p>
           </div>
 
           {/* 4 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              90<span>%</span>
+              95<span>%</span>
             </div>
             <div className="wcb-stat-label">Client Retention Rate</div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              Businesses continue to trust us for consistent marketplace growth
+              and reliable support.
             </p>
           </div>
 
@@ -72,10 +75,10 @@ const WhyChooseBMShopsy = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-bolt" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">Growth-Focused Strategy</div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Every decision is backed by data to maximize store visibility,
+              sales, and profitability.
             </p>
           </div>
 
@@ -84,10 +87,10 @@ const WhyChooseBMShopsy = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-headset" />
             </div>
-            <div className="wcb-feat-title">24×7 Expert Support</div>
+            <div className="wcb-feat-title">24×7 Seller Support</div>
             <p className="wcb-feat-desc">
-              Continuous monitoring and quick optimization to keep campaigns
-              performing.
+              Quick assistance for listings, orders, catalog updates, and
+              account-related issues.
             </p>
           </div>
 
@@ -96,9 +99,10 @@ const WhyChooseBMShopsy = () => {
             <div className="wcb-stat-value">
               100<span>%</span>
             </div>
-            <div className="wcb-stat-label">In-House Marketing Team</div>
+            <div className="wcb-stat-label">In-House Management</div>
             <p className="wcb-stat-desc">
-              No outsourcing — all campaigns are managed by our expert team.
+              Your Shopsy store is managed by our dedicated in-house ecommerce
+              specialists.
             </p>
           </div>
 
@@ -107,10 +111,10 @@ const WhyChooseBMShopsy = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-shield-alt" />
             </div>
-            <div className="wcb-feat-title">Performance Optimization</div>
+            <div className="wcb-feat-title">Continuous Optimization</div>
             <p className="wcb-feat-desc">
-              Rigorous brand consistency audits and performance benchmarks built
-              into every deliverable.
+              Regular improvements to listings, pricing, catalog quality, and
+              overall store performance.
             </p>
           </div>
 
@@ -121,7 +125,8 @@ const WhyChooseBMShopsy = () => {
             </div>
             <div className="wcb-stat-label">On-Time Reporting</div>
             <p className="wcb-stat-desc">
-              Transparent and timely reports with actionable insights.
+              Receive transparent performance reports with actionable insights
+              and recommendations.
             </p>
           </div>
 
@@ -130,9 +135,10 @@ const WhyChooseBMShopsy = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">Sales & Growth Focus</div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              Every strategy is designed to increase product visibility,
+              conversions, and long-term revenue.
             </p>
           </div>
 
@@ -141,9 +147,10 @@ const WhyChooseBMShopsy = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">Flexible Service Plans</div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              Choose a management plan that fits your business goals, store
+              size, and budget.
             </p>
           </div>
 
@@ -154,8 +161,8 @@ const WhyChooseBMShopsy = () => {
             </div>
             <div className="wcb-feat-title">Quality Assurance</div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              Every listing, catalog update, and optimization is carefully
+              reviewed to maintain marketplace standards.
             </p>
           </div>
         </div>

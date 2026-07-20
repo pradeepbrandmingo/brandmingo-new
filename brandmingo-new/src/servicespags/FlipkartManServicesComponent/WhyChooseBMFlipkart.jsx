@@ -8,13 +8,13 @@ const WhyChooseBMFlipkart = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose Brandmingo for High-Performance <br />
-            Marketing Services
+            Why Choose Brandmingo <br />
+            for Flipkart Management
           </h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build performance-driven systems that
-            generate leads, increase ROI, and scale your business with
-            measurable results.
+            We help brands grow on Flipkart with expert marketplace management,
+            optimized listings, data-driven strategies, and consistent sales
+            growth.
           </p>
         </div>
 
@@ -23,12 +23,12 @@ const WhyChooseBMFlipkart = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">Years of Marketplace Expertise</div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Helping brands grow through proven Flipkart marketplace
+              strategies.
             </p>
           </div>
 
@@ -37,10 +37,10 @@ const WhyChooseBMFlipkart = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-award" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">Certified Marketplace Experts</div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Experienced professionals managing Flipkart stores for maximum
+              performance.
             </p>
           </div>
 
@@ -51,19 +51,20 @@ const WhyChooseBMFlipkart = () => {
             </div>
             <div className="wcb-stat-label">Campaigns Managed</div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully optimized listings for better rankings and
+              conversions.
             </p>
           </div>
 
           {/* 4 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              90<span>%</span>
+              95<span>%</span>
             </div>
             <div className="wcb-stat-label">Client Retention Rate</div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              Long-term partnerships built through measurable marketplace
+              growth.
             </p>
           </div>
 
@@ -72,10 +73,10 @@ const WhyChooseBMFlipkart = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-bolt" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">Growth-Focused Strategy</div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Every optimization is designed to improve visibility, sales, and
+              ROI.
             </p>
           </div>
 
@@ -86,8 +87,8 @@ const WhyChooseBMFlipkart = () => {
             </div>
             <div className="wcb-feat-title">24×7 Expert Support</div>
             <p className="wcb-feat-desc">
-              Continuous monitoring and quick optimization to keep campaigns
-              performing.
+              Continuous monitoring and quick support for smooth store
+              operations.
             </p>
           </div>
 
@@ -96,9 +97,9 @@ const WhyChooseBMFlipkart = () => {
             <div className="wcb-stat-value">
               100<span>%</span>
             </div>
-            <div className="wcb-stat-label">In-House Marketing Team</div>
+            <div className="wcb-stat-label">In-House Marketplace Team</div>
             <p className="wcb-stat-desc">
-              No outsourcing — all campaigns are managed by our expert team.
+              No outsourcing—your Flipkart store is managed by our experts
             </p>
           </div>
 
@@ -109,20 +110,18 @@ const WhyChooseBMFlipkart = () => {
             </div>
             <div className="wcb-feat-title">Performance Optimization</div>
             <p className="wcb-feat-desc">
-              Rigorous brand consistency audits and performance benchmarks built
-              into every deliverable.
+              Improve rankings, conversions, advertising, and overall store
+              performance.
             </p>
           </div>
 
           {/* 9 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              98<span>%</span>
+              99<span>%</span>
             </div>
             <div className="wcb-stat-label">On-Time Reporting</div>
-            <p className="wcb-stat-desc">
-              Transparent and timely reports with actionable insights.
-            </p>
+            <p className="wcb-stat-desc">On-Time Reporting</p>
           </div>
 
           {/* 10 — span 2 */}
@@ -130,9 +129,10 @@ const WhyChooseBMFlipkart = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">Optimized for Sales Growth</div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              Strategies built to increase visibility, conversions, and
+              long-term revenue.
             </p>
           </div>
 
@@ -141,9 +141,9 @@ const WhyChooseBMFlipkart = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">Flexible Service Plans</div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              Choose management solutions tailored to your business objectives.
             </p>
           </div>
 
@@ -154,8 +154,8 @@ const WhyChooseBMFlipkart = () => {
             </div>
             <div className="wcb-feat-title">Quality Assurance</div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              Regular audits ensure accurate listings, compliance, and
+              consistent performance.
             </p>
           </div>
         </div>

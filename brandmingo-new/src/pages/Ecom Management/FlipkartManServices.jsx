@@ -16,8 +16,11 @@ import FlipkartModernDigital from "../../servicespags/FlipkartManServicesCompone
 import FlipkartCtaBanner from "../../servicespags/FlipkartManServicesComponent/FlipkartCtaBanner";
 import FlipkartPricingPlans from "../../servicespags/FlipkartManServicesComponent/FlipkartPricingPlans";
 import WhyChooseBMFlipkart from "../../servicespags/FlipkartManServicesComponent/WhyChooseBMFlipkart";
-import FlipkartEngagementModels from "../../servicespags/FlipkartManServicesComponent/FlipkartEngagementModels";
-import FlipkartPricingSection from "../../servicespags/FlipkartManServicesComponent/FlipkartPricingSection";
+// import FlipkartEngagementModels from "../../servicespags/FlipkartManServicesComponent/FlipkartEngagementModels";
+// import FlipkartPricingSection from "../../servicespags/FlipkartManServicesComponent/FlipkartPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
+import AmazonPricingSection from "../../servicespags/AmazonManServicesComponent/AmazonPricingSection";
+import AmazonEngagementModels from "../../servicespags/AmazonManServicesComponent/AmazonEngagementModels";
 
 const THEME = "#ff6b1e";
 
@@ -99,20 +102,18 @@ const FlipkartManServices = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Grow Your Flipkart Business
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            Improve your Flipkart store with expert management
+                            focused on better visibility, higher rankings, and
+                            increased sales.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            We optimize listings, pricing, advertising, and
+                            account performance to help you achieve sustainable
+                            marketplace growth.
                           </p>
 
                           {/* Stats Row */}
@@ -120,21 +121,21 @@ const FlipkartManServices = () => {
                             <div className="react-stat-item">
                               <span className="react-stat-num">5x</span>
                               <span className="react-stat-label">
-                                ROI Growth
+                                Store Growth
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
                               <span className="react-stat-num">90%</span>
                               <span className="react-stat-label">
-                                Campaign Optimization
+                                Listing Optimization
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
                               <span className="react-stat-num">300+</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                Stores Managed
                               </span>
                             </div>
                           </div>
@@ -142,7 +143,7 @@ const FlipkartManServices = () => {
                           {/* Feature Tag */}
                           <div className="react-feature-tag">
                             <i className="fas fa-bullhorn spin-icon"></i>
-                            <span>High Performance Guaranteed</span>
+                            <span>Flipkart Growth Experts</span>
                           </div>
                         </div>
                       </div>
@@ -152,7 +153,7 @@ const FlipkartManServices = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1784543070/Untitled_design_11_y4k3er.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -161,14 +162,14 @@ const FlipkartManServices = () => {
                                 className="fas fa-bolt"
                                 style={{ marginRight: "5px" }}
                               />
-                              Fast
+                              HIGHER SALES
                             </div>
                             <div className="floating-badge bottom-left">
                               <i
                                 className="fas fa-expand-arrows-alt"
                                 style={{ marginRight: "5px" }}
                               />
-                              Scalable
+                              TOP RATED
                             </div>
                           </div>
 
@@ -395,31 +396,36 @@ const FlipkartManServices = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    Why Flipkart Marketplace Management?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Flipkart marketplace management helps improve product
+                    visibility, optimize listings, and increase sales through
+                    data-driven store optimization.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    With the right strategy, your Flipkart store attracts more
+                    customers, improves rankings, and delivers consistent
+                    business growth.
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-ranking-star",
+                        label: "Higher Product Rankings",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-magnifying-glass-chart",
+                        label: "Better Product Visibility",
+                      },
+                      {
+                        icon: "fas fa-cart-shopping",
+                        label: "More Sales & Orders",
+                      },
+                      {
+                        icon: "fas fa-chart-line",
+                        label: "Data-Driven Growth",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -500,8 +506,9 @@ const FlipkartManServices = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    In simple terms — expert Flipkart management helps your
+                    store rank higher, attract more buyers, and grow sales
+                    consistently.
                   </p>
 
                   {/* SLIDER */}
@@ -554,11 +561,18 @@ const FlipkartManServices = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Scale Your Flipkart Store with Expert Marketplace
+                              Management
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let's Discuss Your Project{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
@@ -572,11 +586,12 @@ const FlipkartManServices = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with Flipkart Management Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      We optimize every aspect of your Flipkart store to improve
+                      product visibility, increase sales, and drive sustainable
+                      marketplace growth.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -610,8 +625,8 @@ const FlipkartManServices = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            label: "Product Listing Optimization",
+                            desc: "TOptimize titles, images, keywords, and product content.",
                           },
 
                           {
@@ -630,8 +645,8 @@ const FlipkartManServices = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            label: "Catalog & Inventory Management",
+                            desc: "Maintain accurate catalogs and stock availability.",
                           },
 
                           {
@@ -649,8 +664,8 @@ const FlipkartManServices = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            label: "Flipkart Ads Management",
+                            desc: "Run optimized ad campaigns to increase product sales.",
                           },
 
                           {
@@ -669,8 +684,8 @@ const FlipkartManServices = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "Pricing & Promotion Strategy",
+                            desc: "Optimize pricing and offers to improve conversions.",
                           },
 
                           {
@@ -690,8 +705,8 @@ const FlipkartManServices = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Order & Account Management",
+                            desc: "Manage orders, account health, and seller performance.",
                           },
 
                           {
@@ -710,7 +725,7 @@ const FlipkartManServices = () => {
                               </svg>
                             ),
                             label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            desc: "Continuously improve rankings, visibility, and revenue.",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -761,9 +776,9 @@ const FlipkartManServices = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <FlipkartPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMFlipkart />
@@ -771,11 +786,15 @@ const FlipkartManServices = () => {
 
                   <div className="engagement-section">
                     {/* <EngagementModels /> */}
-                    <FlipkartEngagementModels />
+                    {/* AmazonEngagementModels */}
+                    {/* <FlipkartEngagementModels /> */}
+                    <AmazonEngagementModels />
                   </div>
 
                   <div className="pricing-final-section">
-                    <FlipkartPricingSection />
+                    {/* <FlipkartPricingSection /> */}
+                    {/* AmazonPricingSection */}
+                    <AmazonPricingSection />
                   </div>
 
                   {/* FAQ */}
@@ -784,24 +803,24 @@ const FlipkartManServices = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is Flipkart management?",
+                          a: "Flipkart management involves optimizing your seller account, product listings, catalog, pricing, advertising, inventory, and overall store performance to increase visibility and drive more sales.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "How can Flipkart management help my business?",
+                          a: "Professional Flipkart management improves product rankings, increases conversions, optimizes advertising, and helps grow your marketplace sales with data-driven strategies.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "What services are included in Flipkart management?",
+                          a: "Our services include product listing optimization, catalog management, Flipkart Ads, pricing strategy, inventory management, seller account optimization, analytics, and store growth planning.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How much does Flipkart management cost?",
+                          a: "Pricing depends on your product catalog, business goals, service requirements, and store size. We offer flexible plans tailored to your business needs.",
                         },
                         {
                           q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          a: "Most stores start seeing improvements within a few weeks, while consistent ranking, traffic, and sales growth are achieved through continuous optimization.",
                         },
                       ].map((item, index) => (
                         <li

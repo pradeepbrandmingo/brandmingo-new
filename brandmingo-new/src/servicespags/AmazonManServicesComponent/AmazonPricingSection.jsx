@@ -1,34 +1,50 @@
 import React, { useState } from "react";
 // import "./pricing-section.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const pricingFactors = [
-  { icon: "fas fa-layer-group", label: "Campaign Goals & Complexity" },
-  { icon: "fas fa-handshake", label: "Engagement Model Selected" },
-  { icon: "fas fa-users", label: "Ad Budget & Platforms" },
-  { icon: "fas fa-clock", label: "Timeline & Scaling Speed" },
-  { icon: "fas fa-plug", label: "Tracking & Tools Setup" },
+  {
+    icon: "fas fa-layer-group",
+    label: "Marketplace Goals & Scope",
+  },
+  {
+    icon: "fas fa-handshake",
+    label: "Management Plan Selected",
+  },
+  {
+    icon: "fas fa-store",
+    label: "Store Size & Products",
+  },
+  {
+    icon: "fas fa-clock",
+    label: "Timeline & Growth Priority",
+  },
+  {
+    icon: "fas fa-plug",
+    label: "Integrations & Reporting",
+  },
 ];
 
 const estimateSteps = [
   {
     num: "01",
-    title: "Requirement Discussion",
-    desc: "We understand your business goals, target audience, and marketing objectives.",
+    title: "Business Assessment",
+    desc: "Understand your marketplace goals, products, store status, and business requirements.",
   },
   {
     num: "02",
-    title: "Campaign Analysis",
-    desc: "We evaluate your current performance, competitors, and growth opportunities.",
+    title: "Store Performance Review",
+    desc: "Evaluate current listings, sales, competition, account health, and growth opportunities.",
   },
   {
     num: "03",
-    title: "Strategy & Budget Planning",
-    desc: "We define campaign structure, budget allocation, and expected outcomes.",
+    title: "Growth Strategy Planning",
+    desc: "Create a customized management plan with optimization priorities and measurable goals.",
   },
   {
     num: "04",
-    title: "Transparent Cost Estimate",
-    desc: "You receive a clear, result-focused pricing plan with no hidden charges.",
+    title: "Transparent Proposal",
+    desc: "Receive a clear service proposal with deliverables, timeline, pricing, and support details.",
   },
 ];
 
@@ -44,8 +60,8 @@ const AmazonPricingSection = () => {
           {/* h3 tag — sized via var(--h3-font-size) in CSS */}
           <h3 className="prc-title">Pricing & Cost Estimation</h3>
           <p className="prc-subtitle">
-            Our performance marketing pricing is flexible, transparent, and
-            based on your business goals — no fixed packages, no hidden costs.
+            Custom pricing based on your marketplace, business goals, and
+            management requirements.
           </p>
         </div>
 
@@ -85,10 +101,18 @@ const AmazonPricingSection = () => {
         {/* ── CTA ── */}
         <div className="prc-cta-wrap">
           <p className="prc-cta-note">
-            Get a custom quote tailored to your project — no obligations.
+            Get a customized ecommerce management plan designed around your
+            marketplace and business goals.
           </p>
-          <a href="#contact" className="prc-cta-btn">
-            Get a Free Estimate
+          <a
+            href="/"
+            className="prc-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
+            Get a Free Consultation
             <i className="fas fa-arrow-right" />
           </a>
         </div>
