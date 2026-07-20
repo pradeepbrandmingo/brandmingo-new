@@ -2,91 +2,91 @@ import React, { useState } from "react";
 
 const servicesData = [
   {
-    id: "Lead Generation Campaigns",
-    title: "Lead Generation Campaigns",
-    desc: "We create high-converting campaigns focused on generating qualified leads that drive real business growth.",
+    id: "lead",
+    title: "Product Listing\nOptimization",
+    desc: "Optimize Snapdeal product listings with SEO-friendly titles, descriptions, keywords, and images to improve visibility and increase conversions.",
     points: [
-      "Target high-intent audiences for better lead quality",
-      "Optimize landing pages for maximum conversions",
-      "Reduce cost per lead with smart bidding strategies",
-      "Generate consistent and scalable lead flow",
-    ],
-  },
-  {
-    id: "legacy",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with performance-driven ad campaigns designed to increase sales and ROI.",
-    points: [
-      "Run product-focused campaigns for higher conversions",
-      "Implement dynamic remarketing strategies",
-      "Optimize product feeds and ad creatives",
-      "Drive consistent revenue growth through paid ads",
-    ],
-  },
-  {
-    id: "pwa",
-    title: "Google Ads Management",
-    desc: "Reach customers actively searching for your services with highly optimized Google Ads campaigns.",
-    points: [
-      "Advanced keyword research and targeting strategy",
-      "High-converting ad copy and extensions",
-      "Smart bidding and budget optimization",
-      "Focus on ROI-driven campaign performance",
-    ],
-  },
-  {
-    id: "api",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience and generate leads through powerful Meta advertising strategies.",
-    points: [
-      "Detailed audience segmentation and targeting",
-      "Creative ad design and compelling messaging",
-      "Full-funnel campaign strategy implementation",
-      "Retargeting to improve conversion rates",
+      "SEO-optimized product listings",
+      "High-quality product content",
+      "Better search visibility",
+      "Higher conversion rates",
     ],
   },
   {
     id: "ecommerce",
-    title: "Retargeting & Remarketing",
-    desc: "Re-engage users who showed interest but didn’t convert and turn them into paying customers.",
+    title: "Catalog\nManagement",
+    desc: "Keep your Snapdeal catalog accurate, organized, and updated for smooth store operations and a better customer experience.",
     points: [
-      "Pixel-based tracking for accurate audience data",
-      "Multi-platform retargeting campaigns",
-      "Behavior-based ad strategies",
-      "Increase conversions and reduce drop-offs",
+      "Complete catalog setup",
+      "Category optimization",
+      "Variant management",
+      "Regular catalog updates",
     ],
   },
   {
-    id: "spa",
-    title: "Sales Funnel Optimization",
-    desc: "Optimize every stage of your funnel to improve conversion rates and maximize ROI.",
+    id: "google",
+    title: "Pricing &\nPromotion",
+    desc: "Increase sales with competitive pricing strategies, discount campaigns, and promotional offers designed for Snapdeal customers.",
     points: [
-      "Landing page optimization for better performance",
-      "A/B testing for continuous improvement",
-      "User journey and behavior analysis",
-      "Reduce bounce rates and increase conversions",
+      "Competitive pricing",
+      "Discount planning",
+      "Offer management",
+      "Sales-focused strategy",
     ],
   },
   {
-    id: "migration",
-    title: "Analytics & Tracking Setup",
-    desc: "Set up advanced tracking systems to measure performance and make data-driven decisions.",
+    id: "meta",
+    title: "Seller Account\nOptimization",
+    desc: "Improve your Snapdeal seller account health, performance, and compliance for consistent marketplace growth.",
     points: [
-      "Google Analytics and Tag Manager setup",
-      "Conversion and event tracking implementation",
-      "Accurate performance reporting",
-      "Actionable insights for campaign improvement",
+      "Account health monitoring",
+      "Policy compliance",
+      "Performance improvement",
+      "Seller score optimization",
     ],
   },
   {
-    id: "payment",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns efficiently with data-backed strategies and continuous optimization.",
+    id: "retargeting",
+    title: "Order & Inventory\nManagement",
+    desc: "Manage inventory levels and orders efficiently to avoid stock issues and deliver a seamless customer experience.",
     points: [
-      "Budget scaling based on performance data",
-      "Creative testing and iteration",
-      "Identify winning campaigns and scale them",
-      "Maximize ROI with continuous optimization",
+      "Inventory monitoring",
+      "Order management",
+      "Stock optimization",
+      "Timely fulfillment",
+    ],
+  },
+  {
+    id: "funnel",
+    title: "Store Growth &\nScaling",
+    desc: "Scale your Snapdeal business with proven marketplace strategies focused on long-term revenue and business growth.",
+    points: [
+      "Growth strategy",
+      "Marketplace expansion",
+      "Sales optimization",
+      "Long-term scaling",
+    ],
+  },
+  {
+    id: "analytics",
+    title: "Analytics &\nReporting",
+    desc: "Track store performance using detailed analytics and actionable reports to make smarter business decisions.",
+    points: [
+      "Performance reports",
+      "Sales insights",
+      "Growth tracking",
+      "Data-driven decisions",
+    ],
+  },
+  {
+    id: "scaling",
+    title: "Marketplace\nSupport",
+    desc: "Receive continuous expert support to resolve issues, optimize performance, and maintain consistent marketplace growth.",
+    points: [
+      "Dedicated support",
+      "Issue resolution",
+      "Store optimization",
+      "Business guidance",
     ],
   },
 ];
@@ -104,7 +104,7 @@ const SnapdealExpertiseDetails = () => {
       <div className="react-expertise-section">
         <div className="auto-container">
           <h3 className="mb-5 text-center section-main-h3">
-            Our Performance Marketing Expertise
+            Our Snapdeal Management Expertise
           </h3>
 
           {/* ── DESKTOP: same as before ── */}

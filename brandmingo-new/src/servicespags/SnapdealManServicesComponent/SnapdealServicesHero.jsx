@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import { Link } from "react-router-dom";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const PerformanceMarketingSVG = () => (
   <svg
@@ -325,7 +327,7 @@ const SnapdealServicesHero = () => {
             </div>
             <div className="rdh-chip rdh-chip-1">
               <i className="fas fa-chart-line" />
-              Better Product Ranking
+              Higher Product Visibility
             </div>
             <div className="rdh-chip rdh-chip-2">
               <i className="fas fa-bullseye" />
@@ -343,21 +345,25 @@ const SnapdealServicesHero = () => {
           {/* BLOCK 3 — desc + buttons + badges */}
           <div className="rdh-bottom-block">
             <p className="rdh-desc">
-              Scale your Snapdeal store with performance-driven management
-              strategies focused on visibility and sales. We don’t just manage
-              listings — we optimize products, pricing, and account performance
-              to improve rankings, increase conversions, and grow your revenue
-              consistently.
+              Grow your Snapdeal store with expert management focused on better
+              visibility, optimized listings, and consistent sales growth.
             </p>
             <div className="rdh-btn-row">
-              <a href="#contact" className="rdh-btn-primary">
+              <a
+                href="/"
+                className="rdh-btn-primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  openEnquiryPopup();
+                }}
+              >
                 Start Your Snapdeal Growth
                 <i className="fas fa-arrow-right" />
               </a>
-              <a href="#work" className="rdh-btn-ghost">
+              <Link to="/portfolio" className="rdh-btn-ghost">
                 <i className="fas fa-play" />
                 View Our Results
-              </a>
+              </Link>
             </div>
 
             <div className="rdh-badges">

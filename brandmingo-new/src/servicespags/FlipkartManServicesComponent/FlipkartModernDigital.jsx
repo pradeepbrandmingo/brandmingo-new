@@ -1,62 +1,62 @@
 import React, { useState } from "react";
 
 const serviceImages = {
-  lead: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=520&q=80&auto=format&fit=crop",
+  lead: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784544833/Untitled_design_12_fk6fsa.png",
   ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784544833/Untitled_design_12_fk6fsa.png",
   google:
-    "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=520&q=80&auto=format&fit=crop",
-  meta: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784544833/Untitled_design_12_fk6fsa.png",
+  meta: "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784544833/Untitled_design_12_fk6fsa.png",
   retargeting:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784544833/Untitled_design_12_fk6fsa.png",
   funnel:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784544833/Untitled_design_12_fk6fsa.png",
   analytics:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784544833/Untitled_design_12_fk6fsa.png",
   scaling:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=520&q=80&auto=format&fit=crop",
+    "https://res.cloudinary.com/dqqgpii8v/image/upload/v1784544833/Untitled_design_12_fk6fsa.png",
 };
 
 const servicesData = [
   {
     id: "lead",
-    title: "Lead Generation Campaigns",
-    desc: "We build high-converting performance marketing campaigns designed to generate qualified leads and consistent business growth. Our strategies focus on targeting the right audience, optimizing landing pages, and reducing cost per lead while maximizing ROI.",
+    title: "Product Listing Optimization",
+    desc: "Optimize Flipkart product listings with SEO-friendly titles, descriptions, keywords, and images to improve search visibility, increase clicks, and drive higher conversions across the marketplace.",
   },
   {
     id: "ecommerce",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with performance-driven campaigns focused on increasing sales and maximizing return on ad spend. We optimize product ads, implement dynamic remarketing, and continuously improve campaign performance.",
+    title: "Catalog Management",
+    desc: "Manage your Flipkart catalog with accurate product information, organized categories, updated attributes, and marketplace-compliant listings for better discoverability and sales.",
   },
   {
     id: "google",
-    title: "Google Ads Management",
-    desc: "Reach high-intent users actively searching for your services with optimized Google Ads campaigns. We focus on keyword strategy, ad copy, bidding optimization, and ROI-driven results.",
+    title: "Flipkart Ads Management",
+    desc: "Run high-performing Flipkart advertising campaigns that increase product visibility, attract qualified buyers, optimize ad spend, and maximize return on investment.",
   },
   {
     id: "meta",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience with creative and data-driven ad campaigns across Facebook and Instagram. We build funnel-based campaigns that drive awareness, engagement, and conversions.",
+    title: "Pricing & Promotion Strategy",
+    desc: "Create competitive pricing strategies, promotional offers, and discount campaigns that improve product rankings, increase conversions, and boost overall marketplace performance.",
   },
   {
     id: "retargeting",
-    title: "Retargeting Campaigns",
-    desc: "Convert lost visitors into customers using advanced retargeting strategies. We re-engage users based on behavior and improve conversion rates significantly.",
+    title: "Order & Inventory Management",
+    desc: "Efficiently manage orders, inventory, stock updates, and fulfillment processes to reduce delays, prevent stock issues, and deliver a seamless customer experience.",
   },
   {
     id: "funnel",
-    title: "Sales Funnel Optimization",
-    desc: "Improve your conversion rates by optimizing every stage of your marketing funnel. From landing pages to final conversion, we ensure a smooth and effective user journey.",
+    title: "Seller Account Optimization",
+    desc: "Improve Flipkart seller account health, ratings, policy compliance, and operational performance to strengthen brand credibility and achieve sustainable marketplace growth.",
   },
   {
     id: "analytics",
-    title: "Analytics & Tracking Setup",
-    desc: "Track every click, lead, and conversion with advanced analytics and tracking systems. We set up tools that provide actionable insights for better decision-making.",
+    title: "Analytics & Performance Reports",
+    desc: "Monitor sales, product performance, advertising metrics, and customer insights through detailed reports that support smarter business decisions and continuous optimization.",
   },
   {
     id: "scaling",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns with data-backed strategies to maximize ROI and business growth. We identify winning campaigns and continuously optimize for better performance.",
+    title: "Store Growth & Scaling",
+    desc: "Scale your Flipkart business with data-driven strategies, continuous optimization, marketplace expansion, and long-term growth initiatives that maximize revenue and profitability.",
   },
 ];
 
@@ -79,8 +79,8 @@ const FlipkartModernDigital = () => {
       <div className="auto-container">
         {/* Heading — h3 tag, style.css vars apply automatically */}
         <h3 className="ret-heading text-center mb-5">
-          Performance Marketing Services for
-          <br /> Modern Digital Businesses
+          Professional Flipkart Management
+          <br /> Services for Growing Brands
         </h3>
 
         {/* ── DESKTOP ── */}

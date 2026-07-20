@@ -13,10 +13,13 @@ import SnapdealExpertiseDetails from "../../servicespags/SnapdealManServicesComp
 import SnapdealProcessSection from "../../servicespags/SnapdealManServicesComponent/SnapdealProcessSection";
 import SnapdealModernDigital from "../../servicespags/SnapdealManServicesComponent/SnapdealModernDigital";
 import SnapdealCtaBanner from "../../servicespags/SnapdealManServicesComponent/SnapdealCtaBanner";
-import SnapdealPricingPlans from "../../servicespags/SnapdealManServicesComponent/SnapdealPricingPlans";
+// import SnapdealPricingPlans from "../../servicespags/SnapdealManServicesComponent/SnapdealPricingPlans";
 import WhyChooseBMSnapdeal from "../../servicespags/SnapdealManServicesComponent/WhyChooseBMSnapdeal";
-import SnapdealEngagementModels from "../../servicespags/SnapdealManServicesComponent/SnapdealEngagementModels";
-import SnapdealPricingSection from "../../servicespags/SnapdealManServicesComponent/SnapdealPricingSection";
+// import SnapdealEngagementModels from "../../servicespags/SnapdealManServicesComponent/SnapdealEngagementModels";
+// import SnapdealPricingSection from "../../servicespags/SnapdealManServicesComponent/SnapdealPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
+import AmazonPricingSection from "../../servicespags/AmazonManServicesComponent/AmazonPricingSection";
+import AmazonEngagementModels from "../../servicespags/AmazonManServicesComponent/AmazonEngagementModels";
 
 const THEME = "#ff6b1e";
 
@@ -98,42 +101,40 @@ const SnapdealManServices = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Scale Your Snapdeal Store for Consistent Growth
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            Improve your Snapdeal store with expert marketplace
+                            management focused on better product visibility,
+                            optimized listings, and higher sales.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            We optimize listings, pricing, promotions, and
+                            account performance to help your business attract
+                            more buyers and grow consistently.
                           </p>
 
                           {/* Stats Row */}
                           <div className="react-stats-row">
                             <div className="react-stat-item">
-                              <span className="react-stat-num">5x</span>
+                              <span className="react-stat-num">4x</span>
                               <span className="react-stat-label">
-                                ROI Growth
+                                Sales Growth
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">90%</span>
+                              <span className="react-stat-num">95%</span>
                               <span className="react-stat-label">
-                                Campaign Optimization
+                                Listing Quality
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">300+</span>
+                              <span className="react-stat-num">250+</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                Listing Quality
                               </span>
                             </div>
                           </div>
@@ -141,7 +142,7 @@ const SnapdealManServices = () => {
                           {/* Feature Tag */}
                           <div className="react-feature-tag">
                             <i className="fas fa-bullhorn spin-icon"></i>
-                            <span>High Performance Guaranteed</span>
+                            <span>Start Growing on Snapdeal</span>
                           </div>
                         </div>
                       </div>
@@ -151,7 +152,7 @@ const SnapdealManServices = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://res.cloudinary.com/dqqgpii8v/image/upload/v1784553147/Untitled_design_16_t92l1h.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -167,7 +168,7 @@ const SnapdealManServices = () => {
                                 className="fas fa-expand-arrows-alt"
                                 style={{ marginRight: "5px" }}
                               />
-                              Scalable
+                              GROWTH
                             </div>
                           </div>
 
@@ -394,31 +395,36 @@ const SnapdealManServices = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    Why Choose Snapdeal Management?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Snapdeal Management helps improve your product visibility,
+                    store performance, and sales through optimized listings,
+                    pricing, promotions, and marketplace strategies.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    Our experts manage every aspect of your Snapdeal store to
+                    increase product rankings, attract more buyers, and drive
+                    consistent business growth.
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-eye",
+                        label: "Higher Product Visibility",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-ranking-star",
+                        label: "Better Store Rankings",
+                      },
+                      {
+                        icon: "fas fa-cart-shopping",
+                        label: "More Orders & Sales",
+                      },
+                      {
+                        icon: "fas fa-chart-line",
+                        label: "Data-Driven Growth",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -499,8 +505,9 @@ const SnapdealManServices = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    In simple terms — we optimize your Snapdeal store to improve
+                    visibility, increase sales, and support long-term
+                    marketplace growth.
                   </p>
 
                   {/* SLIDER */}
@@ -553,12 +560,18 @@ const SnapdealManServices = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Scale Your Snapdeal Store for Long-Term Growth
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
-                              Let's Discuss Your Project{" "}
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
+                              Start Your Snapdeal Growth →{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
@@ -571,11 +584,12 @@ const SnapdealManServices = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with Snapdeal Management
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      We manage your Snapdeal store with proven strategies that
+                      improve visibility, increase sales, and support long-term
+                      marketplace growth.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -609,8 +623,8 @@ const SnapdealManServices = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            label: "Product Listing Optimization",
+                            desc: "Product Listing Optimization",
                           },
 
                           {
@@ -629,8 +643,8 @@ const SnapdealManServices = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            label: "Catalog Management",
+                            desc: "Well-structured and updated product catalogs.",
                           },
 
                           {
@@ -648,8 +662,8 @@ const SnapdealManServices = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            label: "Pricing & Promotions",
+                            desc: "Competitive pricing with smart promotional plans.",
                           },
 
                           {
@@ -668,8 +682,8 @@ const SnapdealManServices = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "Order Management",
+                            desc: "Smooth order processing and fulfillment support.",
                           },
 
                           {
@@ -689,8 +703,8 @@ const SnapdealManServices = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Store Performance",
+                            desc: "Continuous optimization for better store growth.",
                           },
 
                           {
@@ -708,8 +722,8 @@ const SnapdealManServices = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            label: "Sales & Analytics",
+                            desc: "Track insights and improve business decisions.",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -760,9 +774,9 @@ const SnapdealManServices = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <SnapdealPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMSnapdeal />
@@ -770,11 +784,15 @@ const SnapdealManServices = () => {
 
                   <div className="engagement-section">
                     {/* <EngagementModels /> */}
-                    <SnapdealEngagementModels />
+                    {/* <SnapdealEngagementModels /> */}
+                    {/* <AmazonEngagementModels /> */}
+                    <AmazonEngagementModels />
                   </div>
 
                   <div className="pricing-final-section">
-                    <SnapdealPricingSection />
+                    {/* <SnapdealPricingSection /> */}
+                    {/* <AmazonPricingSection /> */}
+                    <AmazonPricingSection />
                   </div>
 
                   {/* FAQ */}
@@ -783,24 +801,24 @@ const SnapdealManServices = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is Snapdeal Management?",
+                          a: "Snapdeal Management is the process of optimizing your seller account, product listings, pricing, inventory, and promotions to improve visibility, increase sales, and grow your business on Snapdeal.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "How can Snapdeal Management grow my sales?",
+                          a: "Professional Snapdeal management improves product rankings, optimizes listings, manages promotions, and enhances store performance to attract more buyers and boost conversions.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "What services are included in Snapdeal Management?",
+                          a: "Our services include product listing optimization, catalog management, pricing strategy, inventory management, Snapdeal Ads, order management, and performance reporting.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How much does Snapdeal Management cost?",
+                          a: "The cost depends on your product catalog, business goals, and required services. We offer flexible plans tailored to startups, growing brands, and established sellers.",
                         },
                         {
                           q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          a: "Most sellers notice improvements in product visibility and sales within a few weeks, while long-term growth comes through continuous optimization and marketplace management.",
                         },
                       ].map((item, index) => (
                         <li

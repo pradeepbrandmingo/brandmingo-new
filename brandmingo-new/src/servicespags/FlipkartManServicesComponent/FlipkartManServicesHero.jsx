@@ -343,11 +343,8 @@ const FlipkartManServicesHero = () => {
           {/* BLOCK 3 — desc + buttons + badges */}
           <div className="rdh-bottom-block">
             <p className="rdh-desc">
-              Scale your Flipkart store with performance-driven management
-              strategies focused on visibility and sales. We don’t just manage
-              listings — we optimize products, ads, and account performance to
-              improve rankings, increase conversions, and grow your revenue
-              consistently.
+              Grow your Flipkart store with expert management that improves
+              visibility, boosts sales, and drives consistent business growth.
             </p>
             <div className="rdh-btn-row">
               <a href="#contact" className="rdh-btn-primary">

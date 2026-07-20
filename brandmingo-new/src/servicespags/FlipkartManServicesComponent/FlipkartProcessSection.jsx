@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { openEnquiryPopup } from "../../utils/popup";
 
 /* ─────────────────────────────────────────────────────────
    PATH: starts bottom-left, rises very gently so the 5
@@ -13,32 +14,32 @@ const steps = [
   {
     num: "01",
     icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understanding your business, target audience, and goals before running any campaign.",
+    title: "Store & Business Analysis",
+    desc: "Analyze your store, products, and growth opportunities.",
   },
   {
     num: "02",
     icon: "fa-solid fa-table-columns",
-    title: "Strategy & Funnel Planning",
-    desc: "Creating a clear marketing strategy and conversion funnel tailored to your business.",
+    title: "Strategy & Catalog Planning",
+    desc: "Build a roadmap for listings, pricing, and visibility.",
   },
   {
     num: "03",
     icon: "fa-solid fa-code",
-    title: "Campaign Setup & Execution",
-    desc: "Launching high-performing ads with proper targeting, creatives, and tracking systems.",
+    title: "Listing & Campaign Execution",
+    desc: "Optimize listings and launch high-performing campaigns.",
   },
   {
     num: "04",
     icon: "fa-solid fa-shield-halved",
-    title: "Optimization & Testing",
-    desc: "Continuously improving campaigns using data, A/B testing, and performance insights.",
+    title: "Performance Optimization",
+    desc: "Improve rankings, conversions, and overall sales.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scaling winning campaigns to maximize ROI and drive consistent business growth.",
+    title: "Scaling & Business Growth",
+    desc: "Scale winning products for long-term marketplace growth.",
   },
 ];
 
@@ -162,15 +163,23 @@ export default function FlipkartProcessSection() {
             Our Process
           </div>
           <h2 className="ps-heading">
-            We follow a proven
+            Our Proven
             <br />
-            performance <span className="ora">marketing process</span>
+            Flipkart Store <span className="ora">Management Process</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to create campaigns
-            that generate leads, sales, and measurable ROI for your business.
+            We follow a structured marketplace management process to optimize
+            your Flipkart store, improve product visibility, increase
+            conversions, and drive sustainable business growth.
           </p>
-          <a href="#contact" className="ps-btn">
+          <a
+            href="/"
+            className="ps-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Start Your Growth <span>→</span>
           </a>
         </div>

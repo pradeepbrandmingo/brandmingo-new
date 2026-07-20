@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const FlipkartCtaBanner = () => {
   return (
@@ -298,25 +300,32 @@ const FlipkartCtaBanner = () => {
               <span className="cta-eyebrow">MarketingCtaBanner</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Grow Your
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Flipkart Store with Expert Management?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                Grow your Flipkart business with optimized listings, better
+                visibility, higher conversions, and marketplace strategies that
+                drive consistent sales growth.
               </p>
 
               <div className="cta-btn-wrap">
-                <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                <a
+                  href="/"
+                  className="cta-main-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
+                  Start Your Flipkart Growth
                   <i className="fas fa-arrow-right" />
                 </a>
-                <a href="#portfolio" className="cta-link">
+                <Link to="/portfolio" className="cta-link">
                   View Our Results <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
 

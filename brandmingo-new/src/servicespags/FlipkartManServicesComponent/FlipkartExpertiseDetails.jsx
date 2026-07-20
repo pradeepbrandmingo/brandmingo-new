@@ -2,95 +2,94 @@ import React, { useState } from "react";
 
 const servicesData = [
   {
-    id: "Lead Generation Campaigns",
-    title: "Lead Generation Campaigns",
-    desc: "We create high-converting campaigns focused on generating qualified leads that drive real business growth.",
+    id: "lead",
+    title: "Product Listing Optimization",
+    desc: "Optimize your Flipkart product listings with SEO-friendly titles, descriptions, keywords, and images to improve visibility, rankings, and conversions.",
     points: [
-      "Target high-intent audiences for better lead quality",
-      "Optimize landing pages for maximum conversions",
-      "Reduce cost per lead with smart bidding strategies",
-      "Generate consistent and scalable lead flow",
-    ],
-  },
-  {
-    id: "legacy",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with performance-driven ad campaigns designed to increase sales and ROI.",
-    points: [
-      "Run product-focused campaigns for higher conversions",
-      "Implement dynamic remarketing strategies",
-      "Optimize product feeds and ad creatives",
-      "Drive consistent revenue growth through paid ads",
-    ],
-  },
-  {
-    id: "pwa",
-    title: "Google Ads Management",
-    desc: "Reach customers actively searching for your services with highly optimized Google Ads campaigns.",
-    points: [
-      "Advanced keyword research and targeting strategy",
-      "High-converting ad copy and extensions",
-      "Smart bidding and budget optimization",
-      "Focus on ROI-driven campaign performance",
-    ],
-  },
-  {
-    id: "api",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience and generate leads through powerful Meta advertising strategies.",
-    points: [
-      "Detailed audience segmentation and targeting",
-      "Creative ad design and compelling messaging",
-      "Full-funnel campaign strategy implementation",
-      "Retargeting to improve conversion rates",
+      "SEO-optimized product titles",
+      "High-converting product descriptions",
+      "Keyword-rich catalog optimization",
+      "Better visibility and organic rankings",
     ],
   },
   {
     id: "ecommerce",
-    title: "Retargeting & Remarketing",
-    desc: "Re-engage users who showed interest but didn’t convert and turn them into paying customers.",
+    title: "Catalog Management",
+    desc: "Maintain an accurate and organized Flipkart catalog with optimized product information, categories, and inventory for seamless store performance.",
     points: [
-      "Pixel-based tracking for accurate audience data",
-      "Multi-platform retargeting campaigns",
-      "Behavior-based ad strategies",
-      "Increase conversions and reduce drop-offs",
+      "Complete catalog management",
+      "Category & attribute optimization",
+      "Inventory synchronization",
+      "Error-free product uploads",
     ],
   },
   {
-    id: "spa",
-    title: "Sales Funnel Optimization",
-    desc: "Optimize every stage of your funnel to improve conversion rates and maximize ROI.",
+    id: "google",
+    title: "Flipkart Ads Management",
+    desc: "Run performance-driven Flipkart advertising campaigns that increase product visibility, generate quality traffic, and maximize sales.",
     points: [
-      "Landing page optimization for better performance",
-      "A/B testing for continuous improvement",
-      "User journey and behavior analysis",
-      "Reduce bounce rates and increase conversions",
+      "Sponsored product campaigns",
+      "Optimized advertising strategy",
+      "Budget & bid optimization",
+      "Higher sales through paid ads",
     ],
   },
   {
-    id: "migration",
-    title: "Analytics & Tracking Setup",
-    desc: "Set up advanced tracking systems to measure performance and make data-driven decisions.",
+    id: "meta",
+    title: "Pricing & Promotion Strategy",
+    desc: "Implement smart pricing, discount planning, and promotional campaigns to improve conversions while maintaining healthy profit margins.",
     points: [
-      "Google Analytics and Tag Manager setup",
-      "Conversion and event tracking implementation",
-      "Accurate performance reporting",
-      "Actionable insights for campaign improvement",
+      "Competitive pricing analysis",
+      "Offer & promotion planning",
+      "Seasonal campaign support",
+      "Improved conversion rates",
     ],
   },
   {
-    id: "payment",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns efficiently with data-backed strategies and continuous optimization.",
+    id: "retargeting",
+    title: "Order & Inventory Management",
+    desc: "Ensure smooth order processing and inventory management to improve customer satisfaction and maintain seller account performance.",
     points: [
-      "Budget scaling based on performance data",
-      "Creative testing and iteration",
-      "Identify winning campaigns and scale them",
-      "Maximize ROI with continuous optimization",
+      "Real-time inventory updates",
+      "Order management support",
+      "Stock availability monitoring",
+      "Reduced order cancellations",
+    ],
+  },
+  {
+    id: "funnel",
+    title: "Seller Account Optimization",
+    desc: "Strengthen your Flipkart seller account with continuous monitoring, policy compliance, and performance improvements for long-term growth.",
+    points: [
+      "Seller performance tracking",
+      "Account health monitoring",
+      "Policy compliance support",
+      "Improved seller ratings",
+    ],
+  },
+  {
+    id: "analytics",
+    title: "Analytics & Performance Reports",
+    desc: "Track sales, customer behavior, and marketplace performance with detailed reports that support better business decisions.",
+    points: [
+      "Sales performance reports",
+      "Customer behavior insights",
+      "Product performance analysis",
+      "Actionable business data",
+    ],
+  },
+  {
+    id: "scaling",
+    title: "Store Growth & Scaling",
+    desc: "Scale your Flipkart business with continuous optimization, strategic planning, and marketplace growth initiatives focused on long-term success.",
+    points: [
+      "Marketplace growth strategy",
+      "Continuous store optimization",
+      "Sales scaling roadmap",
+      "Long-term business growth",
     ],
   },
 ];
-
 const FlipkartExpertiseDetails = () => {
   const [activeTab, setActiveTab] = useState(servicesData[0]);
   const [openAccordion, setOpenAccordion] = useState(servicesData[0].id);
@@ -104,7 +103,7 @@ const FlipkartExpertiseDetails = () => {
       <div className="react-expertise-section">
         <div className="auto-container">
           <h3 className="mb-5 text-center section-main-h3">
-            Our Performance Marketing Expertise
+            Flipkart Marketplace Management Expertise
           </h3>
 
           {/* ── DESKTOP: same as before ── */}

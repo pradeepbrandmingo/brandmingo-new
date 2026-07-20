@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const SnapdealCtaBanner = () => {
   return (
@@ -295,28 +297,35 @@ const SnapdealCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">PREMIUM SNAPDEAL SOLUTION</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Grow Your
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Snapdeal Store with Expert Management?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                From product listing optimization to store growth, Brandmingo
+                helps you increase visibility, drive more orders, and scale your
+                Snapdeal business with expert marketplace management.
               </p>
 
               <div className="cta-btn-wrap">
-                <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                <a
+                  href="/"
+                  className="cta-main-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
+                  Start Your Snapdeal Growth
                   <i className="fas fa-arrow-right" />
                 </a>
-                <a href="#portfolio" className="cta-link">
-                  View Our Results <i className="fas fa-arrow-right" />
-                </a>
+                <Link to="/portfolio" className="cta-link">
+                  See Our Results <i className="fas fa-arrow-right" />
+                </Link>
               </div>
             </div>
 
@@ -327,8 +336,8 @@ const SnapdealCtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">300+</span>
-                  <span className="lbl">Campaigns Managed</span>
+                  <span className="val">500+</span>
+                  <span className="lbl">Products Optimized</span>
                 </div>
               </div>
 
@@ -337,8 +346,8 @@ const SnapdealCtaBanner = () => {
                   <i className="fas fa-check-circle" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">90%</span>
-                  <span className="lbl">Client Retention</span>
+                  <span className="val">95%</span>
+                  <span className="lbl">Store Accuracy</span>
                 </div>
               </div>
 
@@ -348,7 +357,7 @@ const SnapdealCtaBanner = () => {
                 </div>
                 <div className="badge-info">
                   <span className="val">24×7</span>
-                  <span className="lbl">Performance Monitoring</span>
+                  <span className="lbl">Marketplace Support</span>
                 </div>
               </div>
             </div>

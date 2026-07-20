@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { openEnquiryPopup } from "../../utils/popup";
 
 /* ─────────────────────────────────────────────────────────
    PATH: starts bottom-left, rises very gently so the 5
@@ -13,32 +14,32 @@ const steps = [
   {
     num: "01",
     icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understanding your business, target audience, and goals before running any campaign.",
+    title: "Store & Account Audit",
+    desc: "Review your store, listings, and account performance.",
   },
   {
     num: "02",
     icon: "fa-solid fa-table-columns",
-    title: "Strategy & Funnel Planning",
-    desc: "Creating a clear marketing strategy and conversion funnel tailored to your business.",
+    title: "Strategy & Planning",
+    desc: "Build a growth plan based on your business goals.",
   },
   {
     num: "03",
     icon: "fa-solid fa-code",
-    title: "Campaign Setup & Execution",
-    desc: "Launching high-performing ads with proper targeting, creatives, and tracking systems.",
+    title: "Listing Optimization",
+    desc: "Optimize listings with SEO, content, and images.",
   },
   {
     num: "04",
     icon: "fa-solid fa-shield-halved",
-    title: "Optimization & Testing",
-    desc: "Continuously improving campaigns using data, A/B testing, and performance insights.",
+    title: "Performance Monitoring",
+    desc: "Track rankings, sales, and optimize continuously.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scaling winning campaigns to maximize ROI and drive consistent business growth.",
+    title: "Scale Sales & Growth",
+    desc: "Expand visibility and grow revenue consistently.",
   },
 ];
 
@@ -164,14 +165,21 @@ export default function AmazonProcessSection() {
           <h2 className="ps-heading">
             We follow a proven
             <br />
-            performance <span className="ora">marketing process</span>
+            Amazon <span className="ora">management process</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to create campaigns
-            that generate leads, sales, and measurable ROI for your business.
+            We use a structured approach to optimize your Amazon store, improve
+            product visibility, and increase long-term sales.
           </p>
-          <a href="#contact" className="ps-btn">
-            Start Your Growth <span>→</span>
+          <a
+            href="/"
+            className="ps-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
+            Start Your Amazon Growth <span>→</span>
           </a>
         </div>
 

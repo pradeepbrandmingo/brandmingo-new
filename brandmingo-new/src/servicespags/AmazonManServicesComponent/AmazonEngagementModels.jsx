@@ -1,56 +1,57 @@
 import React, { useState } from "react";
 // import "./engagement-models.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const engagementData = [
   {
     id: "dedicated",
-    icon: "fas fa-bullseye",
-    title: "Dedicated Marketing Team",
-    desc: "A fully committed performance marketing team working exclusively on your campaigns to drive consistent growth and ROI.",
+    icon: "fas fa-users",
+    title: "Dedicated Ecommerce Team",
+    desc: "A dedicated team manages your ecommerce store, improves product visibility, boosts marketplace sales, and supports long-term business growth.",
     points: [
-      "Continuous campaign performance optimization",
-      "Dedicated account manager for support",
-      "Scalable campaign growth and management",
-      "Focused strategy for long-term results",
+      "Dedicated account specialists",
+      "Complete store management",
+      "Weekly performance reviews",
+      "Long-term growth planning",
     ],
     tag: "Most Popular",
   },
   {
-    id: "time",
+    id: "performance",
     icon: "fas fa-chart-line",
-    title: "Time & Performance Based",
-    desc: "Pay based on actual campaign performance with complete flexibility to scale and optimize as your business grows.",
+    title: "Performance-Based Model",
+    desc: "A performance-focused model improves marketplace visibility, increases product sales, delivers measurable results, and supports business growth.",
     points: [
-      "Pay based on measurable campaign results",
-      "Flexible scaling as performance improves",
-      "Agile execution with quick adjustments",
-      "Decisions driven by real-time data insights",
+      "Performance-driven strategy",
+      "Flexible optimization plans",
+      "Data-driven improvements",
+      "Scalable business growth",
     ],
     tag: null,
   },
   {
-    id: "fixed",
-    icon: "fas fa-coins",
-    title: "Fixed Monthly Retainer",
-    desc: "A predictable monthly model for managing and optimizing your performance marketing campaigns with consistent results.",
+    id: "retainer",
+    icon: "fas fa-calendar-check",
+    title: "Monthly Management Plan",
+    desc: "A fixed monthly management plan includes continuous optimization, detailed reporting, complete account support, and consistent marketplace business growth.",
     points: [
-      "Fixed monthly pricing with no surprises",
-      "Consistent campaign tracking and monitoring",
-      "Detailed reports with actionable insights",
-      "Ongoing optimization for better performance",
+      "Fixed monthly pricing",
+      "Complete account management",
+      "Transparent reporting",
+      "Continuous optimization",
     ],
     tag: null,
   },
   {
     id: "hybrid",
-    icon: "fas fa-layer-group",
+    icon: "fas fa-arrows-rotate",
     title: "Hybrid Growth Model",
-    desc: "A balanced approach combining fixed management with performance-based incentives for maximum ROI and scalability.",
+    desc: "A hybrid model combines expert management with growth strategies to improve marketplace performance and increase long-term business success.",
     points: [
-      "Combination of fixed and performance pricing",
-      "Flexible strategy based on campaign needs",
-      "Scalable model for consistent business growth",
-      "Focused approach for maximum ROI outcomes",
+      "Flexible engagement model",
+      "Custom growth strategy",
+      "Scalable marketplace support",
+      "Maximum business growth",
     ],
     tag: null,
   },
@@ -72,8 +73,9 @@ const AmazonEngagementModels = () => {
             Engagement Models
           </h3>
           <p className="eng-subtitle">
-            We offer flexible marketing engagement models designed to align with
-            your business goals, budget, and growth strategy.
+            Choose a flexible ecommerce management model designed to match your
+            business goals, marketplace requirements, and long-term growth
+            strategy.
           </p>
         </div>
 
@@ -109,10 +111,18 @@ const AmazonEngagementModels = () => {
         {/* ── CTA ── */}
         <div className="eng-cta-wrap">
           <p className="eng-cta-note">
-            Not sure which model suits you? Let's talk and find the perfect fit.
+            Find the right ecommerce management model to increase visibility,
+            improve sales, and achieve long-term marketplace growth.
           </p>
-          <a href="#contact" className="eng-cta-btn">
-            Request a Free Quote
+          <a
+            href="/"
+            className="eng-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
+            Start Your Growth Journey
             <i className="fas fa-arrow-right" />
           </a>
         </div>

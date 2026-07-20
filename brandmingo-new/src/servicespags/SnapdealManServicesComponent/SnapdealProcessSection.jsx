@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { openEnquiryPopup } from "../../utils/popup";
 
 /* ─────────────────────────────────────────────────────────
    PATH: starts bottom-left, rises very gently so the 5
@@ -13,32 +14,32 @@ const steps = [
   {
     num: "01",
     icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understanding your business, target audience, and goals before running any campaign.",
+    title: "Store Analysis",
+    desc: "Review your store and products.",
   },
   {
     num: "02",
     icon: "fa-solid fa-table-columns",
-    title: "Strategy & Funnel Planning",
-    desc: "Creating a clear marketing strategy and conversion funnel tailored to your business.",
+    title: "Listing Optimization",
+    desc: "Improve titles, images, and SEO.",
   },
   {
     num: "03",
     icon: "fa-solid fa-code",
-    title: "Campaign Setup & Execution",
-    desc: "Launching high-performing ads with proper targeting, creatives, and tracking systems.",
+    title: "Catalog Setup",
+    desc: "Organize products and categories.",
   },
   {
     num: "04",
     icon: "fa-solid fa-shield-halved",
-    title: "Optimization & Testing",
-    desc: "Continuously improving campaigns using data, A/B testing, and performance insights.",
+    title: "Performance Monitoring",
+    desc: "Track sales and optimize regularly.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scaling winning campaigns to maximize ROI and drive consistent business growth.",
+    title: "Scale Your Store",
+    desc: "Increase sales and business growth.",
   },
 ];
 
@@ -164,14 +165,22 @@ export default function SnapdealProcessSection() {
           <h2 className="ps-heading">
             We follow a proven
             <br />
-            performance <span className="ora">marketing process</span>
+            OUR PROCESS <span className="ora">proven Snapdeal</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to create campaigns
-            that generate leads, sales, and measurable ROI for your business.
+            Our structured approach helps optimize your Snapdeal store, improve
+            product visibility, increase sales, and achieve long-term
+            marketplace growth.
           </p>
-          <a href="#contact" className="ps-btn">
-            Start Your Growth <span>→</span>
+          <a
+            href="/"
+            className="ps-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
+            Start Your Snapdeal Growth <span>→</span>
           </a>
         </div>
 
