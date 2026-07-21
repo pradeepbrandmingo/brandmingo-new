@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import { Link } from "react-router-dom";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const PerformanceMarketingSVG = () => (
   <svg
@@ -347,14 +349,21 @@ const MobileAppHero = () => {
               growth
             </p>
             <div className="rdh-btn-row">
-              <a href="#contact" className="rdh-btn-primary">
+              <a
+                href="/"
+                className="rdh-btn-primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  openEnquiryPopup();
+                }}
+              >
                 Design Your App
                 <i className="fas fa-arrow-right" />
               </a>
-              <a href="#work" className="rdh-btn-ghost">
+              <Link to="/portfolio" className="rdh-btn-ghost">
                 <i className="fas fa-play" />
                 View Our Work
-              </a>
+              </Link>
             </div>
 
             <div className="rdh-badges">

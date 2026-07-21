@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./pricing-section.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const pricingFactors = [
   { icon: "fas fa-lightbulb", label: "Product Scope & Complexity" },
@@ -98,7 +99,14 @@ const ProductDesignPricingSection = () => {
             estimate tailored to your product vision and business goals.
           </p>
 
-          <a href="#contact" className="prc-cta-btn">
+          <a
+            href="/"
+            className="prc-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Get a Free Quote
             <i className="fas fa-arrow-right" />
           </a>

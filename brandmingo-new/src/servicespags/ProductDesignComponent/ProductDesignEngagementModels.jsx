@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./engagement-models.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const engagementData = [
   {
@@ -69,7 +70,7 @@ const ProductDesignEngagementModels = () => {
           <h3 className="eng-title">
             Our Product Design Engagement
             <br />
-             Models
+            Models
           </h3>
           <p className="eng-subtitle">
             Choose a flexible product design engagement model that fits your
@@ -113,7 +114,14 @@ const ProductDesignEngagementModels = () => {
           <p className="eng-cta-note">
             Not sure which model suits you? Let's talk and find the perfect fit.
           </p>
-          <a href="#contact" className="eng-cta-btn">
+          <a
+            href="/"
+            className="eng-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Request a Free Quote
             <i className="fas fa-arrow-right" />
           </a>

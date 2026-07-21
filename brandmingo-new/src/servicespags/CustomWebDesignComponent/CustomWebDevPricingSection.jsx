@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./pricing-section.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const pricingFactors = [
   { icon: "fas fa-pencil-ruler", label: "Website Type & Requirements" },
@@ -102,7 +103,14 @@ const CustomWebDevPricingSection = () => {
             on your business requirements.
           </p>
 
-          <a href="#contact" className="prc-cta-btn">
+          <a
+            href="/"
+            className="prc-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Request a Free Quote
             <i className="fas fa-arrow-right" />
           </a>

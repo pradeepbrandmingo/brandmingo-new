@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./pricing-section.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const pricingFactors = [
   { icon: "fas fa-lightbulb", label: "Brand Strategy Requirements" },
@@ -45,7 +46,7 @@ const IdentityBrandPricingSection = () => {
           <h3 className="prc-title">
             Brand Identity Design Pricing
             <br />
-             and Cost Estimation
+            and Cost Estimation
           </h3>
 
           <p className="prc-subtitle">
@@ -99,7 +100,14 @@ const IdentityBrandPricingSection = () => {
             transparency and no hidden costs.
           </p>
 
-          <a href="#contact" className="prc-cta-btn">
+          <a
+            href="/"
+            className="prc-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Get a Free Quote
             <i className="fas fa-arrow-right" />
           </a>

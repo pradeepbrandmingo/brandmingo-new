@@ -18,6 +18,8 @@ import WhyChooseBMCustomWebDev from "../../servicespags/CustomWebDesignComponent
 import CustomWebDevEngagementModels from "../../servicespags/CustomWebDesignComponent/CustomWebDevEngagementModels";
 import CustomWebDevPricingSection from "../../servicespags/CustomWebDesignComponent/CustomWebDevPricingSection";
 import Reactslider from "../../components/PortfolioSlider/Reactslider";
+import { openEnquiryPopup } from "../../utils/popup";
+
 
 const THEME = "#ff6b1e";
 
@@ -589,7 +591,14 @@ const CustomWebDesign = () => {
                               Customers
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let's Discuss Your Project{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
@@ -815,28 +824,26 @@ const CustomWebDesign = () => {
                     <h3 className="mb-3">Frequently Asked Question</h3>
                     <ul className="accordion-box mt-40">
                       {[
-                        
-                          {
-                            q: "What is custom web design?",
-                            a: "Custom web design is the process of creating a unique website tailored specifically to your business, brand identity, and customer needs. Unlike template-based websites, every design element is built to deliver a personalized user experience.",
-                          },
-                          {
-                            q: "Why should I choose a custom website over a template?",
-                            a: "A custom website offers greater flexibility, better performance, improved branding, enhanced user experience, and scalability. It is designed specifically for your business goals instead of using a one-size-fits-all template.",
-                          },
-                          {
-                            q: "Will my website be mobile-friendly?",
-                            a: "Yes. Every website we design is fully responsive and optimized to provide a seamless experience across desktops, tablets, and mobile devices.",
-                          },
-                          {
-                            q: "How much does a custom web design project cost?",
-                            a: "The cost depends on your project requirements, design complexity, features, functionality, and timeline. We provide transparent pricing with a customized quote based on your business needs.",
-                          },
-                          {
-                            q: "How long does it take to design a custom website?",
-                            a: "The timeline depends on the project's size and complexity. Most custom websites are completed within 2–6 weeks, while larger or feature-rich websites may require additional time.",
-                          },
-                      
+                        {
+                          q: "What is custom web design?",
+                          a: "Custom web design is the process of creating a unique website tailored specifically to your business, brand identity, and customer needs. Unlike template-based websites, every design element is built to deliver a personalized user experience.",
+                        },
+                        {
+                          q: "Why should I choose a custom website over a template?",
+                          a: "A custom website offers greater flexibility, better performance, improved branding, enhanced user experience, and scalability. It is designed specifically for your business goals instead of using a one-size-fits-all template.",
+                        },
+                        {
+                          q: "Will my website be mobile-friendly?",
+                          a: "Yes. Every website we design is fully responsive and optimized to provide a seamless experience across desktops, tablets, and mobile devices.",
+                        },
+                        {
+                          q: "How much does a custom web design project cost?",
+                          a: "The cost depends on your project requirements, design complexity, features, functionality, and timeline. We provide transparent pricing with a customized quote based on your business needs.",
+                        },
+                        {
+                          q: "How long does it take to design a custom website?",
+                          a: "The timeline depends on the project's size and complexity. Most custom websites are completed within 2–6 weeks, while larger or feature-rich websites may require additional time.",
+                        },
                       ].map((item, index) => (
                         <li
                           key={index}

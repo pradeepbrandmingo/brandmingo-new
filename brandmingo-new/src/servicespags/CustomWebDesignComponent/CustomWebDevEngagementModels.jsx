@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./engagement-models.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const engagementData = [
   {
@@ -115,7 +116,14 @@ const CustomWebDevEngagementModels = () => {
             create the perfect web solution for your business.
           </p>
 
-          <a href="#contact" className="eng-cta-btn">
+          <a
+            href=""
+            className="eng-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Start Your Project
             <i className="fas fa-arrow-right" />
           </a>

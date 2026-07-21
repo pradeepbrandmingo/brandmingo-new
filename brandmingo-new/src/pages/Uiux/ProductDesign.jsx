@@ -17,6 +17,7 @@ import ProductDesignCtaBanner from "../../servicespags/ProductDesignComponent/Pr
 import ProductDesignPricingPlans from "../../servicespags/ProductDesignComponent/ProductDesignPricingPlans";
 import WhyChooseBMProductDesign from "../../servicespags/ProductDesignComponent/WhyChooseBMProductDesign";
 import ProductDesignEngagementModels from "../../servicespags/ProductDesignComponent/ProductDesignEngagementModels";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -569,7 +570,14 @@ const ProductDesign = () => {
                               Design
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let's Discuss Your Product{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>

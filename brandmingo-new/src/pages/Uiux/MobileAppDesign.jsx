@@ -17,6 +17,7 @@ import MobileAppPricingPlans from "../../servicespags/MobileAppDesignComponent/M
 import WhyChooseBMMobileApp from "../../servicespags/MobileAppDesignComponent/WhyChooseBMMobileApp";
 import MobileAppEngagementModels from "../../servicespags/MobileAppDesignComponent/MobileAppEngagementModels";
 import MobileAppPricingSection from "../../servicespags/MobileAppDesignComponent/MobileAppPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -566,7 +567,14 @@ const MobileAppDesign = () => {
                               Transform Your Idea into a Powerful Mobile App
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let's Discuss Your Project{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
