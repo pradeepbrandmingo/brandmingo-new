@@ -1,5 +1,6 @@
 import React from "react";
-
+import { openEnquiryPopup } from "../../utils/popup";
+import { Link } from "react-router-dom";
 const GrowthCtaBanner = () => {
   return (
     <>
@@ -308,13 +309,20 @@ const GrowthCtaBanner = () => {
                 community, and drive sustainable business growth.
               </p>
               <div className="cta-btn-wrap">
-                <a href="#contact" className="cta-main-btn">
+                <a
+                  href="/"
+                  className="cta-main-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
                   Start Growing Today
                   <i className="fas fa-arrow-right" />
                 </a>
-                <a href="#portfolio" className="cta-link">
+                <Link to="/portfolio" className="cta-link">
                   View Our Strategy <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
 

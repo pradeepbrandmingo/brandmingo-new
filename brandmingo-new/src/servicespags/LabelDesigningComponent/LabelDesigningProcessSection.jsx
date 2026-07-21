@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { openEnquiryPopup } from "../../utils/popup";
 
 /* ─────────────────────────────────────────────────────────
    PATH: starts bottom-left, rises very gently so the 5
@@ -171,7 +172,14 @@ export default function LabelDesigningProcessSection() {
             product labels that reflect your brand identity, attract customers,
             and are ready for professional printing.
           </p>
-          <a href="#contact" className="ps-btn">
+          <a
+            href="/"
+            className="ps-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Start Your Campaign <span>→</span>
           </a>
         </div>

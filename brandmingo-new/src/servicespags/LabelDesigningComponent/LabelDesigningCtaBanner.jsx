@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+import { openEnquiryPopup } from "../../utils/popup";
 
 const LabelDesigningCtaBanner = () => {
   return (
@@ -310,13 +313,21 @@ const LabelDesigningCtaBanner = () => {
               </p>
 
               <div className="cta-btn-wrap">
-                <a href="#contact" className="cta-main-btn">
-                  Start Your Label Design 
+                <a
+                  href="/"
+                  className="cta-main-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
+                  Start Your Label Design
                   <i className="fas fa-arrow-right" />
                 </a>
-                <a href="#portfolio" className="cta-link">
-                  View Our Portfolio<i className="fas fa-arrow-right" />
-                </a>
+                <Link to="/portfolio" className="cta-link">
+                  View Our Portfolio
+                  <i className="fas fa-arrow-right" />
+                </Link>
               </div>
             </div>
 

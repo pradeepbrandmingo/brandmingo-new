@@ -18,6 +18,7 @@ import WhyChooseLabelDesigning from "../../servicespags/LabelDesigningComponent/
 import LabelDesigningEngagementModels from "../../servicespags/LabelDesigningComponent/LabelDesigningEngagementModels";
 import LabelDesigningPricingSection from "../../servicespags/LabelDesigningComponent/LabelDesigningPricingSection";
 import LabelSlider from "../../components/PortfolioSlider/LabelSlider";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -564,7 +565,14 @@ const LabelDesigning = () => {
                               Label Design?
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Start Your Label Design{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>

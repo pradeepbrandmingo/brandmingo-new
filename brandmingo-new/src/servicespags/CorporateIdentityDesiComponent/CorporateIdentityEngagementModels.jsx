@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./engagement-models.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const engagementData = [
   {
@@ -115,7 +116,14 @@ const CorporateIdentityEngagementModels = () => {
             discuss your branding goals and find the perfect solution.
           </p>
 
-          <a href="#contact" className="eng-cta-btn">
+          <a
+            href="/"
+            className="eng-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Request a Free Consultation
             <i className="fas fa-arrow-right" />
           </a>

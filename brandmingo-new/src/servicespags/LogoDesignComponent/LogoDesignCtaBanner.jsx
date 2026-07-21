@@ -1,4 +1,6 @@
 import React from "react";
+import { openEnquiryPopup } from "../../utils/popup";
+import { Link } from "react-router-dom";
 
 const LogoDesignCtaBanner = () => {
   return (
@@ -298,7 +300,7 @@ const LogoDesignCtaBanner = () => {
               <span className="cta-eyebrow">LOGO DESIGN SERVICES</span>
 
               <h3 className="cta-heading">
-                Ready to Build a 
+                Ready to Build a
                 <br className="d-none d-lg-block" />
                 Memorable Brand with a Custom Logo?
               </h3>
@@ -311,13 +313,20 @@ const LogoDesignCtaBanner = () => {
               </p>
 
               <div className="cta-btn-wrap">
-                <a href="#contact" className="cta-main-btn">
+                <a
+                  href="/"
+                  className="cta-main-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
                   Start Your Logo Design
                   <i className="fas fa-arrow-right" />
                 </a>
-                <a href="#portfolio" className="cta-link">
-                 View Our Portfolio <i className="fas fa-arrow-right" />
-                </a>
+                <Link to="/portfolio" className="cta-link">
+                  View Our Portfolio <i className="fas fa-arrow-right" />
+                </Link>
               </div>
             </div>
 

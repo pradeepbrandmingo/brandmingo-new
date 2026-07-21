@@ -17,6 +17,7 @@ import ContentCreationPricingPlans from "../../servicespags/ContentCreationCompo
 import WhyChooseBMContent from "../../servicespags/ContentCreationComponents/WhyChooseBMContent";
 import ContentEngagementModels from "../../servicespags/ContentCreationComponents/ContentEngagementModels";
 import ContentPricingSection from "../../servicespags/ContentCreationComponents/ContentPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -565,7 +566,14 @@ const ContentCreation = () => {
                               Create Content That Builds Trust & Drives Growth
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let's Create Your Content{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>

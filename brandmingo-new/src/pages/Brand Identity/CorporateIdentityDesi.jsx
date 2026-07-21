@@ -18,6 +18,7 @@ import WhyChooseCorporateIdentity from "../../servicespags/CorporateIdentityDesi
 import CorporateIdentityEngagementModels from "../../servicespags/CorporateIdentityDesiComponent/CorporateIdentityEngagementModels";
 import CorporateIdentityPricingSection from "../../servicespags/CorporateIdentityDesiComponent/CorporateIdentityPricingSection";
 import CoopertateSlider from "../../components/PortfolioSlider/CoopertateSlider";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -572,7 +573,14 @@ const CorporateIdentityDesi = () => {
                               Your Brand
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let's Launch Your Campaign{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
@@ -817,7 +825,7 @@ const CorporateIdentityDesi = () => {
                         {
                           q: "How long does it take to complete a Corporate Identity project?",
                           a: "Most corporate identity projects are completed within 1–3 weeks, depending on the complexity, number of deliverables, and feedback cycles required.",
-                        },  
+                        },
                       ].map((item, index) => (
                         <li
                           key={index}
