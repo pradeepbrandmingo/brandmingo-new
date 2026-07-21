@@ -758,9 +758,9 @@ const CRM = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <CRMPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <CRMWhyChooseBm />
@@ -834,9 +834,9 @@ const CRM = () => {
           <RelatedServices />
         </div>
 
-        <div className="portfolio-slider-section">
+        {/* <div className="portfolio-slider-section">
           <PortfolioSlider />
-        </div>
+        </div> */}
       </section>
     </div>
   );

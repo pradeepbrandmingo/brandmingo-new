@@ -3,42 +3,23 @@ import React, { useEffect, useRef, useState } from "react";
 
 const projects = [
   {
-    name: "Syrish",
-    category: "Business Website",
-    tags: ["WordPress", "UI/UX", "Responsive"],
-    preview: "https://syrish.com/",
+    name: "E-commerce Sales Campaign",
+    category: "Meta Ads Performance Marketing",
+    tags: ["ROAS", "Sales", "Meta Ads"],
+    preview: "#",
     caseStudy: "/portfolio",
     images: [
-      "https://i.ibb.co/674RCz3z/BM-WEBSITE-IMAGES-5.jpg",
-      "https://i.ibb.co/yFLzhPqK/32.jpg",
-      "https://i.ibb.co/7JpP0mHb/31.jpg",
-      "https://i.ibb.co/k6wp5zPQ/30.jpg",
+      "https://i.ibb.co/0pvMn059/Whats-App-Image-2026-07-18-at-10-57-03-AM.jpg",
     ],
   },
   {
-    name: "Suryatra",
-    category: "Travel & Tourism",
-    tags: ["WordPress", "Booking", "SEO Optimized"],
-    preview: "https://suryatra.com/",
+    name: "Education Lead Generation",
+    category: "Meta Lead Generation Campaign",
+    tags: ["Lead Ads", "High Conversion", "Meta Ads"],
+    preview: "#",
     caseStudy: "/portfolio",
     images: [
-      "https://i.ibb.co/YF2sdQ2w/BM-WEBSITE-IMAGES-6.jpg",
-      "https://i.ibb.co/Qvt5wZ1s/34.jpg",
-      "https://i.ibb.co/yGHxLfR/35.jpg",
-      "https://i.ibb.co/bMCfRMfc/36.jpg",
-    ],
-  },
-  {
-    name: "BlackGrape",
-    category: "Corporate Website",
-    tags: ["WordPress", "Modern UI", "Performance"],
-    preview: "https://blackgrape.in/",
-    caseStudy: "/portfolio",
-    images: [
-      "https://i.ibb.co/N2jtJL6K/BM-WEBSITE-IMAGES-7.jpg",
-      "https://i.ibb.co/sv8XHNjR/40.jpg",
-      "https://i.ibb.co/svg739Nk/39.jpg",
-      "https://i.ibb.co/mFP3nxVb/38.jpg",
+      "https://i.ibb.co/6Jt18W00/Whats-App-Image-2026-07-18-at-10-57-04-AM-1.jpg",
     ],
   },
 ];
@@ -46,7 +27,7 @@ const projects = [
 const CARD_GAP = 24;
 const SPEED = 0.6;
 
-const Shopifyslider = () => {
+const Performancslider = () => {
   const trackRef = useRef(null);
   const posRef = useRef(0);
   const rafRef = useRef(null);
@@ -285,4 +266,4 @@ const Shopifyslider = () => {
   );
 };
 
-export default Shopifyslider;
+export default Performancslider;

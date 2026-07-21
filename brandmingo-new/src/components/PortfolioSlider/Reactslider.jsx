@@ -3,50 +3,35 @@ import React, { useEffect, useRef, useState } from "react";
 
 const projects = [
   {
-    name: "Syrish",
-    category: "Business Website",
-    tags: ["WordPress", "UI/UX", "Responsive"],
-    preview: "https://syrish.com/",
+    name: "Leela by Gauri",
+    category: "Luxury Fashion",
+    tags: ["WordPress", "Premium UI", "Responsive"],
+    preview: "https://crm.leelabygaurivala.com/",
     caseStudy: "/portfolio",
-    images: [
-      "https://i.ibb.co/674RCz3z/BM-WEBSITE-IMAGES-5.jpg",
-      "https://i.ibb.co/yFLzhPqK/32.jpg",
-      "https://i.ibb.co/7JpP0mHb/31.jpg",
-      "https://i.ibb.co/k6wp5zPQ/30.jpg",
-    ],
+    images: ["https://i.ibb.co/FkmG6ygs/Whats-App-Image-2026-07-18-at-10-57-10-AM.jpg", "https://i.ibb.co/sxw2Tpd/Whats-App-Image-2026-07-18-at-10-57-07-AM.jpg", "", ""],
   },
   {
-    name: "Suryatra",
-    category: "Travel & Tourism",
-    tags: ["WordPress", "Booking", "SEO Optimized"],
-    preview: "https://suryatra.com/",
-    caseStudy: "/portfolio",
-    images: [
-      "https://i.ibb.co/YF2sdQ2w/BM-WEBSITE-IMAGES-6.jpg",
-      "https://i.ibb.co/Qvt5wZ1s/34.jpg",
-      "https://i.ibb.co/yGHxLfR/35.jpg",
-      "https://i.ibb.co/bMCfRMfc/36.jpg",
-    ],
-  },
-  {
-    name: "BlackGrape",
+    name: "Marque",
     category: "Corporate Website",
-    tags: ["WordPress", "Modern UI", "Performance"],
-    preview: "https://blackgrape.in/",
+    tags: ["WordPress", "Modern UI", "SEO Optimized"],
+    preview: "https://marquecareer.com/",
     caseStudy: "/portfolio",
-    images: [
-      "https://i.ibb.co/N2jtJL6K/BM-WEBSITE-IMAGES-7.jpg",
-      "https://i.ibb.co/sv8XHNjR/40.jpg",
-      "https://i.ibb.co/svg739Nk/39.jpg",
-      "https://i.ibb.co/mFP3nxVb/38.jpg",
-    ],
+    images: ["https://i.ibb.co/m5dgyR1n/Whats-App-Image-2026-07-18-at-10-57-11-AM-1.jpg", "", "", ""],
+  },
+  {
+    name: "Stage & Spotlight",
+    category: "Events & Entertainment",
+    tags: ["WordPress", "Creative Design", "Performance"],
+    preview: "#",
+    caseStudy: "/portfolio",
+    images: ["https://i.ibb.co/TqPmZ89S/Whats-App-Image-2026-07-18-at-10-57-12-AM.jpg", "", "", ""],
   },
 ];
 
 const CARD_GAP = 24;
 const SPEED = 0.6;
 
-const Shopifyslider = () => {
+const Reactslider = () => {
   const trackRef = useRef(null);
   const posRef = useRef(0);
   const rafRef = useRef(null);
@@ -285,4 +270,4 @@ const Shopifyslider = () => {
   );
 };
 
-export default Shopifyslider;
+export default Reactslider;

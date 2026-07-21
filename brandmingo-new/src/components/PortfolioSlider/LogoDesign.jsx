@@ -3,50 +3,59 @@ import React, { useEffect, useRef, useState } from "react";
 
 const projects = [
   {
-    name: "Syrish",
-    category: "Business Website",
-    tags: ["WordPress", "UI/UX", "Responsive"],
-    preview: "https://syrish.com/",
+    name: "Fresh Sip",
+    category: "Beverage Brand",
+    tags: ["Logo Design", "Brand Identity", "Minimal"],
+    preview: "#",
     caseStudy: "/portfolio",
-    images: [
-      "https://i.ibb.co/674RCz3z/BM-WEBSITE-IMAGES-5.jpg",
-      "https://i.ibb.co/yFLzhPqK/32.jpg",
-      "https://i.ibb.co/7JpP0mHb/31.jpg",
-      "https://i.ibb.co/k6wp5zPQ/30.jpg",
-    ],
+    images: ["https://i.ibb.co/rGkccsgt/1.jpg"],
   },
   {
-    name: "Suryatra",
-    category: "Travel & Tourism",
-    tags: ["WordPress", "Booking", "SEO Optimized"],
-    preview: "https://suryatra.com/",
+    name: "Restore",
+    category: "Healthcare & Wellness",
+    tags: ["Logo Design", "Modern", "Brand Identity"],
+    preview: "#",
     caseStudy: "/portfolio",
-    images: [
-      "https://i.ibb.co/YF2sdQ2w/BM-WEBSITE-IMAGES-6.jpg",
-      "https://i.ibb.co/Qvt5wZ1s/34.jpg",
-      "https://i.ibb.co/yGHxLfR/35.jpg",
-      "https://i.ibb.co/bMCfRMfc/36.jpg",
-    ],
+    images: ["https://i.ibb.co/xSQ2s4jT/2.jpg"],
   },
   {
-    name: "BlackGrape",
-    category: "Corporate Website",
-    tags: ["WordPress", "Modern UI", "Performance"],
-    preview: "https://blackgrape.in/",
+    name: "Aureia London",
+    category: "Luxury Fashion",
+    tags: ["Luxury Logo", "Premium Branding", "Minimal"],
+    preview: "#",
     caseStudy: "/portfolio",
-    images: [
-      "https://i.ibb.co/N2jtJL6K/BM-WEBSITE-IMAGES-7.jpg",
-      "https://i.ibb.co/sv8XHNjR/40.jpg",
-      "https://i.ibb.co/svg739Nk/39.jpg",
-      "https://i.ibb.co/mFP3nxVb/38.jpg",
-    ],
+    images: ["https://i.ibb.co/Y44VmNxB/3.jpg"],
+  },
+  {
+    name: "Dr. Upadhyay",
+    category: "Hair Care Clinic",
+    tags: ["Medical Branding", "Logo Design", "Identity"],
+    preview: "#",
+    caseStudy: "/portfolio",
+    images: ["https://i.ibb.co/HDPKrM3F/4.jpg"],
+  },
+  {
+    name: "Intel",
+    category: "Logo Recreation",
+    tags: ["Vector Design", "Brand Recreation", "Illustrator"],
+    preview: "#",
+    caseStudy: "/portfolio",
+    images: ["https://i.ibb.co/qLpWVMFY/5.jpg"],
+  },
+  {
+    name: "GoCompliances",
+    category: "Business Consulting",
+    tags: ["Corporate Logo", "Brand Identity", "Modern"],
+    preview: "#",
+    caseStudy: "/portfolio",
+    images: ["https://i.ibb.co/SDyNMzZP/6.jpg"],
   },
 ];
 
 const CARD_GAP = 24;
 const SPEED = 0.6;
 
-const Shopifyslider = () => {
+const LogoDesign = () => {
   const trackRef = useRef(null);
   const posRef = useRef(0);
   const rafRef = useRef(null);
@@ -285,4 +294,4 @@ const Shopifyslider = () => {
   );
 };
 
-export default Shopifyslider;
+export default LogoDesign;

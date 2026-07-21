@@ -17,6 +17,7 @@ import CustomWebDevPricingPlans from "../../servicespags/CustomWebDesignComponen
 import WhyChooseBMCustomWebDev from "../../servicespags/CustomWebDesignComponent/WhyChooseBMCustomWebDev";
 import CustomWebDevEngagementModels from "../../servicespags/CustomWebDesignComponent/CustomWebDevEngagementModels";
 import CustomWebDevPricingSection from "../../servicespags/CustomWebDesignComponent/CustomWebDevPricingSection";
+import Reactslider from "../../components/PortfolioSlider/Reactslider";
 
 const THEME = "#ff6b1e";
 
@@ -874,7 +875,7 @@ const CustomWebDesign = () => {
         </div>
 
         <div className="portfolio-slider-section">
-          <PortfolioSlider />
+          <Reactslider />
         </div>
       </section>
     </div>

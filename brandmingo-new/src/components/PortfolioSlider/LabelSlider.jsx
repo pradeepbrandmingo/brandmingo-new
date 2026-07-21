@@ -3,50 +3,43 @@ import React, { useEffect, useRef, useState } from "react";
 
 const projects = [
   {
-    name: "Syrish",
-    category: "Business Website",
-    tags: ["WordPress", "UI/UX", "Responsive"],
-    preview: "https://syrish.com/",
+    name: "Billionaire Perfume Box",
+    category: "Luxury Perfume Packaging",
+    tags: ["Packaging Design", "Label Design", "Premium Branding"],
+    preview: "#",
     caseStudy: "/portfolio",
-    images: [
-      "https://i.ibb.co/674RCz3z/BM-WEBSITE-IMAGES-5.jpg",
-      "https://i.ibb.co/yFLzhPqK/32.jpg",
-      "https://i.ibb.co/7JpP0mHb/31.jpg",
-      "https://i.ibb.co/k6wp5zPQ/30.jpg",
-    ],
+    images: ["https://i.ibb.co/gFdQL2fX/Billionaire-jpg.jpg"],
   },
   {
-    name: "Suryatra",
-    category: "Travel & Tourism",
-    tags: ["WordPress", "Booking", "SEO Optimized"],
-    preview: "https://suryatra.com/",
+    name: "Suryatra Midnight Detox",
+    category: "Skincare Product Packaging",
+    tags: ["Package Design", "Label Design", "Product Branding"],
+    preview: "#",
     caseStudy: "/portfolio",
-    images: [
-      "https://i.ibb.co/YF2sdQ2w/BM-WEBSITE-IMAGES-6.jpg",
-      "https://i.ibb.co/Qvt5wZ1s/34.jpg",
-      "https://i.ibb.co/yGHxLfR/35.jpg",
-      "https://i.ibb.co/bMCfRMfc/36.jpg",
-    ],
+    images: ["https://i.ibb.co/yBqZcdG6/image-1.png"],
   },
   {
-    name: "BlackGrape",
-    category: "Corporate Website",
-    tags: ["WordPress", "Modern UI", "Performance"],
-    preview: "https://blackgrape.in/",
+    name: "Mr. President Perfume",
+    category: "Fragrance Packaging",
+    tags: ["Luxury Packaging", "Print Design", "Brand Identity"],
+    preview: "#",
     caseStudy: "/portfolio",
-    images: [
-      "https://i.ibb.co/N2jtJL6K/BM-WEBSITE-IMAGES-7.jpg",
-      "https://i.ibb.co/sv8XHNjR/40.jpg",
-      "https://i.ibb.co/svg739Nk/39.jpg",
-      "https://i.ibb.co/mFP3nxVb/38.jpg",
-    ],
+    images: ["https://i.ibb.co/0R4MyDWZ/Mr-President-1-jpg.jpg"],
+  },
+  {
+    name: "Aureia London Collection",
+    category: "Cosmetic Packaging",
+    tags: ["Label Design", "Packaging", "Luxury Branding"],
+    preview: "#",
+    caseStudy: "/portfolio",
+    images: ["https://i.ibb.co/27YXjxs2/Aureia-Product-website-size-81.png"],
   },
 ];
 
 const CARD_GAP = 24;
 const SPEED = 0.6;
 
-const Shopifyslider = () => {
+const LabelSlider = () => {
   const trackRef = useRef(null);
   const posRef = useRef(0);
   const rafRef = useRef(null);
@@ -285,4 +278,4 @@ const Shopifyslider = () => {
   );
 };
 
-export default Shopifyslider;
+export default LabelSlider;

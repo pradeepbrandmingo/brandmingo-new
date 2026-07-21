@@ -17,6 +17,7 @@ import ReactDetailsHero from "../../servicespags/ReactComponents/ReactDetailsHer
 import ProcessSection from "../../servicespags/ReactComponents/ProcessSection";
 import PricingPlans from "../../servicespags/ReactComponents/PricingPlans";
 import ModernDigital from "../../components/ReactExpertiseTabs/ModernDigital";
+import Reactslider from "../../components/PortfolioSlider/Reactslider";
 
 const THEME = "#ff6b1e";
 
@@ -783,9 +784,9 @@ const ReactDetails = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <PricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBrandmingo />
@@ -858,7 +859,7 @@ const ReactDetails = () => {
         </div>
 
         <div className="portfolio-slider-section">
-          <PortfolioSlider />
+          <Reactslider />
         </div>
       </section>
     </div>
