@@ -98,42 +98,43 @@ const ProductDesign = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Scale with Innovative Product Design
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            Create products that are not only visually appealing
+                            but also user-focused and market-ready. Our product
+                            design process combines creativity, research, and
+                            usability to deliver designs that solve real
+                            customer problems and strengthen your brand.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            From concept validation and wireframing to UI design
+                            and interactive prototypes, we help transform your
+                            ideas into intuitive digital products that drive
+                            engagement and business growth.
                           </p>
 
                           {/* Stats Row */}
                           <div className="react-stats-row">
                             <div className="react-stat-item">
-                              <span className="react-stat-num">5x</span>
+                              <span className="react-stat-num">3+</span>
                               <span className="react-stat-label">
-                                ROI Growth
+                                Years of Design Experience
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">90%</span>
+                              <span className="react-stat-num">1000+</span>
                               <span className="react-stat-label">
-                                Campaign Optimization
+                                Products Designed
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">300+</span>
+                              <span className="react-stat-num">98%</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                Client Satisfaction
                               </span>
                             </div>
                           </div>
@@ -151,7 +152,7 @@ const ProductDesign = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://i.ibb.co/8DHtjKSp/Chat-GPT-Image-Jul-20-2026-03-26-58-PM.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -168,29 +169,6 @@ const ProductDesign = () => {
                                 style={{ marginRight: "5px" }}
                               />
                               Scalable
-                            </div>
-
-                            <div className="floating-code-card">
-                              <span className="code-dot red" />
-                              <span className="code-dot yellow" />
-                              <span className="code-dot green" />
-                              <p className="code-line">
-                                <span className="code-blue">const</span> App{" "}
-                                <span className="code-white">= () =&gt;</span>{" "}
-                                <span className="code-orange">&#123;</span>
-                              </p>
-                              <p
-                                className="code-line"
-                                style={{ paddingLeft: "12px" }}
-                              >
-                                <span className="code-blue">return</span>{" "}
-                                <span className="code-orange">
-                                  &lt;React /&gt;
-                                </span>
-                              </p>
-                              <p className="code-line">
-                                <span className="code-orange">&#125;</span>
-                              </p>
                             </div>
                           </div>
 
@@ -417,31 +395,40 @@ const ProductDesign = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    What is Product Design?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Product design is the process of creating innovative,
+                    user-centered digital products that combine functionality,
+                    aesthetics, and usability. It focuses on solving real user
+                    problems while delivering seamless experiences across every
+                    interaction.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    We simplify the design process by transforming ideas into
+                    intuitive interfaces through research, wireframing,
+                    prototyping, and UI/UX design. Our approach helps businesses
+                    build products that are engaging, scalable, and ready for
+                    market success.
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-lightbulb",
+                        label: "User-Centered Design",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-pencil-ruler",
+                        label: "Modern UI/UX",
+                      },
+                      {
+                        icon: "fas fa-mobile-screen-button",
+                        label: "Interactive Prototypes",
+                      },
+                      {
+                        icon: "fas fa-layer-group",
+                        label: "Scalable Design Systems",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -522,8 +509,10 @@ const ProductDesign = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    In simple terms — great product design transforms ideas into
+                    intuitive, engaging, and business-driven digital
+                    experiences. your ad spend into predictable growth, not just
+                    traffic.
                   </p>
 
                   {/* SLIDER */}
@@ -576,12 +565,12 @@ const ProductDesign = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Scale Your Business with High-Impact Product
+                              Design
                             </h3>
 
                             <a href="/contact" className="discuss-cta">
-                              Let's Discuss Your Project{" "}
+                              Let's Discuss Your Product{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
@@ -594,11 +583,13 @@ const ProductDesign = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with Product Design Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      We design intuitive, user-focused digital products that
+                      combine exceptional user experience, modern interfaces,
+                      and scalable design systems to help your business stand
+                      out.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -616,7 +607,7 @@ const ProductDesign = () => {
                         {[
                           {
                             icon: (
-                              // Strategy = idea / planning
+                              // Product Strategy
                               <svg
                                 width="16"
                                 height="16"
@@ -632,13 +623,13 @@ const ProductDesign = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            label: "Product Strategy",
+                            desc: "Build a roadmap for successful digital products",
                           },
 
                           {
                             icon: (
-                              // Targeting = bullseye 🎯
+                              // User Research
                               <svg
                                 width="16"
                                 height="16"
@@ -652,13 +643,13 @@ const ProductDesign = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            label: "User Research",
+                            desc: "Understand user needs through research and analysis",
                           },
 
                           {
                             icon: (
-                              // Creative = pen/design
+                              // Wireframes
                               <svg
                                 width="16"
                                 height="16"
@@ -671,13 +662,13 @@ const ProductDesign = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            label: "Wireframes & Prototypes",
+                            desc: "Visualize product ideas before development",
                           },
 
                           {
                             icon: (
-                              // Tracking = graph
+                              // UI Design
                               <svg
                                 width="16"
                                 height="16"
@@ -691,13 +682,13 @@ const ProductDesign = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "UI Design",
+                            desc: "Modern, responsive, and visually engaging interfaces",
                           },
 
                           {
                             icon: (
-                              // Retargeting = refresh/loop
+                              // Prototyping
                               <svg
                                 width="16"
                                 height="16"
@@ -712,13 +703,13 @@ const ProductDesign = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Interactive Prototypes",
+                            desc: "Test and refine user experience before launch",
                           },
 
                           {
                             icon: (
-                              // Optimization = settings/gear
+                              // Design System
                               <svg
                                 width="16"
                                 height="16"
@@ -731,8 +722,8 @@ const ProductDesign = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            label: "Design Systems",
+                            desc: "Create scalable and consistent UI components",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -783,9 +774,9 @@ const ProductDesign = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <ProductDesignPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMProductDesign />
@@ -806,24 +797,24 @@ const ProductDesign = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is product design?",
+                          a: "Product design is the process of creating user-focused digital products by combining user research, UX strategy, wireframing, prototyping, and modern UI design to deliver intuitive and engaging experiences.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "Why is product design important for my business?",
+                          a: "A well-designed product improves user experience, increases customer satisfaction, boosts conversions, strengthens your brand, and helps your business stand out in a competitive market.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "What does your product design process include?",
+                          a: "Our process includes product discovery, user research, UX strategy, wireframing, interactive prototyping, UI design, usability testing, and developer-ready design handoff.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How much does product design cost?",
+                          a: "The cost depends on your product's complexity, number of screens, design requirements, timeline, and project scope. We provide transparent pricing with a customized proposal for every project.",
                         },
                         {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          q: "How long does a product design project take?",
+                          a: "The timeline varies depending on the project scope and complexity. Most product design projects are completed within 2 to 8 weeks, while larger SaaS platforms or enterprise products may require additional time.",
                         },
                       ].map((item, index) => (
                         <li

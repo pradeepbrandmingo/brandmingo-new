@@ -8,13 +8,13 @@ const WhyChooseLogoDesign = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose BrandMingo for High-Performance <br />
-            Google Ads
+            Why Choose BrandMingo for Professional <br />
+            Logo Design
           </h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build data-driven Google Ads systems that
-            generate leads, improve ROI, and scale your business with measurable
-            results.
+            We don't just design logos—we create memorable brand identities that
+            build trust, improve recognition, and help your business stand out
+            across every platform.
           </p>
         </div>
 
@@ -23,59 +23,60 @@ const WhyChooseLogoDesign = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">Years of Design Experience</div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Creating unique and impactful logo designs for businesses across
+              multiple industries.
             </p>
           </div>
 
-          {/* 2 — span 2 */}
+          {/* 2 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
               <i className="fas fa-award" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">Creative Design Experts</div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Experienced designers focused on building memorable and timeless
+              brand identities.
             </p>
           </div>
 
           {/* 3 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              300<span>+</span>
+              600<span>+</span>
             </div>
-            <div className="wcb-stat-label">Campaigns Managed</div>
+            <div className="wcb-stat-label">Logos Designed</div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully delivered professional logo designs for startups,
+              businesses, and enterprises.
             </p>
           </div>
 
           {/* 4 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              90<span>%</span>
+              95<span>%</span>
             </div>
-            <div className="wcb-stat-label">Client Retention Rate</div>
+            <div className="wcb-stat-label">Client Satisfaction</div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              Our clients value creative designs, professionalism, and timely
+              delivery.
             </p>
           </div>
 
           {/* 5 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-bolt" />
+              <i className="fas fa-palette" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">100% Custom Logo Concepts</div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Every logo is designed from scratch to reflect your brand's unique
+              personality.
             </p>
           </div>
 
@@ -84,21 +85,22 @@ const WhyChooseLogoDesign = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-headset" />
             </div>
-            <div className="wcb-feat-title">24×7 Expert Support</div>
+            <div className="wcb-feat-title">Dedicated Design Support</div>
             <p className="wcb-feat-desc">
-              Continuous monitoring and quick optimization to keep campaigns
-              performing.
+              Quick communication, unlimited guidance, and support throughout
+              the design process.
             </p>
           </div>
 
-          {/* 7 — highlight */}
+          {/* 7 */}
           <div className="wcb-card wcb-card-highlight">
             <div className="wcb-stat-value">
               100<span>%</span>
             </div>
-            <div className="wcb-stat-label">In-House Marketing Team</div>
+            <div className="wcb-stat-label">Original Designs</div>
             <p className="wcb-stat-desc">
-              No outsourcing — all campaigns are managed by our expert team.
+              No templates or copied artwork—every logo is uniquely crafted for
+              your brand.
             </p>
           </div>
 
@@ -107,55 +109,62 @@ const WhyChooseLogoDesign = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-shield-alt" />
             </div>
-            <div className="wcb-feat-title">Performance Optimization</div>
+            <div className="wcb-feat-title">Premium Quality Assurance</div>
             <p className="wcb-feat-desc">
-              Rigorous brand consistency audits and performance benchmarks built
-              into every deliverable.
+              Every logo is carefully reviewed to ensure creativity,
+              scalability, and professional quality.
             </p>
           </div>
 
           {/* 9 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              98<span>%</span>
+              100<span>%</span>
             </div>
-            <div className="wcb-stat-label">On-Time Reporting</div>
+            <div className="wcb-stat-label">On-Time Delivery</div>
             <p className="wcb-stat-desc">
-              Transparent and timely reports with actionable insights.
+              We deliver every logo project within the agreed timeline without
+              compromising quality.
             </p>
           </div>
 
-          {/* 10 — span 2 */}
+          {/* 10 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-chart-line" />
+              <i className="fas fa-file-export" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">Print & Digital Ready Files</div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              Receive AI, EPS, SVG, PDF, PNG, and other file formats optimized
+              for print, digital media, social platforms, and professional
+              branding.
             </p>
           </div>
 
           {/* 11 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-chart-line" />
+              <i className="fas fa-lightbulb" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">Creative Brand Strategy</div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              We combine creativity with brand strategy to design logos that
+              communicate your business values and connect with your audience.
             </p>
           </div>
 
-          {/* 12 — span 3 */}
+          {/* 12 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
               <i className="fas fa-layer-group" />
             </div>
-            <div className="wcb-feat-title">Quality Assurance</div>
+            <div className="wcb-feat-title">
+              Complete Brand Identity Support
+            </div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              Beyond logo design, we help establish a consistent visual identity
+              with colors, typography, branding assets, and professional brand
+              guidelines.
             </p>
           </div>
         </div>

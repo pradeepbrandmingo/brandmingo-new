@@ -13,32 +13,32 @@ const steps = [
   {
     num: "01",
     icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understanding your business, target audience, and goals before running any campaign.",
+    title: "Discovery & Requirement Analysis",
+    desc: "We understand your business goals, target audience, app features, and project requirements before starting the design process.",
   },
   {
     num: "02",
     icon: "fa-solid fa-table-columns",
-    title: "Strategy & Funnel Planning",
-    desc: "Creating a clear marketing strategy and conversion funnel tailored to your business.",
+    title: "Wireframing & User Flow",
+    desc: "We create intuitive user flows and wireframes to define the app structure and ensure a seamless user experience.",
   },
   {
     num: "03",
-    icon: "fa-solid fa-code",
-    title: "Campaign Setup & Execution",
-    desc: "Launching high-performing ads with proper targeting, creatives, and tracking systems.",
+    icon: "fa-solid fa-pen-ruler",
+    title: "UI/UX Design",
+    desc: "Our designers craft visually engaging, modern, and user-friendly mobile app interfaces tailored to your brand.",
   },
   {
     num: "04",
-    icon: "fa-solid fa-shield-halved",
-    title: "Optimization & Testing",
-    desc: "Continuously improving campaigns using data, A/B testing, and performance insights.",
+    icon: "fa-solid fa-mobile-screen-button",
+    title: "Prototype & User Testing",
+    desc: "Interactive prototypes and usability testing help validate the design and improve the overall user experience before development.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scaling winning campaigns to maximize ROI and drive consistent business growth.",
+    title: "Design Handoff & Support",
+    desc: "We deliver development-ready design assets and provide ongoing support to ensure a smooth implementation process.",
   },
 ];
 
@@ -162,16 +162,18 @@ export default function MobileAppProcessSection() {
             Our Process
           </div>
           <h2 className="ps-heading">
-            We follow a proven
+            We Follow a Proven
             <br />
-            performance <span className="ora">marketing process</span>
+            Mobile App <span className="ora">Design Process</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to create campaigns
-            that generate leads, sales, and measurable ROI for your business.
+            We follow a user-centric and design-driven approach to create
+            intuitive, visually engaging, and high-performing mobile
+            applications that deliver exceptional user experiences across
+            Android and iOS devices.
           </p>
           <a href="#contact" className="ps-btn">
-            Start Your Growth <span>→</span>
+            Start Your App Design <span>→</span>
           </a>
         </div>
 

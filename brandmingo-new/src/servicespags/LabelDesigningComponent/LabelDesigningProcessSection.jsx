@@ -13,32 +13,32 @@ const steps = [
   {
     num: "01",
     icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understand your business, audience, and goals.",
+    title: "Product Research",
+    desc: "Understand your product, audience, and brand.",
   },
   {
     num: "02",
     icon: "fa-solid fa-layer-group",
-    title: "Strategy & Campaign Planning",
-    desc: "Plan high-converting Google Ads strategy.",
+    title: "Concept & Planning",
+    desc: "Create unique label concepts and layouts.",
   },
   {
     num: "03",
-    icon: "fa-solid fa-bullhorn",
-    title: "Campaign Setup & Execution",
-    desc: "Launch campaigns with targeting and creatives.",
+    icon: "fa-solid fa-pencil-ruler",
+    title: "Creative Label Design",
+    desc: "Design premium, eye-catching product labels.",
   },
   {
     num: "04",
-    icon: "fa-solid fa-chart-line",
-    title: "Optimization & Testing",
-    desc: "Improve performance with testing and data.",
+    icon: "fa-solid fa-print",
+    title: "Review & Print Setup",
+    desc: "Refine designs and prepare print-ready files.",
   },
   {
     num: "05",
-    icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scale winning campaigns for better ROI.",
+    icon: "fa-solid fa-box-open",
+    title: "Final Delivery",
+    desc: "Deliver production-ready label design assets.",
   },
 ];
 
@@ -162,14 +162,14 @@ export default function LabelDesigningProcessSection() {
             Our Process
           </div>
           <h2 className="ps-heading">
-            We follow a provenn
+            We follow a proven workflow
             <br />
-            Google Ads <span className="ora">growth process</span>
+            Label Design <span className="ora">workflow</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to build Google Ads
-            campaigns that generate high-quality leads, sales, and measurable
-            ROI for your business.
+            We follow a creative and structured process to design premium
+            product labels that reflect your brand identity, attract customers,
+            and are ready for professional printing.
           </p>
           <a href="#contact" className="ps-btn">
             Start Your Campaign <span>→</span>

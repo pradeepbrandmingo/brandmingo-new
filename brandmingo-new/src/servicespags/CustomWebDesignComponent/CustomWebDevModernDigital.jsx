@@ -1,62 +1,62 @@
 import React, { useState } from "react";
 
 const serviceImages = {
-  lead: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=520&q=80&auto=format&fit=crop",
+  lead: "https://i.ibb.co/xKRVL7XB/Chat-GPT-Image-Jul-20-2026-11-42-40-AM.png",
   ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/xKRVL7XB/Chat-GPT-Image-Jul-20-2026-11-42-40-AM.png",
   google:
-    "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=520&q=80&auto=format&fit=crop",
-  meta: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/xKRVL7XB/Chat-GPT-Image-Jul-20-2026-11-42-40-AM.png",
+  meta: "https://i.ibb.co/xKRVL7XB/Chat-GPT-Image-Jul-20-2026-11-42-40-AM.png",
   retargeting:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/xKRVL7XB/Chat-GPT-Image-Jul-20-2026-11-42-40-AM.png",
   funnel:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/xKRVL7XB/Chat-GPT-Image-Jul-20-2026-11-42-40-AM.png",
   analytics:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/xKRVL7XB/Chat-GPT-Image-Jul-20-2026-11-42-40-AM.png",
   scaling:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/xKRVL7XB/Chat-GPT-Image-Jul-20-2026-11-42-40-AM.png",
 };
 
 const servicesData = [
   {
     id: "lead",
-    title: "Lead Generation Campaigns",
-    desc: "We build high-converting performance marketing campaigns designed to generate qualified leads and consistent business growth. Our strategies focus on targeting the right audience, optimizing landing pages, and reducing cost per lead while maximizing ROI.",
+    title: "Custom Website Design",
+    desc: "We create unique, visually stunning websites tailored to your brand identity. Our custom designs focus on delivering exceptional user experiences, improving engagement, and helping your business stand out online.",
   },
   {
     id: "ecommerce",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with performance-driven campaigns focused on increasing sales and maximizing return on ad spend. We optimize product ads, implement dynamic remarketing, and continuously improve campaign performance.",
+    title: "Responsive Web Design",
+    desc: "We build fully responsive websites that provide seamless experiences across desktops, tablets, and mobile devices. Every design is optimized for performance, usability, and accessibility.",
   },
   {
     id: "google",
-    title: "Google Ads Management",
-    desc: "Reach high-intent users actively searching for your services with optimized Google Ads campaigns. We focus on keyword strategy, ad copy, bidding optimization, and ROI-driven results.",
+    title: "Landing Page Design",
+    desc: "Our high-converting landing pages are designed to capture attention, generate leads, and maximize conversions with clear messaging, engaging visuals, and effective call-to-action sections.",
   },
   {
     id: "meta",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience with creative and data-driven ad campaigns across Facebook and Instagram. We build funnel-based campaigns that drive awareness, engagement, and conversions.",
+    title: "UI/UX Design",
+    desc: "We design intuitive user interfaces and engaging user experiences that make your website easy to navigate, visually appealing, and optimized for customer satisfaction.",
   },
   {
     id: "retargeting",
-    title: "Retargeting Campaigns",
-    desc: "Convert lost visitors into customers using advanced retargeting strategies. We re-engage users based on behavior and improve conversion rates significantly.",
+    title: "eCommerce Website Design",
+    desc: "Create beautiful online stores with user-friendly shopping experiences, optimized product pages, and conversion-focused layouts that help increase sales and customer retention.",
   },
   {
     id: "funnel",
-    title: "Sales Funnel Optimization",
-    desc: "Improve your conversion rates by optimizing every stage of your marketing funnel. From landing pages to final conversion, we ensure a smooth and effective user journey.",
+    title: "Website Redesign",
+    desc: "Transform outdated websites into modern, professional, and high-performing digital experiences that improve usability, strengthen your brand, and increase customer engagement.",
   },
   {
     id: "analytics",
-    title: "Analytics & Tracking Setup",
-    desc: "Track every click, lead, and conversion with advanced analytics and tracking systems. We set up tools that provide actionable insights for better decision-making.",
+    title: "SEO-Friendly Web Design",
+    desc: "We develop websites using SEO best practices, clean code, optimized structures, and fast-loading pages to improve search engine visibility and drive more organic traffic.",
   },
   {
     id: "scaling",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns with data-backed strategies to maximize ROI and business growth. We identify winning campaigns and continuously optimize for better performance.",
+    title: "Website Maintenance & Support",
+    desc: "Keep your website secure, updated, and performing at its best with ongoing maintenance, regular updates, performance optimization, and dedicated technical support.",
   },
 ];
 
@@ -79,8 +79,8 @@ const CustomWebDevModernDigital = () => {
       <div className="auto-container">
         {/* Heading — h3 tag, style.css vars apply automatically */}
         <h3 className="ret-heading text-center mb-5">
-          Performance Marketing Services for
-          <br /> Modern Digital Businesses
+          Custom Web Design Services for
+          <br /> Modern Businesses
         </h3>
 
         {/* ── DESKTOP ── */}

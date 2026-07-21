@@ -295,27 +295,27 @@ const LabelDesigningCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">LABEL DESIGN SERVICES</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Make Your Products Stand
                 <br className="d-none d-lg-block" />
-                with Google Ads Campaigns?
+                Out with Creative Labels?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you increase ROI, reduce ad spend waste, and scale your
-                business with data-driven strategies.
+                From food and cosmetics to retail packaging, BrandMingo creates
+                premium label designs that enhance your brand, attract
+                customers, and leave a lasting impression.
               </p>
 
               <div className="cta-btn-wrap">
                 <a href="#contact" className="cta-main-btn">
-                  Start Your Ads Strategy
+                  Start Your Label Design 
                   <i className="fas fa-arrow-right" />
                 </a>
                 <a href="#portfolio" className="cta-link">
-                  View Case Studies <i className="fas fa-arrow-right" />
+                  View Our Portfolio<i className="fas fa-arrow-right" />
                 </a>
               </div>
             </div>
@@ -327,8 +327,8 @@ const LabelDesigningCtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">300+</span>
-                  <span className="lbl">Campaigns Managed</span>
+                  <span className="val">500+</span>
+                  <span className="lbl">Labels Designed</span>
                 </div>
               </div>
 
@@ -337,8 +337,8 @@ const LabelDesigningCtaBanner = () => {
                   <i className="fas fa-check-circle" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">90%</span>
-                  <span className="lbl">Client Retention</span>
+                  <span className="val">95%</span>
+                  <span className="lbl">Client Satisfaction</span>
                 </div>
               </div>
 
@@ -347,8 +347,8 @@ const LabelDesigningCtaBanner = () => {
                   <i className="fas fa-headset" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">24×7</span>
-                  <span className="lbl">Ads Monitoring</span>
+                  <span className="val">100%</span>
+                  <span className="lbl">Print-Ready Files</span>
                 </div>
               </div>
             </div>

@@ -8,13 +8,13 @@ const WhyChooseBMCorporateBranding = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose Brandmingo for High-Performance <br />
-            Marketing Services
+            Why Choose Brandmingo for Corporate <br />
+            Branding Services
           </h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build performance-driven systems that
-            generate leads, increase ROI, and scale your business with
-            measurable results.
+            We don't just design logos—we build complete corporate brands that
+            establish trust, strengthen your market presence, and create
+            memorable experiences that drive long-term business success.
           </p>
         </div>
 
@@ -23,59 +23,60 @@ const WhyChooseBMCorporateBranding = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">Years of Branding Expertise</div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Helping businesses create strong, recognizable brands across
+              multiple industries.
             </p>
           </div>
 
-          {/* 2 — span 2 */}
+          {/* 2 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
               <i className="fas fa-award" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">Creative Branding Specialists</div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Experienced designers and strategists creating memorable brand
+              identities with lasting impact.
             </p>
           </div>
 
           {/* 3 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              300<span>+</span>
+              200<span>+</span>
             </div>
-            <div className="wcb-stat-label">Campaigns Managed</div>
+            <div className="wcb-stat-label">Brands Delivered</div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully created professional branding solutions for startups,
+              SMEs, and enterprise businesses.
             </p>
           </div>
 
           {/* 4 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              90<span>%</span>
+              98<span>%</span>
             </div>
-            <div className="wcb-stat-label">Client Retention Rate</div>
+            <div className="wcb-stat-label">Client Satisfaction</div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              Clients trust us for creative branding, quality execution, and
+              consistent results.
             </p>
           </div>
 
           {/* 5 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-bolt" />
+              <i className="fas fa-lightbulb" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">Strategic Brand Development</div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Every brand is built on research, strategy, and positioning to
+              create a unique market identity.
             </p>
           </div>
 
@@ -84,78 +85,83 @@ const WhyChooseBMCorporateBranding = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-headset" />
             </div>
-            <div className="wcb-feat-title">24×7 Expert Support</div>
+            <div className="wcb-feat-title">Dedicated Brand Support</div>
             <p className="wcb-feat-desc">
-              Continuous monitoring and quick optimization to keep campaigns
-              performing.
+              We provide continuous guidance and support to keep your brand
+              consistent across every platform.
             </p>
           </div>
 
-          {/* 7 — highlight */}
+          {/* 7 */}
           <div className="wcb-card wcb-card-highlight">
             <div className="wcb-stat-value">
               100<span>%</span>
             </div>
-            <div className="wcb-stat-label">In-House Marketing Team</div>
+            <div className="wcb-stat-label">Custom Brand Identity</div>
             <p className="wcb-stat-desc">
-              No outsourcing — all campaigns are managed by our expert team.
+              Every branding project is uniquely designed to reflect your
+              business vision, values, and personality.
             </p>
           </div>
 
           {/* 8 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-shield-alt" />
+              <i className="fas fa-palette" />
             </div>
-            <div className="wcb-feat-title">Performance Optimization</div>
+            <div className="wcb-feat-title">Visual Identity Excellence</div>
             <p className="wcb-feat-desc">
-              Rigorous brand consistency audits and performance benchmarks built
-              into every deliverable.
+              Premium logos, color systems, typography, and visual assets that
+              strengthen your brand recognition.
             </p>
           </div>
 
           {/* 9 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              98<span>%</span>
+              95<span>%</span>
             </div>
-            <div className="wcb-stat-label">On-Time Reporting</div>
+            <div className="wcb-stat-label">Brand Consistency</div>
             <p className="wcb-stat-desc">
-              Transparent and timely reports with actionable insights.
+              Consistent branding across digital, print, social media, and every
+              customer touchpoint.
             </p>
           </div>
 
-          {/* 10 — span 2 */}
+          {/* 10 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
               <i className="fas fa-chart-line" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">Brand Growth Strategy</div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              We create scalable branding strategies that improve visibility,
+              customer trust, and long-term business growth.
             </p>
           </div>
 
           {/* 11 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-chart-line" />
+              <i className="fas fa-users" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">Customer-Centric Branding</div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              We design brands that connect emotionally with your audience and
+              build lasting customer relationships.
             </p>
           </div>
 
-          {/* 12 — span 3 */}
+          {/* 12 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
               <i className="fas fa-layer-group" />
             </div>
-            <div className="wcb-feat-title">Quality Assurance</div>
+            <div className="wcb-feat-title">Complete Brand Guidelines</div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              Detailed brand guidelines ensure consistent use of your logo,
+              colors, typography, messaging, and visual identity across every
+              platform.
             </p>
           </div>
         </div>

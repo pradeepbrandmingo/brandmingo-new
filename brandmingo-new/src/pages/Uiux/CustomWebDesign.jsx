@@ -98,42 +98,43 @@ const CustomWebDesign = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Build Stunning Custom Web Designs
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            We create custom website designs that combine
+                            creativity, user experience, and modern UI/UX
+                            principles to help your brand stand out online.
+                            Every design is crafted to engage visitors, build
+                            trust, and drive more conversions.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            Our team delivers responsive, visually appealing,
+                            and conversion-focused web designs tailored to your
+                            business goals, ensuring a seamless experience
+                            across all devices.
                           </p>
 
                           {/* Stats Row */}
                           <div className="react-stats-row">
                             <div className="react-stat-item">
-                              <span className="react-stat-num">5x</span>
+                              <span className="react-stat-num">100%</span>
                               <span className="react-stat-label">
-                                ROI Growth
+                                Custom Design
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">90%</span>
+                              <span className="react-stat-num">95%</span>
                               <span className="react-stat-label">
-                                Campaign Optimization
+                                Client Satisfaction
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">300+</span>
+                              <span className="react-stat-num">500+</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                Web Pages Designed
                               </span>
                             </div>
                           </div>
@@ -141,7 +142,7 @@ const CustomWebDesign = () => {
                           {/* Feature Tag */}
                           <div className="react-feature-tag">
                             <i className="fas fa-bullhorn spin-icon"></i>
-                            <span>High Performance Guaranteed</span>
+                            <span>Modern UI/UX Guaranteed</span>
                           </div>
                         </div>
                       </div>
@@ -151,7 +152,7 @@ const CustomWebDesign = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://i.ibb.co/fVQ1pG7W/Chat-GPT-Image-Jul-20-2026-11-18-43-AM.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -170,7 +171,7 @@ const CustomWebDesign = () => {
                               Scalable
                             </div>
 
-                            <div className="floating-code-card">
+                            {/* <div className="floating-code-card">
                               <span className="code-dot red" />
                               <span className="code-dot yellow" />
                               <span className="code-dot green" />
@@ -191,7 +192,7 @@ const CustomWebDesign = () => {
                               <p className="code-line">
                                 <span className="code-orange">&#125;</span>
                               </p>
-                            </div>
+                            </div> */}
                           </div>
 
                           <div className="corner-accent top-left-accent" />
@@ -417,31 +418,37 @@ const CustomWebDesign = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    Why Custom Web Design Matters?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    A custom website is built specifically for your business
+                    goals, brand identity, and target audience. Unlike pre-built
+                    templates, it delivers a unique user experience, better
+                    performance, and higher conversion potential.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    A professionally designed website helps you build trust,
+                    improve engagement, and turn more visitors into customers.
+                    Every element is crafted to support your business growth.
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-palette",
+                        label: "Unique Brand Identity",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-mobile-screen",
+                        label: "Responsive Design",
+                      },
+                      {
+                        icon: "fas fa-bolt",
+                        label: "Fast Performance",
+                      },
+                      {
+                        icon: "fas fa-chart-line",
+                        label: "Higher Conversions",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -522,8 +529,9 @@ const CustomWebDesign = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    In simple terms — custom web design helps your business
+                    stand out, improve user experience, and generate more leads
+                    and sales.
                   </p>
 
                   {/* SLIDER */}
@@ -576,8 +584,8 @@ const CustomWebDesign = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Build a Website That Converts Visitors into
+                              Customers
                             </h3>
 
                             <a href="/contact" className="discuss-cta">
@@ -594,11 +602,12 @@ const CustomWebDesign = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with Custom Web Design
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      We design modern, user-focused websites that strengthen
+                      your brand, improve user experience, and help convert
+                      visitors into customers.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -632,13 +641,13 @@ const CustomWebDesign = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            label: "Custom UI/UX Design",
+                            desc: "Unique website designs tailored to your brand identity",
                           },
 
                           {
                             icon: (
-                              // Targeting = bullseye 🎯
+                              // Targeting
                               <svg
                                 width="16"
                                 height="16"
@@ -652,13 +661,13 @@ const CustomWebDesign = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            label: "Responsive Web Design",
+                            desc: "Optimized for desktop, tablet, and mobile devices",
                           },
 
                           {
                             icon: (
-                              // Creative = pen/design
+                              // Creative
                               <svg
                                 width="16"
                                 height="16"
@@ -671,13 +680,13 @@ const CustomWebDesign = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            label: "Modern Visual Design",
+                            desc: "Premium layouts that enhance user engagement",
                           },
 
                           {
                             icon: (
-                              // Tracking = graph
+                              // Tracking
                               <svg
                                 width="16"
                                 height="16"
@@ -691,13 +700,13 @@ const CustomWebDesign = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "SEO-Friendly Structure",
+                            desc: "Built with clean code for better search rankings",
                           },
 
                           {
                             icon: (
-                              // Retargeting = refresh/loop
+                              // Retargeting
                               <svg
                                 width="16"
                                 height="16"
@@ -712,13 +721,13 @@ const CustomWebDesign = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Conversion-Focused Layout",
+                            desc: "Designed to turn visitors into customers",
                           },
 
                           {
                             icon: (
-                              // Optimization = settings/gear
+                              // Optimization
                               <svg
                                 width="16"
                                 height="16"
@@ -731,8 +740,8 @@ const CustomWebDesign = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            label: "Fast & Optimized Performance",
+                            desc: "Speed-optimized websites for a seamless experience",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -783,9 +792,9 @@ const CustomWebDesign = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <CustomWebDevPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMCustomWebDev />
@@ -805,26 +814,28 @@ const CustomWebDesign = () => {
                     <h3 className="mb-3">Frequently Asked Question</h3>
                     <ul className="accordion-box mt-40">
                       {[
-                        {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
-                        },
-                        {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
-                        },
-                        {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
-                        },
-                        {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
-                        },
-                        {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
-                        },
+                        
+                          {
+                            q: "What is custom web design?",
+                            a: "Custom web design is the process of creating a unique website tailored specifically to your business, brand identity, and customer needs. Unlike template-based websites, every design element is built to deliver a personalized user experience.",
+                          },
+                          {
+                            q: "Why should I choose a custom website over a template?",
+                            a: "A custom website offers greater flexibility, better performance, improved branding, enhanced user experience, and scalability. It is designed specifically for your business goals instead of using a one-size-fits-all template.",
+                          },
+                          {
+                            q: "Will my website be mobile-friendly?",
+                            a: "Yes. Every website we design is fully responsive and optimized to provide a seamless experience across desktops, tablets, and mobile devices.",
+                          },
+                          {
+                            q: "How much does a custom web design project cost?",
+                            a: "The cost depends on your project requirements, design complexity, features, functionality, and timeline. We provide transparent pricing with a customized quote based on your business needs.",
+                          },
+                          {
+                            q: "How long does it take to design a custom website?",
+                            a: "The timeline depends on the project's size and complexity. Most custom websites are completed within 2–6 weeks, while larger or feature-rich websites may require additional time.",
+                          },
+                      
                       ].map((item, index) => (
                         <li
                           key={index}

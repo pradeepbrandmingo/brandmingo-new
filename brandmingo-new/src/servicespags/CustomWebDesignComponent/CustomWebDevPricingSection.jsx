@@ -2,33 +2,36 @@ import React, { useState } from "react";
 // import "./pricing-section.css";
 
 const pricingFactors = [
-  { icon: "fas fa-layer-group", label: "Campaign Goals & Complexity" },
-  { icon: "fas fa-handshake", label: "Engagement Model Selected" },
-  { icon: "fas fa-users", label: "Ad Budget & Platforms" },
-  { icon: "fas fa-clock", label: "Timeline & Scaling Speed" },
-  { icon: "fas fa-plug", label: "Tracking & Tools Setup" },
+  { icon: "fas fa-pencil-ruler", label: "Website Type & Requirements" },
+  { icon: "fas fa-object-group", label: "Design Complexity" },
+  { icon: "fas fa-laptop-code", label: "Features & Functionality" },
+  { icon: "fas fa-clock", label: "Project Timeline" },
+  {
+    icon: "fas fa-mobile-screen-button",
+    label: "Responsive & SEO Requirements",
+  },
 ];
 
 const estimateSteps = [
   {
     num: "01",
-    title: "Requirement Discussion",
-    desc: "We understand your business goals, target audience, and marketing objectives.",
+    title: "Project Consultation",
+    desc: "We discuss your business goals, target audience, and website requirements to understand your vision.",
   },
   {
     num: "02",
-    title: "Campaign Analysis",
-    desc: "We evaluate your current performance, competitors, and growth opportunities.",
+    title: "Requirement Analysis",
+    desc: "Our team evaluates design complexity, required features, integrations, and project scope.",
   },
   {
     num: "03",
-    title: "Strategy & Budget Planning",
-    desc: "We define campaign structure, budget allocation, and expected outcomes.",
+    title: "Planning & Proposal",
+    desc: "We prepare a detailed project roadmap with timelines, technology recommendations, and cost estimation.",
   },
   {
     num: "04",
-    title: "Transparent Cost Estimate",
-    desc: "You receive a clear, result-focused pricing plan with no hidden charges.",
+    title: "Transparent Quotation",
+    desc: "Receive a clear, customized pricing proposal with no hidden costs and complete project transparency.",
   },
 ];
 
@@ -41,17 +44,22 @@ const CustomWebDevPricingSection = () => {
         {/* ── Header ── */}
         <div className="prc-header">
           <div className="prc-eyebrow">Transparent Pricing</div>
-          {/* h3 tag — sized via var(--h3-font-size) in CSS */}
-          <h3 className="prc-title">Pricing & Cost Estimation</h3>
+
+          <h3 className="prc-title">
+            Custom Web Design Pricing & Cost Estimation
+          </h3>
+
           <p className="prc-subtitle">
-            Our performance marketing pricing is flexible, transparent, and
-            based on your business goals — no fixed packages, no hidden costs.
+            Every website is unique. Our pricing is customized based on your
+            business requirements, design complexity, required features, and
+            project scope—ensuring complete transparency with no hidden charges.
           </p>
         </div>
 
-        {/* ════ BLOCK 1 — Pricing Depends On ════ */}
+        {/* ════ BLOCK 1 ════ */}
         <div className="prc-block">
           <div className="prc-block-label">Pricing Depends On</div>
+
           <div className="prc-factors">
             {pricingFactors.map((f, i) => (
               <div className="prc-factor-card" key={i}>
@@ -64,9 +72,12 @@ const CustomWebDevPricingSection = () => {
           </div>
         </div>
 
-        {/* ════ BLOCK 2 — How We Estimate Cost ════ */}
+        {/* ════ BLOCK 2 ════ */}
         <div className="prc-block">
-          <div className="prc-block-label">How We Estimate Cost</div>
+          <div className="prc-block-label">
+            How We Estimate Your Project Cost
+          </div>
+
           <div className="prc-steps-row">
             {estimateSteps.map((step, i) => (
               <div
@@ -75,7 +86,9 @@ const CustomWebDevPricingSection = () => {
                 onMouseEnter={() => setActiveStep(i)}
               >
                 <div className="prc-step-num">{step.num}</div>
+
                 <div className="prc-step-title">{step.title}</div>
+
                 <p className="prc-step-desc">{step.desc}</p>
               </div>
             ))}
@@ -85,10 +98,12 @@ const CustomWebDevPricingSection = () => {
         {/* ── CTA ── */}
         <div className="prc-cta-wrap">
           <p className="prc-cta-note">
-            Get a custom quote tailored to your project — no obligations.
+            Ready to build your custom website? Get a personalized quote based
+            on your business requirements.
           </p>
+
           <a href="#contact" className="prc-cta-btn">
-            Get a Free Estimate
+            Request a Free Quote
             <i className="fas fa-arrow-right" />
           </a>
         </div>

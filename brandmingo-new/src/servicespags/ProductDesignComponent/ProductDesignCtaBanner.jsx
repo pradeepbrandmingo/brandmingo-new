@@ -295,23 +295,23 @@ const ProductDesignCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">PRODUCT DESIGN SOLUTIONS</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Build Exceptional
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Digital Products?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                From idea validation to intuitive UI/UX design, BrandMingo helps
+                you create user-focused digital products that are functional,
+                visually engaging, and built for long-term success.
               </p>
 
               <div className="cta-btn-wrap">
                 <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                  Start Your Product Design
                   <i className="fas fa-arrow-right" />
                 </a>
                 <a href="#portfolio" className="cta-link">
@@ -327,8 +327,8 @@ const ProductDesignCtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">300+</span>
-                  <span className="lbl">Campaigns Managed</span>
+                  <span className="val">3+</span>
+                  <span className="lbl">Years of Design Experience</span>
                 </div>
               </div>
 
@@ -337,8 +337,8 @@ const ProductDesignCtaBanner = () => {
                   <i className="fas fa-check-circle" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">90%</span>
-                  <span className="lbl">Client Retention</span>
+                  <span className="val">500+</span>
+                  <span className="lbl">Products Designed</span>
                 </div>
               </div>
 
@@ -347,8 +347,8 @@ const ProductDesignCtaBanner = () => {
                   <i className="fas fa-headset" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">24×7</span>
-                  <span className="lbl">Performance Monitoring</span>
+                  <span className="val">98%</span>
+                  <span className="lbl">Client Satisfaction</span>
                 </div>
               </div>
             </div>

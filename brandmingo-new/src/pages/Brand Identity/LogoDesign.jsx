@@ -99,43 +99,43 @@ const LogoDesign = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Google Ads
+                            Create Memorable Logo Designs
                           </h3>
                           <p className="text mb-3">
-                            Google Ads is the process of running high-intent
-                            campaigns that focus on measurable results like
-                            leads, sales, and ROI. If your ads are getting
-                            clicks but not conversions, you're losing potential
-                            revenue every day.
+                            A logo is more than just a symbol—it's the face of
+                            your brand. We create unique, professional, and
+                            memorable logo designs that reflect your brand
+                            identity, build trust, and leave a lasting
+                            impression on your audience.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting Google Ads
-                            campaigns that target the right audience, reduce
-                            cost per click, and maximize your return on ad
-                            spend.
+                            From startups to established businesses, our
+                            creative logo design process focuses on originality,
+                            scalability, and brand consistency to ensure your
+                            logo stands out across digital and print platforms.
                           </p>
 
                           {/* Stats Row */}
                           <div className="react-stats-row">
                             <div className="react-stat-item">
-                              <span className="react-stat-num">5x</span>
+                              <span className="react-stat-num">600+</span>
                               <span className="react-stat-label">
-                                ROAS Growth
+                                Logos Designed
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
                               <span className="react-stat-num">95%</span>
                               <span className="react-stat-label">
-                                Campaign Optimization
+                                Client Satisfaction
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">400+</span>
+                              <span className="react-stat-num">100%</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                Original Concepts
                               </span>
                             </div>
                           </div>
@@ -143,7 +143,7 @@ const LogoDesign = () => {
                           {/* Feature Tag */}
                           <div className="react-feature-tag">
                             <i className="fas fa-bullhorn spin-icon"></i>
-                            <span>High ROI Campaigns</span>
+                            <span>Client Satisfaction</span>
                           </div>
                         </div>
                       </div>
@@ -153,7 +153,7 @@ const LogoDesign = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1777642309/bm_services_image_onseni.png"
+                              src="https://i.ibb.co/1tg8nSPm/Chat-GPT-Image-Jul-20-2026-06-01-30-PM.png"
                               alt="Google Ads"
                               className="main-react-img"
                             />
@@ -396,31 +396,39 @@ const LogoDesign = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Google Ads Management?
+                    What is Logo Design?
                   </h3>
                   <p className="text mb-3">
-                    Google Ads management is the process of running targeted
-                    advertising campaigns where you pay only for measurable
-                    results like clicks, leads, or sales.
+                    Logo design is the process of creating a unique visual
+                    identity that represents your brand. A professionally
+                    designed logo builds recognition, communicates your brand
+                    values, and creates a memorable first impression across
+                    digital and print platforms.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of wasting budget on random
-                    ads, Google Ads focuses on targeting high-intent users and
-                    optimizing campaigns continuously for better performance.
-                    This helps your business:
+                    Let's simplify this—instead of using generic symbols or
+                    templates, professional logo design focuses on originality,
+                    brand strategy, and timeless aesthetics. A strong logo helps
+                    your business:
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-bullseye", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-gem",
+                        label: "Unique Brand Identity",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-eye",
+                        label: "Memorable Logo Concepts",
+                      },
+                      {
+                        icon: "fas fa-pen-nib",
+                        label: "Custom Logo Designs",
+                      },
+                      {
+                        icon: "fas fa-vector-square",
+                        label: "Scalable Vector Files",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -501,9 +509,9 @@ const LogoDesign = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — Google Ads helps you reach the right
-                    audience, generate quality leads, and turn ad spend into
-                    real business growth.
+                    So in simple terms — a professionally designed logo helps
+                    your business stand out, build trust, and create a lasting
+                    impression with your audience.
                   </p>
 
                   {/* SLIDER */}
@@ -556,12 +564,11 @@ const LogoDesign = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance Google
-                              Ads Campaign
+                              Build a Powerful Brand with Creative Logo Design
                             </h3>
 
                             <a href="/contact" className="discuss-cta">
-                              Let’s Launch Your Campaign{" "}
+                              Let's Design Your Logo{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
@@ -574,12 +581,12 @@ const LogoDesign = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Google Ads Services
+                      What You Get with Logo Design Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build high-converting Google
-                      Ads systems that generate leads, sales, and measurable
-                      ROI.
+                      We don't just design logos—we create unique, memorable
+                      brand identities that build trust, improve recognition,
+                      and leave a lasting impression.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -613,13 +620,13 @@ const LogoDesign = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored Google Ads strategy for your business goals",
+                            label: "Logo Strategy & Discovery",
+                            desc: "Understanding your brand, audience, and business vision.",
                           },
 
                           {
                             icon: (
-                              // Targeting = bullseye 🎯
+                              // Targeting
                               <svg
                                 width="16"
                                 height="16"
@@ -633,13 +640,13 @@ const LogoDesign = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach high-intent users at the right moment",
+                            label: "Brand Research & Analysis",
+                            desc: "Researching your industry, audience, and competitors.",
                           },
 
                           {
                             icon: (
-                              // Creative = pen/design
+                              // Creative
                               <svg
                                 width="16"
                                 height="16"
@@ -652,13 +659,13 @@ const LogoDesign = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ads designed to drive clicks",
+                            label: "Custom Logo Concepts",
+                            desc: "Unique and creative logo concepts tailored to your brand.",
                           },
 
                           {
                             icon: (
-                              // Tracking = graph
+                              // Tracking
                               <svg
                                 width="16"
                                 height="16"
@@ -672,13 +679,13 @@ const LogoDesign = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and conversion accurately",
+                            label: "Vector File Delivery",
+                            desc: "High-quality vector files for print and digital use.",
                           },
 
                           {
                             icon: (
-                              // Retargeting = refresh/loop
+                              // Retargeting
                               <svg
                                 width="16"
                                 height="16"
@@ -693,13 +700,13 @@ const LogoDesign = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Remarketing Campaigns",
-                            desc: "Reconnect with users and increase conversions",
+                            label: "Logo Revisions",
+                            desc: "Refinements and revisions until your logo is perfect.",
                           },
 
                           {
                             icon: (
-                              // Optimization = settings/gear
+                              // Optimization
                               <svg
                                 width="16"
                                 height="16"
@@ -712,8 +719,8 @@ const LogoDesign = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous optimization to maximize ROI",
+                            label: "Brand Identity Guidelines",
+                            desc: "Complete logo usage guidelines for consistent branding.",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -764,9 +771,9 @@ const LogoDesign = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <LogoDesignPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseLogoDesign />
@@ -787,24 +794,24 @@ const LogoDesign = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is logo design?",
+                          a: "Logo design is the process of creating a unique visual identity that represents your business. A professionally designed logo helps build brand recognition, trust, and a lasting impression across digital and print platforms.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "Why is a professional logo important for my business?",
+                          a: "A professional logo strengthens your brand identity, improves credibility, and makes your business more memorable. It helps customers instantly recognize and trust your brand.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "What files will I receive after the logo is completed?",
+                          a: "You'll receive high-quality source files, including AI, EPS, SVG, PDF, PNG, and JPG formats, optimized for websites, social media, print materials, packaging, and other branding needs.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How much does a custom logo design cost?",
+                          a: "The cost depends on your project requirements, design complexity, number of concepts, and branding needs. We offer flexible logo design packages with transparent pricing and no hidden charges.",
                         },
                         {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          q: "How long does it take to design a logo?",
+                          a: "Most logo design projects are completed within 3–7 business days, depending on the package, revisions, and project complexity. Larger branding projects may require additional time.",
                         },
                       ].map((item, index) => (
                         <li

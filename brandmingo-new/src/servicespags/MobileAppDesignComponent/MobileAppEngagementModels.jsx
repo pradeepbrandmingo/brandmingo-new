@@ -3,61 +3,61 @@ import React, { useState } from "react";
 
 const engagementData = [
   {
-    id: "dedicated",
-    icon: "fas fa-bullseye",
-    title: "Dedicated Marketing Team",
-    desc: "A fully committed performance marketing team working exclusively on your campaigns to drive consistent growth and ROI.",
+    id: "uiux",
+    icon: "fas fa-pencil-ruler",
+    title: "Complete UI/UX Design",
+    desc: "End-to-end mobile app UI/UX design services tailored to your business goals and user needs.",
     points: [
-      "Continuous campaign performance optimization",
-      "Dedicated account manager for support",
-      "Scalable campaign growth and management",
-      "Focused strategy for long-term results",
+      "User-centered interface design",
+      "Modern Android & iOS layouts",
+      "Interactive design solutions",
+      "Consistent visual experience",
     ],
     tag: "Most Popular",
   },
   {
-    id: "time",
-    icon: "fas fa-chart-line",
-    title: "Time & Performance Based",
-    desc: "Pay based on actual campaign performance with complete flexibility to scale and optimize as your business grows.",
+    id: "prototype",
+    icon: "fas fa-mobile-screen-button",
+    title: "Prototype & User Testing",
+    desc: "Validate your app idea with interactive prototypes and usability testing before development begins.",
     points: [
-      "Pay based on measurable campaign results",
-      "Flexible scaling as performance improves",
-      "Agile execution with quick adjustments",
-      "Decisions driven by real-time data insights",
+      "Interactive clickable prototypes",
+      "User journey validation",
+      "Usability testing",
+      "Early design improvements",
     ],
     tag: null,
   },
   {
-    id: "fixed",
-    icon: "fas fa-coins",
-    title: "Fixed Monthly Retainer",
-    desc: "A predictable monthly model for managing and optimizing your performance marketing campaigns with consistent results.",
-    points: [
-      "Fixed monthly pricing with no surprises",
-      "Consistent campaign tracking and monitoring",
-      "Detailed reports with actionable insights",
-      "Ongoing optimization for better performance",
-    ],
-    tag: null,
-  },
-  {
-    id: "hybrid",
+    id: "designsystem",
     icon: "fas fa-layer-group",
-    title: "Hybrid Growth Model",
-    desc: "A balanced approach combining fixed management with performance-based incentives for maximum ROI and scalability.",
+    title: "Design System Development",
+    desc: "Build scalable design systems with reusable UI components for faster and consistent app development.",
     points: [
-      "Combination of fixed and performance pricing",
-      "Flexible strategy based on campaign needs",
-      "Scalable model for consistent business growth",
-      "Focused approach for maximum ROI outcomes",
+      "Reusable UI components",
+      "Typography & color systems",
+      "Developer-ready assets",
+      "Consistent app experience",
+    ],
+    tag: null,
+  },
+  {
+    id: "support",
+    icon: "fas fa-headset",
+    title: "Design Support & Optimization",
+    desc: "Continuous UI/UX improvements, design updates, and optimization to keep your mobile app modern and engaging.",
+    points: [
+      "Post-design consultation",
+      "UI improvements & updates",
+      "User feedback implementation",
+      "Long-term design support",
     ],
     tag: null,
   },
 ];
 
 const MobileAppEngagementModels = () => {
-  const [activeCard, setActiveCard] = useState("dedicated");
+  const [activeCard, setActiveCard] = useState("uiux");
 
   return (
     <section className="eng-section">
@@ -65,15 +65,18 @@ const MobileAppEngagementModels = () => {
         {/* ── Header ── */}
         <div className="eng-header">
           <div className="eng-eyebrow">How We Work</div>
-          {/* h3 tag — uses style.css h3 vars via .eng-title override */}
+
           <h3 className="eng-title">
-            Our Performance Marketing
+            Our Mobile App Design
             <br />
             Engagement Models
           </h3>
+
           <p className="eng-subtitle">
-            We offer flexible marketing engagement models designed to align with
-            your business goals, budget, and growth strategy.
+            Choose the engagement model that best fits your project. From UI/UX
+            design and interactive prototypes to complete design systems, we
+            deliver flexible solutions for startups, enterprises, and growing
+            businesses.
           </p>
         </div>
 
@@ -91,8 +94,8 @@ const MobileAppEngagementModels = () => {
                 <i className={card.icon} />
               </div>
 
-              {/* h3 tag for card title — semantic heading, sized via CSS */}
               <h3 className="eng-card-title">{card.title}</h3>
+
               <p className="eng-card-desc">{card.desc}</p>
 
               <div className="eng-divider" />
@@ -109,10 +112,13 @@ const MobileAppEngagementModels = () => {
         {/* ── CTA ── */}
         <div className="eng-cta-wrap">
           <p className="eng-cta-note">
-            Not sure which model suits you? Let's talk and find the perfect fit.
+            Not sure which mobile app design solution is right for your
+            business? Let's discuss your project and create the perfect user
+            experience together.
           </p>
+
           <a href="#contact" className="eng-cta-btn">
-            Request a Free Quote
+            Get a Free Design Consultation
             <i className="fas fa-arrow-right" />
           </a>
         </div>

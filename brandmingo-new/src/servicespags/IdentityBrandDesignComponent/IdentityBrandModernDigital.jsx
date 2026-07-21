@@ -1,62 +1,62 @@
 import React, { useState } from "react";
 
 const serviceImages = {
-  lead: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=520&q=80&auto=format&fit=crop",
+  lead: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=520&q=80&auto=format&fit=crop",
   ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=520&q=80&auto=format&fit=crop",
   google:
-    "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=520&q=80&auto=format&fit=crop",
-  meta: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=520&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=520&q=80&auto=format&fit=crop",
+  meta: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=520&q=80&auto=format&fit=crop",
   retargeting:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=520&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=520&q=80&auto=format&fit=crop",
   funnel:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=520&q=80&auto=format&fit=crop",
   analytics:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=520&q=80&auto=format&fit=crop",
   scaling:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=520&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=520&q=80&auto=format&fit=crop",
 };
 
 const servicesData = [
   {
     id: "lead",
-    title: "Lead Generation Campaigns",
-    desc: "We build high-converting Google Ads campaigns designed to generate qualified leads and consistent business growth. Our strategies focus on targeting high-intent audiences, optimizing landing pages, and reducing cost per lead while maximizing ROI.",
+    title: "Brand Strategy & Positioning",
+    desc: "Build a strong brand strategy that defines your vision, values, target audience, and market positioning to create a memorable business identity.",
   },
   {
     id: "ecommerce",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with Google Ads campaigns focused on increasing sales and maximizing return on ad spend. We optimize product listings, implement remarketing strategies, and continuously improve performance.",
+    title: "Logo & Visual Identity",
+    desc: "Design memorable logos, typography, color palettes, icons, and visual elements that make your brand instantly recognizable.",
   },
   {
     id: "google",
-    title: "Google Ads Management",
-    desc: "Reach high-intent users actively searching for your services with optimized Google Ads campaigns. We focus on keyword targeting, ad copy, smart bidding, and performance-driven results.",
+    title: "Brand Style Guidelines",
+    desc: "Create comprehensive brand guidelines that ensure consistent branding across digital, print, and marketing materials.",
   },
   {
     id: "meta",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience with creative and data-driven campaigns across Facebook and Instagram. We build funnel-based strategies that drive awareness, engagement, and high-quality conversions.",
+    title: "Business Stationery Design",
+    desc: "Design professional business cards, letterheads, envelopes, email signatures, and corporate stationery that reinforce your brand.",
   },
   {
     id: "retargeting",
-    title: "Retargeting Campaigns",
-    desc: "Convert lost visitors into customers with advanced retargeting strategies. We re-engage users based on behavior, improve conversion rates, and maximize the value of your traffic.",
+    title: "Digital Brand Assets",
+    desc: "Develop social media templates, presentations, website graphics, and digital branding materials for a consistent online presence.",
   },
   {
     id: "funnel",
-    title: "Sales Funnel Optimization",
-    desc: "Improve conversion rates by optimizing every stage of your marketing funnel. From landing pages to final action, we ensure a smooth journey that increases leads and sales.",
+    title: "Marketing Collateral Design",
+    desc: "Create brochures, flyers, company profiles, catalogs, banners, and promotional materials that strengthen your brand identity.",
   },
   {
     id: "analytics",
-    title: "Analytics & Tracking Setup",
-    desc: "Track every click, lead, and conversion with advanced analytics and tracking systems. We set up tools that provide clear insights for better decisions and campaign growth.",
+    title: "Corporate Branding Applications",
+    desc: "Extend your brand identity across office branding, signage, packaging, exhibition materials, and promotional merchandise.",
   },
   {
     id: "scaling",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns with data-backed strategies to maximize ROI and business growth. We identify winning ads, optimize performance, and continuously improve results.",
+    title: "Brand Management & Support",
+    desc: "Maintain a consistent and professional brand identity with ongoing design support, updates, and branding consultation.",
   },
 ];
 
@@ -77,23 +77,25 @@ const IdentityBrandModernDigital = () => {
   return (
     <div className="ret-section">
       <div className="auto-container">
-        {/* Heading — h3 tag, style.css vars apply automatically */}
+        {/* Heading */}
         <h3 className="ret-heading text-center mb-5">
-          Google Ads Services for Modern Digital Businesses
-          {/* <br /> Modern Digital Businesses */}
+          Brand Identity Design Services for Modern Businesses
         </h3>
 
-        {/* ── DESKTOP ── */}
+        {/* Desktop */}
         <div className="ret-grid ret-desktop-only">
-          {/* Left: tab buttons */}
+          {/* Left */}
           <div className="ret-tabs">
             {servicesData.map((service) => (
               <button
                 key={service.id}
-                className={`ret-tab-btn ${activeTab.id === service.id ? "active" : ""}`}
+                className={`ret-tab-btn ${
+                  activeTab.id === service.id ? "active" : ""
+                }`}
                 onClick={() => handleTabClick(service)}
               >
                 <span className="ret-tab-label">{service.title}</span>
+
                 <span className="ret-arrow">
                   <i className="fas fa-arrow-right" />
                 </span>
@@ -101,15 +103,18 @@ const IdentityBrandModernDigital = () => {
             ))}
           </div>
 
-          {/* Right: content panel */}
+          {/* Right */}
           <div className="ret-content" key={animKey}>
             <h4 className="ret-content-title">{activeTab.title}</h4>
+
             <div className="ret-content-body">
               <p className="ret-content-desc">{activeTab.desc}</p>
+
               <div className="ret-image-wrap">
                 <div className="ret-image-badge">
-                  <i className="fas fa-code" />
+                  <i className="fas fa-palette" />
                 </div>
+
                 <div className="ret-image-inner">
                   <img
                     src={serviceImages[activeTab.id]}
@@ -122,10 +127,11 @@ const IdentityBrandModernDigital = () => {
           </div>
         </div>
 
-        {/* ── MOBILE accordion ── */}
+        {/* Mobile */}
         <div className="ret-mobile-only">
           {servicesData.map((service) => {
             const isOpen = openAccordion === service.id;
+
             return (
               <div
                 key={service.id}
@@ -136,6 +142,7 @@ const IdentityBrandModernDigital = () => {
                   onClick={() => toggleAccordion(service.id)}
                 >
                   <span className="ret-mob-title">{service.title}</span>
+
                   <span className="ret-mob-icon">
                     <i className={`fas fa-chevron-${isOpen ? "up" : "down"}`} />
                   </span>
@@ -144,6 +151,7 @@ const IdentityBrandModernDigital = () => {
                 {isOpen && (
                   <div className="ret-mob-body">
                     <p className="ret-mob-desc">{service.desc}</p>
+
                     <div className="ret-mob-img-wrap">
                       <img
                         src={serviceImages[service.id]}

@@ -15,6 +15,8 @@ import ShopifyPricingPlans from "../../servicespags/shopifyComponents/ShopifyPri
 import WhyChooseBMShopify from "../../servicespags/shopifyComponents/WhyChooseBMShopify";
 import EngagementModelsShopify from "../../servicespags/shopifyComponents/EngagementModelsShopify";
 import PricingSectionShopify from "../../servicespags/shopifyComponents/PricingSectionShopify";
+import shopifyPortfolio from "../../components/PortfolioSlider/shopifyslider";
+import Shopifyslider from "../../components/PortfolioSlider/shopifyslider";
 
 const THEME = "#ff6b1e";
 
@@ -838,7 +840,7 @@ const ShopifyDetails = () => {
         </div>
 
         <div className="portfolio-slider-section">
-          <PortfolioSlider />
+          <Shopifyslider />
         </div>
       </section>
     </div>

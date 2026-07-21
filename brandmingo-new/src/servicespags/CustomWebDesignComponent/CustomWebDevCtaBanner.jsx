@@ -295,23 +295,24 @@ const CustomWebDevCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">CUSTOM WEB DESIGN</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Build Your Business
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                with Custom Web Design?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                From stunning UI/UX to fully responsive and SEO-friendly
+                websites, BrandMingo helps you create a powerful online presence
+                that attracts visitors, builds trust, and drives business
+                growth.
               </p>
 
               <div className="cta-btn-wrap">
                 <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                  Start Your Project
                   <i className="fas fa-arrow-right" />
                 </a>
                 <a href="#portfolio" className="cta-link">
@@ -324,31 +325,31 @@ const CustomWebDevCtaBanner = () => {
             <div className="cta-badges-col">
               <div className="cta-premium-badge">
                 <div className="badge-icon-box">
-                  <i className="fas fa-rocket" />
+                  <i className="fas fa-pencil-ruler" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">300+</span>
-                  <span className="lbl">Campaigns Managed</span>
+                  <span className="val">100%</span>
+                  <span className="lbl">Custom Design</span>
                 </div>
               </div>
 
               <div className="cta-premium-badge">
                 <div className="badge-icon-box">
-                  <i className="fas fa-check-circle" />
+                  <i className="fas fa-award" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">90%</span>
-                  <span className="lbl">Client Retention</span>
+                  <span className="val">95%</span>
+                  <span className="lbl">Client Satisfaction</span>
                 </div>
               </div>
 
               <div className="cta-premium-badge">
                 <div className="badge-icon-box">
-                  <i className="fas fa-headset" />
+                  <i className="fas fa-laptop-code" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">24×7</span>
-                  <span className="lbl">Performance Monitoring</span>
+                  <span className="val">500+</span>
+                  <span className="lbl">Web Pages Designed</span>
                 </div>
               </div>
             </div>

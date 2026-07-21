@@ -1,62 +1,62 @@
 import React, { useState } from "react";
 
 const serviceImages = {
-  lead: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=520&q=80&auto=format&fit=crop",
+  lead: "https://i.ibb.co/1tg8nSPm/Chat-GPT-Image-Jul-20-2026-06-01-30-PM.png",
   ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/1tg8nSPm/Chat-GPT-Image-Jul-20-2026-06-01-30-PM.png",
   google:
-    "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=520&q=80&auto=format&fit=crop",
-  meta: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/1tg8nSPm/Chat-GPT-Image-Jul-20-2026-06-01-30-PM.png",
+  meta: "https://i.ibb.co/1tg8nSPm/Chat-GPT-Image-Jul-20-2026-06-01-30-PM.png",
   retargeting:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/1tg8nSPm/Chat-GPT-Image-Jul-20-2026-06-01-30-PM.png",
   funnel:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/1tg8nSPm/Chat-GPT-Image-Jul-20-2026-06-01-30-PM.png",
   analytics:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/1tg8nSPm/Chat-GPT-Image-Jul-20-2026-06-01-30-PM.png",
   scaling:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/1tg8nSPm/Chat-GPT-Image-Jul-20-2026-06-01-30-PM.png",
 };
 
 const servicesData = [
   {
     id: "lead",
-    title: "Lead Generation Campaigns",
-    desc: "We build high-converting Google Ads campaigns designed to generate qualified leads and consistent business growth. Our strategies focus on targeting high-intent audiences, optimizing landing pages, and reducing cost per lead while maximizing ROI.",
+    title: "Custom Logo Design",
+    desc: "We create unique, memorable, and professionally crafted logos that represent your brand identity and leave a lasting impression. Every logo is designed from scratch to reflect your business values and vision.",
   },
   {
     id: "ecommerce",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with Google Ads campaigns focused on increasing sales and maximizing return on ad spend. We optimize product listings, implement remarketing strategies, and continuously improve performance.",
+    title: "Brand Identity Design",
+    desc: "Build a strong and consistent brand identity with carefully selected colors, typography, and visual elements that enhance recognition and create a professional image across every platform.",
   },
   {
     id: "google",
-    title: "Google Ads Management",
-    desc: "Reach high-intent users actively searching for your services with optimized Google Ads campaigns. We focus on keyword targeting, ad copy, smart bidding, and performance-driven results.",
+    title: "Logo Redesign Services",
+    desc: "Refresh your existing logo with a modern and professional design while preserving your brand's core identity. We transform outdated logos into timeless, impactful brand assets.",
   },
   {
     id: "meta",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience with creative and data-driven campaigns across Facebook and Instagram. We build funnel-based strategies that drive awareness, engagement, and high-quality conversions.",
+    title: "Minimalist Logo Design",
+    desc: "Create clean, modern, and timeless logos that are simple, memorable, and versatile. Our minimalist designs ensure maximum impact across digital and print media.",
   },
   {
     id: "retargeting",
-    title: "Retargeting Campaigns",
-    desc: "Convert lost visitors into customers with advanced retargeting strategies. We re-engage users based on behavior, improve conversion rates, and maximize the value of your traffic.",
+    title: "Business Logo Design",
+    desc: "Whether you're a startup or an established business, we design professional logos tailored to your industry, audience, and long-term branding goals.",
   },
   {
     id: "funnel",
-    title: "Sales Funnel Optimization",
-    desc: "Improve conversion rates by optimizing every stage of your marketing funnel. From landing pages to final action, we ensure a smooth journey that increases leads and sales.",
+    title: "Logo Mockups & Variations",
+    desc: "Visualize your logo in real-world applications with premium mockups and multiple layout variations, ensuring it looks perfect across websites, packaging, stationery, and social media.",
   },
   {
     id: "analytics",
-    title: "Analytics & Tracking Setup",
-    desc: "Track every click, lead, and conversion with advanced analytics and tracking systems. We set up tools that provide clear insights for better decisions and campaign growth.",
+    title: "Vector Files & Brand Assets",
+    desc: "Receive high-quality vector files and complete logo assets optimized for print, digital, merchandise, and large-scale branding without any loss of quality.",
   },
   {
     id: "scaling",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns with data-backed strategies to maximize ROI and business growth. We identify winning ads, optimize performance, and continuously improve results.",
+    title: "Brand Guidelines",
+    desc: "Get a comprehensive brand guideline document covering logo usage, colors, typography, spacing, and design standards to maintain consistency across all marketing materials.",
   },
 ];
 

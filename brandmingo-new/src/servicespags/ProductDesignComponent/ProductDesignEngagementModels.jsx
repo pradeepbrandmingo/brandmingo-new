@@ -4,53 +4,53 @@ import React, { useState } from "react";
 const engagementData = [
   {
     id: "dedicated",
-    icon: "fas fa-bullseye",
-    title: "Dedicated Marketing Team",
-    desc: "A fully committed performance marketing team working exclusively on your campaigns to drive consistent growth and ROI.",
+    icon: "fas fa-pencil-ruler",
+    title: "Dedicated Product Design Team",
+    desc: "A dedicated team of UI/UX designers focused exclusively on creating exceptional digital products for your business.",
     points: [
-      "Continuous campaign performance optimization",
-      "Dedicated account manager for support",
-      "Scalable campaign growth and management",
-      "Focused strategy for long-term results",
+      "Dedicated UI/UX designers",
+      "Continuous design collaboration",
+      "Scalable product design support",
+      "End-to-end design ownership",
     ],
     tag: "Most Popular",
   },
   {
     id: "time",
-    icon: "fas fa-chart-line",
-    title: "Time & Performance Based",
-    desc: "Pay based on actual campaign performance with complete flexibility to scale and optimize as your business grows.",
+    icon: "fas fa-clock",
+    title: "Time & Material Model",
+    desc: "Perfect for evolving products where design requirements change frequently throughout the project lifecycle.",
     points: [
-      "Pay based on measurable campaign results",
-      "Flexible scaling as performance improves",
-      "Agile execution with quick adjustments",
-      "Decisions driven by real-time data insights",
+      "Flexible design hours",
+      "Pay only for actual work",
+      "Quick design iterations",
+      "Ideal for agile product teams",
     ],
     tag: null,
   },
   {
     id: "fixed",
     icon: "fas fa-coins",
-    title: "Fixed Monthly Retainer",
-    desc: "A predictable monthly model for managing and optimizing your performance marketing campaigns with consistent results.",
+    title: "Fixed Cost Project",
+    desc: "Best for projects with clearly defined requirements, timelines, and deliverables from the beginning.",
     points: [
-      "Fixed monthly pricing with no surprises",
-      "Consistent campaign tracking and monitoring",
-      "Detailed reports with actionable insights",
-      "Ongoing optimization for better performance",
+      "Fixed project pricing",
+      "Defined milestones",
+      "Transparent delivery timeline",
+      "No hidden costs",
     ],
     tag: null,
   },
   {
     id: "hybrid",
     icon: "fas fa-layer-group",
-    title: "Hybrid Growth Model",
-    desc: "A balanced approach combining fixed management with performance-based incentives for maximum ROI and scalability.",
+    title: "Hybrid Design Partnership",
+    desc: "Combine fixed project planning with ongoing design support for continuous product improvements and future updates.",
     points: [
-      "Combination of fixed and performance pricing",
-      "Flexible strategy based on campaign needs",
-      "Scalable model for consistent business growth",
-      "Focused approach for maximum ROI outcomes",
+      "Initial product design",
+      "Long-term design support",
+      "Flexible enhancement cycles",
+      "Scalable engagement model",
     ],
     tag: null,
   },
@@ -67,13 +67,15 @@ const ProductDesignEngagementModels = () => {
           <div className="eng-eyebrow">How We Work</div>
           {/* h3 tag — uses style.css h3 vars via .eng-title override */}
           <h3 className="eng-title">
-            Our Performance Marketing
+            Our Product Design Engagement
             <br />
-            Engagement Models
+             Models
           </h3>
           <p className="eng-subtitle">
-            We offer flexible marketing engagement models designed to align with
-            your business goals, budget, and growth strategy.
+            Choose a flexible product design engagement model that fits your
+            project scope, timeline, and business goals. Whether you need a
+            dedicated design team or a one-time product design solution, we
+            deliver scalable and user-focused experiences.
           </p>
         </div>
 

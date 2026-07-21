@@ -8,13 +8,14 @@ const WhyChooseBMMobileApp = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose Brandmingo for High-Performance <br />
-            Marketing Services
+            Why Choose Brandmingo for Professional <br />
+            Mobile App Design Services
           </h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build performance-driven systems that
-            generate leads, increase ROI, and scale your business with
-            measurable results.
+            We don't just design mobile apps—we create intuitive, visually
+            engaging, and user-focused experiences that increase engagement,
+            improve usability, and help your business grow across Android and
+            iOS platforms.
           </p>
         </div>
 
@@ -23,59 +24,60 @@ const WhyChooseBMMobileApp = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">Years of UI/UX Experience</div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Designing modern mobile applications for startups, brands, and
+              growing businesses.
             </p>
           </div>
 
-          {/* 2 — span 2 */}
+          {/* 2 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-award" />
+              <i className="fas fa-mobile-screen-button" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">Mobile App UI/UX Specialists</div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Expert designers creating intuitive Android and iOS app
+              experiences with modern design principles.
             </p>
           </div>
 
           {/* 3 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              300<span>+</span>
+              100<span>+</span>
             </div>
-            <div className="wcb-stat-label">Campaigns Managed</div>
+            <div className="wcb-stat-label">Apps Designed</div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully designed mobile applications across multiple
+              industries and business domains.
             </p>
           </div>
 
           {/* 4 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              90<span>%</span>
+              95<span>%</span>
             </div>
-            <div className="wcb-stat-label">Client Retention Rate</div>
+            <div className="wcb-stat-label">Client Satisfaction</div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              Clients trust our creative approach, attention to detail, and
+              user-first design process.
             </p>
           </div>
 
           {/* 5 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-bolt" />
+              <i className="fas fa-pencil-ruler" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">Modern UI Design</div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Clean, premium, and visually appealing interfaces designed to
+              maximize user engagement.
             </p>
           </div>
 
@@ -84,78 +86,82 @@ const WhyChooseBMMobileApp = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-headset" />
             </div>
-            <div className="wcb-feat-title">24×7 Expert Support</div>
+            <div className="wcb-feat-title">End-to-End Design Support</div>
             <p className="wcb-feat-desc">
-              Continuous monitoring and quick optimization to keep campaigns
-              performing.
+              From concept and wireframes to final UI delivery, we support every
+              stage of your app design journey.
             </p>
           </div>
 
-          {/* 7 — highlight */}
+          {/* 7 */}
           <div className="wcb-card wcb-card-highlight">
             <div className="wcb-stat-value">
               100<span>%</span>
             </div>
-            <div className="wcb-stat-label">In-House Marketing Team</div>
+            <div className="wcb-stat-label">Custom App Designs</div>
             <p className="wcb-stat-desc">
-              No outsourcing — all campaigns are managed by our expert team.
+              Every interface is uniquely designed to reflect your brand,
+              audience, and business goals.
             </p>
           </div>
 
           {/* 8 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-shield-alt" />
+              <i className="fas fa-user-check" />
             </div>
-            <div className="wcb-feat-title">Performance Optimization</div>
+            <div className="wcb-feat-title">User-Centered Experience</div>
             <p className="wcb-feat-desc">
-              Rigorous brand consistency audits and performance benchmarks built
-              into every deliverable.
+              Every screen is designed to provide intuitive navigation and an
+              exceptional user experience.
             </p>
           </div>
 
           {/* 9 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              98<span>%</span>
+              100<span>%</span>
             </div>
-            <div className="wcb-stat-label">On-Time Reporting</div>
+            <div className="wcb-stat-label">Responsive Mobile Design</div>
             <p className="wcb-stat-desc">
-              Transparent and timely reports with actionable insights.
+              Optimized layouts for Android, iPhone, tablets, and multiple
+              screen sizes.
             </p>
           </div>
 
-          {/* 10 — span 2 */}
+          {/* 10 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-chart-line" />
+              <i className="fas fa-layer-group" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">Scalable Design System</div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              Reusable UI components and design systems built for faster,
+              scalable app development.
             </p>
           </div>
 
           {/* 11 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-chart-line" />
+              <i className="fas fa-wand-magic-sparkles" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">Interactive Prototypes</div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              Clickable prototypes that help validate ideas before development
+              begins.
             </p>
           </div>
 
-          {/* 12 — span 3 */}
+          {/* 12 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-layer-group" />
+              <i className="fas fa-shield-check" />
             </div>
             <div className="wcb-feat-title">Quality Assurance</div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              Every design is carefully reviewed for usability, consistency,
+              accessibility, and pixel-perfect quality.
             </p>
           </div>
         </div>

@@ -98,43 +98,39 @@ const LabelDesigning = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Google Ads
+                            Professional Label Designs That Stand Out
                           </h3>
                           <p className="text mb-3">
-                            Google Ads is the process of running high-intent
-                            campaigns that focus on measurable results like
-                            leads, sales, and ROI. If your ads are getting
-                            clicks but not conversions, you're losing potential
-                            revenue every day.
+                            We design creative, professional product labels that
+                            strengthen your brand and attract customers.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting Google Ads
-                            campaigns that target the right audience, reduce
-                            cost per click, and maximize your return on ad
-                            spend.
+                            From food and cosmetics to retail packaging, our
+                            print-ready label designs help your products make a
+                            lasting impression.
                           </p>
 
                           {/* Stats Row */}
                           <div className="react-stats-row">
                             <div className="react-stat-item">
-                              <span className="react-stat-num">5x</span>
+                              <span className="react-stat-num">500+</span>
                               <span className="react-stat-label">
-                                ROAS Growth
+                                Labels Designed
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
                               <span className="react-stat-num">95%</span>
                               <span className="react-stat-label">
-                                Campaign Optimization
+                                Client Satisfaction
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">400+</span>
+                              <span className="react-stat-num">100%</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                Print-Ready Files
                               </span>
                             </div>
                           </div>
@@ -142,7 +138,7 @@ const LabelDesigning = () => {
                           {/* Feature Tag */}
                           <div className="react-feature-tag">
                             <i className="fas fa-bullhorn spin-icon"></i>
-                            <span>High ROI Campaigns</span>
+                            <span>Start Your Label Design</span>
                           </div>
                         </div>
                       </div>
@@ -152,7 +148,7 @@ const LabelDesigning = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1777642309/bm_services_image_onseni.png"
+                              src="https://i.ibb.co/wFbGVttx/Chat-GPT-Image-Jul-20-2026-06-55-05-PM.png"
                               alt="Google Ads"
                               className="main-react-img"
                             />
@@ -395,31 +391,39 @@ const LabelDesigning = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Google Ads Management?
+                    What is Label Designing?
                   </h3>
                   <p className="text mb-3">
-                    Google Ads management is the process of running targeted
-                    advertising campaigns where you pay only for measurable
-                    results like clicks, leads, or sales.
+                    Label designing is the process of creating visually
+                    appealing and informative product labels that reflect your
+                    brand identity while attracting customers and communicating
+                    essential product information.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of wasting budget on random
-                    ads, Google Ads focuses on targeting high-intent users and
-                    optimizing campaigns continuously for better performance.
-                    This helps your business:
+                    A professionally designed label not only enhances shelf
+                    appeal but also builds trust, strengthens brand recognition,
+                    and helps your product stand out in a competitive market.
+                    Our label designs are creative, print-ready, and tailored to
+                    your industry.
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-bullseye", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-tags",
+                        label: "Premium Branding",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-box-open",
+                        label: "Attractive Packaging",
+                      },
+                      {
+                        icon: "fas fa-print",
+                        label: "Print-Ready Design",
+                      },
+                      {
+                        icon: "fas fa-palette",
+                        label: "Brand Consistency",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -500,9 +504,9 @@ const LabelDesigning = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — Google Ads helps you reach the right
-                    audience, generate quality leads, and turn ad spend into
-                    real business growth.
+                    So in simple terms — a professionally designed label makes
+                    your products more attractive, strengthens your brand
+                    identity, and increases customer trust.
                   </p>
 
                   {/* SLIDER */}
@@ -555,12 +559,12 @@ const LabelDesigning = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance Google
-                              Ads Campaign
+                              Ready to Elevate Your Product with Professional
+                              Label Design?
                             </h3>
 
                             <a href="/contact" className="discuss-cta">
-                              Let’s Launch Your Campaign{" "}
+                              Start Your Label Design{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
@@ -573,12 +577,12 @@ const LabelDesigning = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Google Ads Services
+                      What You Get with Label Designing Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build high-converting Google
-                      Ads systems that generate leads, sales, and measurable
-                      ROI.
+                      We create premium, print-ready label designs that
+                      strengthen your brand, attract customers, and make your
+                      products stand out on every shelf.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -612,13 +616,13 @@ const LabelDesigning = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored Google Ads strategy for your business goals",
+                            label: "Label Strategy & Research",
+                            desc: "Understanding your product, audience, and brand goals.",
                           },
 
                           {
                             icon: (
-                              // Targeting = bullseye 🎯
+                              // Research
                               <svg
                                 width="16"
                                 height="16"
@@ -632,13 +636,13 @@ const LabelDesigning = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach high-intent users at the right moment",
+                            label: "Brand & Market Research",
+                            desc: "Research-driven designs that connect with your customers.",
                           },
 
                           {
                             icon: (
-                              // Creative = pen/design
+                              // Creative
                               <svg
                                 width="16"
                                 height="16"
@@ -651,13 +655,13 @@ const LabelDesigning = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ads designed to drive clicks",
+                            label: "Custom Label Design",
+                            desc: "Creative, premium labels designed for your products.",
                           },
 
                           {
                             icon: (
-                              // Tracking = graph
+                              // Tracking
                               <svg
                                 width="16"
                                 height="16"
@@ -671,13 +675,13 @@ const LabelDesigning = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and conversion accurately",
+                            label: "Print-Ready Files",
+                            desc: "High-resolution files ready for professional printing.",
                           },
 
                           {
                             icon: (
-                              // Retargeting = refresh/loop
+                              // Retargeting
                               <svg
                                 width="16"
                                 height="16"
@@ -692,13 +696,13 @@ const LabelDesigning = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Remarketing Campaigns",
-                            desc: "Reconnect with users and increase conversions",
+                            label: "Multiple Label Variations",
+                            desc: "Different sizes and layouts for every product variant.",
                           },
 
                           {
                             icon: (
-                              // Optimization = settings/gear
+                              // Optimization
                               <svg
                                 width="16"
                                 height="16"
@@ -711,8 +715,8 @@ const LabelDesigning = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous optimization to maximize ROI",
+                            label: "Quality & Brand Consistency",
+                            desc: "Every label is optimized for premium quality and consistent branding.",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -763,9 +767,9 @@ const LabelDesigning = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <LabelDesigningPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseLabelDesigning />
@@ -786,24 +790,24 @@ const LabelDesigning = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is label designing?",
+                          a: "Label designing is the process of creating visually appealing and informative labels that represent your brand, communicate product details, and attract customers.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "Why is a professional label design important?",
+                          a: "A professionally designed label improves shelf appeal, builds customer trust, strengthens brand identity, and helps your product stand out in a competitive market.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "What types of labels do you design?",
+                          a: "We design labels for food & beverages, cosmetics, pharmaceuticals, health products, retail items, bottles, jars, boxes, and other product packaging.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How much does label designing cost?",
+                          a: "The cost depends on the label size, design complexity, packaging requirements, and number of design variations. We provide transparent pricing with no hidden charges.",
                         },
                         {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          q: "What files will I receive after the design is completed?",
+                          a: "You'll receive high-quality print-ready files in AI, EPS, PDF, SVG, PNG, and JPG formats, suitable for commercial printing and digital use.",
                         },
                       ].map((item, index) => (
                         <li
