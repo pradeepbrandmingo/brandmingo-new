@@ -17,6 +17,7 @@ import CorporateBrandingPricingPlans from "../../servicespags/CorporateBrandingC
 import WhyChooseBMCorporateBranding from "../../servicespags/CorporateBrandingComponent/WhyChooseBMCorporateBranding";
 import CorporateBrandingEngagementModels from "../../servicespags/CorporateBrandingComponent/CorporateBrandingEngagementModels";
 import CorporateBrandingPricingSection from "../../servicespags/CorporateBrandingComponent/CorporateBrandingPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -569,7 +570,14 @@ const CorporateBranding = () => {
                               Branding
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Start Your Branding{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>

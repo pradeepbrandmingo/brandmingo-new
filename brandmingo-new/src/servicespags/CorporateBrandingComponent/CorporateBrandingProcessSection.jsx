@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { openEnquiryPopup } from "../../utils/popup";
 
 /* ─────────────────────────────────────────────────────────
    PATH: starts bottom-left, rises very gently so the 5
@@ -172,7 +173,14 @@ export default function CorporateBrandingProcessSection() {
             customer trust, and ensures a consistent brand experience across
             every touchpoint.
           </p>
-          <a href="#contact" className="ps-btn">
+          <a
+            href="/"
+            className="ps-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Start Your Branding <span>→</span>
           </a>
         </div>

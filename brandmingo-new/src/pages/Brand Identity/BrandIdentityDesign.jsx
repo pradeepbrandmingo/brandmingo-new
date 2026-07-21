@@ -18,6 +18,7 @@ import WhyChooseIdentityBrand from "../../servicespags/IdentityBrandDesignCompon
 import IdentityBrandEngagementModels from "../../servicespags/IdentityBrandDesignComponent/IdentityBrandEngagementModels";
 import IdentityBrandPricingSection from "../../servicespags/IdentityBrandDesignComponent/IdentityBrandPricingSection";
 import LabelSlider from "../../components/PortfolioSlider/LabelSlider";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -564,7 +565,14 @@ const BrandIdentityDesign = () => {
                               Identity
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Start Your Brand Identity{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>

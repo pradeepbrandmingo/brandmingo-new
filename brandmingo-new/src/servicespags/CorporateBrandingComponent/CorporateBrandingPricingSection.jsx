@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./pricing-section.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const pricingFactors = [
   { icon: "fas fa-lightbulb", label: "Brand Strategy Requirements" },
@@ -101,7 +102,14 @@ const CorporateBrandingPricingSection = () => {
             tailored to your branding goals and business requirements.
           </p>
 
-          <a href="#contact" className="prc-cta-btn">
+          <a
+            href="/"
+            className="prc-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Get a Free Branding Quote
             <i className="fas fa-arrow-right" />
           </a>
