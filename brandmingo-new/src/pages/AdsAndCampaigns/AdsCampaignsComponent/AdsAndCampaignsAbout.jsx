@@ -59,7 +59,7 @@ const STATS = [
     key: "p",
     suffix: "+",
     label: "Projects Completed",
-    target: 150,
+    target: 300,
   },
   {
     fa: "fa-solid fa-face-smile",
@@ -80,7 +80,7 @@ const STATS = [
     key: "e",
     suffix: "+",
     label: "Years Experience",
-    target: 5,
+    target: 3,
   },
 ];
 
@@ -107,7 +107,7 @@ const AdsAndCampaignsAbout = () => {
   }, []);
 
   const animCounts = () => {
-    const targets = { p: 150, s: 98, h: 24, e: 5 };
+    const targets = { p: 300, s: 98, h: 24, e: 3 };
     let step = 0;
     const iv = setInterval(() => {
       step++;
@@ -208,15 +208,22 @@ const AdsAndCampaignsAbout = () => {
           </div>
 
           {/* ── CARD 5: PDF (separate) ── */}
-          <div className="wda-pdf-card">
+          {/* ── CARD 5: PDF (separate) ── */}
+          <a
+            href="src/assets/images/Brochure/BM Brochure.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="wda-pdf-card"
+          >
             <span className="wda-dl-label">
               <i className="fa-solid fa-file-pdf" />
               Brochure (PDF)
             </span>
+
             <div className="wda-dl-btn">
               <i className="fa-solid fa-download" />
             </div>
-          </div>
+          </a>
         </aside>
         {/* ══ END SIDEBAR ══ */}
 

@@ -10,10 +10,11 @@ import PHPExpertiseDetails from "../../servicespags/PHPDetailsComponent/PHPExper
 import PHPProcessSection from "../../servicespags/PHPDetailsComponent/PHPProcessSection";
 import PHPModernDigital from "../../servicespags/PHPDetailsComponent/PHPModernDigital";
 import PHPCtaBanner from "../../servicespags/PHPDetailsComponent/PHPCtaBanner";
-import PHPPricingPlans from "../../servicespags/PHPDetailsComponent/PHPPricingPlans";
+// import PHPPricingPlans from "../../servicespags/PHPDetailsComponent/PHPPricingPlans";
 import PHPWhyChooseBm from "../../servicespags/PHPDetailsComponent/PHPWhyChooseBm";
 import PHPEngagementModels from "../../servicespags/PHPDetailsComponent/PHPEngagementModels";
 import PHPPricingSection from "../../servicespags/PHPDetailsComponent/PHPPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -558,7 +559,14 @@ const PHPDetails = () => {
                               PHP Development Company.
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let’s Build Your Website{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
@@ -763,9 +771,9 @@ const PHPDetails = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <PHPPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <PHPWhyChooseBm />

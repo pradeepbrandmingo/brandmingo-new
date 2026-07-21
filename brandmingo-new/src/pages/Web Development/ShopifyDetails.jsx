@@ -11,12 +11,13 @@ import ShopifyExpertiseDetails from "../../servicespags/shopifyComponents/Shopif
 import ShopifyProcessSection from "../../servicespags/shopifyComponents/ShopifyProcessSection";
 import ShopifyModernDigital from "../../servicespags/shopifyComponents/ShopifyModernDigital";
 import ShopiyCtaBanner from "../../servicespags/shopifyComponents/ShopiyCtaBanner";
-import ShopifyPricingPlans from "../../servicespags/shopifyComponents/ShopifyPricingPlans";
+// import ShopifyPricingPlans from "../../servicespags/shopifyComponents/ShopifyPricingPlans";
 import WhyChooseBMShopify from "../../servicespags/shopifyComponents/WhyChooseBMShopify";
 import EngagementModelsShopify from "../../servicespags/shopifyComponents/EngagementModelsShopify";
 import PricingSectionShopify from "../../servicespags/shopifyComponents/PricingSectionShopify";
-import shopifyPortfolio from "../../components/PortfolioSlider/shopifyslider";
+// import shopifyPortfolio from "../../components/PortfolioSlider/shopifyslider";
 import Shopifyslider from "../../components/PortfolioSlider/shopifyslider";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -560,7 +561,14 @@ const ShopifyDetails = () => {
                               with Expert Developers
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let's Discuss Your Project{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
@@ -765,9 +773,9 @@ const ShopifyDetails = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <ShopifyPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMShopify />

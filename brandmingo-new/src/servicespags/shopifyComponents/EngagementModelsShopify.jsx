@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./engagement-models.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const engagementData = [
   {
@@ -24,8 +25,7 @@ const engagementData = [
       "Transparent billing",
       "Agile & adaptive execution",
       "Easy scope adjustments",
-      "Best for Evolving Projects"
-      
+      "Best for Evolving Projects",
     ],
     tag: null,
   },
@@ -38,8 +38,7 @@ const engagementData = [
       "Pre-defined scope",
       "No budget surprises",
       "On-time delivery",
-      "Zero Surprise Costs"
-      
+      "Zero Surprise Costs",
     ],
     tag: null,
   },
@@ -52,8 +51,7 @@ const engagementData = [
       "Fixed scope with flexibility",
       "Smooth transition between models",
       "Best of both worlds",
-      "Ideal for Scaling Brands"
-     
+      "Ideal for Scaling Brands",
     ],
     tag: null,
   },
@@ -114,7 +112,14 @@ const EngagementModelsShopify = () => {
           <p className="eng-cta-note">
             Not sure which model suits you? Let's talk and find the perfect fit.
           </p>
-          <a href="#contact" className="eng-cta-btn">
+          <a
+            href="/"
+            className="eng-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Request a Free Quote
             <i className="fas fa-arrow-right" />
           </a>

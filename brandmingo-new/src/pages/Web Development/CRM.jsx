@@ -10,10 +10,11 @@ import CRMExpertiseDetails from "../../servicespags/CRMComponent/CRMExpertiseDet
 import CRMProcessSection from "../../servicespags/CRMComponent/CRMProcessSection";
 import CRMModernDigital from "../../servicespags/CRMComponent/CRMModernDigital";
 import CRMCtaBanner from "../../servicespags/CRMComponent/CRMCtaBanner";
-import CRMPricingPlans from "../../servicespags/CRMComponent/CRMPricingPlans";
+// import CRMPricingPlans from "../../servicespags/CRMComponent/CRMPricingPlans";
 import CRMWhyChooseBm from "../../servicespags/CRMComponent/CRMWhyChooseBm";
 import CRMEngagementModels from "../../servicespags/CRMComponent/CRMEngagementModels";
 import CRMPricingSection from "../../servicespags/CRMComponent/CRMPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -553,7 +554,14 @@ const CRM = () => {
                               Development Company.
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let’s Build Your Website{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
@@ -758,9 +766,9 @@ const CRM = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <CRMPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <CRMWhyChooseBm />
@@ -779,24 +787,22 @@ const CRM = () => {
                     <h3 className="mb-3">Frequently Asked Question</h3>
                     <ul className="accordion-box mt-40">
                       {[
-                        
-                          {
-                            q: "What is CRM development?",
-                            a: "CRM development is the process of building custom software that helps businesses manage customers, leads, sales, support, and daily operations from a single platform.",
-                          },
-                          {
-                            q: "Why should I choose a custom CRM?",
-                            a: "A custom CRM is designed specifically for your business needs, offering greater flexibility, automation, scalability, and seamless integration with your existing tools.",
-                          },
-                          {
-                            q: "Can you integrate CRM with third-party applications?",
-                            a: "Yes. We integrate CRM systems with payment gateways, ERP software, email platforms, WhatsApp, SMS services, marketing tools, and custom APIs.",
-                          },
-                          {
-                            q: "How much does custom CRM development cost?",
-                            a: "The cost depends on your required features, integrations, user roles, and project complexity. We provide customized pricing based on your business requirements.",
-                          },
-                        
+                        {
+                          q: "What is CRM development?",
+                          a: "CRM development is the process of building custom software that helps businesses manage customers, leads, sales, support, and daily operations from a single platform.",
+                        },
+                        {
+                          q: "Why should I choose a custom CRM?",
+                          a: "A custom CRM is designed specifically for your business needs, offering greater flexibility, automation, scalability, and seamless integration with your existing tools.",
+                        },
+                        {
+                          q: "Can you integrate CRM with third-party applications?",
+                          a: "Yes. We integrate CRM systems with payment gateways, ERP software, email platforms, WhatsApp, SMS services, marketing tools, and custom APIs.",
+                        },
+                        {
+                          q: "How much does custom CRM development cost?",
+                          a: "The cost depends on your required features, integrations, user roles, and project complexity. We provide customized pricing based on your business requirements.",
+                        },
                       ].map((item, index) => (
                         <li
                           key={index}

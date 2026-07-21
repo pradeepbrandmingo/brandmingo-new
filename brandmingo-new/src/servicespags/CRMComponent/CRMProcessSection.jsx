@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const PATH =
   "M 40 700 C 80 680, 120 650, 160 620 C 200 590, 240 560, 280 530 C 320 500, 340 480, 360 460 C 400 420, 440 400, 480 385 C 510 372, 530 365, 560 355 C 600 340, 640 320, 680 300 C 710 284, 730 272, 760 258 C 800 238, 840 215, 880 195 C 910 178, 940 162, 980 148 C 1020 132, 1060 108, 1100 82 C 1120 68, 1140 52, 1160 38";
@@ -164,7 +165,14 @@ export default function CRMProcessSection() {
             fast, secure, and high-performing websites that drive real business
             growth.
           </p>
-          <a href="#contact" className="ps-btn">
+          <a
+            href="/"
+            className="ps-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Get Started <span>→</span>
           </a>
         </div>

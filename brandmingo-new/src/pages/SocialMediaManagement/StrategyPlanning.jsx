@@ -17,6 +17,7 @@ import StrategyPricingPlans from "../../servicespags/StrategyPlanningComponents/
 import WhyChooseBMStrategy from "../../servicespags/StrategyPlanningComponents/WhyChooseBMStrategy";
 import StrategyEngagementModels from "../../servicespags/StrategyPlanningComponents/StrategyEngagementModels";
 import StrategyPricingSection from "../../servicespags/StrategyPlanningComponents/StrategyPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -564,7 +565,14 @@ const StrategyPlanning = () => {
                               Build a Winning Strategy for Business Growth
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Start Your Strategy{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>

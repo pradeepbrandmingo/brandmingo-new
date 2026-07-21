@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./engagement-models.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const engagementData = [
   {
@@ -111,7 +112,14 @@ const EngagementModels = () => {
           <p className="eng-cta-note">
             Not sure which model suits you? Let's talk and find the perfect fit.
           </p>
-          <a href="#contact" className="eng-cta-btn">
+          <a
+            href="/"
+            className="eng-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Request a Free Quote
             <i className="fas fa-arrow-right" />
           </a>

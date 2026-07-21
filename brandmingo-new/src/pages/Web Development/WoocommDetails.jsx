@@ -10,10 +10,11 @@ import WoocommExpertiseDetails from "../../servicespags/woocommComponents/Woocom
 import WoocommProcessSection from "../../servicespags/woocommComponents/WoocommProcessSection";
 import WoocommModernDigital from "../../servicespags/woocommComponents/WoocommModernDigital";
 import WoocommCtaBanner from "../../servicespags/woocommComponents/WoocommCtaBanner";
-import WoocommPricingPlans from "../../servicespags/woocommComponents/WoocommPricingPlans";
+// import WoocommPricingPlans from "../../servicespags/woocommComponents/WoocommPricingPlans";
 import WoocommWhyChooseBm from "../../servicespags/woocommComponents/WoocommWhyChooseBm";
 import WoocommEngagementModels from "../../servicespags/woocommComponents/WoocommEngagementModels";
 import WoocommPricingSection from "../../servicespags/woocommComponents/WoocommPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -553,7 +554,14 @@ const WoocommDetails = () => {
                               a Leading E-commerce Development Company.
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let’s Build Your Store{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
@@ -755,9 +763,9 @@ const WoocommDetails = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <WoocommPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WoocommWhyChooseBm />

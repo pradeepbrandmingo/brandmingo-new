@@ -337,7 +337,9 @@ const EnquiryPopup = ({ isOpen, onClose }) => {
             </div>
             <div>
               <small>Need immediate help?</small>
-              <strong>+91 98765 43210</strong>
+              <strong>
+                <a href="tel:+919990613140">+91 99906 13140</a>
+              </strong>
             </div>
           </div>
         </aside>

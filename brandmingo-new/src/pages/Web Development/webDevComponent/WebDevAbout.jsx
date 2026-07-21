@@ -54,7 +54,7 @@ const STATS = [
     key: "p",
     suffix: "+",
     label: "Projects Completed",
-    target: 150,
+    target: 200,
   },
   {
     fa: "fa-solid fa-face-smile",
@@ -75,7 +75,7 @@ const STATS = [
     key: "e",
     suffix: "+",
     label: "Years Experience",
-    target: 5,
+    target: 3,
   },
 ];
 
@@ -102,7 +102,7 @@ const WebDevAbout = () => {
   }, []);
 
   const animCounts = () => {
-    const targets = { p: 150, s: 98, h: 24, e: 5 };
+    const targets = { p: 200, s: 98, h: 24, e: 3 };
     let step = 0;
     const iv = setInterval(() => {
       step++;

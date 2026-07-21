@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { openEnquiryPopup } from "../../utils/popup";
+
 // import "./engagement-models.css";
 
 const engagementData = [
@@ -111,7 +113,14 @@ const WordpressEngagementModels = () => {
           <p className="eng-cta-note">
             Not sure which model suits you? Let’s help you choose the right one.
           </p>
-          <a href="#contact" className="eng-cta-btn">
+          <a
+            href="/"
+            className="eng-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Request a Free Quote
             <i className="fas fa-arrow-right" />
           </a>

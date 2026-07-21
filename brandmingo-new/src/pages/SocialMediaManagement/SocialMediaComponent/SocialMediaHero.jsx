@@ -26,9 +26,9 @@ const SocialMediaHero = () => {
     },
   ];
   const stats = [
-    { value: "170+", label: "Projects Completed" },
+    { value: "350+", label: "Projects Completed" },
     { value: "98%", label: "Client Satisfaction" },
-    { value: "4+", label: "Years Experience" },
+    { value: "3+", label: "Years Experience" },
     { value: "24/7", label: "Support" },
   ];
 

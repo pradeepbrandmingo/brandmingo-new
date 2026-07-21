@@ -27,7 +27,7 @@ const WebDevelopmentHero = ({ openPopup }) => {
   const stats = [
     { value: "200+", label: "Projects Completed" },
     { value: "98%", label: "Client Satisfaction" },
-    { value: "4+", label: "Years Experience" },
+    { value: "3+", label: "Years Experience" },
     { value: "24/7", label: "Support" },
   ];
 
