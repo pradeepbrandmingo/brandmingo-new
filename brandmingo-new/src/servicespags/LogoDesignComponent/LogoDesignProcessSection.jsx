@@ -13,32 +13,32 @@ const steps = [
   {
     num: "01",
     icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understand your business, audience, and goals.",
+    title: "Brand Discovery",
+    desc: "Understand your brand, audience, and vision.",
   },
   {
     num: "02",
-    icon: "fa-solid fa-layer-group",
-    title: "Strategy & Campaign Planning",
-    desc: "Plan high-converting Google Ads strategy.",
+    icon: "fa-solid fa-lightbulb",
+    title: "Research & Concept Creation",
+    desc: "Explore ideas and create unique logo concepts.",
   },
   {
     num: "03",
-    icon: "fa-solid fa-bullhorn",
-    title: "Campaign Setup & Execution",
-    desc: "Launch campaigns with targeting and creatives.",
+    icon: "fa-solid fa-pen-nib",
+    title: "Logo Design",
+    desc: "Craft a creative logo with colors and typography.",
   },
   {
     num: "04",
-    icon: "fa-solid fa-chart-line",
-    title: "Optimization & Testing",
-    desc: "Improve performance with testing and data.",
+    icon: "fa-solid fa-arrows-rotate",
+    title: "Feedback & Refinement",
+    desc: "Refine the selected concept based on your feedback.",
   },
   {
     num: "05",
-    icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scale winning campaigns for better ROI.",
+    icon: "fa-solid fa-award",
+    title: "Final Delivery",
+    desc: "Deliver print-ready and digital logo files with brand assets.",
   },
 ];
 
@@ -162,14 +162,14 @@ export default function LogoDesignProcessSection() {
             Our Process
           </div>
           <h2 className="ps-heading">
-            We follow a provenn
+            We follow a
             <br />
-            Google Ads <span className="ora">growth process</span>
+            proven Logo <span className="ora">Design process</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to build Google Ads
-            campaigns that generate high-quality leads, sales, and measurable
-            ROI for your business.
+            We follow a strategic and creative design process to craft memorable
+            logos that reflect your brand identity, connect with your audience,
+            and leave a lasting impression across every platform.
           </p>
           <a href="#contact" className="ps-btn">
             Start Your Campaign <span>→</span>

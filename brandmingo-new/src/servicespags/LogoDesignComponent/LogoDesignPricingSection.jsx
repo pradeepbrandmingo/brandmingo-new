@@ -12,23 +12,23 @@ const pricingFactors = [
 const estimateSteps = [
   {
     num: "01",
-    title: "Requirement Discussion",
-    desc: "We understand your business goals, target audience, and marketing objectives.",
+    title: "Brand Discovery",
+    desc: "We understand your business, brand vision, target audience, and design preferences.",
   },
   {
     num: "02",
-    title: "Campaign Analysis",
-    desc: "We evaluate your current performance, competitors, and growth opportunities.",
+    title: "Research & Concept Planning",
+    desc: "We research your industry, competitors, and creative direction to develop unique logo concepts.",
   },
   {
     num: "03",
-    title: "Strategy & Budget Planning",
-    desc: "We define campaign structure, budget allocation, and expected outcomes.",
+    title: "Design & Proposal",
+    desc: "We define the project scope, design approach, deliverables, timeline, and branding requirements.",
   },
   {
     num: "04",
-    title: "Transparent Cost Estimate",
-    desc: "You receive a clear, result-focused pricing plan with no hidden charges.",
+    title: "Transparent Quote",
+    desc: "Receive a clear, fixed-price proposal with no hidden charges and complete ownership of your final logo.",
   },
 ];
 

@@ -295,23 +295,24 @@ const CorporateBrandingCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">CORPORATE BRANDING</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Build a Powerful
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Corporate Brand?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                From brand strategy and visual identity to corporate identity
+                systems and brand guidelines, BrandMingo helps you build a
+                memorable brand that inspires trust, strengthens recognition,
+                and creates lasting business value.
               </p>
 
               <div className="cta-btn-wrap">
                 <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                  Start Your Branding
                   <i className="fas fa-arrow-right" />
                 </a>
                 <a href="#portfolio" className="cta-link">
@@ -327,8 +328,8 @@ const CorporateBrandingCtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">300+</span>
-                  <span className="lbl">Campaigns Managed</span>
+                  <span className="val">200+</span>
+                  <span className="lbl">Brands Created</span>
                 </div>
               </div>
 
@@ -337,8 +338,8 @@ const CorporateBrandingCtaBanner = () => {
                   <i className="fas fa-check-circle" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">90%</span>
-                  <span className="lbl">Client Retention</span>
+                  <span className="val">95%</span>
+                  <span className="lbl">Brand Consistency</span>
                 </div>
               </div>
 
@@ -347,8 +348,8 @@ const CorporateBrandingCtaBanner = () => {
                   <i className="fas fa-headset" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">24×7</span>
-                  <span className="lbl">Performance Monitoring</span>
+                  <span className="val">98%</span>
+                  <span className="lbl">Client Satisfaction</span>
                 </div>
               </div>
             </div>

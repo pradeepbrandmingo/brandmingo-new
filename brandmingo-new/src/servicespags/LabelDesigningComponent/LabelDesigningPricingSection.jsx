@@ -2,33 +2,33 @@ import React, { useState } from "react";
 // import "./pricing-section.css";
 
 const pricingFactors = [
-  { icon: "fas fa-layer-group", label: "Campaign Goals & Complexity" },
-  { icon: "fas fa-handshake", label: "Engagement Model Selected" },
-  { icon: "fas fa-users", label: "Ad Budget & Platforms" },
-  { icon: "fas fa-clock", label: "Timeline & Scaling Speed" },
-  { icon: "fas fa-plug", label: "Tracking & Tools Setup" },
+  { icon: "fas fa-tags", label: "Label Type & Complexity" },
+  { icon: "fas fa-box-open", label: "Product & Packaging Requirements" },
+  { icon: "fas fa-palette", label: "Custom Design & Branding" },
+  { icon: "fas fa-clock", label: "Timeline & Revisions" },
+  { icon: "fas fa-print", label: "Print-Ready Deliverables" },
 ];
 
 const estimateSteps = [
   {
     num: "01",
     title: "Requirement Discussion",
-    desc: "We understand your business goals, target audience, and marketing objectives.",
+    desc: "We understand your product, brand identity, and label design requirements.",
   },
   {
     num: "02",
-    title: "Campaign Analysis",
-    desc: "We evaluate your current performance, competitors, and growth opportunities.",
+    title: "Research & Planning",
+    desc: "We analyze your industry, competitors, packaging style, and target audience.",
   },
   {
     num: "03",
-    title: "Strategy & Budget Planning",
-    desc: "We define campaign structure, budget allocation, and expected outcomes.",
+    title: "Design Scope & Proposal",
+    desc: "We define the label concept, deliverables, timeline, and branding requirements.",
   },
   {
     num: "04",
     title: "Transparent Cost Estimate",
-    desc: "You receive a clear, result-focused pricing plan with no hidden charges.",
+    desc: "Receive a clear quote with no hidden charges and complete design ownership.",
   },
 ];
 
@@ -38,57 +38,68 @@ const LabelDesigningPricingSection = () => {
   return (
     <section className="prc-section">
       <div className="auto-container">
-        {/* ── Header ── */}
+        {/* Header */}
         <div className="prc-header">
           <div className="prc-eyebrow">Transparent Pricing</div>
-          {/* h3 tag — sized via var(--h3-font-size) in CSS */}
-          <h3 className="prc-title">Pricing & Cost Estimation</h3>
+
+          <h3 className="prc-title">
+            Label Designing Pricing
+            <br />& Cost Estimation
+          </h3>
+
           <p className="prc-subtitle">
-            Our performance marketing pricing is flexible, transparent, and
-            based on your business goals — no fixed packages, no hidden costs.
+            Our label design pricing is flexible, transparent, and based on your
+            product, branding, and packaging requirements—no hidden costs.
           </p>
         </div>
 
-        {/* ════ BLOCK 1 — Pricing Depends On ════ */}
+        {/* Pricing Depends On */}
         <div className="prc-block">
           <div className="prc-block-label">Pricing Depends On</div>
+
           <div className="prc-factors">
-            {pricingFactors.map((f, i) => (
-              <div className="prc-factor-card" key={i}>
+            {pricingFactors.map((factor, index) => (
+              <div className="prc-factor-card" key={index}>
                 <div className="prc-factor-icon">
-                  <i className={f.icon} />
+                  <i className={factor.icon} />
                 </div>
-                <span className="prc-factor-label">{f.label}</span>
+
+                <span className="prc-factor-label">{factor.label}</span>
               </div>
             ))}
           </div>
         </div>
 
-        {/* ════ BLOCK 2 — How We Estimate Cost ════ */}
+        {/* How We Estimate */}
         <div className="prc-block">
           <div className="prc-block-label">How We Estimate Cost</div>
+
           <div className="prc-steps-row">
-            {estimateSteps.map((step, i) => (
+            {estimateSteps.map((step, index) => (
               <div
-                key={i}
-                className={`prc-step${activeStep === i ? " active" : ""}`}
-                onMouseEnter={() => setActiveStep(i)}
+                key={index}
+                className={`prc-step ${activeStep === index ? " active" : ""}`}
+                onMouseEnter={() => setActiveStep(index)}
               >
                 <div className="prc-step-num">{step.num}</div>
+
                 <div className="prc-step-title">{step.title}</div>
+
                 <p className="prc-step-desc">{step.desc}</p>
               </div>
             ))}
           </div>
         </div>
 
-        {/* ── CTA ── */}
+        {/* CTA */}
         <div className="prc-cta-wrap">
           <p className="prc-cta-note">
-            Get a custom quote tailored to your project — no obligations.
+            Get a custom label design quote tailored to your product and
+            packaging requirements.
           </p>
+
           <a href="#contact" className="prc-cta-btn">
-            Get a Free Estimate
+            Get a Free Quote
             <i className="fas fa-arrow-right" />
           </a>
         </div>

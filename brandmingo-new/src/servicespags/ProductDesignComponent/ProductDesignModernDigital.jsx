@@ -1,62 +1,62 @@
 import React, { useState } from "react";
 
 const serviceImages = {
-  lead: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=520&q=80&auto=format&fit=crop",
+  lead: "https://i.ibb.co/qFFmJqkQ/Chat-GPT-Image-Jul-20-2026-03-43-29-PM.png",
   ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/qFFmJqkQ/Chat-GPT-Image-Jul-20-2026-03-43-29-PM.png",
   google:
-    "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=520&q=80&auto=format&fit=crop",
-  meta: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/qFFmJqkQ/Chat-GPT-Image-Jul-20-2026-03-43-29-PM.png",
+  meta: "https://i.ibb.co/qFFmJqkQ/Chat-GPT-Image-Jul-20-2026-03-43-29-PM.png",
   retargeting:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/qFFmJqkQ/Chat-GPT-Image-Jul-20-2026-03-43-29-PM.png",
   funnel:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/qFFmJqkQ/Chat-GPT-Image-Jul-20-2026-03-43-29-PM.png",
   analytics:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/qFFmJqkQ/Chat-GPT-Image-Jul-20-2026-03-43-29-PM.png",
   scaling:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/qFFmJqkQ/Chat-GPT-Image-Jul-20-2026-03-43-29-PM.png",
 };
 
 const servicesData = [
   {
     id: "lead",
-    title: "Lead Generation Campaigns",
-    desc: "We build high-converting performance marketing campaigns designed to generate qualified leads and consistent business growth. Our strategies focus on targeting the right audience, optimizing landing pages, and reducing cost per lead while maximizing ROI.",
+    title: "UI/UX Design",
+    desc: "We create intuitive and visually engaging user interfaces that deliver seamless user experiences across web and mobile applications.",
   },
   {
     id: "ecommerce",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with performance-driven campaigns focused on increasing sales and maximizing return on ad spend. We optimize product ads, implement dynamic remarketing, and continuously improve campaign performance.",
+    title: "Product Research",
+    desc: "We research your market, competitors, and users to build products that solve real user problems and validate product ideas.",
   },
   {
     id: "google",
-    title: "Google Ads Management",
-    desc: "Reach high-intent users actively searching for your services with optimized Google Ads campaigns. We focus on keyword strategy, ad copy, bidding optimization, and ROI-driven results.",
+    title: "Wireframing & Prototyping",
+    desc: "Transform concepts into interactive wireframes and prototypes to visualize the product before development begins.",
   },
   {
     id: "meta",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience with creative and data-driven ad campaigns across Facebook and Instagram. We build funnel-based campaigns that drive awareness, engagement, and conversions.",
+    title: "Design System Development",
+    desc: "Build scalable design systems with reusable components that ensure consistency across every screen and platform.",
   },
   {
     id: "retargeting",
-    title: "Retargeting Campaigns",
-    desc: "Convert lost visitors into customers using advanced retargeting strategies. We re-engage users based on behavior and improve conversion rates significantly.",
+    title: "Mobile App Design",
+    desc: "Design modern, user-friendly mobile applications with engaging interfaces and seamless user experiences.",
   },
   {
     id: "funnel",
-    title: "Sales Funnel Optimization",
-    desc: "Improve your conversion rates by optimizing every stage of your marketing funnel. From landing pages to final conversion, we ensure a smooth and effective user journey.",
+    title: "Web Application Design",
+    desc: "Create responsive and high-performance web application interfaces focused on usability and business goals.",
   },
   {
     id: "analytics",
-    title: "Analytics & Tracking Setup",
-    desc: "Track every click, lead, and conversion with advanced analytics and tracking systems. We set up tools that provide actionable insights for better decision-making.",
+    title: "Usability Testing",
+    desc: "Identify usability issues through testing and improve the overall user experience before product launch.",
   },
   {
     id: "scaling",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns with data-backed strategies to maximize ROI and business growth. We identify winning campaigns and continuously optimize for better performance.",
+    title: "Product Design Optimization",
+    desc: "Continuously refine and optimize product designs to improve usability, accessibility, and customer satisfaction.",
   },
 ];
 

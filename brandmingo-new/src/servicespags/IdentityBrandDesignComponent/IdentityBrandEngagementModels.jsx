@@ -4,53 +4,53 @@ import React, { useState } from "react";
 const engagementData = [
   {
     id: "dedicated",
-    icon: "fas fa-bullseye",
-    title: "Dedicated Marketing Team",
-    desc: "A fully committed performance marketing team working exclusively on your campaigns to drive consistent growth and ROI.",
+    icon: "fas fa-palette",
+    title: "Dedicated Brand Identity Team",
+    desc: "A dedicated team of branding experts working exclusively to create a memorable and consistent brand identity for your business.",
     points: [
-      "Continuous campaign performance optimization",
-      "Dedicated account manager for support",
-      "Scalable campaign growth and management",
-      "Focused strategy for long-term results",
+      "Dedicated branding specialists",
+      "Custom identity strategy",
+      "Creative collaboration throughout",
+      "Long-term brand consistency",
     ],
     tag: "Most Popular",
   },
   {
     id: "time",
-    icon: "fas fa-chart-line",
-    title: "Time & Performance Based",
-    desc: "Pay based on actual campaign performance with complete flexibility to scale and optimize as your business grows.",
+    icon: "fas fa-lightbulb",
+    title: "Time & Material Model",
+    desc: "A flexible engagement model for businesses requiring ongoing brand identity design, updates, and creative support.",
     points: [
-      "Pay based on measurable campaign results",
-      "Flexible scaling as performance improves",
-      "Agile execution with quick adjustments",
-      "Decisions driven by real-time data insights",
+      "Flexible design revisions",
+      "Pay for actual design work",
+      "Continuous creative support",
+      "Perfect for growing brands",
     ],
     tag: null,
   },
   {
     id: "fixed",
     icon: "fas fa-coins",
-    title: "Fixed Monthly Retainer",
-    desc: "A predictable monthly model for managing and optimizing your performance marketing campaigns with consistent results.",
+    title: "Fixed Brand Identity Package",
+    desc: "A fixed-price solution that delivers a complete brand identity with clearly defined deliverables and timelines.",
     points: [
-      "Fixed monthly pricing with no surprises",
-      "Consistent campaign tracking and monitoring",
-      "Detailed reports with actionable insights",
-      "Ongoing optimization for better performance",
+      "Transparent project pricing",
+      "Complete visual identity",
+      "Brand guideline document",
+      "Full ownership rights",
     ],
     tag: null,
   },
   {
     id: "hybrid",
     icon: "fas fa-layer-group",
-    title: "Hybrid Growth Model",
-    desc: "A balanced approach combining fixed management with performance-based incentives for maximum ROI and scalability.",
+    title: "Complete Branding Solution",
+    desc: "An end-to-end branding package covering logo design, brand assets, stationery, guidelines, and digital branding materials.",
     points: [
-      "Combination of fixed and performance pricing",
-      "Flexible strategy based on campaign needs",
-      "Scalable model for consistent business growth",
-      "Focused approach for maximum ROI outcomes",
+      "Complete branding package",
+      "Print & digital brand assets",
+      "Scalable identity system",
+      "Professional brand experience",
     ],
     tag: null,
   },
@@ -62,22 +62,24 @@ const IdentityBrandEngagementModels = () => {
   return (
     <section className="eng-section">
       <div className="auto-container">
-        {/* ── Header ── */}
+        {/* Header */}
         <div className="eng-header">
           <div className="eng-eyebrow">How We Work</div>
-          {/* h3 tag — uses style.css h3 vars via .eng-title override */}
+
           <h3 className="eng-title">
-            Our Performance Marketing
+            Our Brand Identity Design
             <br />
             Engagement Models
           </h3>
+
           <p className="eng-subtitle">
-            We offer flexible marketing engagement models designed to align with
-            your business goals, budget, and growth strategy.
+            We provide flexible engagement models to help businesses create a
+            strong, memorable, and consistent brand identity that grows with
+            their vision and business goals.
           </p>
         </div>
 
-        {/* ── Cards ── */}
+        {/* Cards */}
         <div className="eng-grid">
           {engagementData.map((card) => (
             <div
@@ -91,8 +93,8 @@ const IdentityBrandEngagementModels = () => {
                 <i className={card.icon} />
               </div>
 
-              {/* h3 tag for card title — semantic heading, sized via CSS */}
               <h3 className="eng-card-title">{card.title}</h3>
+
               <p className="eng-card-desc">{card.desc}</p>
 
               <div className="eng-divider" />
@@ -106,13 +108,15 @@ const IdentityBrandEngagementModels = () => {
           ))}
         </div>
 
-        {/* ── CTA ── */}
+        {/* CTA */}
         <div className="eng-cta-wrap">
           <p className="eng-cta-note">
-            Not sure which model suits you? Let's talk and find the perfect fit.
+            Not sure which branding model is right for your business? Let's
+            discuss your goals and build the perfect brand identity together.
           </p>
+
           <a href="#contact" className="eng-cta-btn">
-            Request a Free Quote
+            Get a Free Consultation
             <i className="fas fa-arrow-right" />
           </a>
         </div>

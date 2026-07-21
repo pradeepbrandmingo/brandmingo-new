@@ -13,32 +13,32 @@ const steps = [
   {
     num: "01",
     icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understanding your business, target audience, and goals before running any campaign.",
+    title: "Requirement Analysis",
+    desc: "Understanding your business goals, audience, and website requirements before starting the design process.",
   },
   {
     num: "02",
-    icon: "fa-solid fa-table-columns",
-    title: "Strategy & Funnel Planning",
-    desc: "Creating a clear marketing strategy and conversion funnel tailored to your business.",
+    icon: "fa-solid fa-pen-ruler",
+    title: "UI/UX Design",
+    desc: "Creating modern, user-friendly, and visually engaging website layouts tailored to your brand.",
   },
   {
     num: "03",
-    icon: "fa-solid fa-code",
-    title: "Campaign Setup & Execution",
-    desc: "Launching high-performing ads with proper targeting, creatives, and tracking systems.",
+    icon: "fa-solid fa-laptop-code",
+    title: "Custom Web Design",
+    desc: "Designing responsive, SEO-friendly, and conversion-focused websites with premium user experiences.",
   },
   {
     num: "04",
     icon: "fa-solid fa-shield-halved",
-    title: "Optimization & Testing",
-    desc: "Continuously improving campaigns using data, A/B testing, and performance insights.",
+    title: "Testing & Optimization",
+    desc: "Testing design responsiveness, usability, speed, and compatibility across all devices and browsers.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scaling winning campaigns to maximize ROI and drive consistent business growth.",
+    title: "Launch & Support",
+    desc: "Launching your website smoothly with ongoing support, updates, and performance optimization.",
   },
 ];
 
@@ -164,14 +164,15 @@ export default function CustomWebDevProcessSection() {
           <h2 className="ps-heading">
             We follow a proven
             <br />
-            performance <span className="ora">marketing process</span>
+            custom web <span className="ora">design process</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to create campaigns
-            that generate leads, sales, and measurable ROI for your business.
+            We use a strategic and user-focused approach to design modern,
+            responsive, and conversion-driven websites that strengthen your
+            brand and deliver exceptional user experiences.
           </p>
           <a href="#contact" className="ps-btn">
-            Start Your Growth <span>→</span>
+            Start Your Project →<span>→</span>
           </a>
         </div>
 

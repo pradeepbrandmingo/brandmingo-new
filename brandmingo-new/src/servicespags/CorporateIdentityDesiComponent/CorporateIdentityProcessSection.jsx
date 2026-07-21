@@ -13,32 +13,32 @@ const steps = [
   {
     num: "01",
     icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understand your business, audience, and goals.",
+    title: "Brand Discovery",
+    desc: "Understand your business, vision, values, and target audience.",
   },
   {
     num: "02",
-    icon: "fa-solid fa-layer-group",
-    title: "Strategy & Campaign Planning",
-    desc: "Plan high-converting Google Ads strategy.",
+    icon: "fa-solid fa-lightbulb",
+    title: "Identity Strategy",
+    desc: "Develop a unique corporate identity strategy and visual direction.",
   },
   {
     num: "03",
-    icon: "fa-solid fa-bullhorn",
-    title: "Campaign Setup & Execution",
-    desc: "Launch campaigns with targeting and creatives.",
+    icon: "fa-solid fa-palette",
+    title: "Design & Branding",
+    desc: "Create logos, stationery, brand assets, and visual identity elements.",
   },
   {
     num: "04",
-    icon: "fa-solid fa-chart-line",
-    title: "Optimization & Testing",
-    desc: "Improve performance with testing and data.",
+    icon: "fa-solid fa-pen-ruler",
+    title: "Review & Refinement",
+    desc: "Refine every design with feedback to ensure brand consistency.",
   },
   {
     num: "05",
-    icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scale winning campaigns for better ROI.",
+    icon: "fa-solid fa-award",
+    title: "Final Delivery",
+    desc: "Deliver complete brand guidelines and production-ready identity assets.",
   },
 ];
 
@@ -162,17 +162,16 @@ export default function CorporateIdentityProcessSection() {
             Our Process
           </div>
           <h2 className="ps-heading">
-            We follow a provenn
+            We follow a proven Identity
             <br />
-            Google Ads <span className="ora">growth process</span>
+            Corporate <span className="ora">design process</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to build Google Ads
-            campaigns that generate high-quality leads, sales, and measurable
-            ROI for your business.
+            We follow a strategic and collaborative process to create a strong
+            corporate identity that reflects your brand values.
           </p>
           <a href="#contact" className="ps-btn">
-            Start Your Campaign <span>→</span>
+            Build Your Brand Identity<span>→</span>
           </a>
         </div>
 

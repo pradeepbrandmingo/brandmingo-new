@@ -8,13 +8,14 @@ const WhyChooseBMProductDesign = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose Brandmingo for High-Performance <br />
-            Marketing Services
+            Why Choose Brandmingo for
+            <br />
+            Product Design Services
           </h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build performance-driven systems that
-            generate leads, increase ROI, and scale your business with
-            measurable results.
+            We create user-centric digital products that combine creativity,
+            usability, and innovation to deliver seamless experiences and help
+            businesses build products people love.
           </p>
         </div>
 
@@ -23,59 +24,60 @@ const WhyChooseBMProductDesign = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">Years of Design Experience</div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Delivering modern UI/UX and product design solutions across
+              multiple industries.
             </p>
           </div>
 
-          {/* 2 — span 2 */}
+          {/* 2 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
               <i className="fas fa-award" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">Expert Product Designers</div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Skilled designers focused on intuitive interfaces, usability, and
+              engaging digital experiences.
             </p>
           </div>
 
           {/* 3 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              300<span>+</span>
+              500<span>+</span>
             </div>
-            <div className="wcb-stat-label">Campaigns Managed</div>
+            <div className="wcb-stat-label">Products Designed</div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully designed websites, mobile apps, SaaS platforms, and
+              digital products.
             </p>
           </div>
 
           {/* 4 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              90<span>%</span>
+              98<span>%</span>
             </div>
-            <div className="wcb-stat-label">Client Retention Rate</div>
+            <div className="wcb-stat-label">Client Satisfaction</div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              Our user-focused design approach consistently exceeds client
+              expectations.
             </p>
           </div>
 
           {/* 5 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-bolt" />
+              <i className="fas fa-lightbulb" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">User-Centered Design</div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Every interface is designed around real user needs to maximize
+              engagement and usability.
             </p>
           </div>
 
@@ -84,21 +86,22 @@ const WhyChooseBMProductDesign = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-headset" />
             </div>
-            <div className="wcb-feat-title">24×7 Expert Support</div>
+            <div className="wcb-feat-title">Dedicated Design Support</div>
             <p className="wcb-feat-desc">
-              Continuous monitoring and quick optimization to keep campaigns
-              performing.
+              Work closely with our design experts throughout your product
+              design journey.
             </p>
           </div>
 
-          {/* 7 — highlight */}
+          {/* 7 */}
           <div className="wcb-card wcb-card-highlight">
             <div className="wcb-stat-value">
               100<span>%</span>
             </div>
-            <div className="wcb-stat-label">In-House Marketing Team</div>
+            <div className="wcb-stat-label">Custom Product Designs</div>
             <p className="wcb-stat-desc">
-              No outsourcing — all campaigns are managed by our expert team.
+              Every design is uniquely crafted to match your brand, audience,
+              and business goals.
             </p>
           </div>
 
@@ -107,55 +110,58 @@ const WhyChooseBMProductDesign = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-shield-alt" />
             </div>
-            <div className="wcb-feat-title">Performance Optimization</div>
+            <div className="wcb-feat-title">Quality Assurance</div>
             <p className="wcb-feat-desc">
-              Rigorous brand consistency audits and performance benchmarks built
-              into every deliverable.
+              Every design is reviewed for usability, accessibility, and visual
+              consistency before delivery.
             </p>
           </div>
 
           {/* 9 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              98<span>%</span>
+              99<span>%</span>
             </div>
-            <div className="wcb-stat-label">On-Time Reporting</div>
+            <div className="wcb-stat-label">On-Time Delivery</div>
             <p className="wcb-stat-desc">
-              Transparent and timely reports with actionable insights.
+              Timely delivery of high-quality design assets without compromising
+              creativity.
             </p>
           </div>
 
-          {/* 10 — span 2 */}
+          {/* 10 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-chart-line" />
+              <i className="fas fa-mobile-screen-button" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">Responsive & Scalable Designs</div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              Product designs optimized for mobile, tablet, desktop, and future
+              scalability.
             </p>
           </div>
 
           {/* 11 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-chart-line" />
+              <i className="fas fa-object-group" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">Modern Design Systems</div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              Reusable UI components and scalable design systems that speed up
+              product development.
             </p>
           </div>
 
-          {/* 12 — span 3 */}
+          {/* 12 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
               <i className="fas fa-layer-group" />
             </div>
-            <div className="wcb-feat-title">Quality Assurance</div>
+            <div className="wcb-feat-title">End-to-End Product Design</div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              From user research and wireframes to UI design, prototyping, and
+              developer handoff, we manage the complete product design process.
             </p>
           </div>
         </div>

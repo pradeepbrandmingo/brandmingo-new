@@ -98,42 +98,46 @@ const CorporateBranding = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Scale with Corporate Branding
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            Corporate branding is the process of building a
+                            strong, consistent, and memorable brand identity
+                            that reflects your company's values, vision, and
+                            professionalism. A well-crafted brand helps you
+                            establish trust, stand out from competitors, and
+                            create lasting impressions across every customer
+                            touchpoint.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            We help businesses create impactful brand identities
+                            through strategic branding, logo design, visual
+                            identity systems, brand guidelines, and marketing
+                            assets that strengthen recognition and drive
+                            long-term business growth.
                           </p>
 
                           {/* Stats Row */}
                           <div className="react-stats-row">
                             <div className="react-stat-item">
-                              <span className="react-stat-num">5x</span>
+                              <span className="react-stat-num">200+</span>
                               <span className="react-stat-label">
-                                ROI Growth
+                                Brands Created
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">90%</span>
+                              <span className="react-stat-num">95%</span>
                               <span className="react-stat-label">
-                                Campaign Optimization
+                                Brand Consistency
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">300+</span>
+                              <span className="react-stat-num">98%</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                Client Satisfaction
                               </span>
                             </div>
                           </div>
@@ -151,7 +155,7 @@ const CorporateBranding = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://i.ibb.co/HfWHPY50/Chat-GPT-Image-Jul-20-2026-12-13-46-PM.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -168,29 +172,6 @@ const CorporateBranding = () => {
                                 style={{ marginRight: "5px" }}
                               />
                               Scalable
-                            </div>
-
-                            <div className="floating-code-card">
-                              <span className="code-dot red" />
-                              <span className="code-dot yellow" />
-                              <span className="code-dot green" />
-                              <p className="code-line">
-                                <span className="code-blue">const</span> App{" "}
-                                <span className="code-white">= () =&gt;</span>{" "}
-                                <span className="code-orange">&#123;</span>
-                              </p>
-                              <p
-                                className="code-line"
-                                style={{ paddingLeft: "12px" }}
-                              >
-                                <span className="code-blue">return</span>{" "}
-                                <span className="code-orange">
-                                  &lt;React /&gt;
-                                </span>
-                              </p>
-                              <p className="code-line">
-                                <span className="code-orange">&#125;</span>
-                              </p>
                             </div>
                           </div>
 
@@ -417,31 +398,38 @@ const CorporateBranding = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    What is Corporate Branding?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Corporate branding is the process of creating a strong,
+                    consistent, and recognizable identity for your business. It
+                    goes beyond a logo by defining your company's values, visual
+                    identity, messaging, and overall brand experience.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    Let's simplify this—corporate branding helps your business
+                    build trust, stand out from competitors, and create a
+                    lasting impression across every customer touchpoint. A
+                    strong brand helps you:
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-shield-alt",
+                        label: "Build Brand Trust",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-lightbulb",
+                        label: "Unique Brand Identity",
+                      },
+                      {
+                        icon: "fas fa-handshake",
+                        label: "Increase Customer Loyalty",
+                      },
+                      {
+                        icon: "fas fa-star",
+                        label: "Stronger Brand Recognition",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -522,8 +510,9 @@ const CorporateBranding = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    In simple terms—corporate branding helps your business
+                    create a memorable identity that builds trust, attracts
+                    customers, and drives long-term growth.
                   </p>
 
                   {/* SLIDER */}
@@ -576,12 +565,12 @@ const CorporateBranding = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Scale Your Business with Powerful Corporate
+                              Branding
                             </h3>
 
                             <a href="/contact" className="discuss-cta">
-                              Let's Discuss Your Project{" "}
+                              Start Your Branding{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
                           </div>
@@ -594,11 +583,13 @@ const CorporateBranding = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with Corporate Branding
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      We create powerful corporate branding solutions that
+                      establish a consistent brand identity, build customer
+                      trust, and position your business for long-term growth and
+                      recognition.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -607,16 +598,14 @@ const CorporateBranding = () => {
 
                       <div className="deliverables-subtitle-row">
                         <span className="deliverables-subtitle-bar"></span>
-                        <p className="deliverables-subtitle">
-                          Our Deliverables
-                        </p>
+                        <p className="deliverables-subtitle">Brand Strategy</p>
                       </div>
 
                       <div className="deliverables-grid">
                         {[
                           {
                             icon: (
-                              // Strategy = idea / planning
+                              // Strategy
                               <svg
                                 width="16"
                                 height="16"
@@ -632,13 +621,13 @@ const CorporateBranding = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            label: "Brand Strategy",
+                            desc: "Build a strong foundation for long-term business growth",
                           },
 
                           {
                             icon: (
-                              // Targeting = bullseye 🎯
+                              // Target
                               <svg
                                 width="16"
                                 height="16"
@@ -652,13 +641,13 @@ const CorporateBranding = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            label: "Brand Positioning",
+                            desc: "Stand out from competitors with a unique identity",
                           },
 
                           {
                             icon: (
-                              // Creative = pen/design
+                              // Creative
                               <svg
                                 width="16"
                                 height="16"
@@ -671,13 +660,13 @@ const CorporateBranding = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            label: "Visual Identity Design",
+                            desc: "Create memorable logos, colors, and brand assets",
                           },
 
                           {
                             icon: (
-                              // Tracking = graph
+                              // Analytics
                               <svg
                                 width="16"
                                 height="16"
@@ -691,13 +680,13 @@ const CorporateBranding = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "Brand Performance Analysis",
+                            desc: "Measure brand impact with actionable insights",
                           },
 
                           {
                             icon: (
-                              // Retargeting = refresh/loop
+                              // Refresh
                               <svg
                                 width="16"
                                 height="16"
@@ -712,13 +701,13 @@ const CorporateBranding = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Brand Consistency",
+                            desc: "Maintain a unified brand across every platform",
                           },
 
                           {
                             icon: (
-                              // Optimization = settings/gear
+                              // Settings
                               <svg
                                 width="16"
                                 height="16"
@@ -731,8 +720,8 @@ const CorporateBranding = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            label: "Brand Growth Strategy",
+                            desc: "Continuously strengthen your brand for long-term success",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -783,9 +772,9 @@ const CorporateBranding = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <CorporateBrandingPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMCorporateBranding />
@@ -806,24 +795,24 @@ const CorporateBranding = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is corporate branding?",
+                          a: "Corporate branding is the process of creating a strong and consistent identity for your business through strategy, visual design, messaging, and brand positioning. It helps build trust, recognition, and long-term customer loyalty.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "Why is corporate branding important for my business?",
+                          a: "A strong corporate brand differentiates your business from competitors, increases customer trust, improves brand recognition, and creates a consistent experience across every customer touchpoint.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "What is included in your corporate branding services?",
+                          a: "Our services include brand strategy, logo design, visual identity, brand guidelines, corporate identity design, brand messaging, marketing collateral, and ongoing branding consultation.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How much does corporate branding cost?",
+                          a: "The cost depends on your branding requirements, business size, project scope, and deliverables. We provide customized pricing with complete transparency and no hidden charges.",
                         },
                         {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          q: "How long does it take to complete a corporate branding project?",
+                          a: "The timeline varies depending on the project scope. Most corporate branding projects are completed within 2–6 weeks, while larger branding engagements may require additional time for research, design, and implementation.",
                         },
                       ].map((item, index) => (
                         <li

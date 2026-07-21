@@ -98,42 +98,43 @@ const MobileAppDesign = () => {
                       <div className="col-lg-6 col-md-12">
                         <div className="react-build-content">
                           <h3 className="mt-0 mb-3 theme-h3">
-                            Scale with Performance Marketing
+                            Scale with Mobile App Design
                           </h3>
                           <p className="text mb-3">
-                            Performance marketing is the process of running
-                            data-driven campaigns that focus on measurable
-                            results like leads, conversions, and revenue. Now
-                            understand this clearly — if your ads are generating
-                            clicks but not conversions
+                            Mobile app design is the process of creating
+                            intuitive, visually appealing, and user-friendly
+                            mobile experiences that engage users and strengthen
+                            your brand. A well-designed app improves usability,
+                            customer satisfaction, and long-term retention.
                           </p>
 
                           <p className="text mb-4">
-                            We help you build high-converting campaigns that
-                            target the right audience, reduce cost per lead, and
-                            maximize return on investment.
+                            We design modern Android and iOS applications with
+                            seamless user experiences, intuitive navigation,
+                            engaging interfaces, and conversion-focused UI/UX
+                            that help your business grow.
                           </p>
 
                           {/* Stats Row */}
                           <div className="react-stats-row">
                             <div className="react-stat-item">
-                              <span className="react-stat-num">5x</span>
+                              <span className="react-stat-num">100+</span>
                               <span className="react-stat-label">
-                                ROI Growth
+                                Apps Designed
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">90%</span>
+                              <span className="react-stat-num">95%</span>
                               <span className="react-stat-label">
-                                Campaign Optimization
+                                Client Satisfaction
                               </span>
                             </div>
                             <div className="react-stat-divider" />
                             <div className="react-stat-item">
-                              <span className="react-stat-num">300+</span>
+                              <span className="react-stat-num">100%</span>
                               <span className="react-stat-label">
-                                Campaigns Managed
+                                Responsive UI/UX
                               </span>
                             </div>
                           </div>
@@ -151,7 +152,7 @@ const MobileAppDesign = () => {
                         <div className="react-build-image-wrapper">
                           <div className="image-glass-card">
                             <img
-                              src="https://res.cloudinary.com/dpdn7kzll/image/upload/v1776862328/Untitled_design_1_fl799a.png"
+                              src="https://i.ibb.co/WWrhzvMk/Chat-GPT-Image-Jul-20-2026-01-21-57-PM.png"
                               alt="React Development"
                               className="main-react-img"
                             />
@@ -168,29 +169,6 @@ const MobileAppDesign = () => {
                                 style={{ marginRight: "5px" }}
                               />
                               Scalable
-                            </div>
-
-                            <div className="floating-code-card">
-                              <span className="code-dot red" />
-                              <span className="code-dot yellow" />
-                              <span className="code-dot green" />
-                              <p className="code-line">
-                                <span className="code-blue">const</span> App{" "}
-                                <span className="code-white">= () =&gt;</span>{" "}
-                                <span className="code-orange">&#123;</span>
-                              </p>
-                              <p
-                                className="code-line"
-                                style={{ paddingLeft: "12px" }}
-                              >
-                                <span className="code-blue">return</span>{" "}
-                                <span className="code-orange">
-                                  &lt;React /&gt;
-                                </span>
-                              </p>
-                              <p className="code-line">
-                                <span className="code-orange">&#125;</span>
-                              </p>
                             </div>
                           </div>
 
@@ -417,31 +395,39 @@ const MobileAppDesign = () => {
 
                   {/* S2 */}
                   <h3 style={{ marginTop: "60px" }} className="mb-2 ">
-                    What is Performance Marketing?
+                    What is Mobile App Design?
                   </h3>
                   <p className="text mb-3">
-                    Performance marketing is a digital marketing strategy where
-                    you pay only for measurable results like clicks, leads, or
-                    sales.
+                    Mobile app design is the process of creating intuitive,
+                    visually engaging, and user-friendly applications that
+                    deliver seamless experiences across Android and iOS devices.
+                    A well-designed app not only looks great but also improves
+                    usability, customer satisfaction, and business growth.
                   </p>
                   <p className="text mb-2">
-                    Let’s simplify this — instead of spending money blindly on
-                    ads, performance marketing focuses on tracking every action
-                    and optimizing campaigns for better results. This helps your
-                    business:
+                    Let's simplify it—great mobile app design combines modern
+                    UI, smooth user experience, intuitive navigation, and
+                    conversion-focused layouts to help users accomplish tasks
+                    effortlessly while strengthening your brand.
                   </p>
                   {/* <div className="row g-2 mb-3"> */}
                   <div className="row g-4 mb-4">
                     {[
-                      { icon: "fas fa-arrow-trend-up", label: "Higher ROI" },
-                      { icon: "fas fa-crosshairs", label: "Better Targeting" },
                       {
-                        icon: "fas fa-user-plus",
-                        label: "Generate Leads 24/7",
+                        icon: "fas fa-mobile-screen-button",
+                        label: "Beautiful UI Design",
                       },
                       {
-                        icon: "fas fa-chart-pie",
-                        label: "Data-Driven Decisions",
+                        icon: "fas fa-hand-pointer",
+                        label: "Seamless User Experience",
+                      },
+                      {
+                        icon: "fas fa-layer-group",
+                        label: "Cross-Platform Compatibility",
+                      },
+                      {
+                        icon: "fas fa-bolt",
+                        label: "Fast & Responsive Performance",
                       },
                     ].map((item, i) => (
                       <div className="col-12 col-sm-6" key={i}>
@@ -522,8 +508,9 @@ const MobileAppDesign = () => {
                   </div>
 
                   <p className="benefit-footer-text mb-4">
-                    So in simple terms — performance marketing helps you turn
-                    your ad spend into predictable growth, not just traffic.
+                    In simple terms—mobile app design transforms your ideas into
+                    intuitive, engaging, and high-performing digital experiences
+                    that users love.
                   </p>
 
                   {/* SLIDER */}
@@ -576,8 +563,7 @@ const MobileAppDesign = () => {
                           <div className="discuss-content">
                             {/* h3 = style.css se auto apply hoga — koi custom override nahi */}
                             <h3>
-                              Scale Your Business with High-Performance
-                              Marketing Campaigns
+                              Transform Your Idea into a Powerful Mobile App
                             </h3>
 
                             <a href="/contact" className="discuss-cta">
@@ -594,11 +580,13 @@ const MobileAppDesign = () => {
                   {/* --- WHAT YOU GET / DELIVERABLES SECTION --- */}
                   <div className="mt-0" style={{ paddingTop: "70px" }}>
                     <h3 className="mb-2">
-                      What You Get with Performance Marketing Services
+                      What You Get with Mobile App Design Services
                     </h3>
                     <p className="text mb-4">
-                      We don’t just run ads — we build result-driven marketing
-                      systems that generate leads, sales, and measurable growth.
+                      We don't just design mobile apps—we create intuitive,
+                      visually stunning, and user-focused experiences that
+                      improve engagement, increase user retention, and help your
+                      business grow.
                     </p>
 
                     <div className="deliverables-outer-card">
@@ -616,7 +604,7 @@ const MobileAppDesign = () => {
                         {[
                           {
                             icon: (
-                              // Strategy = idea / planning
+                              // UI/UX Design
                               <svg
                                 width="16"
                                 height="16"
@@ -632,13 +620,13 @@ const MobileAppDesign = () => {
                                 <path d="M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z" />
                               </svg>
                             ),
-                            label: "Campaign Strategy & Planning",
-                            desc: "Tailored marketing roadmap for your business",
+                            label: "UI/UX Design",
+                            desc: "Modern and user-friendly mobile app interfaces",
                           },
 
                           {
                             icon: (
-                              // Targeting = bullseye 🎯
+                              // User Research
                               <svg
                                 width="16"
                                 height="16"
@@ -652,13 +640,13 @@ const MobileAppDesign = () => {
                                 <circle cx="12" cy="12" r="2" />
                               </svg>
                             ),
-                            label: "Audience Targeting & Research",
-                            desc: "Reach the right people at the right time",
+                            label: "User Research & Wireframing",
+                            desc: "Design experiences based on real user needs",
                           },
 
                           {
                             icon: (
-                              // Creative = pen/design
+                              // Prototype
                               <svg
                                 width="16"
                                 height="16"
@@ -671,13 +659,13 @@ const MobileAppDesign = () => {
                                 <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
                               </svg>
                             ),
-                            label: "Ad Creatives & Copywriting",
-                            desc: "High-converting ad designs and messaging",
+                            label: "Interactive Prototyping",
+                            desc: "Clickable prototypes for seamless user testing",
                           },
 
                           {
                             icon: (
-                              // Tracking = graph
+                              // Responsive Design
                               <svg
                                 width="16"
                                 height="16"
@@ -691,13 +679,13 @@ const MobileAppDesign = () => {
                                 <line x1="13" y1="15" x2="21" y2="7" />
                               </svg>
                             ),
-                            label: "Conversion Tracking Setup",
-                            desc: "Track every click, lead, and sale",
+                            label: "Responsive App Design",
+                            desc: "Optimized layouts for Android and iOS devices",
                           },
 
                           {
                             icon: (
-                              // Retargeting = refresh/loop
+                              // Design System
                               <svg
                                 width="16"
                                 height="16"
@@ -712,13 +700,13 @@ const MobileAppDesign = () => {
                                 <path d="M20.5 15a9 9 0 0 1-14 3L1 14" />
                               </svg>
                             ),
-                            label: "Retargeting Campaigns",
-                            desc: "Convert visitors into paying customers",
+                            label: "Design System",
+                            desc: "Consistent UI components for scalable app development",
                           },
 
                           {
                             icon: (
-                              // Optimization = settings/gear
+                              // Testing
                               <svg
                                 width="16"
                                 height="16"
@@ -731,8 +719,8 @@ const MobileAppDesign = () => {
                                 <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.2a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.2a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0A1.7 1.7 0 0 0 10 3.2V3a2 2 0 1 1 4 0v.2a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.2a1.7 1.7 0 0 0-1.5 1z" />
                               </svg>
                             ),
-                            label: "Performance Optimization",
-                            desc: "Continuous improvement for better ROI",
+                            label: "Usability Testing",
+                            desc: "Optimize user experience before app launch",
                           },
                         ].map((item, i) => (
                           <div className="deliverable-white-card" key={i}>
@@ -783,9 +771,9 @@ const MobileAppDesign = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <MobileAppPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBMMobileApp />
@@ -806,24 +794,24 @@ const MobileAppDesign = () => {
                     <ul className="accordion-box mt-40">
                       {[
                         {
-                          q: "What is performance marketing?",
-                          a: "Performance marketing is a digital marketing strategy where you pay only for measurable results like clicks, leads, or sales. It focuses on data, tracking, and ROI-driven campaigns.",
+                          q: "What is mobile app design?",
+                          a: "Mobile app design is the process of creating intuitive, visually appealing, and user-friendly interfaces for Android and iOS applications. It focuses on delivering an engaging user experience while supporting your business goals.",
                         },
                         {
-                          q: "How does performance marketing help my business?",
-                          a: "It helps you generate qualified leads, increase sales, and track every rupee spent. You can measure results in real-time and optimize campaigns for better ROI.",
+                          q: "Why is UI/UX design important for a mobile app?",
+                          a: "A well-designed UI/UX improves user satisfaction, increases engagement, reduces bounce rates, and helps users complete actions more easily, leading to better app retention and business growth.",
                         },
                         {
-                          q: "Which platforms are used in performance marketing?",
-                          a: "We use platforms like Google Ads, Facebook Ads (Meta), Instagram Ads, and other tools like Google Analytics and Tag Manager for tracking and optimization.",
+                          q: "Do you design apps for both Android and iOS?",
+                          a: "Yes. We design responsive and platform-specific mobile app interfaces for both Android and iOS while maintaining a consistent and modern user experience across devices.",
                         },
                         {
-                          q: "How much does performance marketing cost?",
-                          a: "Cost depends on your business goals, ad budget, and campaign complexity. We offer flexible pricing models like monthly retainers and performance-based plans.",
+                          q: "How much does mobile app design cost?",
+                          a: "The cost depends on factors such as the number of screens, app complexity, custom UI requirements, animations, branding, and overall project scope. We provide transparent custom quotations for every project.",
                         },
                         {
-                          q: "How long does it take to see results?",
-                          a: "You can start seeing initial results within a few days of campaign launch, but consistent and scalable results usually take a few weeks of optimization.",
+                          q: "How long does it take to design a mobile app?",
+                          a: "The timeline depends on the size and complexity of the project. A basic app design may take 2–4 weeks, while larger applications with advanced features and custom UI/UX can take several weeks to complete.",
                         },
                       ].map((item, index) => (
                         <li

@@ -78,8 +78,8 @@ const Founders = () => {
             Our Team
           </div>
           <h2 className="fnd-heading">
-            Meet Our Experienced
-            <span className="fnd-heading-accent">Team People</span>
+            Meet the Experts 
+            <span className="fnd-heading-accent">Behind Brandmingo</span>
           </h2>
           <span className="fnd-heading-line" />
         </div>

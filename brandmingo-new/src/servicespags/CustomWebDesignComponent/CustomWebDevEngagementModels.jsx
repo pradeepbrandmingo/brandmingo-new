@@ -4,53 +4,53 @@ import React, { useState } from "react";
 const engagementData = [
   {
     id: "dedicated",
-    icon: "fas fa-bullseye",
-    title: "Dedicated Marketing Team",
-    desc: "A fully committed performance marketing team working exclusively on your campaigns to drive consistent growth and ROI.",
+    icon: "fas fa-pencil-ruler",
+    title: "Custom Website Design",
+    desc: "Get a dedicated team of designers focused on creating a unique, responsive, and conversion-driven website tailored to your business.",
     points: [
-      "Continuous campaign performance optimization",
-      "Dedicated account manager for support",
-      "Scalable campaign growth and management",
-      "Focused strategy for long-term results",
+      "100% custom UI/UX design",
+      "Business-focused website strategy",
+      "Responsive layouts for all devices",
+      "Ongoing design collaboration",
     ],
     tag: "Most Popular",
   },
   {
     id: "time",
-    icon: "fas fa-chart-line",
-    title: "Time & Performance Based",
-    desc: "Pay based on actual campaign performance with complete flexibility to scale and optimize as your business grows.",
+    icon: "fas fa-laptop-code",
+    title: "UI/UX Design Services",
+    desc: "Professional interface and user experience design that improves usability, engagement, and customer satisfaction.",
     points: [
-      "Pay based on measurable campaign results",
-      "Flexible scaling as performance improves",
-      "Agile execution with quick adjustments",
-      "Decisions driven by real-time data insights",
+      "Modern and intuitive interfaces",
+      "Wireframes & interactive prototypes",
+      "User-focused navigation",
+      "Optimized user experience",
     ],
     tag: null,
   },
   {
     id: "fixed",
-    icon: "fas fa-coins",
-    title: "Fixed Monthly Retainer",
-    desc: "A predictable monthly model for managing and optimizing your performance marketing campaigns with consistent results.",
+    icon: "fas fa-mobile-screen-button",
+    title: "Responsive Web Design",
+    desc: "Build websites that look and perform perfectly across desktop, tablet, and mobile devices.",
     points: [
-      "Fixed monthly pricing with no surprises",
-      "Consistent campaign tracking and monitoring",
-      "Detailed reports with actionable insights",
-      "Ongoing optimization for better performance",
+      "Mobile-first design approach",
+      "Cross-browser compatibility",
+      "Fast-loading responsive layouts",
+      "Consistent experience on every screen",
     ],
     tag: null,
   },
   {
     id: "hybrid",
-    icon: "fas fa-layer-group",
-    title: "Hybrid Growth Model",
-    desc: "A balanced approach combining fixed management with performance-based incentives for maximum ROI and scalability.",
+    icon: "fas fa-gauge-high",
+    title: "Website Optimization",
+    desc: "Enhance your website with performance optimization, SEO-friendly structure, and ongoing improvements for better business results.",
     points: [
-      "Combination of fixed and performance pricing",
-      "Flexible strategy based on campaign needs",
-      "Scalable model for consistent business growth",
-      "Focused approach for maximum ROI outcomes",
+      "SEO-friendly website structure",
+      "Performance & speed optimization",
+      "Conversion-focused layouts",
+      "Continuous website improvements",
     ],
     tag: null,
   },
@@ -65,15 +65,17 @@ const CustomWebDevEngagementModels = () => {
         {/* ── Header ── */}
         <div className="eng-header">
           <div className="eng-eyebrow">How We Work</div>
-          {/* h3 tag — uses style.css h3 vars via .eng-title override */}
+
           <h3 className="eng-title">
-            Our Performance Marketing
+            Our Custom Web Design
             <br />
-            Engagement Models
+            Service Models
           </h3>
+
           <p className="eng-subtitle">
-            We offer flexible marketing engagement models designed to align with
-            your business goals, budget, and growth strategy.
+            We provide flexible web design solutions tailored to your business
+            goals, helping you build modern, responsive, and high-performing
+            websites that deliver exceptional user experiences.
           </p>
         </div>
 
@@ -91,8 +93,8 @@ const CustomWebDevEngagementModels = () => {
                 <i className={card.icon} />
               </div>
 
-              {/* h3 tag for card title — semantic heading, sized via CSS */}
               <h3 className="eng-card-title">{card.title}</h3>
+
               <p className="eng-card-desc">{card.desc}</p>
 
               <div className="eng-divider" />
@@ -109,10 +111,12 @@ const CustomWebDevEngagementModels = () => {
         {/* ── CTA ── */}
         <div className="eng-cta-wrap">
           <p className="eng-cta-note">
-            Not sure which model suits you? Let's talk and find the perfect fit.
+            Looking for a custom website? Let's discuss your requirements and
+            create the perfect web solution for your business.
           </p>
+
           <a href="#contact" className="eng-cta-btn">
-            Request a Free Quote
+            Start Your Project
             <i className="fas fa-arrow-right" />
           </a>
         </div>

@@ -1,62 +1,62 @@
 import React, { useState } from "react";
 
 const serviceImages = {
-  lead: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=520&q=80&auto=format&fit=crop",
+  lead: "https://i.ibb.co/99041tRP/Chat-GPT-Image-Jul-20-2026-07-11-13-PM.png",
   ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/99041tRP/Chat-GPT-Image-Jul-20-2026-07-11-13-PM.png",
   google:
-    "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=520&q=80&auto=format&fit=crop",
-  meta: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/99041tRP/Chat-GPT-Image-Jul-20-2026-07-11-13-PM.png",
+  meta: "https://i.ibb.co/99041tRP/Chat-GPT-Image-Jul-20-2026-07-11-13-PM.png",
   retargeting:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/99041tRP/Chat-GPT-Image-Jul-20-2026-07-11-13-PM.png",
   funnel:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/99041tRP/Chat-GPT-Image-Jul-20-2026-07-11-13-PM.png",
   analytics:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/99041tRP/Chat-GPT-Image-Jul-20-2026-07-11-13-PM.png",
   scaling:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/99041tRP/Chat-GPT-Image-Jul-20-2026-07-11-13-PM.png",
 };
 
 const servicesData = [
   {
     id: "lead",
-    title: "Lead Generation Campaigns",
-    desc: "We build high-converting Google Ads campaigns designed to generate qualified leads and consistent business growth. Our strategies focus on targeting high-intent audiences, optimizing landing pages, and reducing cost per lead while maximizing ROI.",
+    title: "Custom Label Design",
+    desc: "We design premium custom labels that reflect your brand identity and help your products stand out on retail shelves.",
   },
   {
     id: "ecommerce",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with Google Ads campaigns focused on increasing sales and maximizing return on ad spend. We optimize product listings, implement remarketing strategies, and continuously improve performance.",
+    title: "Product Packaging Labels",
+    desc: "Creative packaging labels designed for food, beverages, cosmetics, and retail products with a modern, professional look.",
   },
   {
     id: "google",
-    title: "Google Ads Management",
-    desc: "Reach high-intent users actively searching for your services with optimized Google Ads campaigns. We focus on keyword targeting, ad copy, smart bidding, and performance-driven results.",
+    title: "Bottle & Jar Label Design",
+    desc: "Eye-catching labels for bottles, jars, and containers that combine attractive visuals with clear product information.",
   },
   {
     id: "meta",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience with creative and data-driven campaigns across Facebook and Instagram. We build funnel-based strategies that drive awareness, engagement, and high-quality conversions.",
+    title: "Food & Beverage Labels",
+    desc: "Professional food and beverage labels designed to improve shelf appeal while maintaining a clean and compliant layout.",
   },
   {
     id: "retargeting",
-    title: "Retargeting Campaigns",
-    desc: "Convert lost visitors into customers with advanced retargeting strategies. We re-engage users based on behavior, improve conversion rates, and maximize the value of your traffic.",
+    title: "Cosmetic Label Design",
+    desc: "Elegant labels for skincare, beauty, perfume, and cosmetic products that enhance your premium brand image.",
   },
   {
     id: "funnel",
-    title: "Sales Funnel Optimization",
-    desc: "Improve conversion rates by optimizing every stage of your marketing funnel. From landing pages to final action, we ensure a smooth journey that increases leads and sales.",
+    title: "Print-Ready Artwork",
+    desc: "High-resolution label designs delivered with proper bleed, dimensions, and print-ready files for flawless production.",
   },
   {
     id: "analytics",
-    title: "Analytics & Tracking Setup",
-    desc: "Track every click, lead, and conversion with advanced analytics and tracking systems. We set up tools that provide clear insights for better decisions and campaign growth.",
+    title: "Multi-Size Label Variations",
+    desc: "Create multiple label versions for different product sizes, flavors, and packaging formats while maintaining consistency.",
   },
   {
     id: "scaling",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns with data-backed strategies to maximize ROI and business growth. We identify winning ads, optimize performance, and continuously improve results.",
+    title: "Brand Identity Labels",
+    desc: "Maintain a consistent brand identity across your entire product range with professionally designed labels and packaging.",
   },
 ];
 

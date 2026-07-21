@@ -3,94 +3,93 @@ import React, { useState } from "react";
 const servicesData = [
   {
     id: "lead",
-    title: "Lead Generation Campaigns",
-    desc: "We build high-converting Google Ads campaigns focused on generating qualified leads that drive real business growth.",
+    title: "Custom Label Design",
+    desc: "We create unique, eye-catching product labels that strengthen your brand identity and attract customers.",
     points: [
-      "Target high-intent audiences for better lead quality",
-      "Optimize landing pages for higher conversions",
-      "Reduce cost per lead with smart bidding",
-      "Generate consistent and scalable lead flow",
+      "100% custom label concepts",
+      "Brand-focused creative designs",
+      "Premium visual appeal",
+      "Designed for maximum shelf impact",
     ],
   },
   {
     id: "ecom",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with performance-driven Google Ads campaigns designed to increase sales and ROI.",
+    title: "Packaging Label Design",
+    desc: "Professional packaging labels designed to enhance product presentation and increase customer trust.",
     points: [
-      "Run product-focused campaigns for better conversions",
-      "Implement dynamic remarketing strategies",
-      "Optimize product feeds and ad creatives",
-      "Drive consistent revenue through paid ads",
+      "Food & beverage labels",
+      "Cosmetic packaging labels",
+      "Retail product packaging",
+      "Luxury packaging designs",
     ],
   },
   {
     id: "gads",
-    title: "Google Ads Management",
-    desc: "Reach customers actively searching for your services with fully optimized Google Ads campaigns.",
+    title: "Bottle & Jar Labels",
+    desc: "Creative labels for bottles, jars, and containers that combine aesthetics with functionality.",
     points: [
-      "Advanced keyword research and targeting",
-      "High-converting ad copy and extensions",
-      "Smart bidding and budget optimization",
-      "Focus on ROI-driven performance",
+      "Bottle label design",
+      "Jar & container labels",
+      "Waterproof label layouts",
+      "Premium product branding",
     ],
   },
   {
     id: "meta",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience and generate leads with performance-focused Meta advertising strategies.",
+    title: "Food & Beverage Labels",
+    desc: "Modern, compliant label designs for food, beverages, and FMCG products that stand out on shelves.",
     points: [
-      "Detailed audience targeting and segmentation",
-      "Creative ad design and messaging",
-      "Full-funnel campaign strategy execution",
-      "Retargeting to improve conversions",
+      "Nutrition & ingredient layouts",
+      "Barcode placement",
+      "Product information design",
+      "Retail-ready packaging",
     ],
   },
   {
     id: "remarketing",
-    title: "Retargeting & Remarketing",
-    desc: "Re-engage users who showed interest and convert them into paying customers with smart remarketing.",
+    title: "Cosmetic & Beauty Labels",
+    desc: "Elegant label designs for skincare, cosmetics, perfumes, and personal care products.",
     points: [
-      "Pixel-based tracking for audience insights",
-      "Multi-platform retargeting campaigns",
-      "Behavior-based ad targeting strategies",
-      "Increase conversions and reduce drop-offs",
+      "Luxury cosmetic labels",
+      "Minimal & premium styling",
+      "Beauty product branding",
+      "High-end packaging aesthetics",
     ],
   },
   {
     id: "funnel",
-    title: "Sales Funnel Optimization",
-    desc: "Optimize each stage of your funnel to improve conversion rates and maximize campaign ROI.",
+    title: "Print-Ready Artwork",
+    desc: "Receive production-ready label files optimized for commercial printing and packaging.",
     points: [
-      "Landing page optimization for better results",
-      "A/B testing for continuous improvement",
-      "User journey and behavior analysis",
-      "Reduce bounce rates and increase conversions",
+      "CMYK print-ready files",
+      "AI, PDF, EPS & SVG formats",
+      "High-resolution artwork",
+      "Bleed & die-cut support",
     ],
   },
   {
     id: "tracking",
-    title: "Analytics & Tracking Setup",
-    desc: "Set up advanced tracking systems to measure performance and make data-driven decisions.",
+    title: "Label Variations",
+    desc: "Multiple label versions designed for different product sizes, flavors, and packaging formats.",
     points: [
-      "Google Analytics and Tag Manager setup",
-      "Conversion and event tracking implementation",
-      "Accurate campaign performance tracking",
-      "Actionable insights for optimization",
+      "Multiple size variations",
+      "Color variants",
+      "Product series consistency",
+      "Packaging adaptability",
     ],
   },
   {
     id: "scaling",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns efficiently with data-driven strategies and continuous optimization.",
+    title: "Brand Consistency",
+    desc: "Maintain a consistent visual identity across your complete product line with professionally designed labels.",
     points: [
-      "Budget scaling based on performance data",
-      "Creative testing and iteration",
-      "Identify winning campaigns and scale",
-      "Maximize ROI with ongoing optimization",
+      "Consistent branding",
+      "Typography & color harmony",
+      "Professional visual identity",
+      "Scalable design system",
     ],
   },
 ];
-
 const LabelDesigningExpertiseDetails = () => {
   const [activeTab, setActiveTab] = useState(servicesData[0]);
   const [openAccordion, setOpenAccordion] = useState(servicesData[0].id);
@@ -104,7 +103,7 @@ const LabelDesigningExpertiseDetails = () => {
       <div className="react-expertise-section">
         <div className="auto-container">
           <h3 className="mb-5 text-center section-main-h3">
-            Our Google Ads Expertise
+            Our Label Design Expertise
           </h3>
 
           {/* ── DESKTOP: same as before ── */}

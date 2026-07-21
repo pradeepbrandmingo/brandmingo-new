@@ -1,62 +1,62 @@
 import React, { useState } from "react";
 
 const serviceImages = {
-  lead: "https://images.unsplash.com/photo-1557838923-2985c318be48?w=520&q=80&auto=format&fit=crop",
+  lead: "https://i.ibb.co/dwVGRppT/Chat-GPT-Image-Jul-21-2026-11-19-37-AM.png",
   ecommerce:
-    "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/dwVGRppT/Chat-GPT-Image-Jul-21-2026-11-19-37-AM.png",
   google:
-    "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=520&q=80&auto=format&fit=crop",
-  meta: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/dwVGRppT/Chat-GPT-Image-Jul-21-2026-11-19-37-AM.png",
+  meta: "https://i.ibb.co/dwVGRppT/Chat-GPT-Image-Jul-21-2026-11-19-37-AM.png",
   retargeting:
-    "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/dwVGRppT/Chat-GPT-Image-Jul-21-2026-11-19-37-AM.png",
   funnel:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/dwVGRppT/Chat-GPT-Image-Jul-21-2026-11-19-37-AM.png",
   analytics:
-    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/dwVGRppT/Chat-GPT-Image-Jul-21-2026-1 1-19-37-AM.png",
   scaling:
-    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=520&q=80&auto=format&fit=crop",
+    "https://i.ibb.co/dwVGRppT/Chat-GPT-Image-Jul-21-2026-11-19-37-AM.png",
 };
 
 const servicesData = [
   {
     id: "lead",
-    title: "Lead Generation Campaigns",
-    desc: "We build high-converting Google Ads campaigns designed to generate qualified leads and consistent business growth. Our strategies focus on targeting high-intent audiences, optimizing landing pages, and reducing cost per lead while maximizing ROI.",
+    title: "Brand Strategy & Identity",
+    desc: "Build a strong corporate identity that reflects your company's vision, values, and brand personality while creating a consistent visual presence across every touchpoint.",
   },
   {
     id: "ecommerce",
-    title: "E-commerce Advertising",
-    desc: "Scale your online store with Google Ads campaigns focused on increasing sales and maximizing return on ad spend. We optimize product listings, implement remarketing strategies, and continuously improve performance.",
+    title: "Logo & Visual Identity",
+    desc: "Design professional logos, color palettes, typography, and visual elements that create a memorable and recognizable corporate identity.",
   },
   {
     id: "google",
-    title: "Google Ads Management",
-    desc: "Reach high-intent users actively searching for your services with optimized Google Ads campaigns. We focus on keyword targeting, ad copy, smart bidding, and performance-driven results.",
+    title: "Business Stationery Design",
+    desc: "Create premium business cards, letterheads, envelopes, ID cards, and other stationery that reinforce your professional brand image.",
   },
   {
     id: "meta",
-    title: "Meta Ads (Facebook & Instagram)",
-    desc: "Engage your audience with creative and data-driven campaigns across Facebook and Instagram. We build funnel-based strategies that drive awareness, engagement, and high-quality conversions.",
+    title: "Brand Guidelines",
+    desc: "Develop comprehensive brand guidelines that define logo usage, typography, colors, imagery, and visual standards for consistent branding.",
   },
   {
     id: "retargeting",
-    title: "Retargeting Campaigns",
-    desc: "Convert lost visitors into customers with advanced retargeting strategies. We re-engage users based on behavior, improve conversion rates, and maximize the value of your traffic.",
+    title: "Digital Brand Assets",
+    desc: "Design social media templates, email signatures, presentation decks, website graphics, and other digital assets that strengthen your brand identity.",
   },
   {
     id: "funnel",
-    title: "Sales Funnel Optimization",
-    desc: "Improve conversion rates by optimizing every stage of your marketing funnel. From landing pages to final action, we ensure a smooth journey that increases leads and sales.",
+    title: "Marketing Collateral Design",
+    desc: "Create brochures, company profiles, flyers, catalogs, banners, and promotional materials that communicate your brand professionally.",
   },
   {
     id: "analytics",
-    title: "Analytics & Tracking Setup",
-    desc: "Track every click, lead, and conversion with advanced analytics and tracking systems. We set up tools that provide clear insights for better decisions and campaign growth.",
+    title: "Corporate Branding Applications",
+    desc: "Extend your corporate identity across office branding, signage, packaging, uniforms, exhibitions, and promotional materials.",
   },
   {
     id: "scaling",
-    title: "Campaign Scaling & Optimization",
-    desc: "Scale your campaigns with data-backed strategies to maximize ROI and business growth. We identify winning ads, optimize performance, and continuously improve results.",
+    title: "Brand Management & Support",
+    desc: "Maintain a consistent corporate identity with ongoing design support, brand updates, creative enhancements, and identity management.",
   },
 ];
 

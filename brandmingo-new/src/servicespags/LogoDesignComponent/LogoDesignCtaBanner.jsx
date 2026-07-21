@@ -295,27 +295,28 @@ const LogoDesignCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">LOGO DESIGN SERVICES</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Build a 
                 <br className="d-none d-lg-block" />
-                with Google Ads Campaigns?
+                Memorable Brand with a Custom Logo?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you increase ROI, reduce ad spend waste, and scale your
-                business with data-driven strategies.
+                From concept to final delivery, BrandMingo creates unique,
+                professional logo designs that strengthen your brand identity,
+                improve recognition, and make a lasting impression across every
+                platform.
               </p>
 
               <div className="cta-btn-wrap">
                 <a href="#contact" className="cta-main-btn">
-                  Start Your Ads Strategy
+                  Start Your Logo Design
                   <i className="fas fa-arrow-right" />
                 </a>
                 <a href="#portfolio" className="cta-link">
-                  View Case Studies <i className="fas fa-arrow-right" />
+                 View Our Portfolio <i className="fas fa-arrow-right" />
                 </a>
               </div>
             </div>
@@ -327,8 +328,8 @@ const LogoDesignCtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">300+</span>
-                  <span className="lbl">Campaigns Managed</span>
+                  <span className="val">600+</span>
+                  <span className="lbl">LOGOS DESIGNED</span>
                 </div>
               </div>
 
@@ -337,8 +338,8 @@ const LogoDesignCtaBanner = () => {
                   <i className="fas fa-check-circle" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">90%</span>
-                  <span className="lbl">Client Retention</span>
+                  <span className="val">95%</span>
+                  <span className="lbl">CLIENT SATISFACTION</span>
                 </div>
               </div>
 
@@ -347,8 +348,8 @@ const LogoDesignCtaBanner = () => {
                   <i className="fas fa-headset" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">24×7</span>
-                  <span className="lbl">Ads Monitoring</span>
+                  <span className="val">100%</span>
+                  <span className="lbl">ORIGINAL DESIGNS</span>
                 </div>
               </div>
             </div>

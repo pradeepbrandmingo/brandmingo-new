@@ -4,53 +4,53 @@ import React, { useState } from "react";
 const engagementData = [
   {
     id: "dedicated",
-    icon: "fas fa-bullseye",
-    title: "Dedicated Marketing Team",
-    desc: "A fully committed performance marketing team working exclusively on your campaigns to drive consistent growth and ROI.",
+    icon: "fas fa-pen-nib",
+    title: "Dedicated Logo Design Team",
+    desc: "Work with a dedicated team of creative designers focused exclusively on crafting a unique and memorable logo for your brand.",
     points: [
-      "Continuous campaign performance optimization",
-      "Dedicated account manager for support",
-      "Scalable campaign growth and management",
-      "Focused strategy for long-term results",
+      "Dedicated professional logo designers",
+      "100% custom logo concepts",
+      "Direct communication throughout the project",
+      "Unlimited design guidance and support",
     ],
     tag: "Most Popular",
   },
   {
     id: "time",
-    icon: "fas fa-chart-line",
-    title: "Time & Performance Based",
-    desc: "Pay based on actual campaign performance with complete flexibility to scale and optimize as your business grows.",
+    icon: "fas fa-pencil-ruler",
+    title: "Time & Material Model",
+    desc: "Ideal for businesses requiring flexible design iterations, revisions, and creative exploration throughout the project.",
     points: [
-      "Pay based on measurable campaign results",
-      "Flexible scaling as performance improves",
-      "Agile execution with quick adjustments",
-      "Decisions driven by real-time data insights",
+      "Flexible design revisions",
+      "Pay for actual design effort",
+      "Perfect for evolving requirements",
+      "Creative collaboration at every stage",
     ],
     tag: null,
   },
   {
     id: "fixed",
     icon: "fas fa-coins",
-    title: "Fixed Monthly Retainer",
-    desc: "A predictable monthly model for managing and optimizing your performance marketing campaigns with consistent results.",
+    title: "Fixed Cost Logo Package",
+    desc: "A transparent fixed-price model that includes everything needed to create a professional logo with no hidden costs.",
     points: [
-      "Fixed monthly pricing with no surprises",
-      "Consistent campaign tracking and monitoring",
-      "Detailed reports with actionable insights",
-      "Ongoing optimization for better performance",
+      "Fixed project pricing",
+      "Custom logo design package",
+      "Final vector and source files included",
+      "Timely delivery with complete ownership",
     ],
     tag: null,
   },
   {
     id: "hybrid",
     icon: "fas fa-layer-group",
-    title: "Hybrid Growth Model",
-    desc: "A balanced approach combining fixed management with performance-based incentives for maximum ROI and scalability.",
+    title: "Complete Brand Identity Package",
+    desc: "Go beyond logo design with a complete branding solution including logo, colors, typography, and brand guidelines.",
     points: [
-      "Combination of fixed and performance pricing",
-      "Flexible strategy based on campaign needs",
-      "Scalable model for consistent business growth",
-      "Focused approach for maximum ROI outcomes",
+      "Logo + brand identity design",
+      "Color palette & typography selection",
+      "Brand guideline document",
+      "Scalable branding assets for all platforms",
     ],
     tag: null,
   },
@@ -67,13 +67,14 @@ const LogoDesignEngagementModels = () => {
           <div className="eng-eyebrow">How We Work</div>
           {/* h3 tag — uses style.css h3 vars via .eng-title override */}
           <h3 className="eng-title">
-            Our Performance Marketing
+            Our Logo Design Engagement
             <br />
-            Engagement Models
+             Models
           </h3>
           <p className="eng-subtitle">
-            We offer flexible marketing engagement models designed to align with
-            your business goals, budget, and growth strategy.
+            We offer flexible logo design engagement models tailored to your
+            business goals, budget, and branding needs—whether you need a custom
+            logo, a complete brand identity, or ongoing creative support.
           </p>
         </div>
 

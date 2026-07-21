@@ -12,33 +12,33 @@ const PATH =
 const steps = [
   {
     num: "01",
-    icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understanding your business, target audience, and goals before running any campaign.",
+    icon: "fa-solid fa-lightbulb",
+    title: "Product Discovery",
+    desc: "Understand goals and user needs.",
   },
   {
     num: "02",
-    icon: "fa-solid fa-table-columns",
-    title: "Strategy & Funnel Planning",
-    desc: "Creating a clear marketing strategy and conversion funnel tailored to your business.",
+    icon: "fa-solid fa-users",
+    title: "UX Research",
+    desc: "Research users and define user flows.",
   },
   {
     num: "03",
-    icon: "fa-solid fa-code",
-    title: "Campaign Setup & Execution",
-    desc: "Launching high-performing ads with proper targeting, creatives, and tracking systems.",
+    icon: "fa-solid fa-pencil-ruler",
+    title: "Wireframing",
+    desc: "Create wireframes and prototypes.",
   },
   {
     num: "04",
-    icon: "fa-solid fa-shield-halved",
-    title: "Optimization & Testing",
-    desc: "Continuously improving campaigns using data, A/B testing, and performance insights.",
+    icon: "fa-solid fa-palette",
+    title: "UI Design",
+    desc: "Design modern, responsive interfaces.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scaling winning campaigns to maximize ROI and drive consistent business growth.",
+    title: "Testing & Launch",
+    desc: "Test, refine, and deliver final designs.",
   },
 ];
 
@@ -164,11 +164,12 @@ export default function ProductDesignProcessSection() {
           <h2 className="ps-heading">
             We follow a proven
             <br />
-            performance <span className="ora">marketing process</span>
+            product <span className="ora">design process</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to create campaigns
-            that generate leads, sales, and measurable ROI for your business.
+            We use a user-centered and strategic design process to create
+            intuitive digital products that deliver exceptional experiences,
+            strengthen your brand, and solve real user problems.
           </p>
           <a href="#contact" className="ps-btn">
             Start Your Growth <span>→</span>

@@ -14,8 +14,11 @@ import WordpressPricingPlans from "../../servicespags/wordPressComponents/Wordpr
 import WordpressWhyChooseBm from "../../servicespags/wordPressComponents/WordpressWhyChooseBm";
 import WordpressEngagementModels from "../../servicespags/wordPressComponents/WordpressEngagementModels";
 import WordpressPricingSection from "../../servicespags/wordPressComponents/WordpressPricingSection";
+import WordpressPortfolioSlider from "../../components/PortfolioSlider/wordpressportfolio";
+
 // popup from
 import { openEnquiryPopup } from "../../utils/popup";
+import Wordpressportfolio from "../../components/PortfolioSlider/wordpressportfolio";
 
 const THEME = "#ff6b1e";
 
@@ -866,7 +869,7 @@ const WordpressDetails = () => {
         </div>
 
         <div className="portfolio-slider-section">
-          <PortfolioSlider />
+          < Wordpressportfolio />
         </div>
       </section>
     </div>

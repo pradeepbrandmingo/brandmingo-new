@@ -13,32 +13,32 @@ const steps = [
   {
     num: "01",
     icon: "fa-solid fa-magnifying-glass",
-    title: "Business & Audience Research",
-    desc: "Understanding your business, target audience, and goals before running any campaign.",
+    title: "Brand Discovery",
+    desc: "Understanding your business, industry, target audience, and brand vision before creating your brand identity.",
   },
   {
     num: "02",
     icon: "fa-solid fa-table-columns",
-    title: "Strategy & Funnel Planning",
-    desc: "Creating a clear marketing strategy and conversion funnel tailored to your business.",
+    title: "Brand Strategy",
+    desc: "Developing a clear branding strategy, positioning, messaging, and unique value proposition for your business.",
   },
   {
     num: "03",
     icon: "fa-solid fa-code",
-    title: "Campaign Setup & Execution",
-    desc: "Launching high-performing ads with proper targeting, creatives, and tracking systems.",
+    title: "Identity Design",
+    desc: "Designing your logo, visual identity, brand assets, and corporate materials with a consistent brand experience.",
   },
   {
     num: "04",
     icon: "fa-solid fa-shield-halved",
-    title: "Optimization & Testing",
-    desc: "Continuously improving campaigns using data, A/B testing, and performance insights.",
+    title: "Brand Guidelines",
+    desc: "Creating detailed brand guidelines to ensure consistency across digital, print, and marketing channels.",
   },
   {
     num: "05",
     icon: "fa-solid fa-rocket",
-    title: "Scaling & Growth",
-    desc: "Scaling winning campaigns to maximize ROI and drive consistent business growth.",
+    title: "Launch & Growth",
+    desc: "Launching your new brand identity and providing ongoing support to strengthen brand recognition and business growth.",
   },
 ];
 
@@ -164,14 +164,16 @@ export default function CorporateBrandingProcessSection() {
           <h2 className="ps-heading">
             We follow a proven
             <br />
-            performance <span className="ora">marketing process</span>
+            corporate branding <span className="ora">process</span>
           </h2>
           <p className="ps-sub">
-            We use a data-driven and structured approach to create campaigns
-            that generate leads, sales, and measurable ROI for your business.
+            We follow a strategic and collaborative branding process to create a
+            strong corporate identity that reflects your business values, builds
+            customer trust, and ensures a consistent brand experience across
+            every touchpoint.
           </p>
           <a href="#contact" className="ps-btn">
-            Start Your Growth <span>→</span>
+            Start Your Branding <span>→</span>
           </a>
         </div>
 

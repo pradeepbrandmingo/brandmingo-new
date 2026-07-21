@@ -8,13 +8,13 @@ const WhyChooseLabelDesigning = () => {
         {/* Header */}
         <div className="wcb-header">
           <h3>
-            Why Choose BrandMingo for High-Performance <br />
-            Google Ads
+            Why Choose BrandMingo for Professional <br />
+            Label Designing
           </h3>
           <p className="wcb-subtitle">
-            We don’t just run ads — we build data-driven Google Ads systems that
-            generate leads, improve ROI, and scale your business with measurable
-            results.
+            We create premium, print-ready label designs that enhance your brand
+            identity, attract customers, and make your products stand out on
+            every shelf.
           </p>
         </div>
 
@@ -23,59 +23,57 @@ const WhyChooseLabelDesigning = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              5<span>+</span>
+              3<span>+</span>
             </div>
-            <div className="wcb-stat-label">Years of Marketing Expertise</div>
+            <div className="wcb-stat-label">Years of Design Experience</div>
             <p className="wcb-stat-desc">
-              Running data-driven campaigns across multiple industries with
-              proven results.
+              Designing creative product labels across multiple industries.
             </p>
           </div>
 
-          {/* 2 — span 2 */}
+          {/* 2 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
               <i className="fas fa-award" />
             </div>
-            <div className="wcb-feat-title">Certified Performance Experts</div>
+            <div className="wcb-feat-title">Creative Design Experts</div>
             <p className="wcb-feat-desc">
-              Specialists in Google Ads, Meta Ads, and conversion-focused
-              marketing strategies.
+              Professional designers creating premium and market-ready label
+              designs.
             </p>
           </div>
 
           {/* 3 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              300<span>+</span>
+              500<span>+</span>
             </div>
-            <div className="wcb-stat-label">Campaigns Managed</div>
+            <div className="wcb-stat-label">Labels Designed</div>
             <p className="wcb-stat-desc">
-              Successfully executed campaigns delivering consistent leads and
-              sales.
+              Successfully delivered labels for food, cosmetics, retail, and
+              consumer products.
             </p>
           </div>
 
           {/* 4 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              90<span>%</span>
+              95<span>%</span>
             </div>
-            <div className="wcb-stat-label">Client Retention Rate</div>
+            <div className="wcb-stat-label">Client Satisfaction</div>
             <p className="wcb-stat-desc">
-              Clients stay with us because we deliver measurable growth and ROI.
+              Trusted by businesses for creative, high-quality label designs.
             </p>
           </div>
 
           {/* 5 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-bolt" />
+              <i className="fas fa-tags" />
             </div>
-            <div className="wcb-feat-title">ROI-Driven Strategy</div>
+            <div className="wcb-feat-title">100% Custom Label Designs</div>
             <p className="wcb-feat-desc">
-              Every campaign is optimized for conversions, not just clicks or
-              impressions.
+              Every label is uniquely designed to match your brand and product.
             </p>
           </div>
 
@@ -84,21 +82,20 @@ const WhyChooseLabelDesigning = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-headset" />
             </div>
-            <div className="wcb-feat-title">24×7 Expert Support</div>
+            <div className="wcb-feat-title">Dedicated Design Support</div>
             <p className="wcb-feat-desc">
-              Continuous monitoring and quick optimization to keep campaigns
-              performing.
+              Fast communication, revisions, and support throughout the project.
             </p>
           </div>
 
-          {/* 7 — highlight */}
+          {/* 7 */}
           <div className="wcb-card wcb-card-highlight">
             <div className="wcb-stat-value">
               100<span>%</span>
             </div>
-            <div className="wcb-stat-label">In-House Marketing Team</div>
+            <div className="wcb-stat-label">Original Designs</div>
             <p className="wcb-stat-desc">
-              No outsourcing — all campaigns are managed by our expert team.
+              No templates—every label is designed from scratch for your brand.
             </p>
           </div>
 
@@ -107,55 +104,57 @@ const WhyChooseLabelDesigning = () => {
             <div className="wcb-feat-icon">
               <i className="fas fa-shield-alt" />
             </div>
-            <div className="wcb-feat-title">Performance Optimization</div>
+            <div className="wcb-feat-title">Print Quality Assurance</div>
             <p className="wcb-feat-desc">
-              Rigorous brand consistency audits and performance benchmarks built
-              into every deliverable.
+              Every design is checked for print quality, sizing, and production
+              accuracy.
             </p>
           </div>
 
           {/* 9 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              98<span>%</span>
+              100<span>%</span>
             </div>
-            <div className="wcb-stat-label">On-Time Reporting</div>
+            <div className="wcb-stat-label">Print-Ready Files</div>
             <p className="wcb-stat-desc">
-              Transparent and timely reports with actionable insights.
+              Receive AI, EPS, PDF, SVG, PNG, and other production-ready files.
             </p>
           </div>
 
-          {/* 10 — span 2 */}
+          {/* 10 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-chart-line" />
+              <i className="fas fa-print" />
             </div>
-            <div className="wcb-feat-title">Optimized for Growth &amp; ROI</div>
+            <div className="wcb-feat-title">Packaging Ready Designs</div>
             <p className="wcb-feat-desc">
-              Campaigns designed to scale your business profitably.
+              Labels optimized for bottles, boxes, jars, pouches, and retail
+              packaging.
             </p>
           </div>
 
           {/* 11 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
-              <i className="fas fa-chart-line" />
+              <i className="fas fa-lightbulb" />
             </div>
-            <div className="wcb-feat-title">Flexible Marketing Models</div>
+            <div className="wcb-feat-title">Creative Brand Identity</div>
             <p className="wcb-feat-desc">
-              Custom strategies tailored to your business goals and budget.
+              Designs that strengthen brand recognition and improve shelf
+              appeal.
             </p>
           </div>
 
-          {/* 12 — span 3 */}
+          {/* 12 */}
           <div className="wcb-card">
             <div className="wcb-feat-icon">
               <i className="fas fa-layer-group" />
             </div>
-            <div className="wcb-feat-title">Quality Assurance</div>
+            <div className="wcb-feat-title">Complete Packaging Support</div>
             <p className="wcb-feat-desc">
-              Strict monitoring of campaigns to maintain performance and
-              efficiency.
+              From concept to final artwork, we deliver packaging-ready label
+              designs for every product.
             </p>
           </div>
         </div>

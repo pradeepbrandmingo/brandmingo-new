@@ -295,27 +295,28 @@ const MobileAppCtaBanner = () => {
           <div className="cta-inner">
             {/* ── Left ── */}
             <div className="cta-left">
-              <span className="cta-eyebrow">MarketingCtaBanner</span>
+              <span className="cta-eyebrow">PREMIUM MOBILE APP DESIGN</span>
 
               <h3 className="cta-heading">
-                Ready to Scale Your Business
+                Ready to Build a
                 <br className="d-none d-lg-block" />
-                with Performance Marketing?
+                Stunning Mobile App?
               </h3>
 
               <p className="cta-subtext">
-                From lead generation to high-converting ad campaigns, BrandMingo
-                helps you drive real growth, increase ROI, and build a scalable
-                marketing system.
+                From intuitive UI/UX design to interactive prototypes,
+                Brandmingo creates modern mobile app experiences that engage
+                users, strengthen your brand, and drive business growth across
+                Android and iOS platforms.
               </p>
 
               <div className="cta-btn-wrap">
                 <a href="#contact" className="cta-main-btn">
-                  Start Your Growth Strategy
+                  Start Your App Project
                   <i className="fas fa-arrow-right" />
                 </a>
                 <a href="#portfolio" className="cta-link">
-                  View Our Results <i className="fas fa-arrow-right" />
+                  View Our Portfolio <i className="fas fa-arrow-right" />
                 </a>
               </div>
             </div>
@@ -327,8 +328,8 @@ const MobileAppCtaBanner = () => {
                   <i className="fas fa-rocket" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">300+</span>
-                  <span className="lbl">Campaigns Managed</span>
+                  <span className="val">100+</span>
+                  <span className="lbl">Apps Designed</span>
                 </div>
               </div>
 
@@ -337,8 +338,8 @@ const MobileAppCtaBanner = () => {
                   <i className="fas fa-check-circle" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">90%</span>
-                  <span className="lbl">Client Retention</span>
+                  <span className="val">95%</span>
+                  <span className="lbl">Client Satisfaction</span>
                 </div>
               </div>
 
@@ -347,8 +348,8 @@ const MobileAppCtaBanner = () => {
                   <i className="fas fa-headset" />
                 </div>
                 <div className="badge-info">
-                  <span className="val">24×7</span>
-                  <span className="lbl">Performance Monitoring</span>
+                  <span className="val">100%</span>
+                  <span className="lbl">Responsive UI/UX</span>
                 </div>
               </div>
             </div>
