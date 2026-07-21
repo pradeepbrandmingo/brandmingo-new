@@ -20,6 +20,7 @@ import MarketingPricingSection from "../../servicespags/PerformanceMarketingComp
 
 // popup
 import { openEnquiryPopup } from "../../utils/popup";
+import Performancslider from "../../components/PortfolioSlider/performancslider";
 
 const THEME = "#ff6b1e";
 
@@ -877,7 +878,7 @@ const PerformanceMarketing = () => {
         </div>
 
         <div className="portfolio-slider-section">
-          <PortfolioSlider />
+          <Performancslider />
         </div>
       </section>
     </div>

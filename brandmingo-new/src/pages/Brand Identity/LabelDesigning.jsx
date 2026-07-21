@@ -17,6 +17,7 @@ import LabelDesigningPricingPlans from "../../servicespags/LabelDesigningCompone
 import WhyChooseLabelDesigning from "../../servicespags/LabelDesigningComponent/WhyChooseLabelDesigning";
 import LabelDesigningEngagementModels from "../../servicespags/LabelDesigningComponent/LabelDesigningEngagementModels";
 import LabelDesigningPricingSection from "../../servicespags/LabelDesigningComponent/LabelDesigningPricingSection";
+import LabelSlider from "../../components/PortfolioSlider/LabelSlider";
 
 const THEME = "#ff6b1e";
 
@@ -847,7 +848,7 @@ const LabelDesigning = () => {
         </div>
 
         <div className="portfolio-slider-section">
-          <PortfolioSlider />
+          <LabelSlider />
         </div>
       </section>
     </div>

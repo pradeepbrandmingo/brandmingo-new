@@ -3,42 +3,33 @@ import React, { useEffect, useRef, useState } from "react";
 
 const projects = [
   {
-    name: "Syrish",
-    category: "Business Website",
-    tags: ["WordPress", "UI/UX", "Responsive"],
-    preview: "https://syrish.com/",
+    name: "Suryatra Wellness",
+    category: "Corporate Identity Design",
+    tags: ["Brand Identity", "Packaging", "Product Branding"],
+    preview: "#",
     caseStudy: "/portfolio",
     images: [
-      "https://i.ibb.co/674RCz3z/BM-WEBSITE-IMAGES-5.jpg",
-      "https://i.ibb.co/yFLzhPqK/32.jpg",
-      "https://i.ibb.co/7JpP0mHb/31.jpg",
-      "https://i.ibb.co/k6wp5zPQ/30.jpg",
+      "https://i.ibb.co/nqw5G9zv/Whats-App-Image-2026-05-05-at-6-47-05-PM.jpg",
     ],
   },
   {
-    name: "Suryatra",
-    category: "Travel & Tourism",
-    tags: ["WordPress", "Booking", "SEO Optimized"],
-    preview: "https://suryatra.com/",
+    name: "Untamed Perfume",
+    category: "Luxury Brand Identity",
+    tags: ["Corporate Identity", "Packaging", "Print Design"],
+    preview: "#",
     caseStudy: "/portfolio",
     images: [
-      "https://i.ibb.co/YF2sdQ2w/BM-WEBSITE-IMAGES-6.jpg",
-      "https://i.ibb.co/Qvt5wZ1s/34.jpg",
-      "https://i.ibb.co/yGHxLfR/35.jpg",
-      "https://i.ibb.co/bMCfRMfc/36.jpg",
+      "https://i.ibb.co/MkJ6169s/Untamed-jpg.jpg",
     ],
   },
   {
-    name: "BlackGrape",
-    category: "Corporate Website",
-    tags: ["WordPress", "Modern UI", "Performance"],
-    preview: "https://blackgrape.in/",
+    name: "Before the Ink Dries",
+    category: "Product Brand Identity",
+    tags: ["Label Design", "Packaging", "Visual Identity"],
+    preview: "#",
     caseStudy: "/portfolio",
     images: [
-      "https://i.ibb.co/N2jtJL6K/BM-WEBSITE-IMAGES-7.jpg",
-      "https://i.ibb.co/sv8XHNjR/40.jpg",
-      "https://i.ibb.co/svg739Nk/39.jpg",
-      "https://i.ibb.co/mFP3nxVb/38.jpg",
+      "https://i.ibb.co/kV07CMjG/suryatra-website-image-14-jpg.jpg",
     ],
   },
 ];
@@ -46,7 +37,7 @@ const projects = [
 const CARD_GAP = 24;
 const SPEED = 0.6;
 
-const Shopifyslider = () => {
+const CoopertateSlider = () => {
   const trackRef = useRef(null);
   const posRef = useRef(0);
   const rafRef = useRef(null);
@@ -285,4 +276,4 @@ const Shopifyslider = () => {
   );
 };
 
-export default Shopifyslider;
+export default CoopertateSlider;

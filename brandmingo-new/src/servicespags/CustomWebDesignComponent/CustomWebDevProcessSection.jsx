@@ -172,7 +172,7 @@ export default function CustomWebDevProcessSection() {
             brand and deliver exceptional user experiences.
           </p>
           <a href="#contact" className="ps-btn">
-            Start Your Project →<span>→</span>
+            Start Your Project<span>→</span>
           </a>
         </div>
 

@@ -18,6 +18,7 @@ import LogoDesignPricingPlans from "../../servicespags/LogoDesignComponent/LogoD
 import WhyChooseLogoDesign from "../../servicespags/LogoDesignComponent/WhyChooseLogoDesign";
 import LogoDesignEngagementModels from "../../servicespags/LogoDesignComponent/LogoDesignEngagementModels";
 import LogoDesignPricingSection from "../../servicespags/LogoDesignComponent/LogoDesignPricingSection";
+import LogoDesing from "../../components/PortfolioSlider/LogoDesign";
 
 const THEME = "#ff6b1e";
 
@@ -851,7 +852,7 @@ const LogoDesign = () => {
         </div>
 
         <div className="portfolio-slider-section">
-          <PortfolioSlider />
+          <LogoDesing />
         </div>
       </section>
     </div>

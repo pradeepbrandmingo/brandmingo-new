@@ -17,6 +17,7 @@ import CorporateIdentityPricingPlans from "../../servicespags/CorporateIdentityD
 import WhyChooseCorporateIdentity from "../../servicespags/CorporateIdentityDesiComponent/WhyChooseCorporateIdentity";
 import CorporateIdentityEngagementModels from "../../servicespags/CorporateIdentityDesiComponent/CorporateIdentityEngagementModels";
 import CorporateIdentityPricingSection from "../../servicespags/CorporateIdentityDesiComponent/CorporateIdentityPricingSection";
+import CoopertateSlider from "../../components/PortfolioSlider/CoopertateSlider";
 
 const THEME = "#ff6b1e";
 
@@ -855,7 +856,7 @@ const CorporateIdentityDesi = () => {
         </div>
 
         <div className="portfolio-slider-section">
-          <PortfolioSlider />
+          <CoopertateSlider />
         </div>
       </section>
     </div>

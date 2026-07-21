@@ -6,26 +6,19 @@ import "./PortfolioPage.css";
 import star from "../../assets/images/icons/star.png";
 import arrowIcon from "../../assets/images/icons/arrow-icon.png";
 
-const ALL_LABEL = "All Projects";
-
-const getCategories = () => {
-  const cats = projects.map((p) => p.category);
-  return [ALL_LABEL, ...Array.from(new Set(cats))];
-};
+const FILTERS = ["All Projects", "Full Stack", "Shopify", "WordPress"];
 
 const PortfolioPage = () => {
-  const [activeFilter, setActiveFilter] = useState(ALL_LABEL);
+  const [activeFilter, setActiveFilter] = useState("All Projects");
   const [activeProject, setActiveProject] = useState(null);
 
-  const categories = useMemo(() => getCategories(), []);
+  const filteredProjects = useMemo(() => {
+    if (activeFilter === "All Projects") {
+      return projects;
+    }
 
-  const filtered = useMemo(
-    () =>
-      activeFilter === ALL_LABEL
-        ? projects
-        : projects.filter((p) => p.category === activeFilter),
-    [activeFilter],
-  );
+    return projects.filter((project) => project.type === activeFilter);
+  }, [activeFilter]);
 
   const openPopup = (project) => setActiveProject(project);
   const closePopup = () => setActiveProject(null);
@@ -33,70 +26,60 @@ const PortfolioPage = () => {
   return (
     <>
       <section className="portfolio-page section-padding">
-        {/* ── HERO ── */}
+        {/* Hero */}
         <div className="pf-hero">
-          {/* Orbs */}
-          <div className="pf-orb pf-orb--1" aria-hidden="true" />
-          <div className="pf-orb pf-orb--2" aria-hidden="true" />
-          <div className="pf-orb pf-orb--3" aria-hidden="true" />
+          <div className="pf-orb pf-orb--1" />
+          <div className="pf-orb pf-orb--2" />
+          <div className="pf-orb pf-orb--3" />
 
           <div className="container">
             <div className="pf-hero-inner">
-              {/* Sub tag */}
-              <span className="sub-title pf-subtag" data-aos="fade-up">
+              <span className="sub-title pf-subtag">
                 <img src={star} alt="" />
                 Our Work
               </span>
 
-              {/* Heading */}
-              <h1 className="pf-heading" data-aos="fade-up" data-aos-delay="60">
+              <h1 className="pf-heading">
                 Explore Our <span>Projects</span>
               </h1>
 
-              {/* Description */}
-              <p className="pf-subtext" data-aos="fade-up" data-aos-delay="120">
+              <p className="pf-subtext">
                 Discover how we help brands grow, engage, and lead through
                 strategic digital marketing and creative solutions.
               </p>
 
-              {/* Filter tabs */}
+              {/* FILTER BUTTONS */}
+
               <div
                 className="pf-filters"
                 role="tablist"
-                aria-label="Project categories"
-                data-aos="fade-up"
-                data-aos-delay="180"
+                aria-label="Project Filters"
               >
-                {categories.map((cat) => (
+                {FILTERS.map((filter) => (
                   <button
-                    key={cat}
-                    role="tab"
-                    aria-selected={activeFilter === cat}
-                    className={`pf-filter-btn${activeFilter === cat ? " is-active" : ""}`}
-                    onClick={() => setActiveFilter(cat)}
+                    key={filter}
+                    className={`pf-filter-btn ${
+                      activeFilter === filter ? "is-active" : ""
+                    }`}
+                    onClick={() => setActiveFilter(filter)}
                   >
-                    {cat}
+                    {filter}
                   </button>
                 ))}
               </div>
             </div>
           </div>
         </div>
-        {/* /HERO */}
 
-        {/* ── GRID ── */}
+        {/* Projects */}
+
         <div className="container">
           <div className="row pf-grid">
-            {filtered.length === 0 ? (
+            {filteredProjects.length === 0 ? (
               <div className="pf-empty">No projects found.</div>
             ) : (
-              filtered.map((item, index) => (
-                <div
-                  key={item.title}
-                  className="col-xl-4 col-lg-6 col-md-6"
-                  data-aos="fade-up"
-                  data-aos-delay={100 + index * 80}
-                >
+              filteredProjects.map((item, index) => (
+                <div className="col-xl-4 col-lg-6 col-md-6" key={index}>
                   <div
                     className="project-block"
                     onClick={() => openPopup(item)}
@@ -104,8 +87,18 @@ const PortfolioPage = () => {
                   >
                     <div className="inner-block">
                       <div className="image-block">
-                        <img className="hover-img" src={item.img} alt="" />
-                        <img className="hover-img" src={item.img} alt="" />
+                        <img
+                          className="hover-img"
+                          src={item.img}
+                          alt={item.title}
+                        />
+
+                        <img
+                          className="hover-img"
+                          src={item.img}
+                          alt={item.title}
+                        />
+
                         <a
                           href="#"
                           className="arrow-icon"
@@ -117,6 +110,7 @@ const PortfolioPage = () => {
                           <img src={arrowIcon} alt="" />
                         </a>
                       </div>
+
                       <div className="content-block">
                         <h4 className="title">
                           <a
@@ -129,6 +123,7 @@ const PortfolioPage = () => {
                             {item.title}
                           </a>
                         </h4>
+
                         <ul>
                           <li>{item.category}</li>
                         </ul>

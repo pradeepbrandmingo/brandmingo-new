@@ -18,6 +18,7 @@ import WhyChooseBMFbInstAds from "../../servicespags/FbInstAdsComponents/WhyChoo
 import FbInstAdsEngagementModels from "../../servicespags/FbInstAdsComponents/FbInstAdsEngagementModels";
 import FbInstAdsPricingSection from "../../servicespags/FbInstAdsComponents/FbInstAdsPricingSection";
 import { openEnquiryPopup } from "../../utils/popup";
+import Performancslider from "../../components/PortfolioSlider/performancslider";
 
 const THEME = "#ff6b1e";
 
@@ -853,7 +854,7 @@ const FbInstAds = () => {
         </div>
 
         <div className="portfolio-slider-section">
-          <PortfolioSlider />
+          <Performancslider />
         </div>
       </section>
     </div>

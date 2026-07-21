@@ -853,10 +853,10 @@ const LinkedinAds = () => {
         <div className="related-portfolio-section">
           <RelatedServices />
         </div>
-
+{/* 
         <div className="portfolio-slider-section">
           <PortfolioSlider />
-        </div>
+        </div> */}
       </section>
     </div>
   );

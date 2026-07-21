@@ -17,6 +17,7 @@ import IdentityBrandPricingPlans from "../../servicespags/IdentityBrandDesignCom
 import WhyChooseIdentityBrand from "../../servicespags/IdentityBrandDesignComponent/WhyChooseIdentityBrand";
 import IdentityBrandEngagementModels from "../../servicespags/IdentityBrandDesignComponent/IdentityBrandEngagementModels";
 import IdentityBrandPricingSection from "../../servicespags/IdentityBrandDesignComponent/IdentityBrandPricingSection";
+import LabelSlider from "../../components/PortfolioSlider/LabelSlider";
 
 const THEME = "#ff6b1e";
 
@@ -847,7 +848,7 @@ const BrandIdentityDesign = () => {
         </div>
 
         <div className="portfolio-slider-section">
-          <PortfolioSlider />
+          <LabelSlider />
         </div>
       </section>
     </div>
