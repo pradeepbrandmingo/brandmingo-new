@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const ShopiyCtaBanner = () => {
   return (
@@ -311,13 +313,20 @@ const ShopiyCtaBanner = () => {
               </p>
 
               <div className="cta-btn-wrap">
-                <a href="#contact" className="cta-main-btn">
+                <a
+                  href="/"
+                  className="cta-main-btn"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    openEnquiryPopup();
+                  }}
+                >
                   Start Your Project
                   <i className="fas fa-arrow-right" />
                 </a>
-                <a href="#portfolio" className="cta-link">
+                <Link to="/portfolio" className="cta-link">
                   View Our Work <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
 

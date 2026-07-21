@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { openEnquiryPopup } from "../../utils/popup";
+import { Link } from "react-router-dom";
 
 const ReactAtomSVG = () => (
   <svg
@@ -160,14 +162,21 @@ const ReactDetailsHero = () => {
               We combine technical excellence with premium design.
             </p>
             <div className="rdh-btn-row">
-              <a href="#contact" className="rdh-btn-primary">
+              <a
+                href="/"
+                className="rdh-btn-primary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  openEnquiryPopup();
+                }}
+              >
                 Discuss Your Business Requirements
                 <i className="fas fa-arrow-right" />
               </a>
-              <a href="#work" className="rdh-btn-ghost">
+              <Link to="/portfolio" className="rdh-btn-ghost">
                 <i className="fas fa-play" />
                 View Our Work
-              </a>
+              </Link>
             </div>
 
             <div className="rdh-badges">

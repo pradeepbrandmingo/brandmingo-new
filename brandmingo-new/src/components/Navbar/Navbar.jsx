@@ -508,7 +508,7 @@ export default function Navbar({ openPopup }) {
 
                             <div className="mega-panel-cta">
                               <Link
-                                to="/contact"
+                                to="/contact-us"
                                 onClick={handleMegaClose}
                                 className="mega-cta-btn"
                               >

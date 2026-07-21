@@ -18,7 +18,7 @@ const WoocommWhyChooseBm = () => {
           {/* 1 */}
           <div className="wcb-card">
             <div className="wcb-stat-value">
-              8<span>+</span>
+              3<span>+</span>
             </div>
             <div className="wcb-stat-label">Years of WordPress Expertise</div>
             <p className="wcb-stat-desc">

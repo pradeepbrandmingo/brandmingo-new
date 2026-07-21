@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { openEnquiryPopup } from "../../utils/popup";
+
 // import "./pricing-section.css";
 
 const pricingFactors = [
@@ -102,7 +104,14 @@ const WoocommPricingSection = () => {
           <p className="prc-cta-note">
             Get a custom quote tailored to your project — no obligations.
           </p>
-          <a href="#contact" className="prc-cta-btn">
+          <a
+            href="/"
+            className="prc-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Get a Free Estimate
             <i className="fas fa-arrow-right" />
           </a>

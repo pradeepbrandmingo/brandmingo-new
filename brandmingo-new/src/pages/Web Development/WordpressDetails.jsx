@@ -10,7 +10,7 @@ import WordpressExpertiseDetails from "../../servicespags/wordPressComponents/Wo
 import WordpressProcessSection from "../../servicespags/wordPressComponents/WordpressProcessSection";
 import WordpressModernDigital from "../../servicespags/wordPressComponents/WordpressModernDigital";
 import WordpressCtaBanner from "../../servicespags/wordPressComponents/WordpressCtaBanner";
-import WordpressPricingPlans from "../../servicespags/wordPressComponents/WordpressPricingPlans";
+// import WordpressPricingPlans from "../../servicespags/wordPressComponents/WordpressPricingPlans";
 import WordpressWhyChooseBm from "../../servicespags/wordPressComponents/WordpressWhyChooseBm";
 import WordpressEngagementModels from "../../servicespags/wordPressComponents/WordpressEngagementModels";
 import WordpressPricingSection from "../../servicespags/wordPressComponents/WordpressPricingSection";
@@ -794,9 +794,9 @@ const WordpressDetails = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <WordpressPricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WordpressWhyChooseBm />

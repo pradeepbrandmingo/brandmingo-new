@@ -56,7 +56,7 @@ const REASONS = [
 const STATS = [
   {
     fa: "fa-solid fa-magnifying-glass-chart",
-    value: "100+",
+    value: "400+",
     label: "UX Audits Completed",
   },
   {
@@ -71,7 +71,7 @@ const STATS = [
   },
   {
     fa: "fa-solid fa-lightbulb",
-    value: "5+",
+    value: "3+",
     label: "Years UX Experience",
   },
 ];
@@ -99,7 +99,7 @@ const UiUxAbout = () => {
   }, []);
 
   const animCounts = () => {
-    const targets = { p: 150, s: 98, h: 24, e: 5 };
+    const targets = { p: 400, s: 98, h: 24, e: 3 };
     let step = 0;
     const iv = setInterval(() => {
       step++;
@@ -200,15 +200,22 @@ const UiUxAbout = () => {
           </div>
 
           {/* ── CARD 5: PDF (separate) ── */}
-          <div className="wda-pdf-card">
+          {/* ── CARD 5: PDF (separate) ── */}
+          <a
+            href="src/assets/images/Brochure/BM Brochure.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="wda-pdf-card"
+          >
             <span className="wda-dl-label">
               <i className="fa-solid fa-file-pdf" />
               Brochure (PDF)
             </span>
+
             <div className="wda-dl-btn">
               <i className="fa-solid fa-download" />
             </div>
-          </div>
+          </a>
         </aside>
         {/* ══ END SIDEBAR ══ */}
 

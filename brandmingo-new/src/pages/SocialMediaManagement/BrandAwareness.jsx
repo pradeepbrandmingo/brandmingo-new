@@ -17,6 +17,7 @@ import BrandPricingPlans from "../../servicespags/BrandAwarenessComponent/BrandP
 import WhyChooseBMBrand from "../../servicespags/BrandAwarenessComponent/WhyChooseBMBrand";
 import BrandEngagementModels from "../../servicespags/BrandAwarenessComponent/BrandEngagementModels";
 import BrandPricingSection from "../../servicespags/BrandAwarenessComponent/BrandPricingSection";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -557,7 +558,14 @@ const BrandAwareness = () => {
                               Marketing Campaigns
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let's Discuss Your Project{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>

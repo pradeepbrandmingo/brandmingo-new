@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Swiper from "swiper";
 import { useLocation } from "react-router-dom";
+import { openEnquiryPopup } from "../../utils/popup";
 
 import d1 from "../../assets/images/resource/service-d1.jpg";
 import d2 from "../../assets/images/resource/service-d2.jpg";
@@ -15,7 +16,7 @@ import EngagementModels from "../../servicespags/ReactComponents/EngagementModel
 import PricingSection from "../../servicespags/ReactComponents/PricingSection";
 import ReactDetailsHero from "../../servicespags/ReactComponents/ReactDetailsHero";
 import ProcessSection from "../../servicespags/ReactComponents/ProcessSection";
-import PricingPlans from "../../servicespags/ReactComponents/PricingPlans";
+// import PricingPlans from "../../servicespags/ReactComponents/PricingPlans";
 import ModernDigital from "../../components/ReactExpertiseTabs/ModernDigital";
 
 const THEME = "#ff6b1e";
@@ -575,7 +576,14 @@ const ReactDetails = () => {
                               ReactJS Development Company.
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let's Discuss Your Project{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>
@@ -783,9 +791,9 @@ const ReactDetails = () => {
                   </div>
 
                   {/* PricingPlans */}
-                  <div className="pricing-section">
+                  {/* <div className="pricing-section">
                     <PricingPlans />
-                  </div>
+                  </div> */}
 
                   <div className="why-brandmingo-section">
                     <WhyChooseBrandmingo />
