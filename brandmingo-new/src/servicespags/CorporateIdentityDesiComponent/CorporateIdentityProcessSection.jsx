@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { openEnquiryPopup } from "../../utils/popup";
 
 /* ─────────────────────────────────────────────────────────
    PATH: starts bottom-left, rises very gently so the 5
@@ -170,7 +171,14 @@ export default function CorporateIdentityProcessSection() {
             We follow a strategic and collaborative process to create a strong
             corporate identity that reflects your brand values.
           </p>
-          <a href="#contact" className="ps-btn">
+          <a
+            href="/"
+            className="ps-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Build Your Brand Identity<span>→</span>
           </a>
         </div>

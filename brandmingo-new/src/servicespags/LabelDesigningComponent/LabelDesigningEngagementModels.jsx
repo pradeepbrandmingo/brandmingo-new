@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./engagement-models.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const engagementData = [
   {
@@ -83,9 +84,7 @@ const LabelDesigningEngagementModels = () => {
           {engagementData.map((card) => (
             <div
               key={card.id}
-              className={`eng-card ${
-                activeCard === card.id ? "active" : ""
-              }`}
+              className={`eng-card ${activeCard === card.id ? "active" : ""}`}
               onMouseEnter={() => setActiveCard(card.id)}
             >
               {card.tag && <span className="eng-badge">{card.tag}</span>}
@@ -116,7 +115,14 @@ const LabelDesigningEngagementModels = () => {
             you create packaging that stands out.
           </p>
 
-          <a href="#contact" className="eng-cta-btn">
+          <a
+            href="/"
+            className="eng-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Start Your Label Design
             <i className="fas fa-arrow-right" />
           </a>

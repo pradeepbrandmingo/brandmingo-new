@@ -17,7 +17,7 @@ import GrowthPricingPlans from "../../servicespags/EngagementGrowthComponent/Gro
 import WhyChooseBMGrowth from "../../servicespags/EngagementGrowthComponent/WhyChooseBMGrowth";
 import GrowthEngagementModels from "../../servicespags/EngagementGrowthComponent/GrowthEngagementModels";
 import GrowthPricingSection from "../../servicespags/EngagementGrowthComponent/GrowthPricingSection";
-
+import { openEnquiryPopup } from "../../utils/popup";
 const THEME = "#ff6b1e";
 
 const EngagementGrowth = () => {
@@ -567,7 +567,14 @@ const EngagementGrowth = () => {
                               Growth
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let's Grow Together{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>

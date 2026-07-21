@@ -19,6 +19,7 @@ import WhyChooseLogoDesign from "../../servicespags/LogoDesignComponent/WhyChoos
 import LogoDesignEngagementModels from "../../servicespags/LogoDesignComponent/LogoDesignEngagementModels";
 import LogoDesignPricingSection from "../../servicespags/LogoDesignComponent/LogoDesignPricingSection";
 import LogoDesing from "../../components/PortfolioSlider/LogoDesign";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const THEME = "#ff6b1e";
 
@@ -568,7 +569,14 @@ const LogoDesign = () => {
                               Build a Powerful Brand with Creative Logo Design
                             </h3>
 
-                            <a href="/contact" className="discuss-cta">
+                            <a
+                              href="/"
+                              className="discuss-cta"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                openEnquiryPopup();
+                              }}
+                            >
                               Let's Design Your Logo{" "}
                               <i className="fas fa-arrow-right"></i>
                             </a>

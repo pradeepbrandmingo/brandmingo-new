@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./engagement-models.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const engagementData = [
   {
@@ -115,7 +116,14 @@ const GrowthEngagementModels = () => {
             discuss the best strategy for your audience and growth goals.
           </p>
 
-          <a href="#contact" className="eng-cta-btn">
+          <a
+            href="/"
+            className="eng-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Let's Grow Together
             <i className="fas fa-arrow-right" />
           </a>

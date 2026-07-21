@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./pricing-section.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const pricingFactors = [
   { icon: "fas fa-tags", label: "Label Type & Complexity" },
@@ -98,7 +99,14 @@ const LabelDesigningPricingSection = () => {
             packaging requirements.
           </p>
 
-          <a href="#contact" className="prc-cta-btn">
+          <a
+            href="/"
+            className="prc-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Get a Free Quote
             <i className="fas fa-arrow-right" />
           </a>

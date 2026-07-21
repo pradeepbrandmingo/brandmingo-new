@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./pricing-section.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const pricingFactors = [
   { icon: "fas fa-file-alt", label: "Content Type & Requirements" },
@@ -65,9 +66,7 @@ const ContentPricingSection = () => {
                   <i className={factor.icon} />
                 </div>
 
-                <span className="prc-factor-label">
-                  {factor.label}
-                </span>
+                <span className="prc-factor-label">{factor.label}</span>
               </div>
             ))}
           </div>
@@ -81,20 +80,14 @@ const ContentPricingSection = () => {
             {estimateSteps.map((step, index) => (
               <div
                 key={index}
-                className={`prc-step ${
-                  activeStep === index ? " active" : ""
-                }`}
+                className={`prc-step ${activeStep === index ? " active" : ""}`}
                 onMouseEnter={() => setActiveStep(index)}
               >
                 <div className="prc-step-num">{step.num}</div>
 
-                <div className="prc-step-title">
-                  {step.title}
-                </div>
+                <div className="prc-step-title">{step.title}</div>
 
-                <p className="prc-step-desc">
-                  {step.desc}
-                </p>
+                <p className="prc-step-desc">{step.desc}</p>
               </div>
             ))}
           </div>
@@ -107,7 +100,14 @@ const ContentPricingSection = () => {
             based on your content goals and project requirements.
           </p>
 
-          <a href="#contact" className="prc-cta-btn">
+          <a
+            href="/"
+            className="prc-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Get a Free Content Quote
             <i className="fas fa-arrow-right" />
           </a>

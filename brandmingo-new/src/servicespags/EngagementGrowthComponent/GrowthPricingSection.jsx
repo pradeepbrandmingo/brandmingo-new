@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 // import "./pricing-section.css";
+import { openEnquiryPopup } from "../../utils/popup";
 
 const pricingFactors = [
   { icon: "fas fa-users", label: "Audience Size & Engagement Goals" },
@@ -42,9 +43,7 @@ const GrowthPricingSection = () => {
         <div className="prc-header">
           <div className="prc-eyebrow">Flexible Pricing</div>
 
-          <h3 className="prc-title">
-            Engagement Growth Pricing
-          </h3>
+          <h3 className="prc-title">Engagement Growth Pricing</h3>
 
           <p className="prc-subtitle">
             Every business has unique engagement goals. Our pricing is
@@ -55,9 +54,7 @@ const GrowthPricingSection = () => {
 
         {/* ════ BLOCK 1 ════ */}
         <div className="prc-block">
-          <div className="prc-block-label">
-            Pricing Depends On
-          </div>
+          <div className="prc-block-label">Pricing Depends On</div>
 
           <div className="prc-factors">
             {pricingFactors.map((f, i) => (
@@ -66,9 +63,7 @@ const GrowthPricingSection = () => {
                   <i className={f.icon} />
                 </div>
 
-                <span className="prc-factor-label">
-                  {f.label}
-                </span>
+                <span className="prc-factor-label">{f.label}</span>
               </div>
             ))}
           </div>
@@ -89,13 +84,9 @@ const GrowthPricingSection = () => {
               >
                 <div className="prc-step-num">{step.num}</div>
 
-                <div className="prc-step-title">
-                  {step.title}
-                </div>
+                <div className="prc-step-title">{step.title}</div>
 
-                <p className="prc-step-desc">
-                  {step.desc}
-                </p>
+                <p className="prc-step-desc">{step.desc}</p>
               </div>
             ))}
           </div>
@@ -108,7 +99,14 @@ const GrowthPricingSection = () => {
             audience.
           </p>
 
-          <a href="#contact" className="prc-cta-btn">
+          <a
+            href="/"
+            className="prc-cta-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              openEnquiryPopup();
+            }}
+          >
             Request a Free Consultation
             <i className="fas fa-arrow-right" />
           </a>
